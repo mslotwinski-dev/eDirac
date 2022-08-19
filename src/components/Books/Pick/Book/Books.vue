@@ -1,0 +1,111 @@
+<template>
+  <section v-for="(bookTag, index) in sortedBooks" :key="bookTag">
+    <div class="categoryLabel">
+      <img :src="require(`@/assets/icons/sciences/${index}.svg`)" />
+      <div
+        class="categoryName"
+        v-html="$t(`sciences.data.${category.Title}.category.${index}`)"
+      />
+    </div>
+    <div class="parts" :key="key">
+      <BookItem v-for="book in bookTag" :key="book" :book="book" />
+    </div>
+  </section>
+  <div class="sorry" v-if="Object.keys(sortedBooks).length == 0">sorry</div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+import { Category, Book } from '@/data/types/book'
+
+import BookItem from './Book.vue'
+
+export default defineComponent({
+  props: {
+    category: { type: Object as () => Category, required: true },
+  },
+  data() {
+    return {
+      sortedBooks: {} as {
+        [index: string]: Book[]
+      },
+      key: 0,
+    }
+  },
+  components: {
+    BookItem,
+  },
+  methods: {
+    resetBooks() {
+      const cats = this.category.Books!.filter((c) =>
+        c.Tag.lang.includes(this.$store.getters.getAppLanguage)
+      )
+
+      type SortedBooksObj = {
+        [index: string]: Book[]
+      }
+
+      const Sorted = cats.reduce(function (memo: SortedBooksObj, x) {
+        if (!memo[x.Tag.main]) {
+          memo[x.Tag.main] = []
+        }
+        memo[x.Tag.main].push(x)
+        return memo
+      }, {})
+
+      this.sortedBooks = Sorted
+      this.key++
+    },
+  },
+  mounted() {
+    this.resetBooks()
+  },
+  watch: {
+    '$store.getters.getAppLanguage': function () {
+      this.resetBooks()
+    },
+  },
+})
+</script>
+
+<style lang="scss" scoped>
+@import '@/styles/index.scss';
+section,
+.parts {
+  width: 1400px;
+  max-width: 90vw;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  flex-direction: column;
+}
+
+.categoryLabel {
+  width: 800px;
+  max-width: 95vw;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid theme(dark);
+
+  .categoryName {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  filter: invert(0.5) brightness(0.25) brightness(0.9)
+    drop-shadow(0px 0px 3px #00000055);
+}
+</style>

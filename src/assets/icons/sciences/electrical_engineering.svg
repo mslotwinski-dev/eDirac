@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="752pt"
+   height="752pt"
+   version="1.1"
+   viewBox="0 0 752 752"
+   id="svg8"
+   sodipodi:docname="electrical_engineering.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="pt"
+     showgrid="false"
+     inkscape:zoom="0.82180851"
+     inkscape:cx="501.94175"
+     inkscape:cy="320.6343"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <g
+     id="g6"
+     transform="matrix(1.6326109,0,0,1.6326109,-235.47701,-235.19004)">
+    <path
+       d="M 569.7,273.71 H 511.923 V 231.089 H 569.7 c 11.367,0 20.363,-8.9961 20.363,-20.363 0,-11.367 -8.9961,-20.363 -20.363,-20.363 h -57.777 v -31.73 c 0,-4.2617 -3.3164,-7.5781 -7.5781,-7.5781 h -20.836 c -48.305,0 -88.559,33.625 -98.977,78.613 h -128.34 c -51.617,0 -93.766,42.148 -93.766,94.242 0,51.621 42.148,93.77 93.77,93.77 26.992,0 48.777,21.785 48.777,48.777 0,26.992 -21.785,48.777 -48.777,48.777 l -71.039,0.004 c -12.312,0 -22.73,9.9453 -22.73,22.73 0,12.312 9.9453,22.73 22.73,22.73 h 71.512 c 51.621,0 93.77,-42.148 93.77,-93.77 0,-51.621 -42.148,-93.77 -93.77,-93.77 -26.992,0 -48.777,-21.785 -48.777,-48.777 0,-26.992 21.785,-48.777 48.777,-48.777 h 128.34 c 10.418,44.988 50.672,78.613 98.504,78.613 h 20.836 c 4.2617,0 7.5781,-3.3164 7.5781,-7.5781 v -32.203 h 57.777 c 11.367,0 20.363,-8.9961 20.363,-20.363 -0.47266,-11.363 -9.4688,-20.363 -20.363,-20.363 z"
+       id="path2" />
+    <path
+       d="m 510.5,467.4 -26.52,1.4219 c -2.8398,0 -5.6836,-2.3672 -5.2109,-5.2109 l 6.1562,-57.777 c 1.4219,-15.156 -17.996,-22.258 -26.52,-9.4727 l -70.09,104.19 c -6.6289,9.9453 0.94531,23.207 12.785,22.258 l 26.52,-1.4219 c 2.8398,0 5.6836,2.3672 5.2109,5.6836 l -6.1562,57.777 c -1.4219,15.156 17.996,22.258 26.52,9.4727 l 70.09,-104.66 c 6.6289,-9.4766 -0.94531,-22.734 -12.785,-22.262 z"
+       id="path4" />
+  </g>
+</svg>
