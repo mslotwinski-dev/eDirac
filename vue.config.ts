@@ -3,7 +3,7 @@ import * as path from 'path'
 
 const vueConfig: ProjectOptions = {
   pwa: {
-    name: 'Pastolatarnia',
+    name: 'Universe',
     themeColor: '#00647D',
     appleMobileWebAppCapable: 'yes',
     workboxPluginMode: 'GenerateSW',
