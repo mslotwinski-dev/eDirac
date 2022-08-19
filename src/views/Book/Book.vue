@@ -16,7 +16,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Book, Category, Subject } from '@/data/types/book'
+import { Book, Category } from '@/data/types/book'
 import * as CategoriesModule from '@/data/books/categories'
 import TableOfContents from '@/components/Book/TOC.vue'
 import Container from '@/components/Book/Container.vue'
@@ -35,7 +35,7 @@ export default defineComponent({
     Container,
   },
   methods: {
-    setSubject(subject: Subject) {
+    setSubject(subject: string) {
       this.currentSubject = subject
       this.key++
     },

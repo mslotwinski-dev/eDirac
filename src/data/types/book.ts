@@ -29,22 +29,14 @@ export interface Book {
   Content: BookData
 }
 
-export type Subject = string
-
-export interface Subjects {
-  [key: string]: string
-}
-
-export interface Chapters {
-  [key: string]: Subjects
-}
-
-export interface Parts {
-  [key: string]: Chapters
-}
-
 export interface BookData {
-  [key: string]: Parts
+  [key: string]: {
+    // Part
+    [key: string]: {
+      // Chapter
+      [key: string]: string //Subjects
+    }
+  }
 }
 
 // export type Data = {

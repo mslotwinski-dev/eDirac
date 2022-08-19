@@ -1,4 +1,4 @@
-const Book = {
+export default {
   Kinematyka: {
     'Wprowadzenie do fizyki': {
       'Dziedziny i zakres fizyki': 'Kinematyka/Wprowadzenie/1.vue',
@@ -8,5 +8,3 @@ const Book = {
     },
   },
 }
-
-export default Book

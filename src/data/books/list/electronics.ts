@@ -1,7 +1,7 @@
 import { aboutplaceholder } from '../placeholders'
 import { Book } from '@/data/types/book'
 
-import B_1 from '>>/books/18851002/index'
+import B_1 from '../content/18851002'
 
 export const Electronics_Main_Vol_1: Book = {
   ID: '18851002',

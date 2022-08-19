@@ -29,7 +29,7 @@
 </template>
 
 <script lang="ts">
-import { Book, Subject } from '@/data/types/book'
+import { Book } from '@/data/types/book'
 import { defineComponent } from 'vue'
 
 export default defineComponent({
@@ -43,11 +43,11 @@ export default defineComponent({
   data() {
     return {
       hide: true,
-      currentSubject: {} as Subject,
+      currentSubject: '',
     }
   },
   methods: {
-    setSubject(subject: Subject) {
+    setSubject(subject: string) {
       this.currentSubject = subject
       this.$emit('setSubject', subject)
     },
