@@ -1,12 +1,16 @@
 <template>
-  <span
-    :class="{ center: center == 'true' }"
-    v-html="
-      katex.renderToString(eq, {
-        throwOnError: false,
-      })
-    "
-  />
+  <span :class="{ center: center == 'true' }">
+    <span
+      v-html="
+        katex.renderToString(eq, {
+          throwOnError: false,
+        })
+      "
+      class="equation"
+    >
+    </span>
+    <span v-if="center" v-html="`(${nr})`" />
+  </span>
   <div ref="slot"><slot /></div>
 </template>
 
@@ -17,6 +21,7 @@ import katex from 'katex'
 export default defineComponent({
   props: {
     center: String,
+    nr: String,
   },
   setup() {
     const slot = ref<HTMLSpanElement | null>(null)
@@ -54,8 +59,13 @@ div {
 span {
   text-align: center;
   &.center {
-    display: block;
+    display: flex;
     margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .equation {
+    flex-grow: 1;
   }
 }
 </style>

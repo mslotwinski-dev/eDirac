@@ -23,7 +23,7 @@
       natomiast końcowe jako <Math>x_2</Math>. Droga jaką przebył to zmiana
       położenia. Matematycznie możemy to opisać jako
     </Section>
-    <Math center="true" nr="2.1">{s=|∆x|=|x_2-x_1|}</Math>
+    <Math center="true" nr="2.1">{s=|\Delta x|=|x_2-x_1|}</Math>
     <Section>
       W praktyce wygląda to tak. Ślimak zaczynał ruch gdy wskazywał na linijce
       2cm, a zakończył go gdy na linijce mieliśmy 7cm. Droga jaką przebył to
@@ -114,8 +114,8 @@
       definicja pochodnej. Z tego wynika, że
     </Section>
     <Math center="true" nr="2.7">
-      {\displaystyle v_{chwilowe}=\lim_{∆t \to 0}⁡\frac{x(t_0+ Δt)-x(t_0 )}{Δt}
-      = x'(t)}
+      {\displaystyle v_{chwilowe}=\lim_{\Delta t \to 0}⁡\frac{x(t_0+ \Delta
+      t)-x(t_0 )}{\Delta t} = x'(t)}
     </Math>
     <Section>
       Zapisy <Math>x'(t_0) , \dot x(t_0)</Math> oraz

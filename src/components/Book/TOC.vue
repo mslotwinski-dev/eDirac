@@ -42,7 +42,7 @@ export default defineComponent({
   },
   data() {
     return {
-      hide: true,
+      hide: false,
       currentSubject: '',
     }
   },

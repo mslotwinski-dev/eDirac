@@ -1,12 +1,14 @@
 <template>
   <section>
-    <component :is="comp" />
+    <Content :render="render" />
   </section>
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue'
+import axios from 'axios'
 import { Book } from '@/data/types/book'
-import { defineComponent, defineAsyncComponent } from 'vue'
+import Content from './Content.vue'
 
 export default defineComponent({
   props: {
@@ -17,12 +19,22 @@ export default defineComponent({
     },
     lorem: String,
   },
-  computed: {
-    comp() {
-      return defineAsyncComponent(
-        () => import(`/books/${this.book!.ID}/content/${this.subject}`)
-      )
-    },
+  data() {
+    return {
+      render: '',
+    }
+  },
+  components: {
+    Content,
+  },
+  mounted() {
+    axios
+      .get(`/books/${this.$route.params.id}/content/${this.subject}`)
+      .then((res) => {
+        this.render = res.data
+          .replace('<template>', '')
+          .replace('</template>', '')
+      })
   },
 })
 </script>
