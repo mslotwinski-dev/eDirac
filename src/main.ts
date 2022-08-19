@@ -4,7 +4,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import i18n from './locales/i18n'
+// import i18n from './locales/i18n'
 import VueSmoothScroll from 'vue3-smooth-scroll'
 import scrollsettings from './utilities/scroll'
 import Notifications from '@kyvg/vue3-notification'
@@ -33,7 +33,7 @@ createApp(App)
   .component('Code', Code)
 
   .component('ic', FontAwesomeIcon)
-  .use(i18n)
+  // .use(i18n)
   .use(Notifications)
   .use(VueSmoothScroll, scrollsettings)
   .use(store)
