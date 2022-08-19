@@ -1,4 +1,4 @@
-# pastolatarnia
+# universe
 
 ## Project setup
 ```
