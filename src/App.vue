@@ -1,30 +1,42 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view />
+  <main class="app">
+    <!-- <EasterEgg /> -->
+    <Navbar />
+    <router-view />
+    <Footer />
+    <!-- <Privacy /> -->
+    <notifications position="bottom left" width="400px" />
+  </main>
 </template>
 
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+// import '@mslotwinski/mango-ui/'
+
+import Navbar from '@/components/Shared/Navbar/Index.vue'
+import Footer from '@/components/Shared/Footer/Index.vue'
+
+export default defineComponent({
+  components: {
+    Navbar,
+    Footer,
+  },
+})
+</script>
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import './styles/index.scss';
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+.moved {
+  width: 100vw;
+  height: $height;
+  background: theme(dark);
 }
 </style>
