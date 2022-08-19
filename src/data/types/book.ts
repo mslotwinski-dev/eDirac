@@ -1,5 +1,3 @@
-import { DefineComponent } from 'vue'
-
 export interface Category {
   Title: string
   Group: number
@@ -27,12 +25,14 @@ export interface Book {
 
   Part: number
   Subtitles: string[]
+
+  Content: BookData
 }
 
-export type Subject = DefineComponent
+export type Subject = string
 
 export interface Subjects {
-  [key: string]: DefineComponent
+  [key: string]: string
 }
 
 export interface Chapters {

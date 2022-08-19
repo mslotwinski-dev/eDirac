@@ -5,14 +5,14 @@
 </template>
 
 <script lang="ts">
-import { Book, Subject } from '@/data/types/book'
+import { Book } from '@/data/types/book'
 import { defineComponent, defineAsyncComponent } from 'vue'
 
 export default defineComponent({
   props: {
     book: Object as () => Book,
     subject: {
-      type: Object as () => Subject,
+      type: String,
       required: true,
     },
     lorem: String,
@@ -20,8 +20,7 @@ export default defineComponent({
   computed: {
     comp() {
       return defineAsyncComponent(
-        () =>
-          import(`@/books/${this.subject.__file?.replace('src/books/', '')}`)
+        () => import(`>>/books/${this.book!.ID}/content/${this.subject}`)
       )
     },
   },

@@ -4,7 +4,7 @@
     <div class="content" v-if="book && Object.keys(book).length > 0">
       <TableOfContents @setSubject="setSubject" :book="book" />
       <Container
-        v-if="currentSubject && Object.keys(currentSubject).length > 0"
+        v-if="currentSubject && currentSubject.length > 0"
         :key="key"
         :subject="currentSubject"
         :book="book"

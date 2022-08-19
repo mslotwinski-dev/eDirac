@@ -1,6 +1,8 @@
 import { aboutplaceholder } from '../placeholders'
 import { Book } from '@/data/types/book'
 
+import B_1 from '>>/books/18851002/index'
+
 export const Electronics_Main_Vol_1: Book = {
   ID: '18851002',
 
@@ -20,6 +22,8 @@ export const Electronics_Main_Vol_1: Book = {
     'Wstęp do elektroniki i elektrotechniki, fizyczne podstawy',
     'elektroniki i półprzewodników, materiały w elektronice',
   ],
+
+  Content: B_1,
 }
 
 // export const Electronics_Main_Vol_2: Book = {

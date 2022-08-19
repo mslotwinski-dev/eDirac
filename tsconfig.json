@@ -9,6 +9,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "allowJs": true,
     "experimentalDecorators": true,
     "sourceMap": true,
     "baseUrl": ".",
@@ -18,6 +19,9 @@
     "paths": {
       "@/*": [
         "src/*"
+      ],
+      ">>/*": [
+        "public/*"
       ]
     },
     "lib": [

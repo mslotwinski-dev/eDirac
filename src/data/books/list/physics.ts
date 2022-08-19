@@ -1,7 +1,9 @@
 import { Book } from '@/data/types/book'
 import { aboutplaceholder } from '../placeholders'
 
-export const Physics_Main_Vol_1: Book = {
+import B_1 from '>>/books/16741766/index'
+
+export const Physics_1: Book = {
   ID: '16741766',
 
   Title: 'Fizyka',
@@ -20,6 +22,8 @@ export const Physics_Main_Vol_1: Book = {
     'Mechanika: ruch postępowy i obrotowy, siły i równowaga,',
     'teoria grawitacji Newtona, szczególna teoria względności',
   ],
+
+  Content: B_1,
 }
 
 // export const Physics_Main_Vol_2: Book = {

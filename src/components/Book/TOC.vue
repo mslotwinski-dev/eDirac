@@ -2,7 +2,7 @@
   <div class="cont">
     <nav :class="{ hide }">
       <ol class="root">
-        <div v-for="(part, i) in bookContent" :key="part">
+        <div v-for="(part, i) in book.Content" :key="part">
           <li v-html="i" class="p" />
           <ol>
             <div v-for="(chapter, j) in part" :key="chapter">
@@ -29,7 +29,7 @@
 </template>
 
 <script lang="ts">
-import { Book, BookData, Subject } from '@/data/types/book'
+import { Book, Subject } from '@/data/types/book'
 import { defineComponent } from 'vue'
 
 export default defineComponent({
@@ -43,7 +43,6 @@ export default defineComponent({
   data() {
     return {
       hide: true,
-      bookContent: {} as BookData,
       currentSubject: {} as Subject,
     }
   },
@@ -54,20 +53,11 @@ export default defineComponent({
     },
   },
   mounted() {
-    import(`@/books/${this.book.ID}/index.js`)
-      .then((e) => {
-        this.bookContent = e.default
-
-        const FirstPart = e.default[Object.keys(e.default)[0]]
-        const FirstChapter = FirstPart[Object.keys(FirstPart)[0]]
-        const FirstSubject = FirstChapter[Object.keys(FirstChapter)[0]]
-
-        this.currentSubject = FirstSubject
-        this.setSubject(this.currentSubject)
-      })
-      .catch(() => {
-        this.$router.push('/403')
-      })
+    // const e = this.book.Content
+    // const FirstPart = e?.[Object.keys(e.default)[0]]
+    // const FirstChapter = FirstPart[Object.keys(FirstPart)[0]]
+    // const FirstSubject = FirstChapter[Object.keys(FirstChapter)[0]]
+    // this.currentSubject = FirstSubject.Commponent
   },
 })
 </script>

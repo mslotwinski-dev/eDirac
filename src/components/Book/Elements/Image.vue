@@ -1,6 +1,6 @@
 <template>
   <div class="cont">
-    <img :src="require(`@/books/${$route.params.id}/img/${src}`)" />
+    <img :src="`/books/${$route.params.id}/img/${src}`" />
     <div class="sub"><slot /></div>
   </div>
 </template>

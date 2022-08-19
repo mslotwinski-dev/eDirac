@@ -168,8 +168,3 @@
     <Math center="true" nr="2.10">{\displaystyle x(t)=\int v(t)dt}</Math>
   </Article>
 </template>
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({})
-</script>
