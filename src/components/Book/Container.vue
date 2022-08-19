@@ -20,7 +20,7 @@ export default defineComponent({
   computed: {
     comp() {
       return defineAsyncComponent(
-        () => import(`>>/books/${this.book!.ID}/content/${this.subject}`)
+        () => import(`/books/${this.book!.ID}/content/${this.subject}`)
       )
     },
   },
