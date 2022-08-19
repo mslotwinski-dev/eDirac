@@ -1,6 +1,7 @@
 <template>
   <Article>
     <Begin nr="1.2" advanced="0">Czym jest prąd?</Begin>
+    <h3>Ładunek</h3>
     <Section>
       Zanim przejdziemy do wielkości mierzących prąd przypomnę ci pewną ważną
       wielkość, która z prądem jest związana. Jest to ładunek. Już od
