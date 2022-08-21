@@ -35,6 +35,10 @@ h2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+
+  @media (max-width: 1000px) {
+    font-size: 21px;
+  }
   .nr {
     width: 100%;
     background: theme(main_dark);
@@ -44,6 +48,10 @@ h2 {
     text-transform: uppercase;
     color: theme(light);
     margin-bottom: 5px;
+    @media (max-width: 1000px) {
+      font-size: 19px;
+      padding: 4px;
+    }
   }
 
   .level-cont {
@@ -59,6 +67,10 @@ h2 {
     font-size: 19px;
     margin: 3px 0;
     color: theme(dark);
+
+    @media (max-width: 1000px) {
+      font-size: 16px;
+    }
   }
 
   .level {

@@ -1,22 +1,24 @@
 <template>
-  <div class="cont">
-    <nav :class="{ hide }">
-      <ol class="root">
-        <div v-for="(part, i) in book.Content" :key="part">
-          <li v-html="i" class="p" />
-          <ol>
-            <div v-for="(chapter, j) in part" :key="chapter">
-              <li v-html="j" class="c" />
-              <ol>
-                <div v-for="(subject, k) in chapter" :key="subject">
-                  <li
-                    @click="setSubject(subject)"
-                    v-html="k"
-                    class="s"
-                    :class="{ active: currentSubject == subject }"
-                  />
-                </div>
-              </ol>
+  <div :class="{ hide }" class="cont">
+    <nav>
+      <ol class="root" v-if="toc && Object.keys(toc).length > 0">
+        <div v-for="part in [...new Set(toc.map((e) => e.part))]" :key="part">
+          <li v-html="part" class="p" />
+          <ol class="first-child">
+            <div v-for="(chapter, i) in toc" :key="chapter">
+              <div v-if="chapter.part == part">
+                <li v-html="`${i + 1}. ${chapter.chapter}`" class="c" />
+                <ol>
+                  <div v-for="(subject, k) in chapter.subjects" :key="subject">
+                    <li
+                      @click="setSubject(subject[1])"
+                      v-html="`${i + 1}.${k + 1}. ${subject[0]}`"
+                      class="s"
+                      :class="{ active: currentSubject == subject[1] }"
+                    />
+                  </div>
+                </ol>
+              </div>
             </div>
           </ol>
         </div>
@@ -42,8 +44,9 @@ export default defineComponent({
   },
   data() {
     return {
-      hide: false,
+      hide: true,
       currentSubject: '',
+      toc: {},
     }
   },
   methods: {
@@ -53,6 +56,18 @@ export default defineComponent({
     },
   },
   mounted() {
+    this.toc = Object.entries(this.book.Content)
+      .map((e) =>
+        Object.entries(e[1]).map(
+          (f) =>
+            new Object({
+              part: e[0],
+              chapter: f[0],
+              subjects: Object.entries(f[1]),
+            })
+        )
+      )
+      .flat(2)
     // const e = this.book.Content
     // const FirstPart = e?.[Object.keys(e.default)[0]]
     // const FirstChapter = FirstPart[Object.keys(FirstPart)[0]]
@@ -64,9 +79,39 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 @import '@/styles/index.scss';
+.hide {
+  nav {
+    ol {
+      display: none;
+    }
+    padding: 0;
+    width: 0px !important;
+  }
+
+  @media (max-width: 1000px) {
+    .show {
+      background: theme(main);
+      color: theme(light);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+}
+
 .cont {
   display: flex;
   margin: 30px 0 0 30px;
+
+  @media (max-width: 1000px) {
+    position: fixed;
+    top: $height;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - $height);
+    margin: 0;
+    z-index: 1;
+  }
 }
 .show {
   width: 50px;
@@ -79,9 +124,19 @@ export default defineComponent({
   border-radius: 25%;
   font-size: 22px;
   margin: 0 10px;
+
+  @media (max-width: 1000px) {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: theme(main);
+    background: unset;
+    font-size: 30px;
+    z-index: 2;
+  }
 }
 nav {
-  background: theme(light);
+  background: #e3e3e3;
   width: 450px;
   padding: 10px 20px 20px 20px;
   flex-shrink: 0;
@@ -89,31 +144,35 @@ nav {
   overflow-y: scroll;
   border-radius: 20px;
   transition: 0.2s;
-  &.hide {
-    ol {
-      display: none;
-    }
-    padding: 0;
-    width: 0px !important;
+
+  @media (max-width: 1000px) {
+    width: 100%;
+    height: calc(100vh - $height);
+    border-radius: 0;
+    background: #e3e3e3dd;
+    backdrop-filter: blur(4px);
+    padding: 15px;
   }
 }
 
 .root {
-  padding-inline-start: 0;
+  padding-inline-start: 10px;
   counter-reset: item;
   margin: 0;
   ol {
     padding-inline-start: 15px;
-    counter-reset: item;
+
+    @media (max-width: 1000px) {
+      padding-inline-start: 12px;
+    }
+  }
+  .first-child {
+    padding-inline-start: 0;
   }
 }
 
 li {
   display: block;
-  &:before {
-    counter-increment: item;
-    content: counters(item, '.') ' ';
-  }
 
   &.p {
     font-weight: 500;

@@ -62,12 +62,17 @@ export default defineComponent({
 .part {
   width: 400px;
   height: 225px;
+  max-width: 90vw;
   border-radius: 10px;
   background: #e3e3e3;
   overflow: hidden;
   margin: 10px;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 1000px) {
+    height: 200px;
+  }
 }
 
 .thumb {
@@ -109,16 +114,26 @@ export default defineComponent({
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 400;
+    @media (max-width: 1000px) {
+      font-size: 22px;
+    }
   }
 
   .v {
     text-transform: uppercase;
     margin-bottom: 10px;
     font-size: 20px;
+    @media (max-width: 1000px) {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
   }
 
   .s {
     font-size: 16px;
+    @media (max-width: 1000px) {
+      font-size: 15px;
+    }
   }
 }
 

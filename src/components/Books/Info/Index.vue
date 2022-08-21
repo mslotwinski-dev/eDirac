@@ -30,9 +30,12 @@ export default defineComponent({
 @import '@/styles/index.scss';
 
 .content {
-  width: 1200px;
+  width: 1100px;
+  max-width: 100vw;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: justify;
 }
 </style>

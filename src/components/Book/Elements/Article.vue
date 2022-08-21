@@ -6,8 +6,11 @@
 @import '@/styles/index.scss';
 
 .global-book-class {
-  text-align: justify;
   font-size: 16.5px;
+
+  @media (max-width: 1000px) {
+    font-size: 14px;
+  }
 
   h3 {
     font-weight: 500;
@@ -15,6 +18,9 @@
     font-size: 20px;
     margin: 5px 0;
     padding: 0;
+    @media (max-width: 1000px) {
+      font-size: 17px;
+    }
   }
 
   b {

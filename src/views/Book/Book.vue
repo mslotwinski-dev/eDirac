@@ -47,7 +47,7 @@ export default defineComponent({
 
     const book = books.filter(
       (book: Book) =>
-        book.Tag.lang == this.$store.getters.getAppLanguage &&
+        // book.Tag.lang == this.$store.getters.getAppLanguage &&
         book.ID == this.id
     )
 

@@ -32,6 +32,8 @@ header {
   height: 280px;
   background-size: cover;
   background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .container {
@@ -39,11 +41,12 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 5%;
+  text-align: center;
   font-size: 32px;
   font-weight: 500;
   text-transform: uppercase;
   color: theme(main_dark);
+  padding: 20px;
 
   width: 100%;
   height: 100%;
@@ -51,16 +54,25 @@ header {
   left: 0;
 
   backdrop-filter: grayscale(1) contrast(0.15) brightness(1.9);
+
+  @media (max-width: 1000px) {
+    font-size: 28px;
+  }
 }
 
 .nr {
   font-size: 40px;
   padding: 10px;
-  width: 70%;
+  margin-top: 10px;
+  width: calc(100px + 40%);
   text-align: center;
   border-radius: 10px;
   background: theme(main_dark);
   color: theme(light);
   margin-bottom: 10px;
+
+  @media (max-width: 1000px) {
+    font-size: 28px;
+  }
 }
 </style>

@@ -62,6 +62,7 @@ header {
 }
 .center {
   width: 1000px;
+  max-width: 90vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,12 +72,22 @@ header {
     text-transform: uppercase;
     font-weight: 500;
     line-height: 52px;
+    @media (max-width: 1000px) {
+      font-size: 45px;
+      line-height: 40px;
+    }
   }
   .v {
     font-size: 30px;
+    @media (max-width: 1000px) {
+      font-size: 24px;
+    }
   }
   .s {
     margin-top: 5px;
+    @media (max-width: 1000px) {
+      font-size: 13px;
+    }
   }
 }
 </style>

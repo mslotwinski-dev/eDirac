@@ -38,9 +38,14 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import '@/styles/index.scss';
 nav {
-  width: 350px;
-  padding: 20px;
+  width: 250px;
+  padding: 20px 10px;
   flex-shrink: 0;
+
+  @media (max-width: 600px) {
+    width: 95vw;
+    padding: 10px;
+  }
   a {
     font-size: 20px;
     margin: 5px 0;

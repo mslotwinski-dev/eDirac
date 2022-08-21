@@ -1,6 +1,6 @@
 <template>
   <div class="pickcategory">{{ $t('sciences.info.pick') }}</div>
-  <Filter @filterCategories="filterCategories" />
+  <!-- <Filter @filterCategories="filterCategories" /> -->
   <div class="sciences">
     <CategoryItem
       v-for="category in categories"
@@ -14,12 +14,12 @@
 import { defineComponent } from 'vue'
 import * as CategoriesModule from '@/data/books/categories'
 import { Category } from '@/data/types/book'
-import Filter from './Filter.vue'
+// import Filter from './Filter.vue'
 import CategoryItem from './CategoryItem.vue'
 
 export default defineComponent({
   components: {
-    Filter,
+    // Filter,
     CategoryItem,
   },
   data() {
