@@ -1,7 +1,7 @@
 <template>
   <div :class="{ hide }" class="cont">
-    <nav>
-      <ol class="root" v-if="toc && Object.keys(toc).length > 0">
+    <nav v-if="toc && Object.keys(toc).length > 0">
+      <ol class="root">
         <div v-for="part in [...new Set(toc.map((e) => e.part))]" :key="part">
           <li v-html="part" class="p" />
           <ol class="first-child">
@@ -44,9 +44,9 @@ export default defineComponent({
   },
   data() {
     return {
-      hide: true,
+      hide: false,
       currentSubject: '',
-      toc: {},
+      toc: [] as { subjects: string[][] }[],
     }
   },
   methods: {
@@ -67,12 +67,9 @@ export default defineComponent({
             })
         )
       )
-      .flat(2)
-    // const e = this.book.Content
-    // const FirstPart = e?.[Object.keys(e.default)[0]]
-    // const FirstChapter = FirstPart[Object.keys(FirstPart)[0]]
-    // const FirstSubject = FirstChapter[Object.keys(FirstChapter)[0]]
-    // this.currentSubject = FirstSubject.Commponent
+      .flat(2) as { subjects: string[][] }[]
+
+    this.setSubject(this.toc[0].subjects[0][1])
   },
 })
 </script>

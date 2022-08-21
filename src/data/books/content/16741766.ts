@@ -7,10 +7,4 @@ export default {
       'Podstawowy opis ruchu': 'Kinematyka/Prostoliniowy/1.vue',
     },
   },
-  Dynamika: {
-    Hello: {
-      Huj: 'Kinematyka/Prostoliniowy/1.vue',
-      Huuuuj: 'Kinematyka/Wprowadzenie/1.vue',
-    },
-  },
 }
