@@ -1,6 +1,27 @@
 <template>
   <div :class="{ hide }" class="cont">
     <nav v-if="toc && Object.keys(toc).length > 0">
+      <li
+        class="s intro"
+        :class="{ active: currentSubject == 'Idea' }"
+        @click="setSubject('Idea.vue')"
+      >
+        Idea
+      </li>
+      <li
+        class="s intro"
+        :class="{ active: currentSubject == 'Author' }"
+        @click="setSubject('Author.vue')"
+      >
+        O autorze
+      </li>
+      <li
+        class="s intro"
+        :class="{ active: currentSubject == 'Intro' }"
+        @click="setSubject('Intro.vue')"
+      >
+        Wprowadzenie
+      </li>
       <ol class="root">
         <div v-for="part in [...new Set(toc.map((e) => e.part))]" :key="part">
           <li v-html="part" class="p" />
@@ -212,5 +233,10 @@ li {
       font-weight: 500;
     }
   }
+}
+
+.intro {
+  margin: 2px 10px !important;
+  font-size: 16px !important;
 }
 </style>
