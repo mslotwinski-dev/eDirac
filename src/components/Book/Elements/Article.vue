@@ -30,7 +30,11 @@
   .bob {
     margin: 0 20px;
     width: 200px;
-    height: 200px;
+    max-width: 25vw;
+    @media (max-width: 1000px) {
+      margin-left: 0;
+      margin-right: 10px;
+    }
   }
 }
 </style>
