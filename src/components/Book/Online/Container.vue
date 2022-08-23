@@ -8,7 +8,7 @@
 import { defineComponent } from 'vue'
 import axios from 'axios'
 import { Book } from '@/data/types/book'
-import Content from './Content.vue'
+import Content from '../Online/Content.vue'
 
 export default defineComponent({
   props: {

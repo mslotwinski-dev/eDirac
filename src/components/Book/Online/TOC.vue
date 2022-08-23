@@ -3,21 +3,21 @@
     <nav v-if="toc && Object.keys(toc).length > 0">
       <li
         class="s intro"
-        :class="{ active: currentSubject == 'Idea' }"
+        :class="{ active: currentSubject == 'Idea.vue' }"
         @click="setSubject('Idea.vue')"
       >
         Idea
       </li>
       <li
         class="s intro"
-        :class="{ active: currentSubject == 'Author' }"
+        :class="{ active: currentSubject == 'Author.vue' }"
         @click="setSubject('Author.vue')"
       >
         O autorze
       </li>
       <li
         class="s intro"
-        :class="{ active: currentSubject == 'Intro' }"
+        :class="{ active: currentSubject == 'Intro.vue' }"
         @click="setSubject('Intro.vue')"
       >
         Wprowadzenie

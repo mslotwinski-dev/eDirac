@@ -22,6 +22,9 @@ import Chapter from '@/components/Book/Elements/Chapter.vue'
 import Image from '@/components/Book/Elements/Image.vue'
 import Math from '@/components/Book/Elements/Math.vue'
 import Code from '@/components/Book/Elements/Code.vue'
+import Right from '@/components/Book/Elements/Right.vue'
+import Center from '@/components/Book/Elements/Center.vue'
+import Flex from '@/components/Book/Elements/Flex.vue'
 
 createApp(App)
   .component('Article', Article)
@@ -31,6 +34,9 @@ createApp(App)
   .component('Image', Image)
   .component('Math', Math)
   .component('Code', Code)
+  .component('Right', Right)
+  .component('Center', Center)
+  .component('Flex', Flex)
 
   .component('ic', FontAwesomeIcon)
   .use(i18n)

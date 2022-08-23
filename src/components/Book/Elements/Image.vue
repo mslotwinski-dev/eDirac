@@ -1,12 +1,12 @@
 <template>
-  <div class="cont">
-    <img :src="`/books/${$route.params.id}/img/${src}`" />
+  <div ref="div" v-if="src" class="cont">
+    <img ref="image" :src="`/books/${$route.params.id}/img/${src}`" />
     <div class="sub"><slot /></div>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, ref, Ref, onMounted } from 'vue'
 
 export default defineComponent({
   props: {
@@ -15,6 +15,34 @@ export default defineComponent({
       required: true,
     },
   },
+  setup() {
+    const image = ref(null) as Ref<HTMLImageElement | null>
+    const div = ref(null) as Ref<HTMLDivElement | null>
+
+    onMounted(() => {
+      if (!image.value) return
+      image.value.addEventListener('load', () => {
+        // IDK WHY, IT WONT WORK IF I DONT CHECK TWICE
+        if (!image.value) return
+        image.value.height = 300
+        const ratio = image.value.width / image.value.height
+        window.addEventListener('resize', () => {
+          // TYPESCRIPT WTF???
+          if (!image.value || !div.value) return
+          image.value.height = image.value.width / ratio
+
+          if (image.value.height < 300) {
+            image.value.width = div.value.clientWidth
+          }
+        })
+      })
+    })
+
+    return {
+      image,
+      div,
+    }
+  },
 })
 </script>
 
@@ -22,9 +50,11 @@ export default defineComponent({
 @import '@/styles/index.scss';
 
 .cont {
-  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
   img {
-    width: 100%;
+    max-width: 100%;
   }
   .sub {
     font-size: 16px;

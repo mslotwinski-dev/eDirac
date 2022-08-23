@@ -1,25 +1,15 @@
 <template>
   <nav>
-    <router-link to="/">
-      <div><ic icon="list" /></div>
-      Spis Treści
-    </router-link>
     <router-link
+      v-for="option in options"
+      :key="option"
       :to="{
-        name: 'BookView',
+        name: option.r,
         params: { id: book.ID },
       }"
     >
-      <div><ic icon="globe" /></div>
-      Online
-    </router-link>
-    <router-link to="/">
-      <div><ic icon="fa-cloud-arrow-down" /></div>
-      PDF
-    </router-link>
-    <router-link to="/">
-      <div><ic icon="book" /></div>
-      Kup Książkę
+      <div><ic :icon="option.i" /></div>
+      {{ $t(`book.pick.${option.r}`) }}
     </router-link>
   </nav>
 </template>
@@ -31,6 +21,16 @@ import { Book } from '@/data/types/book'
 export default defineComponent({
   props: {
     book: Object as () => Book,
+  },
+  data() {
+    return {
+      options: [
+        { r: 'BookTable', i: 'list' },
+        { r: 'BookView', i: 'globe' },
+        { r: 'BookPDF', i: 'fa-cloud-arrow-down' },
+        { r: 'BookBuy', i: 'book' },
+      ],
+    }
   },
 })
 </script>

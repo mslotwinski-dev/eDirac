@@ -28,6 +28,12 @@ export default {
       '2': 'Zaawansowany',
       '3': 'Absolutny',
     },
+    pick: {
+      BookTable: 'Spis Treści',
+      BookView: 'Online',
+      BookPDF: 'PDF',
+      BookBuy: 'Kup Książkę',
+    },
   },
   sciences: {
     vol: 'Tom',

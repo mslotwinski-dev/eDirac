@@ -26,5 +26,11 @@
   b {
     font-weight: 500;
   }
+
+  .bob {
+    margin: 0 20px;
+    width: 200px;
+    height: 200px;
+  }
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
   <Article>
     <Section>
-      Witaj poszukiwaczu wiedzy! Być może jesteś studentem, który chce się
-      lepiej przygotować do zajęć, może wykładowcą czerpiącym inspiracje do
+      <b>Witaj poszukiwaczu wiedzy!</b> Być może jesteś studentem, który chce
+      się lepiej przygotować do zajęć, może wykładowcą czerpiącym inspiracje do
       prowadzonych wykładów, a może najzwyklejszym człowiekiem, chcącym
       zrozumieć jak działa otaczający go świat. No właśnie, poszukiwanie wiedzy
       nie jest czymś łatwym, szczególnie gdy mamy do wyboru tysiące podręczników
@@ -10,8 +10,8 @@
       różnym materiale. To samo myślałem ja, przeglądając wszystkie książki
       naukowe na rynku, a było to naprawdę męczące doświadczenie.
     </Section>
-    <Section
-      >Wiedza nie może być czymś dostępnym tylko dla nielicznych. Niezależnie od
+    <Section>
+      Wiedza nie może być czymś dostępnym tylko dla nielicznych. Niezależnie od
       sytuacji finansowej czy zdolności jej pojmowania, każdy zasługuje na nią
       tak samo. Właśnie dlatego stwierdziłem, że muszę przynajmniej spróbować
       dołożyć cegiełkę do tego, aby zmienić kierunek biegu tej rzeki. Po
@@ -87,23 +87,38 @@
       </ul>
     </Section>
     <Section>
-      Jeśli dany paragraf jest dla ciebie zbyt trudny po prostu go pomiń i
-      przejdź do następnego.
+      Jeśli dany temat jest dla ciebie zbyt trudny po prostu go pomiń i przejdź
+      do następnego, książka jest napisana dla wszystkich, nie tylko tych,
+      którzy chcą być fizykami.
     </Section>
-    <Section
-      >Obecnie dostępne lub planowane są 3 tomy. Ich priorytet jest taki, jak
+    <Section>
+      Obecnie dostępne lub planowane są 3 tomy. Ich priorytet jest taki, jak
       kolejność, w której je podałem, dlatego, jeśli np. coś nie jest
       wytłumaczone w serii o elektronice to na pewno było wytłumaczone w serii o
-      fizyce lub matematyce. Są one następujące: • Matematyka • Fizyka •
-      Elektronika
+      fizyce lub matematyce. Są one następujące:
+      <ul>
+        <li>Matematyka</li>
+        <li>Fizyka</li>
+        <li>Elektronika</li>
+      </ul>
     </Section>
-    <Section
-      >Jeśli chcesz, również możesz dołożyć swoją cegiełkę do projektu — zgłosić
+    <Section>
+      Jeśli chcesz, również możesz dołożyć swoją cegiełkę do projektu — zgłosić
       uwagi, pomóc w tworzeniu albo samemu zostać autorem serii książek
       dotyczących twoich zainteresowań naukowych. Skontaktować się możesz ze mną
       drogą mailową lub poprzez stronę internetową projektu. Również możesz
       zmieniać świat na lepsze.
     </Section>
-    Twórca projektu i autor książki, Mateusz Słotwiński
+    <Flex>
+      <img class="bob" src="/books/shared/img/duck.png" />
+      <Section>
+        Twoje wzmagania będziesz realizował razem z Bobem - pierwszą kaczką,
+        która chce zostać inżynierem! Kiedyś mówił chyba, że jest jakimś
+        międzywymiarowym bóstwem pochodzącym z prastarych celtyckich krain, ale
+        byłem zajęty robieniem sobie makaronu w mikrofalówce. Tak czy inaczej
+        Bob to bardzo sympatyczna kaczka.
+      </Section>
+    </Flex>
+    <Right>Twórca projektu,<br /><b>Mateusz Słotwiński</b></Right>
   </Article>
 </template>
