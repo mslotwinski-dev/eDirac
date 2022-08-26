@@ -24,7 +24,7 @@
       natomiast podając drogę interesuje nas tylko jego wartość nie ważne w
       którą stronę by nie było. Matematycznie możemy to opisać jako
     </Section>
-    <Math center="true" nr="2.1">{s=|\Delta x|=|x_2-x_1|}</Math>
+    <Math center="true" nr="2.2">{s=|\Delta x|=|x_2-x_1|}</Math>
     <Section>
       W praktyce wygląda to tak. Ślimak zaczynał ruch gdy wskazywał na linijce
       2cm, a zakończył go gdy na linijce mieliśmy 7cm. Droga jaką przebył to
@@ -45,7 +45,7 @@
       No właśnie, jak sprawa ma się z prędkością? Wzór chyba zna każdy, ale
       przypomnę jego treść.
     </Section>
-    <Math center="true" nr="2.2">
+    <Math center="true" nr="2.3">
       {\displaystyle s=v\cdot t,\ \ v=\frac s{t},\ \ t=\ \ \frac s{v}}
     </Math>
     <Section>
@@ -62,7 +62,7 @@
       wielkość, która pokazuje nam jak zmieniła się prędkość w czasie. Możemy
       więc zapisać najprostszy wzór na przyspieszenie
     </Section>
-    <Math center="true" nr="2.3">
+    <Math center="true" nr="2.4">
       {\displaystyle a=\frac{v-v_0}{t} \ \ \Rightarrow \ \ v=v_0+at}
     </Math>
     <Section>
@@ -72,7 +72,7 @@
       to otrzymać następny wzór. Innym sposobem jest wyznaczenie go z całki
       oznaczonej, jako, że prędkość jest funkcją, jednak nie jest to konieczne.
     </Section>
-    <Math center="true" nr="2.4">
+    <Math center="true" nr="2.5">
       {\displaystyle s = v_{śr}\cdot t = \frac{v_0 + (v_0 + at)}{2} \cdot t =
       \frac{1}{2}at^2 + v_0t}
     </Math>

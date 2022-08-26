@@ -207,9 +207,9 @@
       nie tylko przy tematach związanych z termodynamiką, ale i przy fizyce
       atomowej czy przewodnictwie prądu – jak się pewnie domyślasz mam na myśli
       nadprzewodnictwo, czyli zjawisko, podczas którego w pewnej (zazwyczaj
-      bardzo niskiej) temperaturze opór elektryczny ciała całkiem zanika i
-      wynosi 0 (nie próbuj podstawiać wartości 0 do wzoru na opór elektryczny,
-      bo to nie zadziała).
+      bardzo niskiej) temperaturze opór elektryczny ciała całkiem zanika (nie
+      próbuj podstawiać wartości 0 do wzoru na opór elektryczny, bo to nie
+      zadziała, też się zawiodłem).
     </Section>
     <h3>Fizyka Współczesna</h3>
     <Section>
