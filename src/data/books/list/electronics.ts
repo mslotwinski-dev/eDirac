@@ -9,7 +9,7 @@ export const Electronics_Main_Vol_1: Book = {
   Title: 'Elektronika',
   Author: ['Mateusz Słotwiński'],
 
-  Color: '#006E89',
+  Color: '#aa2222',
   Icon: 'electronics',
   BG: 'electronics',
   Pages: 500,
@@ -32,7 +32,7 @@ export const Electronics_Main_Vol_1: Book = {
 //   Title: 'Elektronika',
 //   Author: ['Mateusz Słotwiński'],
 
-//   Color: '#006E89',
+//   Color: '#aa2222',
 //   Icon: 'electronics',
 //   BG: 'electronics',
 //   Pages: 500,
@@ -50,7 +50,7 @@ export const Electronics_Main_Vol_1: Book = {
 //   Title: 'Elektronika',
 //   Author: ['Mateusz Słotwiński'],
 
-//   Color: '#006E89',
+//   Color: '#aa2222',
 //   Icon: 'electronics',
 //   BG: 'electronics',
 //   Pages: 500,
@@ -72,7 +72,7 @@ export const Electronics_Main_Vol_1: Book = {
 //   Title: 'Elektronika',
 //   Author: ['Mateusz Słotwiński'],
 
-//   Color: '#006E89',
+//   Color: '#aa2222',
 //   Icon: 'electronics',
 //   BG: 'electronics',
 //   Pages: 500,
@@ -93,7 +93,7 @@ export const Electronics_Main_Vol_1: Book = {
 //   Title: 'Elektronika',
 //   Author: ['Mateusz Słotwiński'],
 
-//   Color: '#006E89',
+//   Color: '#aa2222',
 //   Icon: 'electronics',
 //   BG: 'electronics',
 //   Pages: 500,
@@ -114,7 +114,7 @@ export const Electronics_Main_Vol_1: Book = {
 //   Title: 'Elektronika',
 //   Author: ['Mateusz Słotwiński'],
 
-//   Color: '#006E89',
+//   Color: '#aa2222',
 //   Icon: 'electronics',
 //   BG: 'electronics',
 //   Pages: 500,
@@ -135,7 +135,7 @@ export const Electronics_Main_Vol_1: Book = {
 //   Title: 'Elektronika',
 //   Author: ['Mateusz Słotwiński'],
 
-//   Color: '#006E89',
+//   Color: '#aa2222',
 //   Icon: 'electronics',
 //   BG: 'electronics',
 //   Pages: 500,
@@ -156,7 +156,7 @@ export const Electronics_Main_Vol_1: Book = {
 //   Title: 'Elektronika',
 //   Author: ['Mateusz Słotwiński'],
 
-//   Color: '#006E89',
+//   Color: '#aa2222',
 //   Icon: 'electronics',
 //   BG: 'electronics',
 //   Pages: 500,
@@ -177,7 +177,7 @@ export const Electronics_Main_Vol_1: Book = {
 //   Title: 'Elektronika',
 //   Author: ['Mateusz Słotwiński'],
 
-//   Color: '#006E89',
+//   Color: '#aa2222',
 //   Icon: 'electronics',
 //   BG: 'electronics',
 //   Pages: 500,

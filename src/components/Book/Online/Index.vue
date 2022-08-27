@@ -33,6 +33,10 @@ export default defineComponent({
   },
   methods: {
     setSubject(subject: string) {
+      this.$store.commit('setBookChapter', {
+        book: this.$route.params.id,
+        subject: subject,
+      })
       this.currentSubject = subject
       this.key++
     },
@@ -42,11 +46,7 @@ export default defineComponent({
       .map((cat: Category) => cat.Books)
       .flat(1)
 
-    const book = books.filter(
-      (book: Book) =>
-        // book.Tag.lang == this.$store.getters.getAppLanguage &&
-        book.ID == this.id
-    )
+    const book = books.filter((book: Book) => book.ID == this.id)
 
     book && Object.keys(book).length != 0
       ? (this.book = book[0])

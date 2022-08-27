@@ -34,6 +34,9 @@ export default {
       BookPDF: 'PDF',
       BookBuy: 'Kup Książkę',
     },
+    idea: 'Idea',
+    author: 'O autorze',
+    index: 'Wprowadzenie',
   },
   sciences: {
     vol: 'Tom',

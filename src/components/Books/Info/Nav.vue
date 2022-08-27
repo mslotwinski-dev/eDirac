@@ -7,9 +7,14 @@
         name: option.r,
         params: { id: book.ID },
       }"
+      :class="{ not: option.not }"
+      :style="{
+        cursor: option.not && 'not-allowed',
+      }"
     >
       <div><ic :icon="option.i" /></div>
       {{ $t(`book.pick.${option.r}`) }}
+      <ic v-if="option.not" class="cross" icon="xmark" />
     </router-link>
   </nav>
 </template>
@@ -27,8 +32,8 @@ export default defineComponent({
       options: [
         { r: 'BookTable', i: 'list' },
         { r: 'BookView', i: 'globe' },
-        { r: 'BookPDF', i: 'fa-cloud-arrow-down' },
-        { r: 'BookBuy', i: 'book' },
+        { r: 'BookPDF', i: 'fa-cloud-arrow-down', not: true },
+        { r: 'BookBuy', i: 'book', not: true },
       ],
     }
   },
@@ -60,5 +65,13 @@ nav {
     text-align: center;
     margin-right: 5px;
   }
+}
+
+.not {
+  color: theme(rose) !important;
+}
+.cross {
+  margin-left: auto;
+  margin-right: 10px;
 }
 </style>

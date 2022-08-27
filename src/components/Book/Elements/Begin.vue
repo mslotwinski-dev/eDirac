@@ -1,6 +1,12 @@
 <template>
   <h2>
-    <div class="nr" v-html="`${$t('book.subject')} ${nr}`" />
+    <div
+      class="nr"
+      v-html="`${$t('book.subject')} ${nr}`"
+      :style="{
+        backgroundImage: `linear-gradient(to right, ${color}, #28353a)`,
+      }"
+    />
     <slot />
     <div class="level-cont">
       <span v-html="$t('book.level')" />
@@ -15,11 +21,22 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import * as CategoriesModule from '@/data/books/categories'
+import { Book } from '@/data/types/book'
 
 export default defineComponent({
   props: {
     nr: { type: String, required: true },
     advanced: { type: String, required: true },
+  },
+  data() {
+    return {
+      color: Object.values({ ...CategoriesModule })
+        .map((e) => e.Books)
+        .flat(1)
+        .filter((e: Book) => e.ID == (this.$route.params.id as string))[0]
+        .Color,
+    }
   },
 })
 </script>
@@ -31,7 +48,7 @@ h2 {
   font-size: 25px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  color: theme(main_dark);
+  color: theme(dark);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -41,7 +58,6 @@ h2 {
   }
   .nr {
     width: 100%;
-    background: theme(main_dark);
     padding: 5px;
     border-radius: 5px;
     font-size: 23px;

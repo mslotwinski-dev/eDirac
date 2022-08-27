@@ -1,11 +1,14 @@
 <template>
   <div class="container">
     <nav v-if="toc && Object.keys(toc).length > 0">
-      <List :toc="toc" />
+      <List :toc="toc" :color="book.Color" :ID="book.ID" />
       <router-link
         :to="{
           name: 'BookView',
           params: { id: book.ID },
+        }"
+        :style="{
+          backgroundColor: book.Color,
         }"
         ><ic icon="book" />
       </router-link>

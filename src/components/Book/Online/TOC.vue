@@ -2,29 +2,24 @@
   <div :class="{ hide }" class="cont">
     <nav v-if="toc && Object.keys(toc).length > 0">
       <li
+        v-for="item in ['Idea', 'Author', 'Index']"
+        :key="item"
         class="s intro"
-        :class="{ active: currentSubject == 'Idea.vue' }"
-        @click="setSubject('Idea.vue')"
-      >
-        Idea
-      </li>
-      <li
-        class="s intro"
-        :class="{ active: currentSubject == 'Author.vue' }"
-        @click="setSubject('Author.vue')"
-      >
-        O autorze
-      </li>
-      <li
-        class="s intro"
-        :class="{ active: currentSubject == 'Intro.vue' }"
-        @click="setSubject('Intro.vue')"
-      >
-        Wprowadzenie
-      </li>
+        :class="{ active: currentSubject == `${item}.vue` }"
+        @click="setSubject(`${item}.vue`)"
+        v-html="$t(`book.${item.toLowerCase()}`)"
+      />
+
       <ol class="root">
         <div v-for="part in [...new Set(toc.map((e) => e.part))]" :key="part">
-          <li v-html="part" class="p" />
+          <li
+            v-html="part"
+            class="p"
+            :style="{
+              color: book.Color,
+            }"
+          />
+
           <ol class="first-child">
             <div v-for="(chapter, i) in toc" :key="chapter">
               <div v-if="chapter.part == part">
@@ -35,7 +30,13 @@
                       @click="setSubject(subject[1])"
                       v-html="`${i + 1}.${k + 1}. ${subject[0]}`"
                       class="s"
-                      :class="{ active: currentSubject == subject[1] }"
+                      :class="{
+                        active: currentSubject == subject[1],
+                        notactive: currentSubject != subject[1],
+                      }"
+                      :style="{
+                        color: book.Color,
+                      }"
                     />
                   </div>
                 </ol>
@@ -45,7 +46,14 @@
         </div>
       </ol>
     </nav>
-    <div class="show" @click="hide = !hide">
+
+    <div
+      class="show"
+      @click="hide = !hide"
+      :style="{
+        backgroundColor: book.Color,
+      }"
+    >
       <ic :icon="`angles-${hide ? 'right' : 'left'}`" />
     </div>
   </div>
@@ -90,7 +98,12 @@ export default defineComponent({
       )
       .flat(2) as { subjects: string[][] }[]
 
-    this.setSubject(this.toc[0].subjects[0][1])
+    this.setSubject(
+      Object.keys(this.$store.getters.getBookChapters[this.$route.params.id])
+        .length > 0
+        ? this.$store.getters.getBookChapters[this.$route.params.id]
+        : 'Idea.vue'
+    )
   },
 })
 </script>
@@ -142,6 +155,7 @@ export default defineComponent({
   border-radius: 25%;
   font-size: 22px;
   margin: 0 10px;
+  cursor: pointer;
 
   @media (max-width: 1000px) {
     position: absolute;
@@ -218,6 +232,7 @@ li {
       width: 0;
       height: 2px;
       background-color: theme(main_dark);
+
       border-radius: 100%;
       transition: 0.3s all;
     }
@@ -229,8 +244,10 @@ li {
     }
 
     &.active {
-      color: theme(main_dark);
       font-weight: 500;
+    }
+    &.notactive {
+      color: theme(black) !important;
     }
   }
 }

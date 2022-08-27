@@ -5,8 +5,19 @@
         'url(' + require(`@/assets/images/books/bg/${book}.jpg`) + ')',
     }"
   >
-    <div class="container">
-      <div class="nr" v-html="`${$t('book.chapter')} ${nr}`" />
+    <div
+      class="container"
+      :style="{
+        color: color,
+      }"
+    >
+      <div
+        class="nr"
+        :style="{
+          backgroundImage: `linear-gradient(45deg, #28353a, ${color},  ${color}, #28353a )`,
+        }"
+        v-html="`${$t('book.chapter')} ${nr}`"
+      />
       <slot />
     </div>
   </header>
@@ -14,11 +25,22 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import * as CategoriesModule from '@/data/books/categories'
+import { Book } from '@/data/types/book'
 
 export default defineComponent({
   props: {
     book: { type: String, required: true },
     nr: { type: String, required: true },
+  },
+  data() {
+    return {
+      color: Object.values({ ...CategoriesModule })
+        .map((e) => e.Books)
+        .flat(1)
+        .filter((e: Book) => e.ID == (this.$route.params.id as string))[0]
+        .Color,
+    }
   },
 })
 </script>
@@ -45,7 +67,6 @@ header {
   font-size: 32px;
   font-weight: 500;
   text-transform: uppercase;
-  color: theme(main_dark);
   padding: 20px;
 
   width: 100%;

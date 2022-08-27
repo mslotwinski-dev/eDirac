@@ -45,9 +45,7 @@
       No właśnie, jak sprawa ma się z prędkością? Wzór chyba zna każdy, ale
       przypomnę jego treść.
     </Section>
-    <Math center="true" nr="2.3">
-      {\displaystyle s=v\cdot t,\ \ v=\frac s{t},\ \ t=\ \ \frac s{v}}
-    </Math>
+    <Math center="true" nr="2.3"> {\displaystyle v=\frac {x-x_0}{t}} </Math>
     <Section>
       Od razu przekształciłem go, aby móc wyznaczyć daną wielkość z gotowego
       wzoru, jednak następnym razem nie będę już tego robił, chyba, że sytuacja
@@ -73,8 +71,8 @@
       oznaczonej, jako, że prędkość jest funkcją, jednak nie jest to konieczne.
     </Section>
     <Math center="true" nr="2.5">
-      {\displaystyle s = v_{śr}\cdot t = \frac{v_0 + (v_0 + at)}{2} \cdot t =
-      \frac{1}{2}at^2 + v_0t}
+      {\displaystyle x-x_0 = v_{śr}\cdot t = \frac{v_0 + (v_0 + at)}{2} \cdot t
+      = \frac{1}{2}at^2 + v_0t}
     </Math>
     <Section>
       Zauważ, że znak przyspieszenia nie mówi nic o kierunku ruchu tak jak znak

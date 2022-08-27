@@ -4,14 +4,24 @@
   <li class="s intro">Wprowadzenie</li>
   <ol class="root">
     <div v-for="part in [...new Set(toc.map((e) => e.part))]" :key="part">
-      <li v-html="part" class="p" />
+      <li
+        v-html="part"
+        class="p"
+        :style="{
+          color: color,
+        }"
+      />
       <ol class="first-child">
         <div v-for="(chapter, i) in toc" :key="chapter">
           <div v-if="chapter.part == part">
             <li v-html="`${i + 1}. ${chapter.chapter}`" class="c" />
             <ol>
               <div v-for="(subject, k) in chapter.subjects" :key="subject">
-                <li v-html="`${i + 1}.${k + 1}. ${subject[0]}`" class="s" />
+                <li
+                  @click="push(subject[1])"
+                  v-html="`${i + 1}.${k + 1}. ${subject[0]}`"
+                  class="s"
+                />
               </div>
             </ol>
           </div>
@@ -27,6 +37,21 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   props: {
     toc: Object as () => { subjects: string[][] }[],
+    color: String,
+    ID: String,
+  },
+  methods: {
+    push(subject: string) {
+      this.$store.commit('setBookChapter', {
+        book: this.$route.params.id,
+        subject: subject,
+      })
+
+      this.$router.push({
+        name: 'BookView',
+        params: { id: this.ID },
+      })
+    },
   },
 })
 </script>
@@ -56,7 +81,6 @@ li {
   &.p {
     font-weight: 500;
     text-transform: uppercase;
-    color: theme(main_dark);
     font-size: 27px;
     margin: 10px 0;
   }
@@ -68,6 +92,24 @@ li {
     font-size: 16px;
     margin: 2px 0;
     transition: all 0.2s;
+    cursor: pointer;
+    &:after {
+      content: '❯';
+      display: flex;
+      align-items: center;
+      position: absolute;
+      color: theme(dark);
+      top: -1px;
+      height: 100%;
+      left: -20px;
+      font-weight: 800;
+      transition: 0.1s all;
+
+      opacity: 0;
+    }
+    &:hover:after {
+      opacity: 1;
+    }
   }
 }
 
