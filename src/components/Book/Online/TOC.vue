@@ -51,7 +51,8 @@
       class="show"
       @click="hide = !hide"
       :style="{
-        backgroundColor: book.Color,
+        color: small || hide ? '#e3e3e3' : book.Color,
+        backgroundColor: small || hide ? book.Color : 'transparent',
       }"
     >
       <ic :icon="`angles-${hide ? 'right' : 'left'}`" />
@@ -74,6 +75,7 @@ export default defineComponent({
   data() {
     return {
       hide: false,
+      small: false,
       currentSubject: '',
       toc: [] as { subjects: string[][] }[],
     }
@@ -104,6 +106,10 @@ export default defineComponent({
         ? this.$store.getters.getBookChapters[this.$route.params.id]
         : 'Idea.vue'
     )
+
+    window.addEventListener('resize', () => {
+      this.small = window.innerWidth > 1000
+    })
   },
 })
 </script>
@@ -150,8 +156,6 @@ export default defineComponent({
   display: flex;
   justify-content: center;
   align-items: center;
-  background: theme(main);
-  color: theme(light);
   border-radius: 25%;
   font-size: 22px;
   margin: 0 10px;
@@ -161,7 +165,6 @@ export default defineComponent({
     position: absolute;
     right: 10px;
     top: 10px;
-    color: theme(main);
     background: unset;
     font-size: 30px;
     z-index: 2;

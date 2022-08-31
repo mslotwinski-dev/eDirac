@@ -11,5 +11,21 @@ export default {
       'Spadek swobodny i przyspieszenie grawitacyjne':
         'Kinematyka/Prostoliniowy/5.vue',
     },
+    'Ruch Krzywoliniowy': {},
   },
+  Dynamika: {
+    '': {},
+  },
+  // Statyka: {
+  //   '': {},
+  // },
+  // 'Mechanika Analityczna': {
+  //   '': {},
+  // },
+  // 'Teoria Grawitacji Newtona': {
+  //   '': {},
+  // },
+  // Relatywistyka: {
+  //   '': {},
+  // },
 }

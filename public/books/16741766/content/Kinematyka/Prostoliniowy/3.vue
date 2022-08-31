@@ -38,11 +38,26 @@
     <Math center="true" nr="2.6">
       {\displaystyle v^2 = v_0^2 + 2 a(x - x_0)}
     </Math>
+    <Section>
+      Inne przekształcenie pozwala nam wyeliminować przyspieszenie
+    </Section>
     <Math center="true" nr="2.7">
       {\displaystyle x - x_0 = \frac{1}{2}(v_0 + v)t}
     </Math>
+    <Section>
+      Natomiast ostatnie - prędkość początkową. Zauważ, że nie występuje tu
+      prędkość początkowa w przeciwieństwie do wzoru (2.5), dlatego tutaj mamy
+      przy jednym z członów przeciwny znak.
+    </Section>
     <Math center="true" nr="2.8">
       {\displaystyle x - x_0 = vt - \frac{1}{2}at^2}
     </Math>
+    <Section>
+      Właśnie jesteś w stanie rozprawić się z każdym zadaniem z ruchu
+      jednostajnego i jednostajnie przyspieszonego. Zostanie nam jeszcze ruch
+      zmienny bez stałego przyspieszenia czy prędkości, który jest trudniejszy
+      ze względu na aparat matematyczny - potrzebna nam umiejętność
+      różniczkowania i całkowania.
+    </Section>
   </Article>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <Article>
-    <Begin nr="2.4" advanced="1"> Wartość chwilowa i całkowita</Begin>
+    <Begin nr="2.4" advanced="0"> Wartość chwilowa i całkowita</Begin>
     <h3>Wartość zmienna i chwilowa (oraz TROCHĘ matematyki)</h3>
     <Section>
       Przyjrzyjmy się ogólnemu przypadkowi, kiedy prędkość nie jest stała.
@@ -63,6 +63,15 @@
     <Math center="true" nr="2.8">
       {\displaystyle v(t) = \frac{d}{dt}x(t) }
     </Math>
+    <Section>
+      Znając ten wzór możesz zapomnieć wszystkie poprzednie. W nim zawierają się
+      wszystkie wzory użyte dotąd w tym dziale i znacznie znacznie więcej. Ten
+      jeden wzór pozwala ci od teraz policzyć każde zadanie z kinematyki bez
+      względu jaki to rodzaj ruchu. Fajne, prawda? Jedyny warunek to znać
+      rachunek różniczkowy i całkowy, co zakładam, że biorąc się za tę ksiązkę
+      opanowałeś do perfekcji tak jak picie piwa. Serio ktoś czyta to jeszcze na
+      trzeźwo?
+    </Section>
     <Section>
       Chcąc wyznaczyć przyspieszenie chwilowe postępujesz tak samo, i jest to
       pochodna, ale z funkcji v(t). Warto zaznaczyć, że mając funkcję x(t)
