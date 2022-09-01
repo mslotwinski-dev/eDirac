@@ -11,7 +11,9 @@
       <BookItem v-for="book in bookTag" :key="book" :book="book" />
     </div>
   </section>
-  <div class="sorry" v-if="Object.keys(sortedBooks).length == 0">sorry</div>
+  <div class="sorry" v-if="Object.keys(sortedBooks).length == 0">
+    We dont have books in your language. Change the language in menu to Polish.
+  </div>
 </template>
 
 <script lang="ts">
@@ -38,9 +40,10 @@ export default defineComponent({
   },
   methods: {
     resetBooks() {
-      const cats = this.category.Books!.filter((c) =>
-        c.Tag.lang.includes(this.$store.getters.getAppLanguage)
-      )
+      const cats = this.category.Books
+      // !.filter((c) =>
+      //   c.Tag.lang.includes(this.$store.getters.getAppLanguage)
+      // )
 
       type SortedBooksObj = {
         [index: string]: Book[]

@@ -83,18 +83,46 @@
       Nie odkryliśmy niczego nowego, ale przynajmniej pokazaliśmy na
       przykładach, że ten wzór działa.
     </Section>
+    <h3>Wysokość</h3>
+    <Section>
+      Kiedy rzucamy przedmiot w dół sprawa jest prosta, wspinamy się na drzewo o
+      wysokości 10m, więc <Math>h_0</Math> wynosi 10m. Co jednak jeśli rzucamy
+      przedmiot w górę i chcemy obliczyć maksymalną wysokość? Sprawa jest bardzo
+      prosta, najpierw musimy policzyć kiedy h(t) osiąga maksimum, czyli moment
+      w którym prędkość jest równa 0<Math>\frac{m}{s}</Math>. Podstawienie w
+      równaniu (2.13) za prędkość 0 pozwala nam stwierdzić, że dzieje się to
+      kiedy czas ma wartość <Math>\frac{g}{t}</Math>. Teraz kiedy znamy moment,
+      kiedy wysokość osiąga maksimum została nam tylko formalność. Podstawiamy
+      we wzorze (2.12) za czas <Math>\frac{g}{t}</Math>, co pozwala nam dojść do
+      wzoru, że maksymalna wysokość w rzucie pionowym wynosi
+    </Section>
+    <Math center="true" nr="2.14">
+      {\displaystyle h = h_0 + \frac{v_0^2}{2g}}</Math
+    >
+    <Section>
+      Nikt ci oczywiśce broni ci stać na drzewie na jakieś wysokości
+      <Math>h_0</Math> i rzucać w górę, jednak stojąc na ziemii wysokość
+      początkowa wynosi 0m i wtedy człon <Math>h_0</Math> się zeruje, dlatego
+      czasem jest pomijany. Ten sam wzór można wyprowadzić zasady zachowania
+      energii, o której również będziemy potem mówić. Dla formalności obliczmy
+      na sam koniec czas całego rzutu. Jeśli czas wznoszenia, po którym h wynosi
+      maksimum jest równy <Math>\frac{v}{g}</Math>, czas spadania wyniesie tyle
+      samo. Cały rzut będzie więc trwał
+    </Section>
+    <Math center="true" nr="2.14"> {\displaystyle t = \frac{2v}{g}}</Math>
     <h3>Grawitacja w ujęciu relatywistycznym (ciekawostka)</h3>
     <Section>
       Zaraz zaraz, coś tu nie gra. Wróćmy na sam początek tematu do definicji
-      grawitacji. Co jeśli ciało nie ma masy? Druga zasada Newtona mówi nam, że
-      nie powinno ono wtedy być przyciągane przez grawitację. Światło z
-      pewnością nie ma masy, jednak chwilę wcześniej pisałem o tym, że w
-      grawitacja jest nieodróżnialna od przyspieszenia, co oznaczałoby, że skoro
-      w przyspieszającej windzie względem nas światło się porusza w dół, w polu
-      grawitacyjnym też powinno. Z resztą, sami słyszymy, że czarna dziura ma
-      tak silne pole grawitacyjne, że wciąga nawet światło, więc coś musi być na
-      rzeczy. Mamy więc dwie opcje, albo zasada dynamiki jest fałszywa albo
-      światło ma masę.
+      grawitacji, możesz ją przeczytać uważnie jeszcze raz. Co jeśli ciało nie
+      ma masy? Druga zasada Newtona mówi nam, że nie powinno ono wtedy być
+      przyciągane przez grawitację. Światło z pewnością nie ma masy, jednak
+      chwilę wcześniej pisałem o tym, że w grawitacja jest nieodróżnialna od
+      przyspieszenia, co oznaczałoby, że skoro w przyspieszającej windzie
+      względem nas światło się porusza w dół (lub my względem jego w górę, bez
+      różnicy), w polu grawitacyjnym też powinno poruszać się w dół. Z resztą,
+      sami słyszymy, że czarna dziura ma tak silne pole grawitacyjne, że wciąga
+      nawet światło, więc coś musi być na rzeczy. Mamy więc dwie opcje, albo
+      zasada dynamiki jest fałszywa albo światło ma masę.
     </Section>
     <Section>
       Odpowiedź jest jednak jeszcze inna. Grawitacja to nie jest siła, a prawo
