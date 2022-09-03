@@ -97,8 +97,8 @@
       wzoru, że maksymalna wysokość w rzucie pionowym wynosi
     </Section>
     <Math center="true" nr="2.14">
-      {\displaystyle h = h_0 + \frac{v_0^2}{2g}}</Math
-    >
+      {\displaystyle h = h_0 + \frac{v^2}{2g}}
+    </Math>
     <Section>
       Nikt ci oczywiśce broni ci stać na drzewie na jakieś wysokości
       <Math>h_0</Math> i rzucać w górę, jednak stojąc na ziemii wysokość
@@ -109,7 +109,7 @@
       maksimum jest równy <Math>\frac{v}{g}</Math>, czas spadania wyniesie tyle
       samo. Cały rzut będzie więc trwał
     </Section>
-    <Math center="true" nr="2.14"> {\displaystyle t = \frac{2v}{g}}</Math>
+    <Math center="true" nr="2.14"> {\displaystyle t = \frac{2v}{g} }</Math>
     <h3>Grawitacja w ujęciu relatywistycznym (ciekawostka)</h3>
     <Section>
       Zaraz zaraz, coś tu nie gra. Wróćmy na sam początek tematu do definicji

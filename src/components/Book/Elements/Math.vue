@@ -7,6 +7,7 @@
         })
       "
       class="equation"
+      ref="span"
     >
     </span>
     <span v-if="center" v-html="`(${nr})`" />
@@ -25,6 +26,7 @@ export default defineComponent({
   },
   setup() {
     const slot = ref<HTMLSpanElement | null>(null)
+    const span = ref<HTMLSpanElement | null>(null)
     let eq = ref('')
 
     onMounted(() => {
@@ -32,18 +34,19 @@ export default defineComponent({
     })
 
     // onMounted(() => {
-    //   const ignored = ['∇']
-    //   if (div.value && div.value.innerHTML)
+    //   const ignored = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+    //   if (span.value && span.value.innerHTML)
     //     for (const char of ignored) {
-    //       div.value.innerHTML = div.value.innerHTML.replace(
-    //         `<span class="mord">${char}</span>`,
-    //         `<span class="mord ignore-rubik">${char}</span>`
+    //       span.value.innerHTML = span.value.innerHTML.replace(
+    //         `<span class="mord mtight">${char}</span>`,
+    //         `<span class="mord mtight ignore-rubik">${char}</span>`
     //       )
     //     }
     // })
     return {
       katex,
       slot,
+      span,
       eq,
     }
   },
