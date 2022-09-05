@@ -88,7 +88,7 @@ export default defineComponent({
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 75%;
+  width: 78%;
   font-weight: 500;
   background: #28353ab0;
   color: theme(light);
