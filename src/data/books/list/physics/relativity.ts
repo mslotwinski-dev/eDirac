@@ -6,7 +6,7 @@ import B_1 from '../../content/16741766'
 export const Physics_Relativity_1: Book = {
   ID: '16741766',
 
-  Title: 'Fizyka Relatywistyczna',
+  Title: 'Fizyka Relatywistyczna i Astrofizyka',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',

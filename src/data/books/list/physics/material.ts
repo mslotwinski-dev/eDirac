@@ -19,8 +19,8 @@ export const Physics_Material_1: Book = {
 
   Part: 1,
   Subtitles: [
-    'Wstęp do matematyki, algebra liniowa: wielomiany,',
-    'macierze, wyznaczniki, przestzenie, rachunek wektorowy',
+    'Fizyka, chemia i optyka ciała stałego, fizyka materiałów',
+    'i materii skondensowanej, rzeczywista struktura materii',
   ],
   Content: B_1,
 }
@@ -40,7 +40,10 @@ export const Physics_Material_2: Book = {
   Tag: { main: 'physics_material', official: true, lang: ['pl'] },
 
   Part: 2,
-  Subtitles: ['Algebra abstrakcyjna: grupy, pierścienie i ciała'],
+  Subtitles: [
+    'Mechanika ciała stałego, fizyka ciała stałego w ujęciu',
+    'statystycznym, kinetyka fizyczna i przemiany fazowe',
+  ],
   Content: B_1,
 }
 
@@ -63,7 +66,7 @@ export const Physics_Material_3: Book = {
   },
 
   Part: 3,
-  Subtitles: ['Geometria ogólna i analityczna oraz topologia'],
+  Subtitles: ['Wstęp do fizyki magnetyzmu'],
   Content: B_1,
 }
 
@@ -83,8 +86,8 @@ export const Physics_Material_4: Book = {
 
   Part: 4,
   Subtitles: [
-    'Analiza matematyczna I: funkcje jednej zmiennej, granice,',
-    'pochodne, szeregi liczbowe i funkcyjne, rachunek całkowy',
+    'Fizyka półprzewodników i przyrządów półprzewodnikowych,',
+    'półprzewodnikowe przyrządy optoelektroniczne',
   ],
   Content: B_1,
 }
@@ -105,8 +108,8 @@ export const Physics_Material_5: Book = {
 
   Part: 5,
   Subtitles: [
-    'Analiza matematyczna II: funkcje wielu zmiennych, miara',
-    `i całka Lebesgue'a, całki wielokrotne i formy różniczkowe`,
+    'Kwantowe i jądrowe metody fizyki ciała stałego,',
+    'nadprzewodnictwo i nadciekłość',
   ],
   Content: B_1,
 }
@@ -127,8 +130,8 @@ export const Physics_Material_6: Book = {
 
   Part: 6,
   Subtitles: [
-    'Równania różniczkowe zwyczajne i cząstkowe,',
-    'wstęp do rachunku wariacyjnego',
+    'Metody badania materiałów: strukturalne, termiczne,',
+    'spektroskopowe i elektryczne',
   ],
   Content: B_1,
 }
@@ -149,8 +152,49 @@ export const Physics_Material_7: Book = {
 
   Part: 7,
   Subtitles: [
-    'Funkcje analityczne, analiza zespolona i funkcjonalna,',
-    'układy dynamiczne i geometria różniczkowa',
+    'Nanostruktury, nanoinżynieria i nanotechnologie,',
+    'plazmonika nanostruktur, elementy chemii kwantowej',
   ],
+  Content: B_1,
+}
+
+export const Physics_Material_8: Book = {
+  ID: '23006E89',
+
+  Title: 'Fizyka Materiałów i Nanostruktur',
+  Author: ['Mateusz Słotwiński'],
+
+  Color: '#006E89',
+  Icon: 'physics_material',
+  BG: 'physics_material',
+  Pages: 500,
+
+  About: aboutplaceholder,
+  Tag: { main: 'physics_material', official: true, lang: ['pl'] },
+
+  Part: 8,
+  Subtitles: [
+    'Metody magazynowania i przetwarzania energii,',
+    'fotowoltaika, ogniwa paliwowe',
+  ],
+  Content: B_1,
+}
+
+export const Physics_Material_9: Book = {
+  ID: '23006E89',
+
+  Title: 'Fizyka Materiałów i Nanostruktur',
+  Author: ['Mateusz Słotwiński'],
+
+  Color: '#006E89',
+  Icon: 'physics_material',
+  BG: 'physics_material',
+  Pages: 500,
+
+  About: aboutplaceholder,
+  Tag: { main: 'physics_material', official: true, lang: ['pl'] },
+
+  Part: 9,
+  Subtitles: ['Komputerowe metody modelowania i projektowania', 'materiałów'],
   Content: B_1,
 }

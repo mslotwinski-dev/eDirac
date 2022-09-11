@@ -7,7 +7,7 @@
         v-html="$t(`sciences.data.${category.Title}.category.${index}`)"
       />
     </div>
-    <div class="parts" :key="key">
+    <div class="parts">
       <BookItem v-for="book in bookTag" :key="book" :book="book" />
     </div>
   </section>
@@ -19,55 +19,19 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
-import { Category, Book } from '@/data/types/book'
+import { Book, Category } from '@/data/types/book'
 
 import BookItem from './Book.vue'
 
 export default defineComponent({
   props: {
     category: { type: Object as () => Category, required: true },
-  },
-  data() {
-    return {
-      sortedBooks: {} as {
-        [index: string]: Book[]
-      },
-      key: 0,
-    }
+    sortedBooks: {} as {
+      [index: string]: Book[]
+    },
   },
   components: {
     BookItem,
-  },
-  methods: {
-    resetBooks() {
-      const cats = this.category.Books
-      // !.filter((c) =>
-      //   c.Tag.lang.includes(this.$store.getters.getAppLanguage)
-      // )
-
-      type SortedBooksObj = {
-        [index: string]: Book[]
-      }
-
-      const Sorted = cats.reduce(function (memo: SortedBooksObj, x) {
-        if (!memo[x.Tag.main]) {
-          memo[x.Tag.main] = []
-        }
-        memo[x.Tag.main].push(x)
-        return memo
-      }, {})
-
-      this.sortedBooks = Sorted
-      this.key++
-    },
-  },
-  mounted() {
-    this.resetBooks()
-  },
-  watch: {
-    '$store.getters.getAppLanguage': function () {
-      this.resetBooks()
-    },
   },
 })
 </script>
