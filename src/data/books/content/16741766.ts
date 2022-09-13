@@ -29,10 +29,10 @@ export default {
   // Statyka: {
   //   '': {},
   // },
-  // 'Mechanika Analityczna': {
-  //   "Mechanika Lagrange'a": {},
-  //   'Mechanika Hamiltona': {},
-  // },
+  'Mechanika Analityczna': {
+     "Mechanika Lagrange'a": {},
+     'Mechanika Hamiltona': {},
+  },
   // 'Teoria Grawitacji Newtona': {
   //   '': {},
   // },
