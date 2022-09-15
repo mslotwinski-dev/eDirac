@@ -34,6 +34,7 @@ export default defineComponent({
 @import '@/styles/index.scss';
 .container {
   width: 1000px;
+  max-width: 90vw;
   margin: 10px auto;
   border-radius: 10px;
   padding: 10px;
