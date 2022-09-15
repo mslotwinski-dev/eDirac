@@ -2,6 +2,7 @@ import { Book } from '@/data/types/book'
 import { aboutplaceholder } from '../../placeholders'
 
 import B_1 from '../../content/16741766'
+import B_2 from '../../content/16741767'
 
 export const Physics_1: Book = {
   ID: '16741766',
@@ -27,7 +28,7 @@ export const Physics_1: Book = {
 }
 
 export const Physics_2: Book = {
-  ID: '23006E89',
+  ID: '16741767',
 
   Title: 'Fizyka',
   Author: ['Mateusz Słotwiński'],
@@ -45,7 +46,7 @@ export const Physics_2: Book = {
     'Podstawy hydrodynamiki, teoria sprężystości i drgania,',
     'fale mechaniczne, akustyka, szczególna teoria względności',
   ],
-  Content: B_1,
+  Content: B_2,
 }
 
 export const Physics_3: Book = {

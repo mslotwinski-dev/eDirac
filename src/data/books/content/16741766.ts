@@ -30,8 +30,8 @@ export default {
   //   '': {},
   // },
   'Mechanika Analityczna': {
-     "Mechanika Lagrange'a": {},
-     'Mechanika Hamiltona': {},
+    "Mechanika Lagrange'a": {},
+    'Mechanika Hamiltona': {},
   },
   // 'Teoria Grawitacji Newtona': {
   //   '': {},

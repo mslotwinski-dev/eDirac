@@ -4,6 +4,8 @@ import { Module, VuexModule, Mutation } from 'vuex-module-decorators'
 class ChaptersModule extends VuexModule {
   bookChapter: { [index: string]: string } = {
     '16741766': localStorage.getItem('book_chapter_16741766') || 'Idea.vue',
+    '16741767': localStorage.getItem('book_chapter_16741767') || 'Idea.vue',
+
     '18851002': localStorage.getItem('book_chapter_18851002') || 'Idea.vue',
   }
 
