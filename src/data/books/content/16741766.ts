@@ -25,18 +25,23 @@ export default {
     'Mechanika Newtona': {
       'Zasady dynamiki Newtona': 'Dynamika/Newton/1.vue',
     },
+    'Pęd i moment pędu': {},
+    Energia: {},
+    Obroty: {},
+    'Układy Nieinercjalne': {},
   },
-  // Statyka: {
-  //   '': {},
-  // },
+  Statyka: {
+    '': {},
+  },
   'Mechanika Analityczna': {
     "Mechanika Lagrange'a": {},
     'Mechanika Hamiltona': {},
+    '': {},
   },
-  // 'Teoria Grawitacji Newtona': {
-  //   '': {},
-  // },
-  // Relatywistyka: {
-  //   '': {},
-  // },
+  'Teoria Grawitacji Newtona': {
+    Grawitacja: {},
+  },
+  Relatywistyka: {
+    '': {},
+  },
 }

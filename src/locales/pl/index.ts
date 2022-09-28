@@ -1,6 +1,6 @@
 export default {
   main: {
-    slogan: 'Cause it all started with curiosity',
+    slogan: 'Wszystko zaczęło się od ciekawości',
   },
   navigation: {
     navbar: {
@@ -35,8 +35,9 @@ export default {
       BookBuy: 'Kup Książkę',
     },
     idea: 'Idea',
-    author: 'O autorze',
     index: 'Wprowadzenie',
+    author: 'Autor',
+    bibliography: 'Bibliografia',
   },
   sciences: {
     vol: 'Tom',

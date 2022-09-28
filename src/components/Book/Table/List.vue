@@ -1,7 +1,8 @@
 <template>
   <li class="s intro">Idea</li>
-  <li class="s intro">O autorze</li>
   <li class="s intro">Wprowadzenie</li>
+  <li class="s intro">Bibliografia</li>
+  <li class="s intro">Autor</li>
   <ol class="root">
     <div v-for="part in [...new Set(toc.map((e) => e.part))]" :key="part">
       <li

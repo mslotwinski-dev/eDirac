@@ -5,4 +5,13 @@ export default {
       'Właściwości płynów': 'Hydrodynamika/Wlasciwosci/2.vue',
     },
   },
+  'Teoria Sprężystości': {
+    '': {},
+  },
+  Drgania: {
+    '': {},
+  },
+  'Fale i Akustyka': {
+    '': {},
+  },
 }

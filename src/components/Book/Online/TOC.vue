@@ -2,7 +2,7 @@
   <div :class="{ hide }" class="cont">
     <nav v-if="toc && Object.keys(toc).length > 0">
       <li
-        v-for="item in ['Idea', 'Author', 'Index']"
+        v-for="item in ['Idea', 'Index', 'Bibliography', 'Author']"
         :key="item"
         class="s intro"
         :class="{ active: currentSubject == `${item}.vue` }"
