@@ -8,10 +8,10 @@ export default {
   'Teoria Sprężystości': {
     '': {},
   },
-  Drgania: {
+  'Drgania i Fale': {
     '': {},
   },
-  'Fale i Akustyka': {
+  Akustyka: {
     '': {},
   },
 }

@@ -2,10 +2,7 @@ export default {
   Elektrostatyka: {
     '': {},
   },
-  'Prąd Elektryczny': {
-    '': {},
-  },
-  'Elementy Elektroniki': {
+  Elektronika: {
     '': {},
   },
   Magnetostatyka: {

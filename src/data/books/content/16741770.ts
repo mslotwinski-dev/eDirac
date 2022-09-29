@@ -8,7 +8,4 @@ export default {
   'Optyka Falowa': {
     '': {},
   },
-  'Optyka Nieliniowa i Fourierowska': {
-    '': {},
-  },
 }
