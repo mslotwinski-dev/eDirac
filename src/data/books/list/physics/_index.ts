@@ -146,7 +146,7 @@ export const Physics_6: Book = {
 }
 
 export const Physics_7: Book = {
-  ID: '1674172',
+  ID: '16741772',
 
   Title: 'Fizyka',
   Author: ['Mateusz Słotwiński'],
