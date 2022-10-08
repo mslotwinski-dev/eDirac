@@ -91,7 +91,7 @@
       jakąś energię cieplną - oznaczmy ją tak jak w starej dobrej termodynamice
       Q. Skoro mamy energię to policzmy w takim razie moc promieniowania. Ta moc
       nazywa się strumieniem promieniowania i oznaczamy grecką literą
-      <Math>\P_e</Math>, zatem:
+      <Math>P_e</Math>, zatem:
       <Math center="true" nr="1.1"> {\displaystyle P = \frac{d}{dt}Q_e } </Math>
     </Section>
     <Section>
