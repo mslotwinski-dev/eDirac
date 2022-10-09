@@ -53,14 +53,21 @@ export default defineComponent({
   margin: 10px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   img {
     max-width: 100%;
   }
   .sub {
-    font-size: 16px;
     text-align: center;
     padding-bottom: 10px;
     font-style: italic;
+    width: 100%;
+
+    font-size: 16.5px;
+
+    @media (max-width: 1000px) {
+      font-size: 13.5px;
+    }
   }
 }
 </style>
