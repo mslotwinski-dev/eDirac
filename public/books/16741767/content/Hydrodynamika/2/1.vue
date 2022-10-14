@@ -6,22 +6,21 @@
     <Section>
       Siły masowe albo objętościowe są to siły wywierane bezpośrednio na płyn
       zawarty w rozważanym obszarze płynnym nie związane z powierzchnią
-      ograniczającą ten obszar.Do sił masowych zalicza się (na przykład):
+      ograniczającą ten obszar. Siły masowe możemy podzielić na 3 grupy:
       <ul>
         <li>
-          Siłę grawitacyjną występującą, gdy płyn porusza się w polu
-          grawitacyjnym (czyli w praktyce zawsze i jest to najważniejsza z sił
-          masowych).
+          Grawitacyjne - występują, gdy płyn porusza się w polu grawitacyjnym
+          (czyli w praktyce zawsze i jest to najważniejsza z sił masowych).
         </li>
+        <li>Bezwładności - występują przy ruchu z przyspieszeniem.</li>
         <li>
-          Siłę elektromagnetyczną występującą m.in. wówczas, gdy płyn będący
+          Elektromagnetyczne - występującą m.in. wówczas, gdy płyn będący
           przewodnikiem elektryczności (płynny metal, gaz zjonizowany) porusza
           się w polu elektrycznym. Nie będziemy rozpatrywać płynów pod
           działaniem takich sił, jest nam to do szczęścia absolutnie zbędne.
           Tego typu sytuacje rozpatruje całkiem inna dziedzina fizyki nazywana
           magnetohydrodynamiką.
         </li>
-        <li>Siłę bezwładności występującą przy ruchu zmiennym.</li>
       </ul>
     </Section>
     <Section>
@@ -39,12 +38,14 @@
       No skoro jest proporcjonalna do masy to rzeczywiście bardziej użyteczna
       jest wielkość którą dostaniemy po podzieleniu siły przez masę. To samo
       robiliśmy już dawno temu, kiedy dzieląc siłę ciężkości przez masę
-      otrzymaliśmy przyspieszenie ziemskie. Powiem więcej, w 99% przypadków
-      wartość naszej siły masowej to będzie po prostu g = 9,81
+      otrzymaliśmy przyspieszenie ziemskie. Powiem więcej, w 99% przypadków gdy
+      płyn nie przyspiesza, wartość naszej siły masowej to będzie po prostu g =
+      9,81
       <Math>\frac{m}{s^2}</Math>. Jakiś sens to ma, w końcu co innego może
       działać na masę płynu jak nie siła ciężkości. Czemu więc nazwali to siłą
       masową, a nie siłą ciężkości płynów? Żeby trudniej było Ci ogarnąć o co
-      chodzi.
+      chodzi. No i może dlatego, że do sił masowych jeszcze zaliczamy
+      bezwładność i siły elektromagnetyczne.
     </Section>
     <h3>Siły powierzchniowe</h3>
     <Section>
@@ -68,13 +69,27 @@
         <li>Napór cieczy na ścianę zbiornika.</li>
       </ul>
     </Section>
+    <h3>Siły zewnętrzne i wewnętrzne</h3>
+    <Section>
+      Możesz spotkać się z podziałem sił na te wewnętrzne i zewnętrzne. Podział
+      ten jest bardzo prosty. Siły wewnętrzne to wszystkie siły masowe, czyli
+      grawitacja, bezwładność i elektromagnetyzm, oraz niektóre powierzchniowe.
+      Które? Np. siły międzycząsteczkowe, napięcie powierzchniowe czy siły
+      lepkości. Pozostałe siły to siły zewnętrzne. Są to te pozostałe siły
+      powierzchniowe, które są wynikiem jak sama nazwa wskazuje jakiegoś
+      zewnętrznego działania. Przykład? Tłok naciskający na powierzchnie wody w
+      strzykawce. Proste, prawda?
+    </Section>
     <h3>Wektory główne sił</h3>
-    <Section>Spróbujmy policzyć to, co nazywamy siłą tradycyjnie.</Section>
+    <Section
+      >Spróbujmy policzyć to, co nazywamy siłą tradycyjnie. Jeśli nie wiesz czym
+      są całki wielokrotne przejdź do następnego tematu.
+    </Section>
     <Section>
       Zacznijmy od siły objętościowej. Siła dF przyłożona do masy to
-      przekształcając wzór (2.1) fdm. Dodajmy do sił masowych f przyspieszenie
-      płynu, które jest nierozerwalnie związane z siłą bezwładności. Zastąpny dm
-      = ρdV, a następnie scałkujmy. Voilà, mamy wzór na całkowitą przyłożoną
+      przekształcając wzór (2.1) fdm. Dodajmy do pozostałych sił masowych f
+      przyspieszenie płynu, które jest miarą siły bezwładności. Zastąpny dm =
+      ρdV, a następnie scałkujmy. Voilàl, mamy wzór na całkowitą przyłożoną
       siłę, co dla odróżnienia nazywamy wektorem głównym siły. Tak sobie
       inżynierzy płynów wymyślili, nic nie poradzę.
     </Section>
@@ -85,5 +100,11 @@
     <Math center="true" nr="2.4">
       {\displaystyle F_S = \int \limits _{S} \sigma \cdot dS}.
     </Math>
+    <Section>
+      Zauważ, że są to całki wielokrotne. Powinienem używać symbolu
+      <Math>\iint</Math> i <Math>\iiint</Math>, ale zapis robi się wtedy dość
+      nieczytelny. Wolę zachować czystość zapisu niż podlizywać się matematykom
+      teoretycznym. Jeśli to czytacie, to nie pozdrawiam was.
+    </Section>
   </Article>
 </template>

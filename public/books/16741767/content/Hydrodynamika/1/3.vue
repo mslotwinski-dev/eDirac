@@ -37,14 +37,13 @@
       zmianie temperatury o 1 K
     </Section>
     <Math center="true" nr="1.10">
-      {\displaystyle \beta = \frac{1}{V}\frac{dV}{dT} =
-      \frac{1}{\rho}\frac{d\rho}{dT}}
+      {\displaystyle \beta = \frac{1}{V}\frac{dV}{dT}}
     </Math>
     <Section>
       Współczynnik rozszerzalności cieplnej jest funkcją temperatury, jednak gdy
       zmiany temperatury nie są zbyt duże, przyjmuje się β = const w
       rozpatrywanym przedziale wartości temperatury. Po wprowadzeniu do wzoru
-      (1.11), w miejsce zmiany objętości, zmianę gęstości otrzymuje się:
+      (1.10), w miejsce zmiany objętości, zmianę gęstości otrzymuje się:
     </Section>
     <Math center="true" nr="1.11">
       {\displaystyle \beta = -\frac{1}{\rho}\frac{d\rho}{dT} }.

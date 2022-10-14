@@ -8,6 +8,7 @@ export default {
     },
     'Równowaga płynów': {
       'Siły działające w płynach': 'Hydrodynamika/2/1.vue',
+      'Naprężenia w płynie': 'Hydrodynamika/2/2.vue',
     },
   },
   'Teoria Sprężystości': {

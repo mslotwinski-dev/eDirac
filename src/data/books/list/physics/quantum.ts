@@ -18,26 +18,6 @@ export const Physics_Quantum_1: Book = {
   Tag: { main: 'physics_quantum', official: true, lang: ['pl'] },
 
   Part: 1,
-  Subtitles: ['Fizyczne podstawy elektroniki'],
-
-  Content: B_1,
-}
-
-export const Physics_Quantum_2: Book = {
-  ID: '23006E89',
-
-  Title: 'Fizyka i Inżynieria Kwantowa',
-  Author: ['Mateusz Słotwiński'],
-
-  Color: '#006E89',
-  Icon: 'physics_quantum',
-  BG: 'physics_quantum',
-  Pages: 500,
-
-  About: aboutplaceholder,
-  Tag: { main: 'physics_quantum', official: true, lang: ['pl'] },
-
-  Part: 2,
   Subtitles: [
     'Elektrodynamika: teoria pola elektromagnetycznego,',
     'elektrodynamika ośrodków ciągłych i jej ujęcie statystyczne',
@@ -45,7 +25,7 @@ export const Physics_Quantum_2: Book = {
   Content: B_1,
 }
 
-export const Physics_Quantum_3: Book = {
+export const Physics_Quantum_2: Book = {
   ID: '23006E89',
 
   Title: 'Fizyka i Inżynieria Kwantowa',
@@ -63,8 +43,27 @@ export const Physics_Quantum_3: Book = {
     lang: ['pl'],
   },
 
-  Part: 3,
+  Part: 2,
   Subtitles: ['Zaawansowana mechanika kwantowa i kwantowa teoria pola'],
+  Content: B_1,
+}
+
+export const Physics_Quantum_3: Book = {
+  ID: '23006E89',
+
+  Title: 'Fizyka i Inżynieria Kwantowa',
+  Author: ['Mateusz Słotwiński'],
+
+  Color: '#006E89',
+  Icon: 'physics_quantum',
+  BG: 'physics_quantum',
+  Pages: 500,
+
+  About: aboutplaceholder,
+  Tag: { main: 'physics_quantum', official: true, lang: ['pl'] },
+
+  Part: 3,
+  Subtitles: ['Elektrodynamika kwantowa'],
   Content: B_1,
 }
 
@@ -83,7 +82,10 @@ export const Physics_Quantum_4: Book = {
   Tag: { main: 'physics_quantum', official: true, lang: ['pl'] },
 
   Part: 4,
-  Subtitles: ['Elektrodynamika kwantowa'],
+  Subtitles: [
+    'Fizyka kropek kwantowych, teoria przejść',
+    'fazowych, nadprzewodnictwo i nadciekłość',
+  ],
   Content: B_1,
 }
 
@@ -102,10 +104,7 @@ export const Physics_Quantum_5: Book = {
   Tag: { main: 'physics_quantum', official: true, lang: ['pl'] },
 
   Part: 5,
-  Subtitles: [
-    'Fizyka kropek kwantowych, kwantowy efekt halla',
-    'teoria przejść fazowych, nadprzewodnictwo i nadciekłość',
-  ],
+  Subtitles: ['Optyka kwantowa'],
   Content: B_1,
 }
 
@@ -124,7 +123,8 @@ export const Physics_Quantum_6: Book = {
   Tag: { main: 'physics_quantum', official: true, lang: ['pl'] },
 
   Part: 6,
-  Subtitles: ['Optyka kwantowa'],
+  Subtitles: ['Fizyczne podstawy klasycznej i kwantowej teorii informacji'],
+
   Content: B_1,
 }
 

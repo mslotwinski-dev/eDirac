@@ -54,6 +54,12 @@ export default {
       others: 'Pozostałe',
     },
     data: {
+      mathematics: {
+        full_title: 'Matematyka',
+        category: {
+          mathematics: 'Podstawy Matematyki',
+        },
+      },
       physics: {
         full_title: 'Fizyka',
         category: {
@@ -68,6 +74,18 @@ export default {
         category: {
           electronics: 'Podstawy Elektroniki',
           physics_quantum: 'Fizyka i Inżynieria Kwantowa',
+        },
+      },
+      informatics: {
+        full_title: 'Informatyka',
+        category: {
+          math: 'Podstawy Informatyki',
+        },
+      },
+      biophysics: {
+        full_title: 'Biofizyka',
+        category: {
+          biophysics: 'Podstawy Biofizyki',
         },
       },
 

@@ -1,4 +1,4 @@
-// import { Book } from  '@/data/types/book'
+// import { Book } from '@/data/types/book'
 // import { aboutplaceholder } from '../placeholders'
 
 // export const Biochemistry_Main_Vol_1: Book = {
@@ -20,6 +20,7 @@
 //     'Wstęp do matematyki, algebra liniowa: wielomiany,',
 //     'macierze, wyznaczniki, przestzenie, rachunek wektorowy',
 //   ],
+//   Content: B_1,
 // }
 
 // export const Biochemistry_Main_Vol_2: Book = {
@@ -81,6 +82,7 @@
 //     'Analiza matematyczna I: funkcje jednej zmiennej, granice,',
 //     'pochodne, szeregi liczbowe i funkcyjne, rachunek całkowy',
 //   ],
+//   Content: B_1,
 // }
 
 // export const Biochemistry_Main_Vol_5: Book = {
@@ -102,6 +104,7 @@
 //     'Analiza matematyczna II: funkcje wielu zmiennych, miara',
 //     `i całka Lebesgue'a, całki wielokrotne i formy różniczkowe`,
 //   ],
+//   Content: B_1,
 // }
 
 // export const Biochemistry_Main_Vol_6: Book = {
@@ -123,6 +126,7 @@
 //     'Równania różniczkowe zwyczajne i cząstkowe,',
 //     'wstęp do rachunku wariacyjnego',
 //   ],
+//   Content: B_1,
 // }
 
 // export const Biochemistry_Main_Vol_7: Book = {
@@ -144,6 +148,7 @@
 //     'Funkcje analityczne, analiza zespolona i funkcjonalna,',
 //     'układy dynamiczne i geometria różniczkowa',
 //   ],
+//   Content: B_1,
 // }
 
 // export const Biochemistry_Main_Vol_8: Book = {
@@ -165,6 +170,7 @@
 //     'Biochemia dyskretna: logika, teoria mnogości,',
 //     'teoria gier, kombinatoryka, relacje, rekurencje',
 //   ],
+//   Content: B_1,
 // }
 
 // export const Biochemistry_Main_Vol_9: Book = {
