@@ -1,7 +1,15 @@
 import { Book } from '@/data/types/book'
 import { aboutplaceholder } from '../../placeholders'
 
-import B_1 from '../../content/18851002'
+import B_1 from '../../content/74921401'
+import B_2 from '../../content/74921402'
+import B_3 from '../../content/74921403'
+import B_4 from '../../content/74921404'
+import B_5 from '../../content/74921405'
+import B_6 from '../../content/74921406'
+import B_7 from '../../content/74921407'
+import B_8 from '../../content/74921408'
+import B_9 from '../../content/74921409'
 
 export const Informatics_1: Book = {
   ID: '74921401',
@@ -42,7 +50,7 @@ export const Informatics_2: Book = {
   Part: 2,
   Subtitles: ['Algebra abstrakcyjna: grupy, pierścienie i ciała'],
 
-  Content: B_1,
+  Content: B_2,
 }
 
 export const Informatics_3: Book = {
@@ -66,7 +74,7 @@ export const Informatics_3: Book = {
   Part: 3,
   Subtitles: ['Geometria ogólna i analityczna oraz topologia'],
 
-  Content: B_1,
+  Content: B_3,
 }
 
 export const Informatics_4: Book = {
@@ -88,7 +96,7 @@ export const Informatics_4: Book = {
     'Analiza matematyczna I: funkcje jednej zmiennej, granice,',
     'pochodne, szeregi liczbowe i funkcyjne, rachunek całkowy',
   ],
-  Content: B_1,
+  Content: B_4,
 }
 
 export const Informatics_5: Book = {
@@ -110,7 +118,7 @@ export const Informatics_5: Book = {
     'Analiza matematyczna II: funkcje wielu zmiennych, miara',
     `i całka Lebesgue'a, całki wielokrotne i formy różniczkowe`,
   ],
-  Content: B_1,
+  Content: B_5,
 }
 
 export const Informatics_6: Book = {
@@ -132,7 +140,7 @@ export const Informatics_6: Book = {
     'Równania różniczkowe zwyczajne i cząstkowe,',
     'wstęp do rachunku wariacyjnego',
   ],
-  Content: B_1,
+  Content: B_6,
 }
 
 export const Informatics_7: Book = {
@@ -154,7 +162,7 @@ export const Informatics_7: Book = {
     'Funkcje analityczne, analiza zespolona i funkcjonalna,',
     'układy dynamiczne i geometria różniczkowa',
   ],
-  Content: B_1,
+  Content: B_7,
 }
 
 export const Informatics_8: Book = {
@@ -176,7 +184,7 @@ export const Informatics_8: Book = {
     'Informatyka dyskretna: logika, teoria mnogości,',
     'teoria gier, kombinatoryka, relacje, rekurencje',
   ],
-  Content: B_1,
+  Content: B_8,
 }
 
 export const Informatics_9: Book = {
@@ -196,5 +204,5 @@ export const Informatics_9: Book = {
   Part: 9,
   Subtitles: ['Propablistyka, statystyka i analiza danych'],
 
-  Content: B_1,
+  Content: B_9,
 }

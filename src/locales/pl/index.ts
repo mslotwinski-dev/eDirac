@@ -58,6 +58,7 @@ export default {
         full_title: 'Matematyka',
         category: {
           mathematics: 'Podstawy Matematyki',
+          math_physics: 'Fizyka Matematyczna',
         },
       },
       physics: {
@@ -79,7 +80,7 @@ export default {
       informatics: {
         full_title: 'Informatyka',
         category: {
-          math: 'Podstawy Informatyki',
+          informatics: 'Podstawy Informatyki',
         },
       },
       biophysics: {

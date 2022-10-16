@@ -29,7 +29,7 @@ export default defineComponent({
 
     const book = books.filter(
       (book: Book) =>
-        book.Tag.main == this.science &&
+        // book.Tag.main == this.science &&
         // book.Tag.lang == this.$store.getters.getAppLanguage &&
         book.ID == this.id
     )

@@ -1,7 +1,16 @@
 import { Book } from '@/data/types/book'
 import { aboutplaceholder } from '../../placeholders'
 
-import B_1 from '../../content/18851002'
+import B_1 from '../../content/57046161'
+import B_2 from '../../content/57046162'
+import B_3 from '../../content/57046163'
+import B_4 from '../../content/57046164'
+import B_5 from '../../content/57046165'
+import B_6 from '../../content/57046166'
+import B_7 from '../../content/57046167'
+import B_8 from '../../content/57046168'
+import B_9 from '../../content/57046169'
+import B_10 from '../../content/57046170'
 
 export const Mat_1: Book = {
   ID: '57046161',
@@ -10,7 +19,7 @@ export const Mat_1: Book = {
   CoverTitle: ['Matematyka', ''],
   Author: ['Mateusz Słotwiński'],
 
-  Color: '#DB9200',
+  Color: '#CC8400',
   Icon: 'mathematics',
   BG: 'mathematics',
   Pages: 500,
@@ -32,7 +41,7 @@ export const Mat_2: Book = {
   Title: 'Matematyka',
   Author: ['Mateusz Słotwiński'],
 
-  Color: '#DB9200',
+  Color: '#CC8400',
   Icon: 'mathematics',
   BG: 'mathematics',
   Pages: 500,
@@ -42,7 +51,7 @@ export const Mat_2: Book = {
 
   Part: 2,
   Subtitles: ['Algebra abstrakcyjna: grupy, pierścienie i ciała'],
-  Content: B_1,
+  Content: B_2,
 }
 
 export const Mat_3: Book = {
@@ -51,7 +60,7 @@ export const Mat_3: Book = {
   Title: 'Matematyka',
   Author: ['Mateusz Słotwiński'],
 
-  Color: '#DB9200',
+  Color: '#CC8400',
   Icon: 'mathematics',
   BG: 'mathematics',
   Pages: 500,
@@ -65,7 +74,7 @@ export const Mat_3: Book = {
 
   Part: 3,
   Subtitles: ['Geometria ogólna i analityczna oraz topologia'],
-  Content: B_1,
+  Content: B_3,
 }
 
 export const Mat_4: Book = {
@@ -74,7 +83,7 @@ export const Mat_4: Book = {
   Title: 'Matematyka',
   Author: ['Mateusz Słotwiński'],
 
-  Color: '#DB9200',
+  Color: '#CC8400',
   Icon: 'mathematics',
   BG: 'mathematics',
   Pages: 500,
@@ -87,7 +96,7 @@ export const Mat_4: Book = {
     'Analiza matematyczna I: funkcje jednej zmiennej, granice,',
     'pochodne, szeregi liczbowe i funkcyjne, rachunek całkowy',
   ],
-  Content: B_1,
+  Content: B_4,
 }
 
 export const Mat_5: Book = {
@@ -96,7 +105,7 @@ export const Mat_5: Book = {
   Title: 'Matematyka',
   Author: ['Mateusz Słotwiński'],
 
-  Color: '#DB9200',
+  Color: '#CC8400',
   Icon: 'mathematics',
   BG: 'mathematics',
   Pages: 500,
@@ -109,7 +118,7 @@ export const Mat_5: Book = {
     'Analiza matematyczna II: funkcje wielu zmiennych, miara',
     `i całka Lebesgue'a, całki wielokrotne i formy różniczkowe`,
   ],
-  Content: B_1,
+  Content: B_5,
 }
 
 export const Mat_6: Book = {
@@ -118,7 +127,7 @@ export const Mat_6: Book = {
   Title: 'Matematyka',
   Author: ['Mateusz Słotwiński'],
 
-  Color: '#DB9200',
+  Color: '#CC8400',
   Icon: 'mathematics',
   BG: 'mathematics',
   Pages: 500,
@@ -131,7 +140,7 @@ export const Mat_6: Book = {
     'Równania różniczkowe zwyczajne i cząstkowe,',
     'wstęp do rachunku wariacyjnego',
   ],
-  Content: B_1,
+  Content: B_6,
 }
 
 export const Mat_7: Book = {
@@ -140,7 +149,7 @@ export const Mat_7: Book = {
   Title: 'Matematyka',
   Author: ['Mateusz Słotwiński'],
 
-  Color: '#DB9200',
+  Color: '#CC8400',
   Icon: 'mathematics',
   BG: 'mathematics',
   Pages: 500,
@@ -153,7 +162,7 @@ export const Mat_7: Book = {
     'Funkcje analityczne, analiza zespolona i funkcjonalna,',
     'układy dynamiczne i geometria różniczkowa',
   ],
-  Content: B_1,
+  Content: B_7,
 }
 
 export const Mat_8: Book = {
@@ -162,7 +171,7 @@ export const Mat_8: Book = {
   Title: 'Matematyka',
   Author: ['Mateusz Słotwiński'],
 
-  Color: '#DB9200',
+  Color: '#CC8400',
   Icon: 'mathematics',
   BG: 'mathematics',
   Pages: 500,
@@ -175,7 +184,7 @@ export const Mat_8: Book = {
     'Matematyka dyskretna: logika, teoria mnogości,',
     'teoria gier, kombinatoryka, relacje, rekurencje',
   ],
-  Content: B_1,
+  Content: B_8,
 }
 
 export const Mat_9: Book = {
@@ -184,7 +193,7 @@ export const Mat_9: Book = {
   Title: 'Matematyka',
   Author: ['Mateusz Słotwiński'],
 
-  Color: '#DB9200',
+  Color: '#CC8400',
   Icon: 'mathematics',
   BG: 'mathematics',
   Pages: 500,
@@ -194,7 +203,7 @@ export const Mat_9: Book = {
 
   Part: 9,
   Subtitles: ['Propablistyka, statystyka i analiza danych'],
-  Content: B_1,
+  Content: B_9,
 }
 
 export const Mat_10: Book = {
@@ -203,7 +212,7 @@ export const Mat_10: Book = {
   Title: 'Matematyka',
   Author: ['Mateusz Słotwiński'],
 
-  Color: '#DB9200',
+  Color: '#CC8400',
   Icon: 'mathematics',
   BG: 'mathematics',
   Pages: 500,
@@ -216,5 +225,5 @@ export const Mat_10: Book = {
     'Metody numeryczne i zastosowania matematyki w innych',
     'naukach przyrodniczych, technicznych oraz społecznych',
   ],
-  Content: B_1,
+  Content: B_10,
 }

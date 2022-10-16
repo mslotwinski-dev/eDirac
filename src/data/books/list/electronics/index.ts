@@ -2,6 +2,14 @@ import { aboutplaceholder } from '../../placeholders'
 import { Book } from '@/data/types/book'
 
 import B_1 from '../../content/18851002'
+import B_2 from '../../content/18851003'
+import B_3 from '../../content/18851004'
+import B_4 from '../../content/18851005'
+import B_5 from '../../content/18851006'
+import B_6 from '../../content/18851007'
+import B_7 from '../../content/18851008'
+import B_8 from '../../content/18851009'
+import B_9 from '../../content/18851010'
 
 export const Electronics_1: Book = {
   ID: '18851002',
@@ -42,7 +50,7 @@ export const Electronics_2: Book = {
 
   Part: 2,
   Subtitles: ['Fizyczne podstawy elektroniki'],
-  Content: B_1,
+  Content: B_2,
 }
 
 export const Electronics_3: Book = {
@@ -65,7 +73,7 @@ export const Electronics_3: Book = {
 
   Part: 3,
   Subtitles: ['Podstawy metrologii i automatyzacji pomiarów'],
-  Content: B_1,
+  Content: B_3,
 }
 
 export const Electronics_4: Book = {
@@ -84,7 +92,7 @@ export const Electronics_4: Book = {
 
   Part: 4,
   Subtitles: ['Teoria obwodów elektrycznych'],
-  Content: B_1,
+  Content: B_4,
 }
 
 export const Electronics_5: Book = {
@@ -103,7 +111,7 @@ export const Electronics_5: Book = {
 
   Part: 5,
   Subtitles: ['Elementy i układy elektroniczne'],
-  Content: B_1,
+  Content: B_5,
 }
 
 export const Electronics_6: Book = {
@@ -122,7 +130,7 @@ export const Electronics_6: Book = {
 
   Part: 6,
   Subtitles: ['Teoria i przetwarzanie sygnałów'],
-  Content: B_1,
+  Content: B_6,
 }
 
 export const Electronics_7: Book = {
@@ -144,7 +152,7 @@ export const Electronics_7: Book = {
     'Optoelektronika: technologie elektroniczne',
     'i fotoniczne , fotonika światłowodowa',
   ],
-  Content: B_1,
+  Content: B_7,
 }
 
 export const Electronics_8: Book = {
@@ -166,7 +174,7 @@ export const Electronics_8: Book = {
     'Elektronika cyfrowa, systemy cyfrowe',
     'i komputerowe, wstęp do inżynierii komputerowej',
   ],
-  Content: B_1,
+  Content: B_8,
 }
 
 export const Electronics_9: Book = {
@@ -188,5 +196,5 @@ export const Electronics_9: Book = {
     'Podstawy mikroelektroniki, mikrokontrolerów i mikrosystemów ',
     'oraz systemów wbudowanych, nowoczesna elektronika',
   ],
-  Content: B_1,
+  Content: B_9,
 }
