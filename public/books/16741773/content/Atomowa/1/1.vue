@@ -1,6 +1,6 @@
 <template>
   <Article>
-    <Chapter nr="1" book="electronics"> Atom wodoru </Chapter>
+    <Chapter nr="1" book="physics"> Atom wodoru </Chapter>
     <Begin nr="1.1" advanced="0">Postulaty Bohra</Begin>
     <h3>Czym jest atom?</h3>
     <Section>
