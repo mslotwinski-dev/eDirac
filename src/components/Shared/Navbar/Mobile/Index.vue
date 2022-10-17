@@ -59,11 +59,10 @@ export default defineComponent({
 
 .site-menu {
   display: flex;
-  align-items: flex-start;
   position: fixed;
   bottom: 0;
   left: 0;
-  padding: 5vh 0;
+  padding-top: 20vh;
   height: 100vh;
   width: 100vw;
   background: #1c2123c0;
