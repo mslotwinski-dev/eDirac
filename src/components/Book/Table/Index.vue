@@ -21,6 +21,7 @@ import { defineComponent } from 'vue'
 import { Book, Category } from '@/data/types/book'
 import * as CategoriesModule from '@/data/books/categories'
 import List from './List.vue'
+import { romanize } from '@/scripts/canvas/roman'
 
 export default defineComponent({
   data() {
@@ -32,6 +33,7 @@ export default defineComponent({
     }
   },
   components: { List },
+  methods: { romanize },
   mounted() {
     const books = Object.values({ ...CategoriesModule })
       .map((cat: Category) => cat.Books)
@@ -59,6 +61,8 @@ export default defineComponent({
         )
       )
       .flat(2) as { subjects: string[][] }[]
+
+    document.title = `${book[0].Title} ${romanize(book[0].Part)} | eDirac`
   },
 })
 </script>

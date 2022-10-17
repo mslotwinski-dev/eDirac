@@ -36,8 +36,9 @@ a {
   background-position: center;
   margin: 10px;
   border-radius: 10px;
-  width: 300px;
-  height: 187.5px;
+  width: 400px;
+  max-width: 90vw;
+  height: 225px;
   transition: 0.25s all;
   overflow: hidden;
   &:hover {
@@ -68,6 +69,10 @@ a {
     font-weight: 600;
     backdrop-filter: blur(5px);
     transition: 0.3s all;
+  }
+
+  @media (max-width: 1000px) {
+    height: 200px;
   }
 }
 

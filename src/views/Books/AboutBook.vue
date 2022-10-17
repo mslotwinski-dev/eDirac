@@ -10,6 +10,7 @@ import { defineComponent } from 'vue'
 import AboutBook from '@/components/Books/Info/Index.vue'
 import * as CategoriesModule from '@/data/books/categories'
 import { Book, Category } from '@/data/types/book'
+import { romanize } from '@/scripts/canvas/canvas'
 
 export default defineComponent({
   data() {
@@ -21,6 +22,9 @@ export default defineComponent({
   },
   components: {
     AboutBook,
+  },
+  methods: {
+    romanize,
   },
   mounted() {
     const books = Object.values({ ...CategoriesModule })
@@ -37,6 +41,8 @@ export default defineComponent({
     book && Object.keys(book).length != 0
       ? (this.book = book[0])
       : this.$router.push('/404')
+
+    document.title = `${book[0].Title} ${romanize(book[0].Part)} | eDirac`
   },
 })
 </script>

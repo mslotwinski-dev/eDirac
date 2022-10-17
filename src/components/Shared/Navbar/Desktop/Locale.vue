@@ -97,7 +97,7 @@ export default defineComponent({
 }
 
 .selected.open {
-  border: 2px solid theme(main);
+  border: 3px solid theme(main);
   border-bottom: none;
   border-radius: 6px 6px 0px 0px;
 }
@@ -117,9 +117,9 @@ export default defineComponent({
   color: #e3e3e3;
   border-radius: 0px 0px 6px 6px;
   overflow: hidden;
-  border-right: 1px solid theme(main);
-  border-left: 1px solid theme(main);
-  border-bottom: 1px solid theme(main);
+  border-right: 3px solid theme(main);
+  border-left: 3px solid theme(main);
+  border-bottom: 3px solid theme(main);
   position: absolute;
   background-color: #314147;
   left: 0;

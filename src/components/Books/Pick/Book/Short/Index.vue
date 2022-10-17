@@ -1,5 +1,8 @@
 <template>
-  <div class="container">
+  <div
+    class="container"
+    :style="{ backgroundColor: Object.values(sortedBooks)[0][0].Color }"
+  >
     <Toggle @toggle="this.show = !this.show" />
     <Content :show="show" :category="category" :sortedBooks="sortedBooks" />
   </div>

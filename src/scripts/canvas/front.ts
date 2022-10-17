@@ -37,7 +37,7 @@ export const render = (c: HTMLCanvasElement | null, data: Book): void => {
 
         // ctx.fillStyle = "#161616";
         // ctx.font = "bold  20px Rubik";
-        // ctx.fillText("GENESIS", 710, 1170);
+        // ctx.fillText("eDirac", 710, 1170);
         // ctx.drawImage(logo, c.width / 2, 1090, 150, 60);
 
         if (data.Part != 0) {

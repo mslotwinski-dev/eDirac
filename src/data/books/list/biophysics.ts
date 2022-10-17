@@ -6,5 +6,5 @@ export {
   // Biophysics_5,
   // Biophysics_6,
   // Biophysics_7,
-  Biophysics_8,
+  // Biophysics_8,
 } from './biophysics/'

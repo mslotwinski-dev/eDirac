@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex">
     <div class="moved" />
     <!-- <Hero img="pages/formulas/hero.jpg" :subtitle="$t('formulas.index.hero')" /> -->
     <Categories />
@@ -19,11 +19,19 @@ export default defineComponent({
   },
   methods: {},
   mounted() {
-    document.title = this.$t('pages.formulas') + ' | Genesis'
+    document.title = this.$t('pages.books') + ' | eDirac'
   },
 })
 </script>
 
 <style lang="scss" scoped>
 @import '@/styles/index.scss';
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
 </style>

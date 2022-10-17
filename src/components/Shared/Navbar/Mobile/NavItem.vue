@@ -39,6 +39,7 @@ export default defineComponent({
 
 li {
   margin-top: 10px;
+  padding-left: 20px;
   border-radius: 5px;
   font-size: 20px;
   flex-basis: 100%;
@@ -53,14 +54,15 @@ a {
   align-items: center;
   height: 100%;
   width: 100%;
-  color: #fff;
+  font-weight: 500;
+  color: theme(light);
 }
 
 span {
-  padding: 26px;
+  padding: 20px;
   margin-right: 15px;
   border-radius: 50%;
-  background-size: 75%;
+  background-size: 85%;
   background-position: center;
   background-repeat: no-repeat;
 }

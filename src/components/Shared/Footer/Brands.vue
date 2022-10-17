@@ -23,8 +23,10 @@ export default defineComponent({})
   * {
     margin-right: 10px;
   }
+  filter: grayscale(1);
 }
 .aard {
-  height: 35px;
+  height: 42px;
+  filter: invert(1);
 }
 </style>

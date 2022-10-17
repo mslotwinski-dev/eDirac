@@ -22,3 +22,12 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes logo {
+  0%   {filter: invert(37%) sepia(83%) saturate(3553%) hue-rotate(171deg) brightness(96%) contrast(102%);}
+  15%   {filter: invert(37%) sepia(83%) saturate(3553%) hue-rotate(171deg) brightness(96%) contrast(102%);}
+  40%  {filter: invert(10%) sepia(96%) saturate(5663%) hue-rotate(358deg) brightness(97%) contrast(110%);}
+  65%  {filter: invert(94%) sepia(16%) saturate(5719%) hue-rotate(337deg) brightness(93%) contrast(92%);}
+  90% {filter: invert(39%) sepia(97%) saturate(1340%) hue-rotate(90deg) brightness(94%) contrast(109%);}
+  100%   {filter: invert(37%) sepia(83%) saturate(3553%) hue-rotate(171deg) brightness(96%) contrast(102%);}
+}

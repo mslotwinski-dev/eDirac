@@ -73,6 +73,10 @@ export default defineComponent({
       : this.$router.push('/404')
 
     this.resetBooks()
+
+    document.title = `${this.$t(
+      `sciences.data.${this.id}.full_title`
+    )} | eDirac`
   },
   watch: {
     '$store.getters.getAppLanguage': function () {

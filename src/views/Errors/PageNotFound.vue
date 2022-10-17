@@ -17,7 +17,7 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   methods: {},
   created() {
-    document.title = '404 | Universe'
+    document.title = '404 | eDirac'
   },
 })
 </script>

@@ -3,7 +3,7 @@
     <div class="box">
       <img src="@/assets/icons/logo/logo.svg" />
       <div class="data">
-        <div class="title">Universe</div>
+        <div class="title">eDirac</div>
         <div class="subtitle">Foundation</div>
       </div>
     </div>

@@ -1,6 +1,8 @@
 <template>
   <footer>
-    <div class="title">Universe™</div>
+    <div class="title">
+      <span>e</span>DIRAC <span class="tm" v-html="'™'" />
+    </div>
     <div class="flex">
       <Brands />
       <div>
@@ -40,10 +42,10 @@ export default defineComponent({
 @import '@/styles/index.scss';
 
 footer {
-  background: theme(dark);
+  background: theme(gray);
   display: flex;
   flex-direction: column;
-  color: #e3e3e3;
+  color: theme(dark);
   margin-top: 5rem;
   padding: 1rem;
 }
@@ -54,10 +56,17 @@ footer {
 }
 
 .title {
-  text-transform: uppercase;
   font-weight: 800;
   font-size: 30px;
   text-align: center;
+  font-family: 'Pacifico';
+  span {
+    color: theme(main);
+  }
+  .tm {
+    font-family: 'Rubik';
+    font-size: 40px;
+  }
 }
 
 .flex {
@@ -76,7 +85,7 @@ footer {
 
 .pages a {
   display: block;
-  color: theme(light);
+  color: theme(dark);
 }
 
 .social_medias {

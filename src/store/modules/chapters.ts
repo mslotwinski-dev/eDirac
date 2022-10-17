@@ -5,7 +5,7 @@ import { Category } from '@/data/types/book'
 
 @Module({ name: 'chapters' })
 class ChaptersModule extends VuexModule {
-  Chapters = (function () {
+  Chapters = (() => {
     const Chapters: { [key: string]: string } = {}
 
     for (const i of Object.values({ ...CategoriesModule })

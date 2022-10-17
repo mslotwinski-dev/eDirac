@@ -3,7 +3,7 @@ import * as path from 'path'
 
 const vueConfig: ProjectOptions = {
   pwa: {
-    name: 'Universe',
+    name: 'eDirac',
     themeColor: '#00647D',
     appleMobileWebAppCapable: 'yes',
     workboxPluginMode: 'GenerateSW',
@@ -27,8 +27,8 @@ const vueConfig: ProjectOptions = {
 
   pluginOptions: {
     i18n: {
-      locale: 'en',
-      fallbackLocale: 'en',
+      locale: 'pl',
+      fallbackLocale: 'pl',
       localeDir: 'locales',
       enableLegacy: false,
       runtimeOnly: false,

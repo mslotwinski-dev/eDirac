@@ -17,6 +17,7 @@ import { Book, Category } from '@/data/types/book'
 import * as CategoriesModule from '@/data/books/categories'
 import TableOfContents from '@/components/Book/Online/TOC.vue'
 import Container from '@/components/Book/Online/Container.vue'
+import { romanize } from '@/scripts/canvas/roman'
 
 export default defineComponent({
   data() {
@@ -40,6 +41,7 @@ export default defineComponent({
       this.currentSubject = subject
       this.key++
     },
+    romanize,
   },
   mounted() {
     const books = Object.values({ ...CategoriesModule })
@@ -51,6 +53,8 @@ export default defineComponent({
     book && Object.keys(book).length != 0
       ? (this.book = book[0])
       : this.$router.push('/404')
+
+    document.title = `${book[0].Title} ${romanize(book[0].Part)} | eDirac`
   },
 })
 </script>

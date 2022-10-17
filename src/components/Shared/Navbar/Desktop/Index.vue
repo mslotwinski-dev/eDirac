@@ -58,14 +58,29 @@ section {
 section a {
   display: block;
   height: 100%;
-  color: #e3e3e3;
+  color: theme(light);
+  font-weight: 500;
   margin: 3px;
   padding: 7px;
   font-size: 22px;
   border-radius: 5px;
   transition: 0.2s all;
-  &:hover {
-    background: theme(main);
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background: theme(sky);
+    z-index: 1;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: all 0.2s;
+  }
+  &:hover:after {
+    width: 100%;
   }
 }
 

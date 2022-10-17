@@ -26,7 +26,7 @@ a {
   height: 40px;
   padding: 5px;
   margin: 5px;
-  background: theme(main);
+  background: theme(dark);
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
@@ -39,6 +39,6 @@ a {
 }
 
 .supp {
-  background: theme(aqua);
+  background: theme(rose);
 }
 </style>

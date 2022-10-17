@@ -1,12 +1,14 @@
 <template>
-  <div class="pickcategory">{{ $t('sciences.info.pick') }}</div>
-  <!-- <Filter @filterCategories="filterCategories" /> -->
-  <div class="sciences">
-    <CategoryItem
-      v-for="category in categories"
-      :key="category"
-      :cat="category"
-    />
+  <div class="container">
+    <div class="pickcategory">{{ $t('sciences.info.pick') }}</div>
+    <!-- <Filter @filterCategories="filterCategories" /> -->
+    <div class="sciences">
+      <CategoryItem
+        v-for="category in categories"
+        :key="category"
+        :cat="category"
+      />
+    </div>
   </div>
 </template>
 
@@ -45,6 +47,14 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import '@/styles/index.scss';
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
 .pickcategory {
   padding: 10px;
   font-size: 32px;
@@ -53,14 +63,17 @@ export default defineComponent({
   @media (max-width: 1000px) {
     font-size: 24px;
   }
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .sciences {
-  width: 1000px;
+  width: 1400px;
   max-width: 90vw;
   margin: 10px auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 </style>

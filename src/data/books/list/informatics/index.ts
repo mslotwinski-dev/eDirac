@@ -26,10 +26,7 @@ export const Informatics_1: Book = {
   Tag: { main: 'informatics', official: true, lang: ['pl'] },
 
   Part: 1,
-  Subtitles: [
-    'Wstęp do matematyki, algebra liniowa: wielomiany,',
-    'macierze, wyznaczniki, przestzenie, rachunek wektorowy',
-  ],
+  Subtitles: ['Architektura komputerów'],
   Content: B_1,
 }
 
@@ -48,7 +45,7 @@ export const Informatics_2: Book = {
   Tag: { main: 'informatics', official: true, lang: ['pl'] },
 
   Part: 2,
-  Subtitles: ['Algebra abstrakcyjna: grupy, pierścienie i ciała'],
+  Subtitles: ['Algorytmy i struktury danych'],
 
   Content: B_2,
 }
@@ -72,7 +69,10 @@ export const Informatics_3: Book = {
   },
 
   Part: 3,
-  Subtitles: ['Geometria ogólna i analityczna oraz topologia'],
+  Subtitles: [
+    'Podstawy informatyki i programowania,',
+    'systemy operacyjne, systemy UNIX',
+  ],
 
   Content: B_3,
 }
@@ -92,10 +92,7 @@ export const Informatics_4: Book = {
   Tag: { main: 'informatics', official: true, lang: ['pl'] },
 
   Part: 4,
-  Subtitles: [
-    'Analiza matematyczna I: funkcje jednej zmiennej, granice,',
-    'pochodne, szeregi liczbowe i funkcyjne, rachunek całkowy',
-  ],
+  Subtitles: ['Programowanie I: programowanie strukturalne i obiektowe'],
   Content: B_4,
 }
 
@@ -115,8 +112,8 @@ export const Informatics_5: Book = {
 
   Part: 5,
   Subtitles: [
-    'Analiza matematyczna II: funkcje wielu zmiennych, miara',
-    `i całka Lebesgue'a, całki wielokrotne i formy różniczkowe`,
+    'Programowanie II: programowanie aplikacji',
+    'mobilnych i komputerowych',
   ],
   Content: B_5,
 }
@@ -136,10 +133,7 @@ export const Informatics_6: Book = {
   Tag: { main: 'informatics', official: true, lang: ['pl'] },
 
   Part: 6,
-  Subtitles: [
-    'Równania różniczkowe zwyczajne i cząstkowe,',
-    'wstęp do rachunku wariacyjnego',
-  ],
+  Subtitles: ['Sieci komupterowe i teleinformatyka'],
   Content: B_6,
 }
 
@@ -158,10 +152,7 @@ export const Informatics_7: Book = {
   Tag: { main: 'informatics', official: true, lang: ['pl'] },
 
   Part: 7,
-  Subtitles: [
-    'Funkcje analityczne, analiza zespolona i funkcjonalna,',
-    'układy dynamiczne i geometria różniczkowa',
-  ],
+  Subtitles: ['Bazy danych i data science'],
   Content: B_7,
 }
 
@@ -181,8 +172,8 @@ export const Informatics_8: Book = {
 
   Part: 8,
   Subtitles: [
-    'Informatyka dyskretna: logika, teoria mnogości,',
-    'teoria gier, kombinatoryka, relacje, rekurencje',
+    'Programowanie III: programowanie stron',
+    'internetowych i aplikacji sieciowych',
   ],
   Content: B_8,
 }
@@ -202,7 +193,10 @@ export const Informatics_9: Book = {
   Tag: { main: 'informatics', official: true, lang: ['pl'] },
 
   Part: 9,
-  Subtitles: ['Propablistyka, statystyka i analiza danych'],
+  Subtitles: [
+    'Wprowadzenie do sztucznej inteligencji',
+    ' oraz uczenia maszynowego',
+  ],
 
   Content: B_9,
 }

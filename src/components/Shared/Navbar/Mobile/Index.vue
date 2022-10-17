@@ -4,8 +4,10 @@
     <Hamburger @click="setSideMenu(true)" />
     <div class="site-menu" v-if="showSideMenu == true">
       <ul>
-        <div class="close" @click="setSideMenu(false)"></div>
-        <Logo class="logo" />
+        <div class="head">
+          <Logo class="logo" />
+          <div class="close" @click="setSideMenu(false)"></div>
+        </div>
         <!-- <MProfile @close="setSideMenu(false)" /> -->
         <NavItem
           v-for="subpage in subpages"
@@ -64,7 +66,7 @@ export default defineComponent({
   padding: 5vh 0;
   height: 100vh;
   width: 100vw;
-  background: #1c2123ee;
+  background: #1c2123c0;
   backdrop-filter: blur(10px);
   transition: 0.3s transform ease-in-out;
   overflow-x: auto;
@@ -78,6 +80,13 @@ ul {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+}
+
+.head {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 a {
@@ -107,26 +116,24 @@ button:focus ~ .site-menu,
   }
 }
 
-.site-menu a.home.logo {
+.site-menu {
   margin: 10px auto 0 auto;
 }
 
 .close {
   width: 50px;
   height: 50px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
+
   &:before,
   &:after {
     content: '';
-    width: 100%;
+    width: 70%;
     height: 7.5px;
     background: #e3e3e3;
     position: absolute;
     display: block;
-    top: 20px;
-    left: 0;
+    top: 60%;
+    left: 15%;
     border-radius: 40%;
     transform: rotate(45deg);
   }
