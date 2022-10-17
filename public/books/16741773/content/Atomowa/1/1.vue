@@ -55,6 +55,6 @@
       niemożliwe do osiągnięcia jak prędkość światła, ale jeśli nam się uda,
       samodzielnie stworzymy warunki wielkiego wybuchu.
     </Section>
-    <Section>Postulaty Bohra</Section>
+    <h3>Postulaty Bohra</h3>
   </Article>
 </template>
