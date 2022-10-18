@@ -28,7 +28,6 @@
                   <div v-for="(subject, k) in chapter.subjects" :key="subject">
                     <li
                       @click="setSubject(subject[1])"
-                      v-html="`${i + 1}.${k + 1}. ${subject[0]}`"
                       class="s"
                       :class="{
                         active: currentSubject == subject[1],
@@ -37,7 +36,15 @@
                       :style="{
                         color: book.Color,
                       }"
-                    />
+                    >
+                      {{ `${i + 1}.${k + 1}. ${subject[0]}` }}
+                      <div
+                        class="after"
+                        :style="{
+                          backgroundColor: book.Color,
+                        }"
+                      />
+                    </li>
                   </div>
                 </ol>
               </div>
@@ -228,7 +235,7 @@ li {
     font-size: 14.5px;
     margin: 2px 0;
     transition: all 0.2s;
-    &:after {
+    .after {
       content: '';
       display: block;
       position: absolute;
@@ -241,7 +248,7 @@ li {
     }
     &:hover {
       cursor: pointer;
-      &:after {
+      .after {
         width: 100%;
       }
     }

@@ -1,7 +1,7 @@
 export default {
-	Wprowadzenie: {
-		Wprowadzenie: {
-			'Dziedziny i zakres': 'Wprowadzenie/1/1.vue'
-		}
-	}
+  'Budowa Materii': {
+    'Budowa organizmów': {
+      'Czym jest biofizyka?': 'Budowa/1/1.vue',
+    },
+  },
 }

@@ -24,10 +24,21 @@
 }
 
 @keyframes logo {
-  0%   {filter: invert(37%) sepia(83%) saturate(3553%) hue-rotate(171deg) brightness(96%) contrast(102%);}
-  15%   {filter: invert(37%) sepia(83%) saturate(3553%) hue-rotate(171deg) brightness(96%) contrast(102%);}
-  40%  {filter: invert(10%) sepia(96%) saturate(5663%) hue-rotate(358deg) brightness(97%) contrast(110%);}
-  65%  {filter: invert(94%) sepia(16%) saturate(5719%) hue-rotate(337deg) brightness(93%) contrast(92%);}
-  90% {filter: invert(39%) sepia(97%) saturate(1340%) hue-rotate(90deg) brightness(94%) contrast(109%);}
-  100%   {filter: invert(37%) sepia(83%) saturate(3553%) hue-rotate(171deg) brightness(96%) contrast(102%);}
+  0%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
+  9%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
+  // 10 - 30
+  10%   {filter: invert(46%) sepia(6%) saturate(1221%) hue-rotate(270deg) brightness(91%) contrast(94%);}
+  29%   {filter: invert(46%) sepia(6%) saturate(1221%) hue-rotate(270deg) brightness(91%) contrast(94%);}
+  // 30-50
+  31%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
+  49%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
+  // 50-70
+  51%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
+  69%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
+  // 70 - 90
+  71%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
+  89%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
+  // 90 - 100
+  91%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
+  100%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
 }

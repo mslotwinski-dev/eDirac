@@ -1,7 +1,7 @@
 export default {
-	Wprowadzenie: {
-		Wprowadzenie: {
-			'Dziedziny i zakres': 'Wprowadzenie/1/1.vue'
-		}
-	}
+  'Rachunek Wariacyjny': {
+    'Podstawy rachunku wariacyjnego': {
+      'Czym jest rachunek wariacyjny?': 'Wariacyjny/1/1.vue',
+    },
+  },
 }

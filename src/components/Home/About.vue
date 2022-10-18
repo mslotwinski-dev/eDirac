@@ -17,6 +17,7 @@ article {
   justify-content: center;
   align-items: center;
   padding: 5vh 20px;
+  padding-bottom: 0;
   margin-bottom: 2vh;
   font-size: 19px;
   @media (max-width: 700px) {

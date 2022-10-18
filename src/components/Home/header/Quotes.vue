@@ -1,7 +1,7 @@
 <template>
-  <div class="slideshow">
-    <Hero
-      v-for="(slide, index) in 26"
+  <div class="placeholder">
+    <Quote
+      v-for="(slide, index) in nr"
       :key="index"
       :index="index"
       :activeSlide="activeSlide"
@@ -11,20 +11,21 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import Hero from './Hero.vue'
+import Quote from './Quote.vue'
 
 export default defineComponent({
   components: {
-    Hero,
+    Quote,
   },
   data() {
     return {
-      activeSlide: Math.floor(Math.random() * 26),
+      nr: 17,
+      activeSlide: 0,
     }
   },
   methods: {
     changeSlide() {
-      if (this.activeSlide < 25) {
+      if (this.activeSlide < this.nr - 1) {
         this.activeSlide++
       } else {
         this.activeSlide = 0
@@ -32,9 +33,10 @@ export default defineComponent({
     },
   },
   mounted() {
+    this.activeSlide = Math.floor(Math.random() * this.nr)
     window.setInterval(() => {
       this.changeSlide()
-    }, 10000)
+    }, 15000)
   },
 })
 </script>
@@ -42,8 +44,11 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import '@/styles/index.scss';
 
-.slideshow {
-  width: 100%;
-  height: 100%;
+.placeholder {
+  width: 80vw;
+  height: 90px;
+  @media (max-width: 700px) {
+    height: 75px;
+  }
 }
 </style>

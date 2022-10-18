@@ -5,7 +5,7 @@
       <img src="@/assets/icons/logo/logo.svg" />
       <div>
         <div class="title"><span>e</span>DIRAC</div>
-        <div class="subtitle">{{ $t('main.slogan') }}</div>
+        <Quotes />
       </div>
     </div>
   </header>
@@ -14,10 +14,12 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import Slideshow from './header/Slideshow.vue'
+import Quotes from './header/Quotes.vue'
 
 export default defineComponent({
   components: {
     Slideshow,
+    Quotes,
   },
 })
 </script>
@@ -61,17 +63,9 @@ header {
   }
 }
 
-.subtitle {
-  font-size: 40px;
-  color: theme(light);
-  @media (max-width: 700px) {
-    font-size: 30px;
-  }
-}
-
 img {
   width: 250px;
   max-width: 40vw;
-  animation: logo 60s infinite;
+  filter: invert(0.5) brightness(1.6);
 }
 </style>
