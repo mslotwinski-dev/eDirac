@@ -8,7 +8,7 @@ export {
   // Physics_7,
   Physics_8,
   Physics_9,
-} from './physics/index'
+} from './book_data/physics/index'
 
 // export {
 // Physics_Quantum_1,
@@ -19,7 +19,7 @@ export {
 // Physics_Quantum_6,
 // Physics_Quantum_7,
 // Physics_Quantum_8,
-// } from './physics/quantum'
+// } from './book_data/physics/quantum'
 
 // export {
 // Physics_Nuclear_1,
@@ -30,7 +30,7 @@ export {
 // Physics_Nuclear_6,
 // Physics_Nuclear_7,
 // Physics_Nuclear_8,
-// } from './physics/nuclear'
+// } from './book_data/physics/nuclear'
 
 // export {
 // Physics_Material_1,
@@ -41,7 +41,7 @@ export {
 // Physics_Material_6,
 // Physics_Material_7,
 // Physics_Material_8,
-// } from './physics/material'
+// } from './book_data/physics/material'
 
 //
 

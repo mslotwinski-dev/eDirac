@@ -8,7 +8,7 @@ export {
   // Electronics_7,
   // Electronics_8,
   // Electronics_9,
-} from './electronics/'
+} from './book_data/electronics/'
 
 // export {
 // Physics_Quantum_1,
@@ -19,4 +19,4 @@ export {
 // Physics_Quantum_6,
 // Physics_Quantum_7,
 // Physics_Quantum_8,
-// } from './physics/quantum'
+// } from './book_data/physics/quantum'

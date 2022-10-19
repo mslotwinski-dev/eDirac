@@ -8,7 +8,7 @@
       maksimum funkcjonałów (przestrzeni funkcji). Wyobrażając sobie to jako grę
       - jeśli liczba to poziom 1, a funkcja to poziom 2, funkcjonał będzie
       poziomem 3, jakąś strukturą nad funkcjami. Intuicyjnie rozpatrujemy tutaj
-      przestrzenie niezliczonych funkcji i znajdujemy tą ekstremalną funkcje,
+      przestrzenie niezliczonych funkcji i znajdujemy tę ekstremalną funkcje,
       która jest z reguły tą szczególną, która nas interesuje.
     </Section>
     <h3>Przykład z mechaniki</h3>
@@ -29,19 +29,18 @@
       funkcję (i jej pochodne) jako argument. Rachunek wariacyjny pozwala poznać
       ci ekstremum tego funkcjonału, które jest funkcją.
     </Section>
-
     <Section>
       A tak już w ramach czystej ciekawostki. Czym jest to śmieszne L pod całką?
       Jest na to jakiś wzór? Otóż, nazywa się to lagranżjan i w mechanice
       klasycznej przyjmuje formę różnicy energii kinetycznej i potencjalnej.
     </Section>
-    <Math center="true" nr="1.1">
+    <Math center="true" nr="1.2">
       {\displaystyle \mathcal {L} = T - U = \frac{1}{2}mv^2 - U}
     </Math>
     <Section>
       Gdzie U to energia potencjalna, która może być różna w zależności od
       sytuacji. Np. w spadającej kulce będzie wynosić mgh, natomiast w wahadle
-      matematycznym kx<Math>^2</Math></Section
-    >
+      matematycznym kx<M c="^2" />.
+    </Section>
   </Article>
 </template>

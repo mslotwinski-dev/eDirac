@@ -1,15 +1,15 @@
 import { Book } from '@/data/types/book'
-import { aboutplaceholder } from '../../placeholders'
+import { aboutplaceholder } from '@/data/books/placeholders'
 
-import B_1 from '../../content/16741766'
-import B_2 from '../../content/16741767'
-import B_3 from '../../content/16741768'
-import B_4 from '../../content/16741769'
-import B_5 from '../../content/16741770'
-import B_6 from '../../content/16741771'
-import B_7 from '../../content/16741772'
-import B_8 from '../../content/16741773'
-import B_9 from '../../content/16741774'
+import B_1 from '@/data/books/content/physics/16741766'
+import B_2 from '@/data/books/content/physics/16741767'
+import B_3 from '@/data/books/content/physics/16741768'
+import B_4 from '@/data/books/content/physics/16741769'
+import B_5 from '@/data/books/content/physics/16741770'
+import B_6 from '@/data/books/content/physics/16741771'
+import B_7 from '@/data/books/content/physics/16741772'
+import B_8 from '@/data/books/content/physics/16741773'
+import B_9 from '@/data/books/content/physics/16741774'
 
 export const Physics_1: Book = {
   ID: '16741766',

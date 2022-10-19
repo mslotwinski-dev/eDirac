@@ -9,7 +9,7 @@ export {
   // Mat_8,
   // Mat_9,
   // Mat_10,
-} from './math/'
+} from './book_data/math/'
 
 // export {
 //   Math_Physics_1,
@@ -18,4 +18,4 @@ export {
 //   Math_Physics_4,
 //   Math_Physics_5,
 //   Math_Physics_6,
-// } from './math/physics'
+// } from './book_data/math/physics'

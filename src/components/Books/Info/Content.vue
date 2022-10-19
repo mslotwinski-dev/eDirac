@@ -12,7 +12,7 @@
         v-html="author"
       />
     </p>
-    <h2>Podziękowania</h2>
+    <!-- <h2>Podziękowania</h2> -->
   </section>
 </template>
 

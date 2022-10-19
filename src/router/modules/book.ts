@@ -1,6 +1,8 @@
 import { RouteRecordRaw } from 'vue-router'
 
 import Empty from '@/views/Empty.vue'
+import About from '@/views/Book/About.vue'
+
 import Book from '@/views/Book/Book.vue'
 import Table from '@/views/Book/Table.vue'
 import PDF from '@/views/Book/PDF.vue'
@@ -12,6 +14,7 @@ const BookRoutes: RouteRecordRaw[] = [
     name: 'Book',
     component: Empty,
     children: [
+      { path: ':id_2', name: 'AboutBook', component: About },
       {
         path: ':id/online',
         name: 'BookView',

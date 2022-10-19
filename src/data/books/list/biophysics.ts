@@ -7,4 +7,4 @@ export {
   // Biophysics_6,
   // Biophysics_7,
   // Biophysics_8,
-} from './biophysics/'
+} from './book_data/biophysics'

@@ -1,14 +1,14 @@
-import { aboutplaceholder } from '../../placeholders'
+import { aboutplaceholder } from '@/data/books/placeholders'
 import { Book } from '@/data/types/book'
 
-import B_1 from '../../content/47257390'
-import B_2 from '../../content/47257391'
-import B_3 from '../../content/47257392'
-import B_4 from '../../content/47257393'
-import B_5 from '../../content/47257394'
-import B_6 from '../../content/47257395'
-import B_7 from '../../content/47257396'
-import B_8 from '../../content/47257397'
+import B_1 from '@/data/books/content/biophysics/47257390'
+import B_2 from '@/data/books/content/biophysics/47257391'
+import B_3 from '@/data/books/content/biophysics/47257392'
+import B_4 from '@/data/books/content/biophysics/47257393'
+import B_5 from '@/data/books/content/biophysics/47257394'
+import B_6 from '@/data/books/content/biophysics/47257395'
+import B_7 from '@/data/books/content/biophysics/47257396'
+import B_8 from '@/data/books/content/biophysics/47257397'
 
 export const Biophysics_1: Book = {
   ID: '47257390',

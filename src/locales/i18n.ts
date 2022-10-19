@@ -1,10 +1,10 @@
 import { createI18n } from 'vue-i18n'
 import store from '@/store/index'
 
-import en from './en'
-import es from './es'
+// import en from './en'
+// import es from './es'
 import pl from './pl'
-import ua from './ua'
+// import ua from './ua'
 
 export default createI18n({
   legacy: false,
@@ -13,8 +13,8 @@ export default createI18n({
   globalInjection: true,
   messages: {
     pl,
-    en,
-    es,
-    ua,
+    en: pl,
+    es: pl,
+    ua: pl,
   },
 })

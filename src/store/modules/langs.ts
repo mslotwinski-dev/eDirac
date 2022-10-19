@@ -5,7 +5,7 @@ class LangsModule extends VuexModule {
   appLanguage =
     localStorage.getItem('eDirac_Language') ||
     process.env.VUE_APP_I18N_LOCALE ||
-    'en'
+    'pl'
 
   get getAppLanguage(): string {
     return this.appLanguage

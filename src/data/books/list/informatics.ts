@@ -8,4 +8,4 @@ export {
   // Informatics_7,
   // Informatics_8,
   // Informatics_9,
-} from './informatics/'
+} from './book_data/informatics/'

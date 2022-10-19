@@ -5,6 +5,13 @@
       :subtitle="$t(`sciences.data.${id}.full_title`)"
       :blur="true"
     />
+    <div
+      class="def"
+      :style="{ borderColor: Object.values(sortedBooks)[0][0].Color }"
+    >
+      <b v-html="$t(`sciences.data.${id}.full_title`)" /> –
+      <span v-html="$t(`sciences.data.${id}.def`)" />
+    </div>
     <Short :key="key" :sortedBooks="sortedBooks" :category="category" />
     <Books :key="key" :sortedBooks="sortedBooks" :category="category" />
   </div>
@@ -88,4 +95,20 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 @import '@/styles/index.scss';
+.def {
+  width: 1000px;
+  max-width: 90vw;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  b {
+    font-weight: 500;
+  }
+  font-size: 19px;
+  @media (max-width: 1000px) {
+    font-size: 16px;
+  }
+  text-align: justify;
+}
 </style>

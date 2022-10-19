@@ -12,7 +12,10 @@ import Content from '../Online/Content.vue'
 
 export default defineComponent({
   props: {
-    book: Object as () => Book,
+    book: {
+      type: Object as () => Book,
+      required: true,
+    },
     subject: {
       type: String,
       required: true,
@@ -29,7 +32,9 @@ export default defineComponent({
   },
   mounted() {
     axios
-      .get(`/books/${this.$route.params.id}/content/${this.subject}`)
+      .get(
+        `/books/${this.book.Tag.main}/${this.$route.params.id}/content/${this.subject}`
+      )
       .then((res) => {
         this.render = res.data
           .replace('<template>', '')

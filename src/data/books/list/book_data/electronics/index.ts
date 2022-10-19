@@ -1,15 +1,15 @@
-import { aboutplaceholder } from '../../placeholders'
+import { aboutplaceholder } from '@/data/books/placeholders'
 import { Book } from '@/data/types/book'
 
-import B_1 from '../../content/18851002'
-import B_2 from '../../content/18851003'
-import B_3 from '../../content/18851004'
-import B_4 from '../../content/18851005'
-import B_5 from '../../content/18851006'
-import B_6 from '../../content/18851007'
-import B_7 from '../../content/18851008'
-import B_8 from '../../content/18851009'
-import B_9 from '../../content/18851010'
+import B_1 from '@/data/books/content/electronics/18851002'
+import B_2 from '@/data/books/content/electronics/18851003'
+import B_3 from '@/data/books/content/electronics/18851004'
+import B_4 from '@/data/books/content/electronics/18851005'
+import B_5 from '@/data/books/content/electronics/18851006'
+import B_6 from '@/data/books/content/electronics/18851007'
+import B_7 from '@/data/books/content/electronics/18851008'
+import B_8 from '@/data/books/content/electronics/18851009'
+import B_9 from '@/data/books/content/electronics/18851010'
 
 export const Electronics_1: Book = {
   ID: '18851002',
@@ -27,7 +27,7 @@ export const Electronics_1: Book = {
 
   Part: 1,
   Subtitles: [
-    'Wstęp do elektroniki i elektrotechniki',
+    'Wstęp do elektroniki i elektrotechniki,',
     'materiały w elektronice',
   ],
 

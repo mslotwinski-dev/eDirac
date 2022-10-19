@@ -90,6 +90,7 @@ export default {
     data: {
       mathematics: {
         full_title: 'Matematyka',
+        def: 'nauka, która wytwarza <i>język</i> i struktury służące opisowi przyrody. Bada właściwości i wzorce abstrakcyjnych struktur tworzonych przez logiczne definicje oraz dostarczająca narzędzi do otrzymywania wniosków z przyjętych założeń.',
         category: {
           mathematics: 'Podstawy Matematyki',
           math_physics: 'Fizyka Matematyczna',
@@ -97,6 +98,7 @@ export default {
       },
       physics: {
         full_title: 'Fizyka',
+        def: 'nauka przyrodnicza, zajmująca się badaniem najbardziej fundamentalnych i uniwersalnych właściwości oraz przemian materii i energii, a także oddziaływań między nimi. Stanowi zbiór wszystkich praw i reguł opisujących zasady działania wszechświata.',
         category: {
           physics: 'Podstawy Fizyki',
           physics_quantum: 'Fizyka i Inżynieria Kwantowa',
@@ -106,6 +108,7 @@ export default {
       },
       electronics: {
         full_title: 'Elektronika',
+        def: 'nauka techniczna zajmująca się wytwarzaniem i przetwarzaniem sygnałów w postaci prądu elektrycznego oraz analizą obwodów i elementów, w których one występują. Poszukuje praktycznego wykorzystania zjawisk oddziaływania pomiędzy ładunkami do przenoszenia informacji.',
         category: {
           electronics: 'Podstawy Elektroniki',
           physics_quantum: 'Fizyka i Inżynieria Kwantowa',
@@ -113,12 +116,14 @@ export default {
       },
       informatics: {
         full_title: 'Informatyka',
+        def: 'nauka ścisła, której obiektem badań jest przetwarzanie informacji, w tym również technologie informacyjne i wytwarzanie systemów służących do przetwarzania informacji. Zajmuje się również opisem problemów obliczeniowych i algorytmów, oraz tworzeniem programów komputerowych.',
         category: {
           informatics: 'Podstawy Informatyki',
         },
       },
       biophysics: {
         full_title: 'Biofizyka',
+        def: 'dziedzina nauki z pogranicza fizyki i biologii, zajmującą się badaniem procesów fizycznych i struktur cząsteczkowych związanych z funkcjonowaniem określonych obiektów żywych: organizmów, organów, tkanek, komórek. Opisuje uniwersalne prawa biologicznych niezależne od konkretnej formy życia.',
         category: {
           biophysics: 'Podstawy Biofizyki',
         },
