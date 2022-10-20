@@ -3,8 +3,8 @@ import { Module, VuexModule, Mutation } from 'vuex-module-decorators'
 import * as CategoriesModule from '@/data/books/categories'
 import { Category } from '@/data/types/book'
 
-@Module({ name: 'chapters' })
-class ChaptersModule extends VuexModule {
+@Module({ name: 'books' })
+class BooksModule extends VuexModule {
   Chapters = (() => {
     const Chapters: { [key: string]: string } = {}
 
@@ -28,4 +28,4 @@ class ChaptersModule extends VuexModule {
   }
 }
 
-export default ChaptersModule
+export default BooksModule

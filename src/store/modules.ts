@@ -1,9 +1,11 @@
-import langs from './modules/langs'
-import chapters from './modules/chapters'
+import LangsModule from './modules/langs'
+import BooksModule from './modules/books'
+import PrivacyModule from './modules/privacy'
 
-const modules = {
-  langs,
-  chapters,
+const Modules = {
+  LangsModule,
+  BooksModule,
+  PrivacyModule,
 }
 
-export default modules
+export default Modules

@@ -4,7 +4,10 @@
     <Navbar />
     <router-view />
     <Footer />
-    <!-- <Privacy /> -->
+    <Privacy
+      v-if="!accepted && $route.path != '/rules' && $route.path != '/privacy'"
+      @accepted="this.accepted = true"
+    />
     <notifications position="bottom left" width="400px" />
   </main>
 </template>
@@ -16,11 +19,21 @@ import { defineComponent } from 'vue'
 
 import Navbar from '@/components/Shared/Navbar/Index.vue'
 import Footer from '@/components/Shared/Footer/Index.vue'
+import Privacy from '@/components/Shared/Window/Privacy.vue'
 
 export default defineComponent({
   components: {
     Navbar,
     Footer,
+    Privacy,
+  },
+  data() {
+    return {
+      accepted: this.$store.getters.IsPrivacyAccepted,
+    }
+  },
+  mounted() {
+    console.log(this.accepted)
   },
 })
 </script>
