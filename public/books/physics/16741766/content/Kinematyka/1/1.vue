@@ -1,7 +1,7 @@
 <template>
   <Article>
-    <Chapter nr="2" book="physics"> Ruch Prostoliniowy </Chapter>
-    <Begin nr="2.1" advanced="0"> Czas i przestrzeń </Begin>
+    <Chapter nr="3" book="physics"> Ruch Postępowy </Chapter>
+    <Begin nr="3.1" advanced="0"> Czas i przestrzeń </Begin>
     <h3>Przestrzeń</h3>
     <Section>
       Wyobraźmy sobie trójwymiarową przestrzeń, całkiem zaniedbując aspekt
@@ -32,7 +32,7 @@
       wektorowej. Inaczej mówiąc, za pomocą odpowiedniej kombinacji tych 3
       wektorów jednostkowych możemy otrzymać każdy punkt w przestrzeni.
     </Section>
-    <Math center="true" nr="2.1">
+    <Math center="true" nr="3.1">
       {\displaystyle r(x, y, z) = x \hat{x} + y \hat{y} + z \hat{z}}
     </Math>
     <h3>Czas</h3>
@@ -80,9 +80,9 @@
     <Section>
       Przechodzimy do ostatniego aspektu czasu i przestrzeni, który teraz
       będziemy omawiać w tym momencie. Wyobraź sobie, że jesteś w płynącej
-      łodzi,jest noc i siedzisz zamknięty w pokoju oraz masz do dyspozycji
-      dowolny przyrząd fizyczny. Twoim zadaniem jest jedynie za ich pomocą
-      dowiedzieć się, czy się poruszasz względem brzegu. Czy jest to możliwe?
+      łodzi, jest noc i siedzisz zamknięty w pokoju. Masz do dyspozycji dowolny
+      przyrząd fizyczny. Twoim zadaniem jest jedynie za ich pomocą dowiedzieć
+      się, czy się poruszasz względem brzegu. Czy jest to możliwe?
     </Section>
     <Section>
       Odpowiedzi dał nam Galileusz, który wprowadził coś, co określamy jako
@@ -96,5 +96,65 @@
       względności Einsteina, że istnieje maksymalna prędkość rozchodzenia się
       informacji, którą znamy jako prędkość światała i wiele innych.
     </Section>
+    <h3>Współrzędne krzywoliniowe *</h3>
+    <Section>
+      Bardzo często badanie ruchu ułatwia nam zmiana współrzędnych układu
+      współrzędnych. Wybrażmy sobie wahadło, na którym drga kulka. Rozpatrując
+      jego ruch operujemy na dwóch współrzędnych, które się cały czas zmieniają,
+      x i y. Badanie ruchu takiej kulki jest z pewnością uciążliwe. Czy jest
+      coś, co możemy zrobić, aby ułatwić sobie analizę jej ruchu? Okazuje się,
+      że tak. Możemy przejść na tak zwane współrzędne krzywoliniowe. Zamiast x i
+      y, przechodzimy odległość r od środka układu i kąt
+      <M c="\varphi" /> symbolizujący nachylenie punktu. Łatwo zauważyć, że
+      teraz mamy tylko jedną zmienną. Odległość r pozostaje stała, a zmienia się
+      jedynie kąt <M c="\varphi" /> wychylenia wahadła. Właśnie tu tkwi siła
+      współrzędnych krzywoliniowych.
+    </Section>
+    <Section>
+      No dobra, ale kiedy już mamy równania zawierające x i y, to jak z tego
+      zrobić r oraz <M c="\varphi" />? Wystarczy użyć funkcji trygonometrycznych
+      sinus i cosinus. Otrzymujemy w ten sposób transformację:
+    </Section>
+    <Math center="true" nr="3.2">
+      {\displaystyle x = r \ cos \varphi, \qquad y = r \ sin \varphi}
+    </Math>
+    <Section>
+      Chcąc wyliczyć jawnie r i <M c="\varphi" /> trochę się namęczymy, ale
+      ostatecznie dostaniemy następujące wielkości:
+    </Section>
+    <Math center="true" nr="3.3">
+      {\displaystyle r = \sqrt{x^2 + y^2}, \qquad \varphi = arctg(\frac{y}{x})}
+    </Math>
+    <Section>
+      A co w sytuacji kiedy mamy 3 wymiary? Potrzebujemy trzeciej współrzędnej i
+      to od nas zależy, czy trzecią współrzędną będzie wysokość czy kąt. W
+      pierwsym przypadku otrzymujemy współrzędne walcowe, w drugim sferyczne.
+    </Section>
+    <Image src="3.png">
+      Układy współrzędnych: prostoliniowy, walcowy i sferyczny
+    </Image>
+    <Section>
+      Transformacja do współrzędnych walcowych wygląda praktycznie tak samo jak
+      do biegunowych w dwóch wymiarach, jedyną różnicą jest dodatkowy parametr
+      z. Parametr y dalej będziemy traktować jako wysokość. Są one niesamowicie
+      użyteczne np. w ruchu obrotowym albo podczas ruchu <i>śrubowego</i>.
+    </Section>
+    <Math center="true" nr="3.4">
+      {\displaystyle {\begin{cases}x = r \ cos \varphi\\z = r \ sin \varphi\\y =
+      y\end{cases}} \qquad {\begin{cases}r = \sqrt{x^2 + z^2}\\\varphi =
+      arctg(\frac{z}{x})\\y = y\end{cases}}}
+    </Math>
+    <Section>
+      Współrzędne sferyczne są znacznie trudniejsze pod względem
+      trygonometrycznym, bo wymagają od nas zaangażowania aż dwóch kątów. Ich
+      użyteczność jednak nam to mocno wynagradza, chociażby w astrofizyce gdy
+      planety poruszają się po orbitach.
+    </Section>
+    <Math center="true" nr="3.5">
+      {\displaystyle {\begin{cases}x = r \ cos \theta \ cos \varphi\\z = r \
+      cos\theta \ sin \varphi\\y = r \ sin\theta \end{cases}} \qquad
+      {\begin{cases}r = \sqrt{x^2 + y^2 + z^2}\\\varphi = arctg(\frac{z}{x})\\
+      \theta = arcsin(\frac{y}{r})\end{cases}}}
+    </Math>
   </Article>
 </template>

@@ -32,9 +32,6 @@ export default defineComponent({
       accepted: this.$store.getters.IsPrivacyAccepted,
     }
   },
-  mounted() {
-    console.log(this.accepted)
-  },
 })
 </script>
 

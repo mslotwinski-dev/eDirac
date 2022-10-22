@@ -1,8 +1,6 @@
 <template>
   <Article>
-    <Begin nr="2.5" advanced="0">
-      Spadek swobodny i przyspieszenie ziemskie
-    </Begin>
+    <Begin nr="3.6" advanced="0"> Spadek swobodny </Begin>
     <h3>Grawitacja w ujęciu klasycznym</h3>
     <Section>
       W mechanice klasycznej, czyli tej najbardziej zbliżonej do naszego
@@ -22,7 +20,7 @@
       masę ciała poddawanego sile grawitacji jako m, natomiast promień ziemii
       jako r. Wtedy
     </Section>
-    <Math center="true" nr="2.11">
+    <Math center="true" nr="3.11">
       {\displaystyle g = \frac{F_{grawitacji}}{m} = G \frac{Mm}{mr^2} = G
       \frac{M}{r^2} \approx 9,81 \frac{m}{s^2}}
     </Math>
@@ -37,7 +35,7 @@
       tylko, że zgodnie z układem współrzędnych przyspieszenie działa w dół,
       dlatego jego znak jest na minusie. Podstawowe równanie ruchu sprowadza się
       tutaj do
-      <Math center="true" nr="2.12">
+      <Math center="true" nr="3.12">
         {\displaystyle h(t) = h_0 - \frac{1}{2}gt^2}
       </Math>
       <Section>
@@ -50,10 +48,10 @@
       Powyższe równanie to oczywiście równanie uproszczone. Kolejny przypadek
       zakłada, że rzucamy przedmiot w ziemię lub do góry. To, czym się różni ta
       sytuacja, to fakt, że nadajemy obiektowi prędkość początkową zależną od
-      siły rzutu. W tym przypadku równanie (2.12) przybiera pełną postac, która
-      wygląda prawie tak jak równanie (2.5).
+      siły rzutu. W tym przypadku równanie (3.12) przybiera pełną postac, która
+      wygląda prawie tak jak równanie (3.5).
     </Section>
-    <Math center="true" nr="2.13">
+    <Math center="true" nr="3.13">
       {\displaystyle h = h_0 - \frac{1}{2}gt^2 + v_0t}
     </Math>
     <Section>
@@ -68,7 +66,7 @@
       proste, a pozwala ci zrozumieć fizykę i generalnie zmiany funkcji na
       znacznie lepszym poziomie.
     </Section>
-    <Math center="true" nr="2.13"> {\displaystyle v = v_0 - gt} </Math>
+    <Math center="true" nr="3.13"> {\displaystyle v = v_0 - gt} </Math>
     <Section>
       To również ma sens, w przypadku gdy rzucamy w górę prędkość będzie maleć i
       zbliżać się do zera aż zmieni znak i będzie poruszać się w dół. Gdy
@@ -90,13 +88,13 @@
       przedmiot w górę i chcemy obliczyć maksymalną wysokość? Sprawa jest bardzo
       prosta, najpierw musimy policzyć kiedy h(t) osiąga maksimum, czyli moment
       w którym prędkość jest równa 0<Math>\frac{m}{s}</Math>. Podstawienie w
-      równaniu (2.13) za prędkość 0 pozwala nam stwierdzić, że dzieje się to
+      równaniu (3.13) za prędkość 0 pozwala nam stwierdzić, że dzieje się to
       kiedy czas ma wartość <Math>\frac{g}{t}</Math>. Teraz kiedy znamy moment,
       kiedy wysokość osiąga maksimum została nam tylko formalność. Podstawiamy
-      we wzorze (2.12) za czas <Math>\frac{g}{t}</Math>, co pozwala nam dojść do
+      we wzorze (3.12) za czas <Math>\frac{g}{t}</Math>, co pozwala nam dojść do
       wzoru, że maksymalna wysokość w rzucie pionowym wynosi
     </Section>
-    <Math center="true" nr="2.14">
+    <Math center="true" nr="3.14">
       {\displaystyle h = h_0 + \frac{v^2}{2g}}
     </Math>
     <Section>
@@ -109,8 +107,8 @@
       maksimum jest równy <Math>\frac{v}{g}</Math>, czas spadania wyniesie tyle
       samo. Cały rzut będzie więc trwał
     </Section>
-    <Math center="true" nr="2.14"> {\displaystyle t = \frac{2v}{g} }</Math>
-    <h3>Grawitacja w ujęciu relatywistycznym (ciekawostka)</h3>
+    <Math center="true" nr="3.14"> {\displaystyle t = \frac{2v}{g} }</Math>
+    <h3>Grawitacja w ujęciu relatywistycznym *</h3>
     <Section>
       Zaraz zaraz, coś tu nie gra. Wróćmy na sam początek tematu do definicji
       grawitacji, możesz ją przeczytać uważnie jeszcze raz. Co jeśli ciało nie

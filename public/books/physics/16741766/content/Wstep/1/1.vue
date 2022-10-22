@@ -1,6 +1,6 @@
 <template>
   <Article>
-    <Chapter nr="1" book="physics"> Wprowadzenie do fizyki </Chapter>
+    <Chapter nr="1" book="physics"> Filozofia fizyki </Chapter>
     <Begin nr="1.1" advanced="0"> Dziedziny i zakres fizyki </Begin>
     <h3>Doświadczalna czy teoretyczna?</h3>
     <Section>

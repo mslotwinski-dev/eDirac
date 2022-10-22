@@ -1,12 +1,17 @@
 <template>
   <div ref="div" v-if="src" class="cont">
-    <img ref="image" :src="`/books/${$route.params.id}/img/${src}`" />
+    {{ book }}
+    <img ref="image" :src="`/books/${tag}/${$route.params.id}/img/${src}`" />
     <div class="sub"><slot /></div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, ref, Ref, onMounted } from 'vue'
+import { useRoute } from 'vue-router'
+
+import * as CategoriesModule from '@/data/books/categories'
+import { Book } from '@/data/types/book'
 
 export default defineComponent({
   props: {
@@ -41,6 +46,11 @@ export default defineComponent({
     return {
       image,
       div,
+      tag: Object.values({ ...CategoriesModule })
+        .map((e) => e.Books)
+        .flat(1)
+        .filter((e: Book) => e.ID == (useRoute().params.id as string))[0].Tag
+        .main,
     }
   },
 })
