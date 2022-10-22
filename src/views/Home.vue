@@ -1,5 +1,4 @@
 <template>
-  <div class="moved" />
   <div class="home">
     <Header />
     <About />

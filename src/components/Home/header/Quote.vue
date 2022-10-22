@@ -23,10 +23,13 @@ export default defineComponent({
   opacity: 0;
   transition: all 0.5s linear;
 
-  font-size: 40px;
+  font-size: 35px;
   color: theme(light);
-  @media (max-width: 700px) {
+  @media (max-width: 1000px) {
     font-size: 30px;
+  }
+  @media (max-width: 500px) {
+    font-size: 20px;
   }
 }
 

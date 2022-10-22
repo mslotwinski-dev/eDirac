@@ -27,6 +27,7 @@ import Center from '@/components/Book/Elements/Center.vue'
 import Flex from '@/components/Book/Elements/Flex.vue'
 import Nobel from '@/components/Book/Elements/Nobel.vue'
 import M from '@/components/Book/Elements/M.vue'
+import Example from '@/components/Book/Elements/Example.vue'
 
 createApp(App)
   .component('Article', Article)
@@ -41,6 +42,7 @@ createApp(App)
   .component('Flex', Flex)
   .component('Nobel', Nobel)
   .component('M', M)
+  .component('Example', Example)
 
   .component('ic', FontAwesomeIcon)
   .use(i18n)

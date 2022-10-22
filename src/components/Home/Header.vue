@@ -30,7 +30,7 @@ export default defineComponent({
 header {
   background: white;
   width: 100vw;
-  height: 700px;
+  height: 800px;
   @media (max-width: 700px) {
     height: 100vh;
   }
