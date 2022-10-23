@@ -1,110 +1,66 @@
 <template>
   <Article>
     <Chapter nr="2" book="physics"> Równowaga płynu </Chapter>
-    <Begin nr="2.1" advanced="0"> Siły działające w płynach</Begin>
-    <h3>Siły masowe</h3>
+
+    <Begin nr="2.1" advanced="0"> Równanie równowagi</Begin>
+    <h3>Równowaga w płynach</h3>
     <Section>
-      Siły masowe albo objętościowe są to siły wywierane bezpośrednio na płyn
-      zawarty w rozważanym obszarze płynnym nie związane z powierzchnią
-      ograniczającą ten obszar. Siły masowe możemy podzielić na 3 grupy:
-      <ul>
-        <li>
-          Grawitacyjne - występują, gdy płyn porusza się w polu grawitacyjnym
-          (czyli w praktyce zawsze i jest to najważniejsza z sił masowych).
-        </li>
-        <li>Bezwładności - występują przy ruchu z przyspieszeniem.</li>
-        <li>
-          Elektromagnetyczne - występującą m.in. wówczas, gdy płyn będący
-          przewodnikiem elektryczności (płynny metal, gaz zjonizowany) porusza
-          się w polu elektrycznym. Nie będziemy rozpatrywać płynów pod
-          działaniem takich sił, jest nam to do szczęścia absolutnie zbędne.
-          Tego typu sytuacje rozpatruje całkiem inna dziedzina fizyki nazywana
-          magnetohydrodynamiką.
-        </li>
-      </ul>
+      Aby płyn był w równowadze musimy zadbać, aby w równowadze były zarówno
+      siły masowe jak i powierzchniowe. Zacznijmy od sił masowych.
     </Section>
+    <Center>
+      <Math>
+        {\displaystyle F_x = f_x dm = f_x \rho dV = f_x \rho dxdydz}
+      </Math>
+    </Center>
     <Section>
-      Siły masowe swoim działaniem obejmują każdy element płynu i są
-      proporcjonalne do masy elementu dm, na który działają. Jednostkową siłą
-      masową f w punkcie W (x, y, z) obszaru płynnego nazywa się stosunek siły
-      masowej dF (działającej na masę d m = ρ dV, zawartą w elemencie
-      objętościowym dV ) do masy elementu, a zatem:
+      Oczywiście musimy zapisać trzy takie równania, osobno dla każdego kierunku
+      x, y i z. Teraz rozpatrzmy siły powierzchniowe, czyli ciśnienie w punkcie
+      dx. Wynosi ono wtedy (co nie jest odkrywcze) dp, a działa na boki dy i dz.
+      Rozszerzmy teraz dp przez dx, otrzymamy następujące równanie sił
+      powierzchniowych.
     </Section>
-    <Math center="true" nr="2.1">
-      {\displaystyle f = \frac{dF}{dm} = \frac{1}{\rho}\frac{dQ}{dV}}.
-    </Math>
+    <Center>
+      <Math>
+        {\displaystyle F_x = \sigma_x dS = \frac{dp}{dx}dxdS =
+        \frac{dp}{dx}dxdydz}
+      </Math>
+    </Center>
     <Section>
-      Co do jednostki możesz zauważyć, że są równe przyspieszeniu, a nie sile.
-      No skoro jest proporcjonalna do masy to rzeczywiście bardziej użyteczna
-      jest wielkość którą dostaniemy po podzieleniu siły przez masę. To samo
-      robiliśmy już dawno temu, kiedy dzieląc siłę ciężkości przez masę
-      otrzymaliśmy przyspieszenie ziemskie. Powiem więcej, w 99% przypadków gdy
-      płyn nie przyspiesza, wartość naszej siły masowej to będzie po prostu g =
-      9,81
-      <Math>\frac{m}{s^2}</Math>. Jakiś sens to ma, w końcu co innego może
-      działać na masę płynu jak nie siła ciężkości. Czemu więc nazwali to siłą
-      masową, a nie siłą ciężkości płynów? Żeby trudniej było Ci ogarnąć o co
-      chodzi. No i może dlatego, że do sił masowych jeszcze zaliczamy
-      bezwładność i siły elektromagnetyczne.
+      Po zapisaniu równości, a następnie skróceniu dxdydz otrzymujemy równanie
+      równowagi dla współrzędnej x.
     </Section>
-    <h3>Siły powierzchniowe</h3>
+    <Center>
+      <Math> {\displaystyle \rho f_x = \frac{dp}{dx}} </Math>
+    </Center>
     <Section>
-      No dobra, były siły związane z objętością to teraz będą te związane z
-      powierzchnią. Siły powierzchniowe są przyłożone na powierzchni płynu i
-      wywierane przez stykające się warstwy płynu lub płynu i podłoża. Cechą
-      charakterystyczną sił powierzchniowych jest to, że ich natężenie w danym
-      punkcie jest wprost proporcjonalne do pola danej powierzchni, na którą
-      działają. Oznaczamy je grecką literą sigma.
+      Możemy napisać osobno 3 równania dla każdego kierunku albo zapisać je
+      wektorowo, w ten sposób otrzymujemy nasze właściwe równanie równowagi
+      płynów zwane równaniem Eulera.
     </Section>
-    <Math center="true" nr="2.2">
-      {\displaystyle \sigma = \frac{dF}{dS} }.
-    </Math>
+    <Math center="true" nr="2.1"> {\displaystyle \rho \vec f = \nabla p} </Math>
+    <h3>Ciśnienie hydrostatyczne</h3>
     <Section>
-      Jak możesz zauważyć jednostką tej siły jest z kolei również nie newton, a
-      tym razem pascal. Kiepsko u hydrodynamików z nazewnictwem sił. Jakie są
-      przykłady sił powierzchniowych?
-      <ul>
-        <li>Ciśnienie, najzwyklejsze w świecie, wywierane na płyn.</li>
-        <li>Tarcie wewnętrzne w płynie lub tarcie płynu o ściany.</li>
-        <li>Napór cieczy na ścianę zbiornika.</li>
-      </ul>
+      Rozpatrzmy najprostszy przypadek cieczy spoczywającej w polu
+      grawitacyjnym. Jedyną siłą masową w tym przypadku jest grawitacja,
+      natomiast gradient ciśnienia będzie działał w dól. Daje nam to następujące
+      równanie.
     </Section>
-    <h3>Siły zewnętrzne i wewnętrzne</h3>
+    <Center>
+      <Math> {\displaystyle \rho g = \frac{dp}{dy}} </Math>
+    </Center>
     <Section>
-      Możesz spotkać się z podziałem sił na te wewnętrzne i zewnętrzne. Podział
-      ten jest bardzo prosty. Siły wewnętrzne to wszystkie siły masowe, czyli
-      grawitacja, bezwładność i elektromagnetyzm, oraz niektóre powierzchniowe.
-      Które? Np. siły międzycząsteczkowe, napięcie powierzchniowe czy siły
-      lepkości. Pozostałe siły to siły zewnętrzne. Są to te pozostałe siły
-      powierzchniowe, które są wynikiem jak sama nazwa wskazuje jakiegoś
-      zewnętrznego działania. Przykład? Tłok naciskający na powierzchnie wody w
-      strzykawce. Proste, prawda?
+      Rozszerzając przez dy, a następnie całkując dochodzimy do wzoru na
+      ciśnienie hydrostatyczne, jaki znamy z podstawówki. Zamienimy tylko dla
+      ładniejszego zapisu stałą całkowania C na <M c="p_0" /> oraz współrzędną y
+      na h, czyli wysokość.
     </Section>
-    <h3>Wektory główne sił</h3>
-    <Section
-      >Spróbujmy policzyć to, co nazywamy siłą tradycyjnie. Jeśli nie wiesz czym
-      są całki wielokrotne przejdź do następnego tematu.
-    </Section>
+    <Math center="true" nr="2.2"> {\displaystyle p = \rho g h + p_0} </Math>
     <Section>
-      Zacznijmy od siły objętościowej. Siła dF przyłożona do masy to
-      przekształcając wzór (2.1) fdm. Dodajmy do pozostałych sił masowych f
-      przyspieszenie płynu, które jest miarą siły bezwładności. Zastąpny dm =
-      ρdV, a następnie scałkujmy. Voilàl, mamy wzór na całkowitą przyłożoną
-      siłę, co dla odróżnienia nazywamy wektorem głównym siły. Tak sobie
-      inżynierzy płynów wymyślili, nic nie poradzę.
-    </Section>
-    <Math center="true" nr="2.3">
-      {\displaystyle F_M = \rho \int \limits _{V} (f - \frac{dv}{dt})dV}.
-    </Math>
-    <Section> To samo możemy zrobić z siłami powierzchniowymi. </Section>
-    <Math center="true" nr="2.4">
-      {\displaystyle F_S = \int \limits _{S} \sigma \cdot dS}.
-    </Math>
-    <Section>
-      Zauważ, że są to całki wielokrotne. Powinienem używać symbolu
-      <Math>\iint</Math> i <Math>\iiint</Math>, ale zapis robi się wtedy dość
-      nieczytelny. Wolę zachować czystość zapisu niż podlizywać się matematykom
-      teoretycznym. Jeśli to czytacie, to nie pozdrawiam was.
+      Fizyczne uzasadnienie stałej <M c="p_0" /> to najzwyklejsze ciśnienie
+      atmosferycze równe średnio 1000hPa, zależy od dnia. Ciśnienie na dnie
+      naczynia to suma ciśnienie atmosferycznego i hydrostatycznego, stąd
+      dodajemy do wyniku <M c="p_0" />
     </Section>
   </Article>
 </template>

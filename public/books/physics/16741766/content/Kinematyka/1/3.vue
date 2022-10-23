@@ -77,30 +77,37 @@
     <Section>
       Zauważ, że znak przyspieszenia nie mówi nic o kierunku ruchu tak jak znak
       przemieszczenia czy prędkości. Wręcz bardzo często znak przyspieszenia i
-      prędkości będzie przeciwny jak podczas omawiania drgań i fal. Dam ci dwa
-      przykłady dodatniego i ujemnego przyspieszenia
-      <ul>
-        <li>
-          Samochód jedzie z prędkością 25km/h, natomiast po 10 sekundach jego
-          prędkość wynosi 15km/h. Jego przyspieszenie wynosi -2<M c="km/s^2" />.
-        </li>
-        <li>
-          Samochód jedzie z prędkością 25km/h, natomiast po 10 sekundach jego
-          prędkość wynosi 35km/h. Jego przyspieszenie wynosi 2<M c="km/s^2" />.
-        </li>
-        <li>
-          Samochód jedzie z prędkością -25km/h, natomiast po 10 sekundach jego
-          prędkość wynosi -15km/h. Jego przyspieszenie wynosi 2<M c="km/s^2" />.
-        </li>
-        <li>
-          Samochód jedzie z prędkością -25km/h, natomiast po 10 sekundach jego
-          prędkość wynosi -35km/h. Jego przyspieszenie wynosi -2<M
-            c="km/s^2"
-          />.
-        </li>
-      </ul>
-      Możesz zatem zauważyć, że pojazd zwalnia jeśli jego znak przyspieszenia i
-      prędkości jest przeciwny.
+      prędkości będzie przeciwny jak podczas omawiania drgań i fal.
+      <Example title="samochód" nr="5.2">
+        <ul>
+          <li>
+            Samochód jedzie z prędkością 25km/h, natomiast po 10 sekundach jego
+            prędkość wynosi 15km/h. Jego przyspieszenie wynosi -2<M
+              c="km/s^2"
+            />.
+          </li>
+          <li>
+            Samochód jedzie z prędkością 25km/h, natomiast po 10 sekundach jego
+            prędkość wynosi 35km/h. Jego przyspieszenie wynosi 2<M
+              c="km/s^2"
+            />.
+          </li>
+          <li>
+            Samochód jedzie z prędkością -25km/h, natomiast po 10 sekundach jego
+            prędkość wynosi -15km/h. Jego przyspieszenie wynosi 2<M
+              c="km/s^2"
+            />.
+          </li>
+          <li>
+            Samochód jedzie z prędkością -25km/h, natomiast po 10 sekundach jego
+            prędkość wynosi -35km/h. Jego przyspieszenie wynosi -2<M
+              c="km/s^2"
+            />.
+          </li>
+        </ul>
+        Możesz zatem zauważyć, że pojazd zwalnia jeśli jego znak przyspieszenia
+        i prędkości jest przeciwny.
+      </Example>
     </Section>
     <h3>Podstawowe równania ruchu</h3>
     <Section>
