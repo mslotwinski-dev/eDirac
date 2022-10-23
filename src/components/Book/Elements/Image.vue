@@ -1,13 +1,15 @@
 <template>
-  <div ref="div" v-if="src" class="cont">
+  <div v-if="src" class="cont">
     {{ book }}
-    <img ref="image" :src="`/books/${tag}/${$route.params.id}/img/${src}`" />
+    <div class="img-container">
+      <img :src="`/books/${tag}/${$route.params.id}/img/${src}`" />
+    </div>
     <div class="sub"><slot /></div>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent, ref, Ref, onMounted } from 'vue'
+import { defineComponent } from 'vue'
 import { useRoute } from 'vue-router'
 
 import * as CategoriesModule from '@/data/books/categories'
@@ -21,31 +23,7 @@ export default defineComponent({
     },
   },
   setup() {
-    const image = ref(null) as Ref<HTMLImageElement | null>
-    const div = ref(null) as Ref<HTMLDivElement | null>
-
-    onMounted(() => {
-      if (!image.value) return
-      image.value.addEventListener('load', () => {
-        // IDK WHY, IT WONT WORK IF I DONT CHECK TWICE
-        if (!image.value) return
-        image.value.height = 300
-        const ratio = image.value.width / image.value.height
-        window.addEventListener('resize', () => {
-          // TYPESCRIPT WTF???
-          if (!image.value || !div.value) return
-          image.value.height = image.value.width / ratio
-
-          if (image.value.height < 300) {
-            image.value.width = div.value.clientWidth
-          }
-        })
-      })
-    })
-
     return {
-      image,
-      div,
       tag: Object.values({ ...CategoriesModule })
         .map((e) => e.Books)
         .flat(1)
@@ -64,9 +42,7 @@ export default defineComponent({
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  img {
-    max-width: 100%;
-  }
+
   .sub {
     text-align: center;
     padding-bottom: 10px;
@@ -78,6 +54,17 @@ export default defineComponent({
     @media (max-width: 1000px) {
       font-size: 13.5px;
     }
+  }
+}
+
+.img-container {
+  width: 1000px;
+  max-width: 95vw;
+  max-height: 300px;
+  text-align: center;
+  img {
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 </style>
