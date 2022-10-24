@@ -30,7 +30,7 @@
       się zajmować. Dziedzina nauki, która zajmuje się płynami nienewtonowskimi
       to reologia. Serio, takie płyny są naprawdę dziwne.
     </Section>
-    <Image src="2.png">
+    <Image src="hydrodynamika/2.png">
       Pokaz doświadczeń z płynem nienewtonowskim na uniwersytecie w Mexico City
     </Image>
     <h3>No dobra, a jak to zdefiniować?</h3>

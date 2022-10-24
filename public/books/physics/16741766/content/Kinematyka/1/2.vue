@@ -38,7 +38,7 @@
         Jak widać oś y ogranicza funkcja liniowa. Zbierając te wszystkie
         informacje możemy narysować tor ruchu omawianej cząstki.
       </Section>
-      <Image src="4.png" />
+      <Image src="kinematyka/3.png" />
     </Example>
   </Article>
 </template>

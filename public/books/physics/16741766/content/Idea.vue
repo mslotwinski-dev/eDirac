@@ -38,8 +38,8 @@
       uwagi w stosunku do danego tematu oraz zaproponować zmiany, a ja postaram
       się ten dział poprawić.
     </Section>
-    <Section
-      >Niniejsza książka stanowi zbiór wszystkich moich notatek, przemyśleń i
+    <Section>
+      Niniejsza książka stanowi zbiór wszystkich moich notatek, przemyśleń i
       pomysłów zapisywanych już od czasów bycia studentem, stanowiący zebranie w
       jednej serii całej wiedzy potrzebnej Ci na studiach. Postanowiłem spisać
       wszystko, czego tylko się uczyłem, ze wszystkich działów nauki, z jakimi
@@ -55,37 +55,7 @@
       stanowi on jedynie drugorzędny dodatek (jak matematyka dla fizyków), a
       nawet tych, którym potrzebne są jedynie absolutne podstawy (jak np. fizyka
       dla biologa). Dlatego każdy dział oznaczyłem poziomem zaawansowania, który
-      pozwala ocenić, jak dany temat będzie dla ciebie przydatny. Podział ten ma
-      cztery kategorie:
-      <ul>
-        <li>
-          Podstawowy — dostępny dla każdego, kto ukończył podstawową edukację i
-          chce nieco usystematyzować wiedzę. Są to absolutne podstawy, bez
-          których trudno przejść dalej. Służy on raczej przypomnieniu niż
-          rozwojowi, chociaż zdarzają się i tu nowe rzeczy.
-        </li>
-        <li>
-          Rozszerzony — jest to główna część książki. Pozwala ci nabyć
-          podstawową wiedzę z zakresu danego przedmiotu. Przyda Ci się, jeśli
-          studiujesz dziedzinę niezwiązaną z fizyką, np. informatykę.
-        </li>
-        <li>
-          Zaawansowany — pozwala zrozumieć Ci nieco bardziej złożone aspekty
-          nauki. Jest to solidna podstawa zrozumienia otaczającego nas świata i
-          najczęściej jest wystarczająca, aby biegle poruszać się po fachowej
-          literaturze. Wymaga również silniejszych podstaw teoretycznych z
-          matematyki, które nie na każdym kierunku są wprowadzane. Przyda ci się
-          na kierunkach związanych z fizyką, np. elektronice czy lotnictwie.
-        </li>
-        <li>
-          Ekspercki — jeśli tu jesteś, to znaczy, że chcesz poznać wszystkie
-          aspekty fizyki, nawet te, które nie są w zasięgu zainteresowań
-          zwykłego inżyniera. Jest to kompletny kurs, który pozwoli ci zmierzyć
-          się z każdym problemem fiyki, zrozumieć według jakich praw działa
-          świat i pomoże ci studiując fizykę lub nauki najbardziej z nią
-          związane.
-        </li>
-      </ul>
+      pozwala ocenić, jak dany temat będzie dla ciebie przydatny.
     </Section>
     <Section>
       Jeśli dany temat jest dla ciebie zbyt trudny po prostu go pomiń i przejdź

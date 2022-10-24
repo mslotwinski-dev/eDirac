@@ -18,7 +18,7 @@
       przyporządkować mu 3 współrzędne leżące na wszystkich 3 osiach. Wygląda to
       mniej więcej tak.
     </Section>
-    <Image src="2.png" />
+    <Image src="kinematyka/1.png" />
     <Section>
       Za pomocą litery r zaznaczyłem wektor łączący środek układu O ze
       zdarzeniem P. Czasami dla wygody zmianę położenia ciała w przestrzeni będę
@@ -130,7 +130,7 @@
       to od nas zależy, czy trzecią współrzędną będzie wysokość czy kąt. W
       pierwsym przypadku otrzymujemy współrzędne walcowe, w drugim sferyczne.
     </Section>
-    <Image src="3.png">
+    <Image src="kinematyka/2.png">
       Układy współrzędnych: prostoliniowy, walcowy i sferyczny
     </Image>
     <Section>

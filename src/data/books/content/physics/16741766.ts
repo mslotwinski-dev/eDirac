@@ -8,8 +8,10 @@ export default {
     },
     'Wprowadzenie do fizyki': {
       'Jednostki i wielkości fizyczne': 'Wstep/2/1.vue',
-      'Budowa materii': 'Wstep/2/2.vue',
-      'Ruch i jego przyczyny': 'Wstep/2/3.vue',
+      'Ruch i jego przyczyny': 'Wstep/2/2.vue',
+      'Elektryczność i magnetyzm': 'Wstep/2/3.vue',
+      'Budowa materii': 'Wstep/2/4.vue',
+      'W kosmos i dalej': 'Wstep/2/5.vue',
     },
   },
   Kinematyka: {

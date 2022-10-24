@@ -2,36 +2,6 @@
   <Article>
     <Chapter nr="1" book="physics"> Filozofia fizyki </Chapter>
     <Begin nr="1.1" advanced="0"> Dziedziny i zakres fizyki </Begin>
-    <h3>Doświadczalna czy teoretyczna?</h3>
-    <Section>
-      Zanim zaczniemy się uczyć fizyki musimy dowiedzieć czym ona jest. Zakres
-      zainteresowań fizyki jest tak szeroki, że trudno niczego nie pominąć. Bada
-      ona zarówno obiekty kosmicznie wielkie jak galaktyki, jak i cząstki tak
-      małe, że trudne do wyobrażenia. Zarówno ruch, ciepło, prąd i światło.
-      Formułuje swoje prawa zarówno poprzez opis teoretyczny, jak i
-      doświadczenia. Zacznijmy więc od początku. mie to jest pytanie natury
-      raczej filozoficznej, ale nawet jeśli to taki przypadek nas nie
-      interesuje. Ruch to zmiana położenia w określonym czasie.
-    </Section>
-    <Section>
-      Pierwszym podziałem jest podział na fizykę teoretyczną i doświadczalną. W
-      zasadzie jest on odrębny wobec ich dziedzin, bo każdym działem fizyki
-      zajmują się zarówno naukowcy teoretyczni jak i doświadczalni. Często się
-      słyszy, że co do zasady jeśli więcej przyjemności sprawia ci matematyczny
-      opis zjawisk lepszym wyborem będzie uniwersytet, natomiast na
-      politechnikach studenci uczą się dorobku fizyki w praktyce. Ma to ziarno
-      prawdy, jednak nie jest to reguła. Bardzo wiele uniwersytetów oferuje
-      również ścieżkę doświadczalną, a na politechnikach obecne są specjalizacje
-      wymagające ogromnej wiedzy teoretycznej jak np. inżynieria kwantowa.
-    </Section>
-    <Section>
-      Ja będę starał się obrać nieco inną ścieżkę. Nie będę próbował udowadniać
-      wszystkich twierdzeń, gdyż najczęściej nie ma to większego sensu. Nie będę
-      także opisywał wszystkich bardzo rozbudowanych doświadczeń pozwalających
-      na udowodnienie tego, co zostało już udowodnione. Zamiast tego dowiesz się
-      dużo więcej o tym, jak tego czego się uczysz, użyć w praktyce - zarówno w
-      zadaniach jak i przykładach z innych dziedzin nauki.
-    </Section>
     <h3>Mechanika</h3>
     <Section>
       Przyszedł czas, aby opisać wszystkie dziedziny, które wchodzą w skład
@@ -245,7 +215,7 @@
       szczególną teorię względności tak, aby móc opisywać cząstki za małe dla
       mechaniki relatywistycznej i za szybkie dla mechaniki kwantowej.
     </Section>
-    <Image src="1.png" />
+    <Image src="wstep/1.png" />
     <Section>
       Bardzo ważną dziedziną fizyki współczesnej jest <b>fizyka atomowa</b>,
       która bada językiem mechaniki kwantowej atomy – ich poziomy energetyczne,

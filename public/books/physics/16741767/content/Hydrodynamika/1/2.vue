@@ -47,7 +47,7 @@
       >, natomiast stałe a, b i <Math>\beta</Math> są wyznaczane doświaczalnie w
       zależności od budowy cząsteczkowej płynu.
     </Section>
-    <Image src="1.png">
+    <Image src="hydrodynamika/1.png">
       Zależności gęstości od ciśnienia i temperatury dla gazów i płynów
     </Image>
     <Section>

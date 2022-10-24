@@ -100,10 +100,11 @@
       {\displaystyle F_S = \int \limits _{S} \sigma \cdot dS}.
     </Math>
     <Section>
-      Zauważ, że są to całki wielokrotne. Powinienem używać symbolu
-      <Math>\iint</Math> i <Math>\iiint</Math>, ale zapis robi się wtedy dość
-      nieczytelny. Wolę zachować czystość zapisu niż podlizywać się matematykom
-      teoretycznym. Jeśli to czytacie, to nie pozdrawiam was.
+      Zauważ, że są to całki wielokrotne. Niektórzy powiedzą, że powinienem
+      używać symbolu <Math>\iint</Math> i <Math>\iiint</Math>, jednak nie jest
+      to obowiązek i w wielu podręcznikach tego nie uświadczysz, a zapis robi
+      się wtedy dość nieczytelny. Wolę zachować czystość zapisu niż podlizywać
+      się matematykom teoretycznym. Jeśli to czytacie, to nie pozdrawiam was.
     </Section>
   </Article>
 </template>
