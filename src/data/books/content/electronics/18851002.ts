@@ -5,4 +5,7 @@ export default {
       'Czym jest prąd?': 'Podstawy/1/2.vue',
     },
   },
+  'Materiały w Elektronice': {
+    'Przewodnictwo metali': {},
+  },
 }

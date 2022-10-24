@@ -150,7 +150,7 @@ export const Electronics_7: Book = {
   Part: 7,
   Subtitles: [
     'Optoelektronika: technologie elektroniczne',
-    'i fotoniczne , fotonika światłowodowa',
+    'i fotoniczne, fotonika światłowodowa',
   ],
   Content: B_7,
 }
