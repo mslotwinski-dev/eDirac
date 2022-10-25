@@ -3,10 +3,11 @@ export default {
     'Cząstki i fale': {
       'Promieniowanie termiczne i narodziny fizyki kwantowej':
         'Mechanika/1/1.vue',
-      'Zjawisko fotoelektryczne': '',
+      Foton: 'Mechanika/1/2.vue',
+      'Efekt fotoelektryczny': 'Mechanika/1/3.vue',
     },
   },
-  'Optyka Kwantowa': {
+  'Optyka kwantowa i fotonika': {
     '': {},
   },
   'Chemia Kwantowa': {
