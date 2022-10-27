@@ -1,12 +1,10 @@
 <template>
   <span
     v-html="
-      katex.renderToString(c, {
+      katex.renderToString(c || s, {
         throwOnError: false,
       })
     "
-    class="equation"
-    ref="span"
   />
 </template>
 
@@ -17,6 +15,7 @@ import katex from 'katex'
 export default defineComponent({
   props: {
     c: String,
+    s: String,
   },
   data() {
     return {

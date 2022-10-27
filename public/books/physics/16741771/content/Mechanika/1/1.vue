@@ -142,7 +142,7 @@
       Rayleigh oraz James Jeans wyprowadzili teoretyczny rozkład promieniowania
       ciała doskonale czarnego. Radiancja spektralna według niego wynosi:
       <Math center="true" nr="1.5">
-        {\displaystyle L_{\lambda}(\lambda, T) = 2\frac{ckT}{\lambda^4} },
+        {\displaystyle S(\lambda, T) = 2\frac{ckT}{\lambda^4} },
       </Math>
       gdzie k to oczywiście stała Boltzmanna. Napatrzyłeś się? No to wyrzucamy
       to wspomnienie do kosza. Fizyka klasyczna nas zawiodła, teraz naszym
@@ -153,19 +153,22 @@
       W 1900 r. Planck opracował wzór na <Math>S(\lambda)</Math>, który
       doskonale pasował do wyników eksperymentalnych dla wszystkich długości fal
       i dla wszystkich temperatur:
-      <Math center="true" nr="1.6">
-        {\displaystyle S(\lambda ,T) = {\frac {2hc^{2}}{\lambda ^{5}}}{\frac
-        {1}{e^{hc /\lambda kT}-1}}}
-      </Math>
     </Section>
+    <Math center="true" nr="1.6">
+      {\displaystyle S(\lambda ,T) = {\frac {2hc^{2}}{\lambda ^{5}}}{\frac
+      {1}{e^{hc /\lambda kT}-1}}}
+    </Math>
+    <Section>Tajemniczą stałą h zdefiniujemy w następnym temacie.</Section>
     <h3>Kwanty promieniowania</h3>
     <Section>
       Kluczowym elementem równania wyprowadzonego przez Plancka jest niepozorny,
       a jednak przełomowy argument wykładniczy, który zapiszemy jako
       <Math>E_\gamma</Math> i zdefiniujemy jako:
-      <Math center="true" nr="1.7">
-        {\displaystyle E_\gamma = \frac{hc}{\lambda}} = hf
-      </Math>
+    </Section>
+    <Math center="true" nr="1.7">
+      {\displaystyle E_\gamma = \frac{hc}{\lambda}} = hf
+    </Math>
+    <Section>
       Równanie 1.6 było pierwszym użyciem symbolu h i rozpoczęło nową erę w
       historii fizyki. Planck jednak, z jego wykształceniem w fizyce klasycznej,
       po prostu nie mógł uwierzyć w taki wynik, pomimo natychmiastowego sukcesu
@@ -204,9 +207,10 @@
     <Math center="true" nr="1.8">
       {\displaystyle \lambda_{max} = \frac{b}{T} }
     </Math>
-    gdzie b to stała Wiena b = 2,9 <Math>\cdot</Math>
-    10
-    <Math>^{-3} m \cdot K </Math>
+    <Section>
+      gdzie b to stała Wiena b = 2,9 <Math>\cdot</Math> 10
+      <Math>^{-3} m \cdot K </Math>
+    </Section>
     <h3>Prawo Stefana-Boltzmanna</h3>
     <Section>
       Przed chwilą różniczkowaliśmy równanie 1.6, więc teraz je scałkujemy (jest
@@ -214,18 +218,24 @@
       scałkujemy je na wszystkich długościach fal (dla danej temperatury)
       znajdujemy moc na jednostkę powierzchni A promieniującego ciała, czyli
       strumień energii.
-      <Math center="true" nr="1.9">
-        {\displaystyle \Phi = \frac{P}{S} = \sigma T^{4} }
-      </Math>
+    </Section>
+    <Math center="true" nr="1.9">
+      {\displaystyle \Phi = \frac{P}{S} = \sigma T^{4} }
+    </Math>
+    <Section>
       Jest to oczywiście znane nam prawo Stefana-Boltzmanna. Jeśli następnie
       pomnożymy przez całkowitą powierzchnię S, znajdziemy całkowitą moc
       promieniowania P.
-      <Math center="true" nr="1.9"> {\displaystyle P = \sigma ST^{4} } </Math>
+    </Section>
+    <Math center="true" nr="1.9"> {\displaystyle P = \sigma ST^{4} } </Math>
+    <Section>
       <Math>\sigma</Math> jest oczywiście stałą Stefana-Boltzmanna i wynosi
+    </Section>
+    <Center>
       <Math>
         {\displaystyle \sigma ={\frac {2\pi ^{5}k^{4}}{15h^{3}c^{2}}}=5,67\times
         10^{-8}\mathrm {\frac {W}{m^{2}K^{4}}}}
       </Math>
-    </Section>
+    </Center>
   </Article>
 </template>

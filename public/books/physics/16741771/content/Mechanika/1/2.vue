@@ -46,12 +46,41 @@
     </Math>
     <Section>
       Już ten wzór widzieliśmy, prawda? Dokładnie on występował w prawie
-      Plancka. Teraz wiemy co on oznacza. Jeśli ma energię powinien mieć pęd,
-      prawda? Tylko co podstawimy za masę, tu robi się kłopot. Przyrównajmy
-      energię fotonu do znanego mc<M c="^2" />, a następnie wyliczmy z niego
-      odpowiednik masy.
+      Plancka. Teraz wiemy co on oznacza. Zgodnie z tym, światło o
+      częstotliwości f zawsze niesie energię, która jest całkowitą
+      wielokrotnością hf tak samo jak pieniądze w dollarach zawsze są
+      wielokrotnością jednego centa.
+    </Section>
+
+    <h3>Stała plancka</h3>
+    <Section>
+      Stała h to najważniejsza stała fizyki kwantowej (a przez niektórych całej
+      fizyki) i jest równa około:
     </Section>
     <Math center="true" nr="1.9">
+      {\displaystyle h = 6,63 \cdot 10^{-34} \ J\cdot s}
+    </Math>
+    <Section>
+      Zwróć uwagę na jednostki stałej. Są nimi dżulosekundy, czyli jednostka
+      momentu pędu. Nie jest to przypadek. Dzieląc stałą Plancka przez 2<M
+        c="\pi"
+      />
+      otrzymujemy tak zwaną zredukowaną stałą Plancka, zwaną również
+      <i>h kreślone</i>, stałą Diraca lub najczęściej po prostu stałą Plancka,
+      gdyż używa się jej znacznie częściej niż <i>niezredukowanej</i> stałej
+      plancka. Jest ona kwantem momentu pędu, a więc wynika stąd, że moment pędu
+      cząstki również jest skwantowany.
+    </Section>
+    <Math center="true" nr="1.10">
+      {\displaystyle \hbar = \frac{h}{2\pi} = 1,055 \cdot 10^{-34} \ J\cdot s}
+    </Math>
+    <h3>Pęd fotonu</h3>
+    <Section>
+      Jeśli ma energię powinien mieć pęd, prawda? Tylko co podstawimy za masę,
+      tu robi się kłopot. Przyrównajmy energię fotonu do znanego mc<M c="^2" />,
+      a następnie wyliczmy z niego odpowiednik masy.
+    </Section>
+    <Math center="true" nr="1.11">
       {\displaystyle \frac{hc}{\lambda} = mc^2 \Rightarrow m = \frac{h}{ \lambda
       c} }
     </Math>
@@ -60,7 +89,7 @@
       potrzeby wzorów. Teraz zostało podstawić do wzoru na pęd, czyli pomnożyć
       przez c. Otrzymujemy wzór na pęd fotonu.
     </Section>
-    <Math center="true" nr="1.9">
+    <Math center="true" nr="1.12">
       {\displaystyle p = \frac{h}{ \lambda } }
     </Math>
   </Article>
