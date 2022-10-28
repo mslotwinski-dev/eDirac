@@ -72,9 +72,11 @@ export default defineComponent({
 }
 
 .container {
-  width: 100%;
-  margin-bottom: 5px;
+  width: 825px;
+  max-width: 95vw;
+  margin-bottom: 10px;
   border-radius: 10px;
+  padding: 8px;
 
   .content {
     width: 100%;
