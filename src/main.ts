@@ -6,6 +6,7 @@ import store from './store'
 
 import i18n from './locales/i18n'
 import VueSmoothScroll from 'vue3-smooth-scroll'
+import VueDragScroll from 'vue-dragscroll'
 import scrollsettings from './utilities/scroll'
 import Notifications from '@kyvg/vue3-notification'
 
@@ -28,6 +29,7 @@ import Flex from '@/components/Book/Elements/Flex.vue'
 import Nobel from '@/components/Book/Elements/Nobel.vue'
 import M from '@/components/Book/Elements/M.vue'
 import Example from '@/components/Book/Elements/Example.vue'
+import Formula from '@/components/Book/Elements/Formula.vue'
 
 createApp(App)
   .component('Article', Article)
@@ -43,11 +45,13 @@ createApp(App)
   .component('Nobel', Nobel)
   .component('M', M)
   .component('Example', Example)
+  .component('Formula', Formula)
 
   .component('ic', FontAwesomeIcon)
   .use(i18n)
   .use(Notifications)
   .use(VueSmoothScroll, scrollsettings)
+  .use(VueDragScroll)
   .use(store)
   .use(router)
   .mount('#app')

@@ -47,7 +47,7 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import '@/styles/index.scss';
 section {
-  margin: 20px;
+  margin: 12px;
   margin-top: 30px;
   width: 825px;
 }

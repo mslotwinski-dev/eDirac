@@ -41,9 +41,9 @@
       elektrodynamice. Używając go możemy wyprowadzić energię fotonu i jest ona
       proporcjonalna do jego częstotliwości.
     </Section>
-    <Math center="true" nr="1.8">
+    <Formula nr="1.11">
       {\displaystyle E_\gamma = \frac{hc}{\lambda}} = hf
-    </Math>
+    </Formula>
     <Section>
       Już ten wzór widzieliśmy, prawda? Dokładnie on występował w prawie
       Plancka. Teraz wiemy co on oznacza. Zgodnie z tym, światło o
@@ -57,9 +57,9 @@
       Stała h to najważniejsza stała fizyki kwantowej (a przez niektórych całej
       fizyki) i jest równa około:
     </Section>
-    <Math center="true" nr="1.9">
+    <Formula nr="1.12">
       {\displaystyle h = 6,63 \cdot 10^{-34} \ J\cdot s}
-    </Math>
+    </Formula>
     <Section>
       Zwróć uwagę na jednostki stałej. Są nimi dżulosekundy, czyli jednostka
       momentu pędu. Nie jest to przypadek. Dzieląc stałą Plancka przez 2<M
@@ -71,26 +71,24 @@
       plancka. Jest ona kwantem momentu pędu, a więc wynika stąd, że moment pędu
       cząstki również jest skwantowany.
     </Section>
-    <Math center="true" nr="1.10">
+    <Formula nr="1.13">
       {\displaystyle \hbar = \frac{h}{2\pi} = 1,055 \cdot 10^{-34} \ J\cdot s}
-    </Math>
+    </Formula>
     <h3>Pęd fotonu</h3>
     <Section>
       Jeśli ma energię powinien mieć pęd, prawda? Tylko co podstawimy za masę,
       tu robi się kłopot. Przyrównajmy energię fotonu do znanego mc<M c="^2" />,
       a następnie wyliczmy z niego odpowiednik masy.
     </Section>
-    <Math center="true" nr="1.11">
+    <Formula nr="1.14">
       {\displaystyle \frac{hc}{\lambda} = mc^2 \Rightarrow m = \frac{h}{ \lambda
       c} }
-    </Math>
+    </Formula>
     <Section>
       Foton oczywiście nie ma masy, ale w ten sposób można mu ją przypisać na
       potrzeby wzorów. Teraz zostało podstawić do wzoru na pęd, czyli pomnożyć
       przez c. Otrzymujemy wzór na pęd fotonu.
     </Section>
-    <Math center="true" nr="1.12">
-      {\displaystyle p = \frac{h}{ \lambda } }
-    </Math>
+    <Formula nr="1.15 "> {\displaystyle p = \frac{h}{ \lambda } } </Formula>
   </Article>
 </template>

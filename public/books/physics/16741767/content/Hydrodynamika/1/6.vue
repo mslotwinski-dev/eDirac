@@ -29,9 +29,9 @@
       masowej dF (działającej na masę d m = ρ dV, zawartą w elemencie
       objętościowym dV ) do masy elementu, a zatem:
     </Section>
-    <Math center="true" nr="2.1">
-      {\displaystyle f = \frac{dF}{dm} = \frac{1}{\rho}\frac{dQ}{dV}}.
-    </Math>
+    <Formula nr="2.1">
+      {\displaystyle f = \frac{dF}{dm} = \frac{1}{\varrho}\frac{dQ}{dV}}.
+    </Formula>
     <Section>
       Co do jednostki możesz zauważyć, że są równe przyspieszeniu, a nie sile.
       No skoro jest proporcjonalna do masy to rzeczywiście bardziej użyteczna
@@ -55,9 +55,7 @@
       punkcie jest wprost proporcjonalne do pola danej powierzchni, na którą
       działają. Oznaczamy je grecką literą sigma.
     </Section>
-    <Math center="true" nr="2.2">
-      {\displaystyle \sigma = \frac{dF}{dS} }.
-    </Math>
+    <Formula nr="2.2"> {\displaystyle \sigma = \frac{dF}{dS} }. </Formula>
     <Section>
       Jak możesz zauważyć jednostką tej siły jest z kolei również nie newton, a
       tym razem pascal. Kiepsko u hydrodynamików z nazewnictwem sił. Jakie są
@@ -92,13 +90,13 @@
       siłę, co dla odróżnienia nazywamy wektorem głównym siły. Tak sobie
       inżynierzy płynów wymyślili, nic nie poradzę.
     </Section>
-    <Math center="true" nr="2.3">
-      {\displaystyle F_M = \rho \int \limits _{V} (f - \frac{dv}{dt})dV}.
-    </Math>
+    <Formula nr="2.3">
+      {\displaystyle F_M = \varrho \int \limits _{V} (f - \frac{dv}{dt})dV}.
+    </Formula>
     <Section> To samo możemy zrobić z siłami powierzchniowymi. </Section>
-    <Math center="true" nr="2.4">
+    <Formula nr="2.4">
       {\displaystyle F_S = \int \limits _{S} \sigma \cdot dS}.
-    </Math>
+    </Formula>
     <Section>
       Zauważ, że są to całki wielokrotne. Niektórzy powiedzą, że powinienem
       używać symbolu <Math>\iint</Math> i <Math>\iiint</Math>, jednak nie jest

@@ -20,40 +20,38 @@
       masę ciała poddawanego sile grawitacji jako m, natomiast promień ziemii
       jako r. Wtedy
     </Section>
-    <Math center="true" nr="3.11">
-      {\displaystyle g = \frac{F_{grawitacji}}{m} = G \frac{Mm}{mr^2} = G
-      \frac{M}{r^2} \approx 9,81 \frac{m}{s^2}}
-    </Math>
+    <Formula nr="3.X">
+      {\displaystyle g = \frac{F_g}{m} = G \frac{Mm}{mr^2} = G \frac{M}{r^2}
+      \approx 9,81 \frac{m}{s^2}}
+    </Formula>
     <h3>Swobodny spadek</h3>
     <Section>
       Rozważmy sytuację, kiedy puszczamy z jakieś wysokości (oznaczmy ją h)
       piłkę. Zapominamy oczywiście o wszelkich oporach ruchu, jedyną rozważaną
       siłą jest grawitacja. W tym przypadku to, co rozważamy to zwykły ruch
-      przyspieszony. Droga sprowadza się do wysokości <Math>h_0</Math>,
-      natomiast rolę przyspieszenia pełni przyspieszenie grawitacyjne g, które w
-      polu ziemskim zawsze wynosi około 9,81<Math>\frac{m}{s^2}</Math>. Pamiętaj
-      tylko, że zgodnie z układem współrzędnych przyspieszenie działa w dół,
-      dlatego jego znak jest na minusie. Podstawowe równanie ruchu sprowadza się
-      tutaj do
-      <Math center="true" nr="3.12">
-        {\displaystyle h(t) = h_0 - \frac{1}{2}gt^2}
-      </Math>
-      <Section>
-        Jeśli się zastanowimy powyższe równanie rzeczywiście ma sens, bo wraz z
-        czasem wysokość zmniejsza się od wysokości początkowej do zera.
-      </Section>
+      przyspieszony. Droga sprowadza się do wysokości <M s="h_0" />, natomiast
+      rolę przyspieszenia pełni przyspieszenie grawitacyjne g, które w polu
+      ziemskim zawsze wynosi około 9,81<M s="\frac{m}{s^2}" />. Pamiętaj tylko,
+      że zgodnie z układem współrzędnych przyspieszenie działa w dół, dlatego
+      jego znak jest na minusie. Podstawowe równanie ruchu sprowadza się tutaj
+      do
+    </Section>
+    <Formula nr="3.X"> {\displaystyle h(t) = h_0 - \frac{1}{2}gt^2} </Formula>
+    <Section>
+      Jeśli się zastanowimy powyższe równanie rzeczywiście ma sens, bo wraz z
+      czasem wysokość zmniejsza się od wysokości początkowej do zera.
     </Section>
     <h3>Rzut poziomy</h3>
     <Section>
       Powyższe równanie to oczywiście równanie uproszczone. Kolejny przypadek
       zakłada, że rzucamy przedmiot w ziemię lub do góry. To, czym się różni ta
       sytuacja, to fakt, że nadajemy obiektowi prędkość początkową zależną od
-      siły rzutu. W tym przypadku równanie (3.12) przybiera pełną postac, która
-      wygląda prawie tak jak równanie (3.5).
+      siły rzutu. W tym przypadku równanie przybiera pełną postac, która wygląda
+      prawie tak jak równanie (3.9).
     </Section>
-    <Math center="true" nr="3.13">
+    <Formula nr="3.X">
       {\displaystyle h = h_0 - \frac{1}{2}gt^2 + v_0t}
-    </Math>
+    </Formula>
     <Section>
       Oczywiście pamiętaj o tym, że gdy początkowa prędkość działa w górę, jest
       ona dodatnia, natomiast kiedy rzucasz w dół jest ona ujemna. Tylko wtedy
@@ -66,48 +64,45 @@
       proste, a pozwala ci zrozumieć fizykę i generalnie zmiany funkcji na
       znacznie lepszym poziomie.
     </Section>
-    <Math center="true" nr="3.13"> {\displaystyle v = v_0 - gt} </Math>
+    <Formula nr="3.X"> {\displaystyle v = v_0 - gt} </Formula>
     <Section>
       To również ma sens, w przypadku gdy rzucamy w górę prędkość będzie maleć i
       zbliżać się do zera aż zmieni znak i będzie poruszać się w dół. Gdy
-      rzucamy piłkę w górę z prędkością 10<Math>\frac{m}{s}</Math> po jednej
+      rzucamy piłkę w górę z prędkością 10<M s="\frac{m}{s}" /> po jednej
       sekundzie jej wartość wyniesie 0, natomiast po dwóch sekundach wyniesie
-      -10<Math>\frac{m}{s}</Math>.Gdy mamy rzut w dół prędkość przez cały czas
+      -10<M s="\frac{m}{s}" />.Gdy mamy rzut w dół prędkość przez cały czas
       będzie ujemna, ale jej wartość bezwzględna będzie rosła. Gdy rzucimy w dół
-      piłkę z prędkością -10<Math>\frac{m}{s}</Math> jej prędkość po sekundzie
-      wyniesie -20<Math>\frac{m}{s}</Math>, natomiast po dwóch -30<Math>
-        \frac{m}{s}
-      </Math>
+      piłkę z prędkością -10<M s="\frac{m}{s}" /> jej prędkość po sekundzie
+      wyniesie -20<M s="\frac{m}{s}" />, natomiast po dwóch -30
+      <M s="\frac{m}{s}" />
       Nie odkryliśmy niczego nowego, ale przynajmniej pokazaliśmy na
       przykładach, że ten wzór działa.
     </Section>
     <h3>Wysokość</h3>
     <Section>
       Kiedy rzucamy przedmiot w dół sprawa jest prosta, wspinamy się na drzewo o
-      wysokości 10m, więc <Math>h_0</Math> wynosi 10m. Co jednak jeśli rzucamy
+      wysokości 10m, więc <M s="h_0" /> wynosi 10m. Co jednak jeśli rzucamy
       przedmiot w górę i chcemy obliczyć maksymalną wysokość? Sprawa jest bardzo
       prosta, najpierw musimy policzyć kiedy h(t) osiąga maksimum, czyli moment
-      w którym prędkość jest równa 0<Math>\frac{m}{s}</Math>. Podstawienie w
-      równaniu (3.13) za prędkość 0 pozwala nam stwierdzić, że dzieje się to
-      kiedy czas ma wartość <Math>\frac{g}{t}</Math>. Teraz kiedy znamy moment,
+      w którym prędkość jest równa 0<M s="\frac{m}{s}" />. Podstawienie w
+      równaniu (3.X) za prędkość 0 pozwala nam stwierdzić, że dzieje się to
+      kiedy czas ma wartość <M s="\frac{g}{t}" />. Teraz kiedy znamy moment,
       kiedy wysokość osiąga maksimum została nam tylko formalność. Podstawiamy
-      we wzorze (3.12) za czas <Math>\frac{g}{t}</Math>, co pozwala nam dojść do
+      we wzorze (3.X) za czas <M s="\frac{g}{t}" />, co pozwala nam dojść do
       wzoru, że maksymalna wysokość w rzucie pionowym wynosi
     </Section>
-    <Math center="true" nr="3.14">
-      {\displaystyle h = h_0 + \frac{v^2}{2g}}
-    </Math>
+    <Formula nr="3.X"> {\displaystyle h = h_0 + \frac{v^2}{2g}} </Formula>
     <Section>
       Nikt ci oczywiśce broni ci stać na drzewie na jakieś wysokości
-      <Math>h_0</Math> i rzucać w górę, jednak stojąc na ziemii wysokość
-      początkowa wynosi 0m i wtedy człon <Math>h_0</Math> się zeruje, dlatego
-      czasem jest pomijany. Ten sam wzór można wyprowadzić zasady zachowania
-      energii, o której również będziemy potem mówić. Dla formalności obliczmy
-      na sam koniec czas całego rzutu. Jeśli czas wznoszenia, po którym h wynosi
-      maksimum jest równy <Math>\frac{v}{g}</Math>, czas spadania wyniesie tyle
+      <M s="h_0" /> i rzucać w górę, jednak stojąc na ziemii wysokość początkowa
+      wynosi 0m i wtedy człon <M s="h_0" /> się zeruje, dlatego czasem jest
+      pomijany. Ten sam wzór można wyprowadzić zasady zachowania energii, o
+      której również będziemy potem mówić. Dla formalności obliczmy na sam
+      koniec czas całego rzutu. Jeśli czas wznoszenia, po którym h wynosi
+      maksimum jest równy<M s="\frac{v}{g}" />, czas spadania wyniesie tyle
       samo. Cały rzut będzie więc trwał
     </Section>
-    <Math center="true" nr="3.14"> {\displaystyle t = \frac{2v}{g} }</Math>
+    <Formula nr="3.X"> {\displaystyle t = \frac{2v}{g} }</Formula>
     <h3>Grawitacja w ujęciu relatywistycznym *</h3>
     <Section>
       Zaraz zaraz, coś tu nie gra. Wróćmy na sam początek tematu do definicji

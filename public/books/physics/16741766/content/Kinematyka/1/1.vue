@@ -22,19 +22,19 @@
     <Section>
       Za pomocą litery r zaznaczyłem wektor łączący środek układu O ze
       zdarzeniem P. Czasami dla wygody zmianę położenia ciała w przestrzeni będę
-      oznaczał po prostu jako <Math>\vec{r}</Math>. Możemy również o
-      <Math>\vec{r}</Math> myśleć bardziej matematycznie i rozłożyć go na 3
-      wektory jednostkowe <Math>\hat{x}</Math>, <Math>\hat{y}</Math> oraz
-      <Math>\hat{z}</Math> w każdym z kierunków. Jeśli nie wiesz czym jest
-      wersor, baza, ani przestrzeń wektorowa nic nie szkodzi, po prostu przejdź
-      do następnego punktu. Pojęcie wektora jednak, jest niezbędne, aby rozumieć
-      fizykę. Te 3 wektory jednostkowe stanowią bazę trójwymiarowej przestrzeni
-      wektorowej. Inaczej mówiąc, za pomocą odpowiedniej kombinacji tych 3
-      wektorów jednostkowych możemy otrzymać każdy punkt w przestrzeni.
+      oznaczał po prostu jako <M c="\vec{r}" />. Możemy również o
+      <M c="\vec{r}" /> myśleć bardziej matematycznie i rozłożyć go na 3 wektory
+      jednostkowe <M c="\hat x" />, <M c="\hat y" /> oraz <M c="\hat z" /> w
+      każdym z kierunków. Jeśli nie wiesz czym jest wersor, baza, ani przestrzeń
+      wektorowa nic nie szkodzi, po prostu przejdź do następnego punktu. Pojęcie
+      wektora jednak, jest niezbędne, aby rozumieć fizykę. Te 3 wektory
+      jednostkowe stanowią bazę trójwymiarowej przestrzeni wektorowej. Inaczej
+      mówiąc, za pomocą odpowiedniej kombinacji tych 3 wektorów jednostkowych
+      możemy otrzymać każdy punkt w przestrzeni.
     </Section>
-    <Math center="true" nr="3.1">
+    <Formula nr="3.1">
       {\displaystyle r(x, y, z) = x \hat{x} + y \hat{y} + z \hat{z}}
-    </Math>
+    </Formula>
     <h3>Czas</h3>
     <Section>
       Czas pozwala nam na dopełnienie opisu zjawiska. Wbrew pozorom ma więcej
@@ -115,16 +115,16 @@
       zrobić r oraz <M c="\varphi" />? Wystarczy użyć funkcji trygonometrycznych
       sinus i cosinus. Otrzymujemy w ten sposób transformację:
     </Section>
-    <Math center="true" nr="3.2">
+    <Formula nr="3.2">
       {\displaystyle x = r \ cos \varphi, \qquad y = r \ sin \varphi}
-    </Math>
+    </Formula>
     <Section>
       Chcąc wyliczyć jawnie r i <M c="\varphi" /> trochę się namęczymy, ale
       ostatecznie dostaniemy następujące wielkości:
     </Section>
-    <Math center="true" nr="3.3">
+    <Formula nr="3.3">
       {\displaystyle r = \sqrt{x^2 + y^2}, \qquad \varphi = arctg(\frac{y}{x})}
-    </Math>
+    </Formula>
     <Section>
       A co w sytuacji kiedy mamy 3 wymiary? Potrzebujemy trzeciej współrzędnej i
       to od nas zależy, czy trzecią współrzędną będzie wysokość czy kąt. W
@@ -139,22 +139,22 @@
       z. Parametr y dalej będziemy traktować jako wysokość. Są one niesamowicie
       użyteczne np. w ruchu obrotowym albo podczas ruchu <i>śrubowego</i>.
     </Section>
-    <Math center="true" nr="3.4">
+    <Formula nr="3.4">
       {\displaystyle {\begin{cases}x = r \ cos \varphi\\z = r \ sin \varphi\\y =
       y\end{cases}} \qquad {\begin{cases}r = \sqrt{x^2 + z^2}\\\varphi =
       arctg(\frac{z}{x})\\y = y\end{cases}}}
-    </Math>
+    </Formula>
     <Section>
       Współrzędne sferyczne są znacznie trudniejsze pod względem
       trygonometrycznym, bo wymagają od nas zaangażowania aż dwóch kątów. Ich
       użyteczność jednak nam to mocno wynagradza, chociażby w astrofizyce gdy
       planety poruszają się po orbitach.
     </Section>
-    <Math center="true" nr="3.5">
+    <Formula nr="3.5">
       {\displaystyle {\begin{cases}x = r \ cos \theta \ cos \varphi\\z = r \
       cos\theta \ sin \varphi\\y = r \ sin\theta \end{cases}} \qquad
       {\begin{cases}r = \sqrt{x^2 + y^2 + z^2}\\\varphi = arctg(\frac{z}{x})\\
       \theta = arcsin(\frac{y}{r})\end{cases}}}
-    </Math>
+    </Formula>
   </Article>
 </template>

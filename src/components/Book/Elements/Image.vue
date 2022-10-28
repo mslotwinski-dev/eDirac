@@ -58,7 +58,6 @@ export default defineComponent({
 }
 
 .img-container {
-  max-width: 100%;
   max-height: 350px;
   text-align: center;
   img {

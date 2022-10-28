@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" :style="{ backgroundColor: `${color}40` }">
     <div class="content">
       <div class="equation" v-dragscroll>
         <span>
@@ -15,6 +15,7 @@
           />
         </span>
       </div>
+      <div class="nr" v-html="`(${nr})`" />
     </div>
   </div>
   <span class="slot" ref="slot"><slot /></span>
@@ -28,6 +29,9 @@ import * as CategoriesModule from '@/data/books/categories'
 import { Book } from '@/data/types/book'
 
 export default defineComponent({
+  props: {
+    nr: String,
+  },
   setup() {
     const slot = ref<HTMLSpanElement | null>(null)
     const span = ref<HTMLSpanElement | null>(null)
@@ -72,9 +76,11 @@ export default defineComponent({
 }
 
 .container {
-  width: 100%;
-  margin-bottom: 5px;
+  width: 825px;
+  max-width: 95vw;
+  margin-bottom: 10px;
   border-radius: 10px;
+  padding: 8px;
 
   .content {
     width: 100%;

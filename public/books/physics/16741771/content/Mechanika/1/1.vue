@@ -89,17 +89,15 @@
     <Section>
       Światło i ogólnie promieniowanie elektromagnetyczne z pewnością przenosi
       jakąś energię cieplną - oznaczmy ją tak jak w starej dobrej termodynamice
-      Q. Skoro mamy energię to policzmy w takim razie moc promieniowania. Ta moc
-      nazywa się strumieniem promieniowania i oznaczamy grecką literą
-      <Math>P_e</Math>, zatem:
-      <Math center="true" nr="1.1"> {\displaystyle P = \frac{d}{dt}Q_e } </Math>
+      Q. Skoro mamy energię to policzmy w takim razie moc promieniowania:
     </Section>
+    <Formula nr="1.1"> {\displaystyle P = \frac{d}{dt}Q_e } </Formula>
     <Section>
       Teraz przyszedł czas na natężenie promieniowania. Definiujemy go jako
-      stosunek natężenia światła do kąta<Math>\Omega</Math>, który oświetla.
-      <Math center="true" nr="1.2">
-        {\displaystyle I = \frac{d}{d\Omega} P _{e} }
-      </Math>
+      stosunek natężenia światła do kąta<M s="\Omega" />, który oświetla.
+    </Section>
+    <Formula nr="1.2"> {\displaystyle I = \frac{d}{d\Omega} P _{e} } </Formula>
+    <Section>
       Dlaczego kąt jest istotny? Kiedy jeździsz samochodem masz dwa główne
       rodzaje świateł: mijania (zielona ikonka, tzw. krótkie) i drogowe
       (niebieska ikonka, tzw. długie). Moc ich promieniowania jest taka sama,
@@ -113,25 +111,19 @@
       danym natężeniu to teraz sprawdźmy na jaką powierchnie pada. Bardziej nas
       ono oślepi patrząc się na nie z kilku centymetrów niż z kilku metrów,
       prawda? No to podzielmy natężenie światła przez powierzchnię, jaką
-      oświetla i uwzględnijmy jeszcze kąt <Math>\theta</Math> pod jakim na nie
+      oświetla i uwzględnijmy jeszcze kąt <M s="\theta" /> pod jakim na nie
       patrzymy. Patrząc na wprost światło nas oświetli najbardziej, natomiast
       patrząc pod kątem 90 stopni w ogóle nie świeci nam w oczy. Idealnie więc
       nada się tu funkcja cosinus.
-      <Section>
-        <Math center="true" nr="1.3">
-          {\displaystyle L = \frac{dI_e}{dScos\theta} }
-        </Math>
-      </Section>
     </Section>
+    <Formula nr="1.3"> {\displaystyle L = \frac{dI_e}{dScos\theta} } </Formula>
     <Section>
       No i przyszedł na finał - radiancja spektralna. Czym ona jest? Każda fala
       elektromagnetyczna ma jakąś długość, prawda? No to po prostu dzielimy
       radiancję przez długość tej fali. Oto przepis na radiancję spektralną. To
       jest stosunek radiancji do długości fal:
-      <Math center="true" nr="1.4">
-        {\displaystyle S = \frac{dL_e}{d\lambda} }
-      </Math>
     </Section>
+    <Formula nr="1.4"> {\displaystyle S = \frac{dL_e}{d\lambda} } </Formula>
 
     <h3>Promieniowanie ciała doskonale czarnego</h3>
     <Section>
@@ -141,33 +133,35 @@
       promieniowanie powstaje w wyniku drgań cząstek elektrycznych, John
       Rayleigh oraz James Jeans wyprowadzili teoretyczny rozkład promieniowania
       ciała doskonale czarnego. Radiancja spektralna według niego wynosi:
-      <Math center="true" nr="1.5">
-        {\displaystyle S(\lambda, T) = 2\frac{ckT}{\lambda^4} },
-      </Math>
+    </Section>
+    <Formula nr="1.5">
+      {\displaystyle S(\lambda, T) = 2\frac{ckT}{\lambda^4} },
+    </Formula>
+    <Section>
       gdzie k to oczywiście stała Boltzmanna. Napatrzyłeś się? No to wyrzucamy
       to wspomnienie do kosza. Fizyka klasyczna nas zawiodła, teraz naszym
       przyjacielem jest fizyka kwantowa.
-      <Image src="1.png" />
     </Section>
+    <Image src="1.png" />
     <Section>
-      W 1900 r. Planck opracował wzór na <Math>S(\lambda)</Math>, który
-      doskonale pasował do wyników eksperymentalnych dla wszystkich długości fal
-      i dla wszystkich temperatur:
+      W 1900 r. Planck opracował wzór na <M s="S(\lambda)" />, który doskonale
+      pasował do wyników eksperymentalnych dla wszystkich długości fal i dla
+      wszystkich temperatur:
     </Section>
-    <Math center="true" nr="1.6">
+    <Formula nr="1.6">
       {\displaystyle S(\lambda ,T) = {\frac {2hc^{2}}{\lambda ^{5}}}{\frac
       {1}{e^{hc /\lambda kT}-1}}}
-    </Math>
+    </Formula>
     <Section>Tajemniczą stałą h zdefiniujemy w następnym temacie.</Section>
     <h3>Kwanty promieniowania</h3>
     <Section>
       Kluczowym elementem równania wyprowadzonego przez Plancka jest niepozorny,
       a jednak przełomowy argument wykładniczy, który zapiszemy jako
-      <Math>E_\gamma</Math> i zdefiniujemy jako:
+      <M s="E_\gamma" /> i zdefiniujemy jako:
     </Section>
-    <Math center="true" nr="1.7">
+    <Formula nr="1.7">
       {\displaystyle E_\gamma = \frac{hc}{\lambda}} = hf
-    </Math>
+    </Formula>
     <Section>
       Równanie 1.6 było pierwszym użyciem symbolu h i rozpoczęło nową erę w
       historii fizyki. Planck jednak, z jego wykształceniem w fizyce klasycznej,
@@ -187,7 +181,7 @@
           Skoro atomy są skwantowane to energie promieniowania są również
           skwantowane w postaci kwantów promieniowania elektromagnetycznego
           (które teraz nazywamy fotonami i skrótowo oznaczamy symbolem
-          <Math>\gamma</Math>), każdy o energii <Math>E_\gamma= hf</Math>.
+          <M s="\gamma" />), każdy o energii <M s="E_\gamma = hf" />.
         </li>
       </ol>
       W swoim modelu wyjaśnił procesy, dzięki którym atomy mogą emitować i
@@ -197,20 +191,15 @@
     </Section>
     <h3>Prawo Wiena</h3>
     <Section>
-      Długość fali <Math>\lambda_{max}</Math>, przy której
-      <Math>S(\lambda)</Math> ma maksimum (dla danej temperatury T), można
-      znaleźć, licząc pierwszą pochodną równania. 1.6 względem
-      <Math>\lambda</Math> i przyrównując do zera, a następnie obliczając
-      długość fali. Wiesz jak się liczy ekstrema, więc nie muszę ci tego
-      tłumaczyć. Wynik znany jest jako prawo Wiena
+      Długość fali <M s="\lambda_{max}" />, przy której <M s="S(\lambda)" /> ma
+      maksimum (dla danej temperatury T), można znaleźć, licząc pierwszą
+      pochodną równania. (1.6) względem <M s="\lambda" /> i przyrównując do
+      zera, a następnie obliczając długość fali. Wiesz jak się liczy ekstrema,
+      więc nie muszę ci tego tłumaczyć. Wynik znany jest jako prawo Wiena
     </Section>
-    <Math center="true" nr="1.8">
-      {\displaystyle \lambda_{max} = \frac{b}{T} }
-    </Math>
-    <Section>
-      gdzie b to stała Wiena b = 2,9 <Math>\cdot</Math> 10
-      <Math>^{-3} m \cdot K </Math>
-    </Section>
+    <Formula nr="1.8"> {\displaystyle \lambda_{max} = \frac{b}{T} } </Formula>
+    <Section> gdzie b to stała Wiena </Section>
+    <Math>b = \htmlClass{nr}{2,9 \times 10} ^{-3} \ m \cdot K </Math>
     <h3>Prawo Stefana-Boltzmanna</h3>
     <Section>
       Przed chwilą różniczkowaliśmy równanie 1.6, więc teraz je scałkujemy (jest
@@ -219,23 +208,22 @@
       znajdujemy moc na jednostkę powierzchni A promieniującego ciała, czyli
       strumień energii.
     </Section>
-    <Math center="true" nr="1.9">
+    <Formula nr="1.9">
       {\displaystyle \Phi = \frac{P}{S} = \sigma T^{4} }
-    </Math>
+    </Formula>
     <Section>
       Jest to oczywiście znane nam prawo Stefana-Boltzmanna. Jeśli następnie
       pomnożymy przez całkowitą powierzchnię S, znajdziemy całkowitą moc
       promieniowania P.
     </Section>
-    <Math center="true" nr="1.9"> {\displaystyle P = \sigma ST^{4} } </Math>
+    <Formula nr="1.10"> {\displaystyle P = \sigma ST^{4} } </Formula>
     <Section>
-      <Math>\sigma</Math> jest oczywiście stałą Stefana-Boltzmanna i wynosi
+      <M s="\sigma" /> jest stałą (a jakże inaczej) Stefana-Boltzmanna i wynosi
     </Section>
-    <Center>
-      <Math>
-        {\displaystyle \sigma ={\frac {2\pi ^{5}k^{4}}{15h^{3}c^{2}}}=5,67\times
-        10^{-8}\mathrm {\frac {W}{m^{2}K^{4}}}}
-      </Math>
-    </Center>
+    <Math>
+      {\displaystyle \sigma ={\frac {2\pi
+      ^{5}k^{4}}{15h^{3}c^{2}}}=\htmlClass{nr}{5,67\times 10}^{-8}\mathrm {\frac
+      {W}{m^{2}K^{4}}}}
+    </Math>
   </Article>
 </template>

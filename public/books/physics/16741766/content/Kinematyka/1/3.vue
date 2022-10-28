@@ -18,13 +18,13 @@
     </Section>
     <Section>
       Wyobraźmy sobie ślimaka pędzącego po stole i postawioną obok niego
-      linijkę. Oznaczmy jego początkowe położenie jako <Math>x_1</Math>,
-      natomiast końcowe jako <Math>x_2</Math>. Jego przemieszczenie to zmiana
-      położenia. Przemieszczenie różni się od drogi tym, że może być ono ujemne,
-      natomiast podając drogę interesuje nas tylko jego wartość nie ważne w
-      którą stronę by nie było. Matematycznie możemy to opisać jako
+      linijkę. Oznaczmy jego początkowe położenie jako <M s="x_1" />, natomiast
+      końcowe jako <M s="x_2" />. Jego przemieszczenie to zmiana położenia.
+      Przemieszczenie różni się od drogi tym, że może być ono ujemne, natomiast
+      podając drogę interesuje nas tylko jego wartość nie ważne w którą stronę
+      by nie było. Matematycznie możemy to opisać jako
     </Section>
-    <Math center="true" nr="3.2">{s=|\Delta x|=|x_2-x_1|}</Math>
+    <Formula nr="3.6">{s=|\Delta x|=|x_2-x_1|}</Formula>
     <Section>
       W praktyce wygląda to tak. Ślimak zaczynał ruch gdy wskazywał na linijce
       2cm, a zakończył go gdy na linijce mieliśmy 7cm. Droga jaką przebył to
@@ -45,7 +45,7 @@
       No właśnie, jak sprawa ma się z prędkością? Wzór chyba zna każdy, ale
       przypomnę jego treść.
     </Section>
-    <Math center="true" nr="3.3"> {\displaystyle v=\frac {x-x_0}{t}} </Math>
+    <Formula nr="3.7"> {\displaystyle v=\frac {x-x_0}{t}} </Formula>
     <Section>
       Od razu przekształciłem go, aby móc wyznaczyć daną wielkość z gotowego
       wzoru, jednak następnym razem nie będę już tego robił, chyba, że sytuacja
@@ -60,20 +60,20 @@
       wielkość, która pokazuje nam jak zmieniła się prędkość w czasie. Możemy
       więc zapisać najprostszy wzór na przyspieszenie
     </Section>
-    <Math center="true" nr="3.4">
+    <Formula nr="3.8">
       {\displaystyle a=\frac{v-v_0}{t} \ \ \Rightarrow \ \ v=v_0+at}
-    </Math>
+    </Formula>
     <Section>
       Jak zatem obliczyć drogę pojazdu poruszającego się ze stałym
-      przyspieszeniem? Podstaw do wzoru na drogę 3.2 prędkość średnią, czyli
-      średnią arytmetyczną z <Math>v_0</Math> i <Math>v = at</Math>. Pozwoli ci
-      to otrzymać następny wzór. Innym sposobem jest wyznaczenie go z całki
-      oznaczonej, jako, że prędkość jest funkcją, jednak nie jest to konieczne.
+      przyspieszeniem? Podstaw do wzoru na drogę prędkość średnią, czyli średnią
+      arytmetyczną z <M s="v_0" /> i v = at. Pozwoli ci to otrzymać następny
+      wzór. Innym sposobem jest wyznaczenie go z całki oznaczonej, jako, że
+      prędkość jest funkcją, jednak nie jest to konieczne.
     </Section>
-    <Math center="true" nr="3.5">
+    <Formula nr="3.9">
       {\displaystyle x-x_0 = v_{śr}\cdot t = \frac{v_0 + (v_0 + at)}{2} \cdot t
       = \frac{1}{2}at^2 + v_0t}
-    </Math>
+    </Formula>
     <Section>
       Zauważ, że znak przyspieszenia nie mówi nic o kierunku ruchu tak jak znak
       przemieszczenia czy prędkości. Wręcz bardzo często znak przyspieszenia i
@@ -114,17 +114,17 @@
       Kinematyka pierwszym działem fizyki, jaki poznajemy i dla większości jest
       tym najłatwiejszym. Nie ma tu żadnych skomplikowanych równań, a większość
       zadań pozwala nam rozwiązać tabela z pięcioma wzorami. Podstawowe dla
-      kinematyki są dwa wzory: (3.4) oraz (3.5), jednak przypomnijmy je.
+      kinematyki są dwa wzory: (3.8) oraz (3.9), jednak przypomnijmy je.
       Pierwszy wzór to definicja przyspieszenia.
     </Section>
-    <Math center="true" nr="3.4"> {\displaystyle v=v_0+at} </Math>
+    <Formula nr="3.8"> {\displaystyle v=v_0+at} </Formula>
     <Section>
       Drugi natomiast pozwala w ruchu jednostajnie przyspieszonym obliczyć
       drogę.
     </Section>
-    <Math center="true" nr="3.5">
+    <Formula nr="3.9">
       {\displaystyle x - x_0 = \frac{1}{2}at^2 + v_0t}
-    </Math>
+    </Formula>
     <Section>
       Są to podstawowe równania ruchu, które po odpowienim przekształceniu
       pozwalają rozwiązać prawie każde zadanie z ruchu jednostajnie
@@ -133,33 +133,31 @@
     <h3>Dodatkowe równania ruchu</h3>
     <Section>
       Zauważ, że w równaniach mamy do czynienia z pięcioma wielkościami. Są to:
-      <Math>{\displaystyle s, v, t, a \ oraz \ v_0}</Math>. Zwykle jedna z tych
-      wielkości nie występuje w zadaniu ani jako dana, ani niewiadoma - dane są
-      trzy z pozostałych wielkości, a naszym zadaniem jest znaleźć czwartą. W
-      równaniach (3.4) oraz (3.5) występują właśnie po trzy wielkości z których
+      <M s="s, v, t, a \ oraz \ v_0" />. Zwykle jedna z tych wielkości nie
+      występuje w zadaniu ani jako dana, ani niewiadoma - dane są trzy z
+      pozostałych wielkości, a naszym zadaniem jest znaleźć czwartą. W
+      równaniach (3.8) oraz (3.9) występują właśnie po trzy wielkości z których
       obliczamy czwartą. W pierwszym z nich nie występuje droga s, w drugim
       natomiast prędkość końcowa v. Z tych dwóch równań możemy wyprowadzić trzy
       inne, z których każde nie zawiera innej ze wspomnianych pięciu wielkości.
       Po pierwsze możemy wyelimonować czas, co po podstawieniu czasu wyliczonego
       z jednego równania do czasu w drugim równaniu da nam
     </Section>
-    <Math center="true" nr="3.6">
-      {\displaystyle v^2 = v_0^2 + 2 a(x - x_0)}
-    </Math>
+    <Formula nr="3.10"> {\displaystyle v^2 = v_0^2 + 2 a(x - x_0)} </Formula>
     <Section>
       Inne przekształcenie pozwala nam wyeliminować przyspieszenie
     </Section>
-    <Math center="true" nr="3.7">
+    <Formula nr="3.11">
       {\displaystyle x - x_0 = \frac{1}{2}(v_0 + v)t}
-    </Math>
+    </Formula>
     <Section>
       Natomiast ostatnie - prędkość początkową. Zauważ, że nie występuje tu
       prędkość początkowa w przeciwieństwie do wzoru (3.5), dlatego tutaj mamy
       przy jednym z członów przeciwny znak.
     </Section>
-    <Math center="true" nr="3.8">
+    <Formula nr="3.12">
       {\displaystyle x - x_0 = vt - \frac{1}{2}at^2}
-    </Math>
+    </Formula>
     <Section>
       Właśnie jesteś w stanie rozprawić się z każdym zadaniem z ruchu
       jednostajnego i jednostajnie przyspieszonego. Zostanie nam jeszcze ruch

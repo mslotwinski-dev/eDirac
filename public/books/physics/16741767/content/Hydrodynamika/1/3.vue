@@ -10,20 +10,20 @@
       Współczynnikiem ściśliwości jest nazywany iloraz względnej zmiany
       objętości do zmiany ciśnienia, czyli:
     </Section>
-    <Math center="true" nr="1.7">
+    <Formula nr="1.7">
       {\displaystyle \zeta = -\frac{1}{V}\frac{dV}{dp} =
-      \frac{1}{\rho}\frac{d\rho}{dp}}
-    </Math>
+      \frac{1}{\varrho}\frac{d\varrho}{dp}}
+    </Formula>
     <Section>
       Po uwzględnieniu równań (1.4) lub (1.5) wyznacza się zależność
       współczynnika ściśliwości od ciśnienia:
     </Section>
-    <Math center="true" nr="1.8"> {\displaystyle \zeta(p) = \frac{1}{p}} </Math>
+    <Formula nr="1.8"> {\displaystyle \zeta(p) = \frac{1}{p}} </Formula>
     <Section>dla gazów oraz</Section>
-    <Math center="true" nr="1.9">
+    <Formula nr="1.9">
       {\displaystyle \zeta(p) = \frac{a + 2b(p - p_0)}{1 + a(p - p_0) + b(p -
       p_0)^2}}
-    </Math>
+    </Formula>
     <Section>
       dla cieczy. Jak widać, istnieje związek między wartością ciśnienia i
       wartością współczynnika ściśliwości. Ściśliwość cieczy jest tak mała, że w
@@ -36,21 +36,21 @@
       rozszerzalności cieplnej, wyrażający względną zmianę objętości przy
       zmianie temperatury o 1 K
     </Section>
-    <Math center="true" nr="1.10">
+    <Formula nr="1.10">
       {\displaystyle \beta = \frac{1}{V}\frac{dV}{dT}}
-    </Math>
+    </Formula>
     <Section>
       Współczynnik rozszerzalności cieplnej jest funkcją temperatury, jednak gdy
       zmiany temperatury nie są zbyt duże, przyjmuje się β = const w
       rozpatrywanym przedziale wartości temperatury. Po wprowadzeniu do wzoru
       (1.10), w miejsce zmiany objętości, zmianę gęstości otrzymuje się:
     </Section>
-    <Math center="true" nr="1.11">
-      {\displaystyle \beta = -\frac{1}{\rho}\frac{d\rho}{dT} }.
-    </Math>
+    <Formula nr="1.11">
+      {\displaystyle \beta = -\frac{1}{\varrho}\frac{d\varrho}{dT} }.
+    </Formula>
     <Section>
       Wynika stąd, że przyrostowi temperatury towarzyszy zmniejszenie gęstości.
-      Wyjątkiem jest jednak woda w przedziale [0, 4]<Math> ^\circ C </Math>.
+      Wyjątkiem jest jednak woda w przedziale [0, 4]<M s="^\circ C" />.
       Dlaczego?
     </Section>
     <h3>Anomalna rozszerzalność wody</h3>

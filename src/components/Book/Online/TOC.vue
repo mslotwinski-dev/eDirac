@@ -124,15 +124,22 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import '@/styles/index.scss';
 .hide {
-  nav {
-    ol {
-      display: none;
+  @media (min-width: 1001px) {
+    nav {
+      ol {
+        display: none;
+      }
+      padding: 0;
+      width: 0px !important;
     }
-    padding: 0;
-    width: 0px !important;
   }
 
   @media (max-width: 1000px) {
+    height: 0 !important;
+
+    nav {
+      transform: translateX(-100%);
+    }
     .show {
       background: theme(main);
       color: theme(light);
@@ -185,7 +192,7 @@ nav {
   height: 80vh;
   overflow-y: scroll;
   border-radius: 20px;
-  transition: 0.2s;
+  transition: 0.25s;
 
   @media (max-width: 1000px) {
     width: 100%;

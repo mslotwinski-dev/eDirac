@@ -45,24 +45,20 @@
       prędkości po wysokości h pomnożonej przez właśnie lepkość, a dokładnie
       lepkość dynamiczna:
     </Section>
-    <Math center="true" nr="1.12">
+    <Formula nr="1.12">
       {\displaystyle \tau = \mu\frac{dv}{dh} = \mu\gamma}.
-    </Math>
+    </Formula>
     <Section>
       Pochodna prędkości po wysokości często jest nazywana szybkością ścinania i
       oznaczana grecką literą gamma, a definiujemy ją jak pewnie zauważyłeś w
       ten sposób:
     </Section>
-    <Math center="true" nr="1.13">
-      {\displaystyle \gamma = \frac{dv}{dh}}.
-    </Math>
+    <Formula nr="1.13"> {\displaystyle \gamma = \frac{dv}{dh}}. </Formula>
     <Section>
       Istnieje również coś takiego jak lepkość kinematyczna. Jest to stosunek
       lepkości dynamicznej do gęstości:
     </Section>
-    <Math center="true" nr="1.14">
-      {\displaystyle \nu = \frac{\mu}{\rho}}.
-    </Math>
+    <Formula nr="1.14"> {\displaystyle \nu = \frac{\mu}{\varrho}}. </Formula>
     <h3>Od czego zależy lepkość płynu?</h3>
     <Section>
       Lepkość zależy od rodzaju płynu, jego temperatury i nieznacznie od

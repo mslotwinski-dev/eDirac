@@ -13,27 +13,21 @@
         Punkt porusza się w przestrzeni zgodnie z równaniami w układzie
         prostoliniowym
       </Section>
-      <Center>
-        <Math>
-          {\displaystyle x = a \ cos(t) \qquad z = b \ sin(t) \qquad y = 1 - c \
-          sin(t)}.
-        </Math>
-      </Center>
+      <Math>
+        {\displaystyle x = a \ cos(t) \qquad z = b \ sin(t) \qquad y = 1 - c \
+        sin(t)}.
+      </Math>
       <Section>Po jakim torze porusza się punkt?</Section>
       <Section>
         Dzieląc dwa pierwsze równania stronami, odpowiednio przez a i b,
         podnosząc stronami do kwadratu i dodając otrzymujemy
       </Section>
-      <Center>
-        <Math> {\displaystyle \frac{x^2}{a^2} + \frac{z^2}{b^2} = 1}. </Math>
-      </Center>
+      <Math> {\displaystyle \frac{x^2}{a^2} + \frac{z^2}{b^2} = 1}. </Math>
       <Section>
         Jest to oczywiście równanie elipsy. Wyznaczając sin(t) z równania
         drugiego i podstawiając do trzeciego otrzymujemy
       </Section>
-      <Center>
-        <Math> {\displaystyle y = 1 - \frac{c}{b}z}. </Math>
-      </Center>
+      <Math> {\displaystyle y = 1 - \frac{c}{b}z}. </Math>
       <Section>
         Jak widać oś y ogranicza funkcja liniowa. Zbierając te wszystkie
         informacje możemy narysować tor ruchu omawianej cząstki.

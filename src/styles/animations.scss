@@ -24,21 +24,57 @@
 }
 
 @keyframes logo {
-  0%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
-  9%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
+  0% {
+    filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg)
+      brightness(97%) contrast(94%);
+  }
+  9% {
+    filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg)
+      brightness(97%) contrast(94%);
+  }
   // 10 - 30
-  10%   {filter: invert(46%) sepia(6%) saturate(1221%) hue-rotate(270deg) brightness(91%) contrast(94%);}
-  29%   {filter: invert(46%) sepia(6%) saturate(1221%) hue-rotate(270deg) brightness(91%) contrast(94%);}
+  10% {
+    filter: invert(46%) sepia(6%) saturate(1221%) hue-rotate(270deg)
+      brightness(91%) contrast(94%);
+  }
+  29% {
+    filter: invert(46%) sepia(6%) saturate(1221%) hue-rotate(270deg)
+      brightness(91%) contrast(94%);
+  }
   // 30-50
-  31%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
-  49%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
+  31% {
+    filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg)
+      brightness(97%) contrast(94%);
+  }
+  49% {
+    filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg)
+      brightness(97%) contrast(94%);
+  }
   // 50-70
-  51%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
-  69%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
+  51% {
+    filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg)
+      brightness(97%) contrast(94%);
+  }
+  69% {
+    filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg)
+      brightness(97%) contrast(94%);
+  }
   // 70 - 90
-  71%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
-  89%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
+  71% {
+    filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg)
+      brightness(97%) contrast(94%);
+  }
+  89% {
+    filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg)
+      brightness(97%) contrast(94%);
+  }
   // 90 - 100
-  91%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
-  100%   {filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg) brightness(97%) contrast(94%);}
+  91% {
+    filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg)
+      brightness(97%) contrast(94%);
+  }
+  100% {
+    filter: invert(27%) sepia(97%) saturate(1607%) hue-rotate(169deg)
+      brightness(97%) contrast(94%);
+  }
 }

@@ -43,33 +43,27 @@
       Fala ugięta na szczelinie <M s="S_1" /> i padająca na ekran
       <M s="E_1" /> w pewnym punkcie odległym o x od osi z ma formalną postać
     </Section>
-    <Center>
-      <Math>
-        {\displaystyle {E = E_0 \ cos (\omega t - \vec {k} \cdot \vec {r} +
-        \varphi)}}
-      </Math>
-    </Center>
+    <Math>
+      {\displaystyle {E = E_0 \ cos (\omega t - \vec {k} \cdot \vec {r} +
+      \varphi)}}
+    </Math>
     <Section>
       Faza <M s="\varphi" /> zależy od długości drogi optycznej od szczeliny
       <M s="S_i" /> do danego punktu na ekranie, a więc także zależy od
       współrzędnej x. Natężenie takiej fali, mierzone przez detektory na ekranie
       wynosi
     </Section>
-    <Center>
-      <Math>
-        {\displaystyle {I = c\varepsilon_0 E_0^2 \ cos^2 (\omega t - \vec {k}
-        \cdot \vec {r} + \varphi)}}
-      </Math>
-    </Center>
+    <Math>
+      {\displaystyle {I = c\varepsilon_0 E_0^2 \ cos^2 (\omega t - \vec {k}
+      \cdot \vec {r} + \varphi)}}
+    </Math>
     <Section>
       Jako, że średnią wartością cos<M s="^2" /> jest <M s="\frac{1}{2}" />,
       średnie natężenie w danym punkcie możemy opisać następująco:
     </Section>
-    <Center>
-      <Math>
-        {\displaystyle {\langle I \rangle = \frac{1}{2}c\varepsilon_0 E_0^2}}
-      </Math>
-    </Center>
+    <Math>
+      {\displaystyle {\langle I \rangle = \frac{1}{2}c\varepsilon_0 E_0^2}}
+    </Math>
     <Section>
       Wykresy na rysunku ("nad" pierwszym ekranem) przedstawiają właśnie takie
       natężenia <M s="I_1" /> oraz <M s="I_2" /> , a także ich sumę, która jest
@@ -84,42 +78,39 @@
       <M s="E_2" /> padają dwie fale pochodzące z dwóch szczelin, a detektor
       rejestruje ich natężenie.
     </Section>
-    <Center>
-      <Math>
-        {\displaystyle I = c\varepsilon_0(E_1 + E_2)^2 = c\varepsilon_0[E_1 \
-        cos(\omega t− \vec k \cdot \vec r +φ_1) + E_2 \ cos(\omega t− \vec k
-        \cdot \vec r +φ_2]^2}
-      </Math>
-    </Center>
+    <Math>
+      {\displaystyle I = c\varepsilon_0(E_1 + E_2)^2 = c\varepsilon_0[E_1 \
+      cos(\omega t− \vec k \cdot \vec r +φ_1) + E_2 \ cos(\omega t− \vec k \cdot
+      \vec r +φ_2]^2}
+    </Math>
     <Section>
       Korzystając z kilku tożsamości trygonometrycznych, a następnie uśredniając
       po czasie otrzymujemy:
     </Section>
-    <Center>
-      <Math>
-        {\displaystyle \langle I \rangle = \frac{1}{2} c\varepsilon_0(E_1^2 +
-        E_2^2 + 2 E_1 E_2 \ cos(\varphi_1 - \varphi_2))}
-      </Math>
-    </Center>
+    <Math>
+      {\displaystyle \langle I \rangle = \frac{1}{2} c\varepsilon_0(E_1^2 +
+      E_2^2 + 2 E_1 E_2 \ cos(\varphi_1 - \varphi_2))}
+    </Math>
     <Section>
       Co możemy zapisać z użyciem obu średnich natężeń otrzymując wzór na to jak
       się one <i>składają</i>.
     </Section>
-    <Math center="true" nr="1.X">
+    <Formula nr="1.X">
       { \displaystyle \langle I_1 + I_2 \rangle = I_1 + I_2 + 2 \sqrt{I_1 + I_2}
       \ cos(\varphi_1 - \varphi_2) }
-    </Math>
+    </Formula>
     <Section>
-      Dla prostoty rozważań przyjmijmy że A1 = A2, a co za tym idzie I1 = I2, to
-      wówczas natężenie I światła rejestrowanego na ekranie
-      <M s="E_2" /> zmienia się od <M s="I_min" /> = 0 do <M s="I_max" /> = 4
-      I1. Natężenie I nie jest więc prostą sumą natężeń światła biegnącego od
-      każdej ze szczelin. Zauważmy ponadto, że zależność amplitud od x sprawia,
-      że na obrazie możemy zaobserwować zanik fal, gdy odchylenie |x| od środka
-      ekranu staje się duże. Ponaddto natężenie światła na ekranie ma intensywne
-      maksima (gdy różnica dróg optycznych od szczelin do danego punktu na
-      ekranie jest całkowitą wielokrotnością długości fali λ) oraz minima ( gdy
-      różnica dróg optycznych jest nieparzystą wielokrotnością λ/2).
+      Dla prostoty rozważań przyjmijmy że <M s="E_1" /> = <M s="E_2" />, a co za
+      tym idzie <M s="I_1" /> = <M s="I_2" />, to wówczas natężenie I światła
+      rejestrowanego na ekranie <M s="E_2" /> zmienia się od <M s="I_{min}" /> =
+      0 do <M s="I_{max}" /> = 4<M s="I_1" />. Natężenie I nie jest więc prostą
+      sumą natężeń światła biegnącego od każdej ze szczelin. Zauważmy ponadto,
+      że zależność amplitud od x sprawia, że na obrazie możemy zaobserwować
+      zanik fal, gdy odchylenie |x| od środka ekranu staje się duże. Ponaddto
+      natężenie światła na ekranie ma intensywne maksima (gdy różnica dróg
+      optycznych od szczelin do danego punktu na ekranie jest całkowitą
+      wielokrotnością długości fali λ) oraz minima ( gdy różnica dróg optycznych
+      jest nieparzystą wielokrotnością λ/2).
     </Section>
     <h3>Opis korpuskularny doświadczenia [do skrócenia]</h3>
     <Section>

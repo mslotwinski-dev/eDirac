@@ -56,6 +56,9 @@ header {
   background-position: center;
   border-radius: 10px;
   overflow: hidden;
+  @media (max-width: 1000px) {
+    height: 200px;
+  }
 }
 
 .container {
@@ -79,7 +82,7 @@ header {
   backdrop-filter: grayscale(1) contrast(0.15) brightness(1.9);
 
   @media (max-width: 1000px) {
-    font-size: 28px;
+    font-size: 22px;
   }
 }
 

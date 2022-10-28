@@ -10,9 +10,9 @@
       nam prędkość średnią. Kiedy prędkość jest stała, prędkość średnia to po
       prostu prędkość. Wzór ten ma postać:
     </Section>
-    <Math center="true" nr="3.5">
+    <Formula nr="3.13">
       {\displaystyle v_{śr} = \frac{\Delta x}{\Delta t}}
-    </Math>
+    </Formula>
     <Section>
       A co jeśli chcemy przy zmiennym ruchu poznać nie prędkość średnią, a
       chwilową? Sprawdźmy więc co się dzieje gdy Δt zbliża się do 0. W chwili
@@ -20,14 +20,14 @@
       podpowiada nam zastosowanie granicy gdy Δt dąży do 0, a podany iloraz to
       jest definicja pochodnej. Z tego wynika, że
     </Section>
-    <Math center="true" nr="3.6">
+    <Formula nr="3.14">
       {\displaystyle v(t_0) =\lim_{\Delta t \to 0}⁡\frac{\Delta x}{\Delta t} =
       \frac{d}{dt}x(t_0) = \dot {x}(t_0)}
-    </Math>
+    </Formula>
     <Section>
       Zapisy x'<M c="(t_0), \dot x(t_0)" />, oraz
       <M c="\frac{d}{dt}x(t_0)" /> są oczywiście tożsame i symbolizują pochodną
-      w danym punkcie <Math>t_0</Math>. My będziemy stosować najczęściej te dwa
+      w danym punkcie <M s="t_0" />. My będziemy stosować najczęściej te dwa
       ostatnie zapisy. Zapis z kropką jest najszybszy i symbolizuje pochodną po
       czasie, natomiast zapis w formie różniczek dx i dt jest bardziej elegancki
       i znacznie potężniejszy pod względem tego, co oferuje - pozwala na
@@ -38,16 +38,14 @@
       wykresu x(t) w danym punkcie, co jest oczywiste, bo skoro położenie
       wzrasta bardzo szybko to i nachylenie jego wykresu będzie ogromne.
       Właściwa zależność to v = tg α, gdzie α to nachylenie stycznej do wykresu
-      funkcji x(t) w punkcie <Math>t_0</Math>.
+      funkcji x(t) w punkcie <M s="t_0" />.
     </Section>
     <Section>
       Pamiętając, że pochodną w punkcie możemy uogólnić na funkcję pochodna
       określoną w każdym punkcie t, w którym ona istnieje, uzyskamy zależność,
       że
     </Section>
-    <Math center="true" nr="3.8">
-      {\displaystyle v = \frac{d}{dt}x = \dot x }
-    </Math>
+    <Formula nr="3.15"> {\displaystyle v = \frac{d}{dt}x = \dot x } </Formula>
     <Section>
       Znając ten wzór możesz zapomnieć wszystkie poprzednie. W nim zawierają się
       wszystkie wzory użyte dotąd w tym dziale i znacznie znacznie więcej. Ten
@@ -61,9 +59,9 @@
       pochodna, ale z funkcji v(t). Warto zaznaczyć, że mając funkcję x(t)
       jesteś w stanie znaleźć a(t) za pomocą drugiej pochodnej.
     </Section>
-    <Math center="true" nr="3.8">
+    <Formula nr="3.16">
       {\displaystyle a = \frac{d}{dt}v = \frac{d^2}{dt^2}x = \ddot x}
-    </Math>
+    </Formula>
     <h3>Droga jako pole pod wykresem</h3>
     <Section>
       Na lekcji fizyki już w podstawówce najprawdopodobniej dowiedziałeś się, że
@@ -75,14 +73,12 @@
       Znając metody całkowania będziesz od teraz mógł policzyć drogę w podanym
       czasie wyrażoną poprzez dowolną funkcję.
     </Section>
-    <Math center="true" nr="3.9">
-      {\displaystyle s=\int_{t_1}^{t_2}v(t)dt}
-    </Math>
+    <Formula nr="3.17"> {\displaystyle s=\int_{t_1}^{t_2}v(t)dt} </Formula>
     <Section>
       Całka nieoznaczona również jest użyteczna, gdyż całka nieoznaczona to
       pochodna „wstecz”, dlatego mając v(t) możemy wyznaczyć x(t) w ten sposób:
     </Section>
-    <Math center="true" nr="3.10">{\displaystyle x(t)=\int v(t)dt}</Math>
+    <Formula nr="3.18">{\displaystyle x(t)=\int v(t)dt}</Formula>
     <h3>Ruch w 3 wymiarach</h3>
   </Article>
 </template>

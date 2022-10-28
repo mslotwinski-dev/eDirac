@@ -58,18 +58,19 @@ textarea:focus {
 
 ::-webkit-scrollbar {
   width: 10px;
+  height: 4px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #f1f1f175;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  border-radius: 5px;
+  background: #88888875;
+  &:hover {
+    background: #55555575;
+  }
 }
 
 .katex-html {
@@ -84,6 +85,7 @@ textarea:focus {
   .mpunct,
   .op-limits,
   .mtight,
+  .nr,
   .mfrac {
     font-family: 'Rubik' !important;
     font-style: normal !important;

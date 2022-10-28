@@ -7,17 +7,17 @@
       <M c="m^3" /> cieczy lub gazu przepłynie przez daną powierzchnię S w ciągu
       sekundy. Jest to więc iloczyn skalarny wektora v i powierzchni S, a zatem:
     </Section>
-    <Math center="true" nr="2.2">
+    <Formula nr="2.3">
       {\displaystyle Q_v = \frac{dV}{dt} = \vec v \cdot S}
-    </Math>
+    </Formula>
     <Section>
       Niestety powyższa definicja dotyczy tylko przekrojów płaskich
       prostopadłych do ruchu płynu. Chcąc być bardziej papiescy od papieża
       możemy wyprowadzić bardziej formalną definicję w formie całki.
     </Section>
-    <Math center="true" nr="2.2">
+    <Formula nr="2.4">
       {\displaystyle Q_v = \oint \limits_S \vec v \cdot dS = \int \limits_V
       (\nabla \cdot \vec v) dV}
-    </Math>
+    </Formula>
   </Article>
 </template>

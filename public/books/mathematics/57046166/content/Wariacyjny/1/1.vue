@@ -20,10 +20,10 @@
       matematyk nie musisz jej znać, ale matematyka ma służyć opisowi przyrody,
       więc pokażemy czym ono jest.
     </Section>
-    <Math center="true" nr="1.1">
+    <Formula nr="1.1">
       {\displaystyle S = \int \limits _{t_{1}}^{t_{2}} \mathcal {L} (x(t), \dot
       x(t), t)dt}
-    </Math>
+    </Formula>
     <Section>
       Jak widzisz to, co całkujemy tutaj to nie funkcją, a czymś co przyjmuje
       funkcję (i jej pochodne) jako argument. Rachunek wariacyjny pozwala poznać
@@ -34,9 +34,9 @@
       Jest na to jakiś wzór? Otóż, nazywa się to lagranżjan i w mechanice
       klasycznej przyjmuje formę różnicy energii kinetycznej i potencjalnej.
     </Section>
-    <Math center="true" nr="1.2">
+    <Formula nr="1.2">
       {\displaystyle \mathcal {L} = T - U = \frac{1}{2}mv^2 - U}
-    </Math>
+    </Formula>
     <Section>
       Gdzie U to energia potencjalna, która może być różna w zależności od
       sytuacji. Np. w spadającej kulce będzie wynosić mgh, natomiast w wahadle
