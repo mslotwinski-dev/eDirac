@@ -20,7 +20,7 @@ export default {
       'Tor ruchu': 'Kinematyka/1/2.vue',
       'Elementarny opis ruchu': 'Kinematyka/1/3.vue',
       'Prędkość i przyspieszenie': 'Kinematyka/1/4.vue',
-      'Ruch prostoliniowy': 'Kinematyka/1/5.vue',
+      'Ruch prostoliniowy i krzywoliniowy': 'Kinematyka/1/5.vue',
       'Spadek swobodny': 'Kinematyka/1/6.vue',
       'Rzut poziomy i ukośny': 'Kinematyka/1/7.vue',
       'Ruch względny': 'Kinematyka/1/8.vue',
