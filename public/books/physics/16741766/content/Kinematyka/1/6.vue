@@ -20,9 +20,9 @@
       masę ciała poddawanego sile grawitacji jako m, natomiast promień ziemii
       jako r. Wtedy
     </Section>
-    <Formula nr="3.X">
+    <Formula nr="3.24">
       {\displaystyle g = \frac{F_g}{m} = G \frac{Mm}{mr^2} = G \frac{M}{r^2}
-      \approx 9,81 \frac{m}{s^2}}
+      \approx \htmlClass{nr}{9,81} \frac{m}{s^2}}
     </Formula>
     <h3>Swobodny spadek</h3>
     <Section>
@@ -36,12 +36,12 @@
       jego znak jest na minusie. Podstawowe równanie ruchu sprowadza się tutaj
       do
     </Section>
-    <Formula nr="3.X"> {\displaystyle h(t) = h_0 - \frac{1}{2}gt^2} </Formula>
+    <Formula nr="3.25"> {\displaystyle h(t) = h_0 - \frac{1}{2}gt^2} </Formula>
     <Section>
       Jeśli się zastanowimy powyższe równanie rzeczywiście ma sens, bo wraz z
       czasem wysokość zmniejsza się od wysokości początkowej do zera.
     </Section>
-    <h3>Rzut poziomy</h3>
+    <h3>Rzut pionowy</h3>
     <Section>
       Powyższe równanie to oczywiście równanie uproszczone. Kolejny przypadek
       zakłada, że rzucamy przedmiot w ziemię lub do góry. To, czym się różni ta
@@ -49,7 +49,7 @@
       siły rzutu. W tym przypadku równanie przybiera pełną postac, która wygląda
       prawie tak jak równanie (3.9).
     </Section>
-    <Formula nr="3.X">
+    <Formula nr="3.26">
       {\displaystyle h = h_0 - \frac{1}{2}gt^2 + v_0t}
     </Formula>
     <Section>
@@ -64,7 +64,7 @@
       proste, a pozwala ci zrozumieć fizykę i generalnie zmiany funkcji na
       znacznie lepszym poziomie.
     </Section>
-    <Formula nr="3.X"> {\displaystyle v = v_0 - gt} </Formula>
+    <Formula nr="3.27"> {\displaystyle v = v_0 - gt} </Formula>
     <Section>
       To również ma sens, w przypadku gdy rzucamy w górę prędkość będzie maleć i
       zbliżać się do zera aż zmieni znak i będzie poruszać się w dół. Gdy
@@ -85,13 +85,13 @@
       przedmiot w górę i chcemy obliczyć maksymalną wysokość? Sprawa jest bardzo
       prosta, najpierw musimy policzyć kiedy h(t) osiąga maksimum, czyli moment
       w którym prędkość jest równa 0<M s="\frac{m}{s}" />. Podstawienie w
-      równaniu (3.X) za prędkość 0 pozwala nam stwierdzić, że dzieje się to
-      kiedy czas ma wartość <M s="\frac{g}{t}" />. Teraz kiedy znamy moment,
+      równaniu (3.27) za prędkość 0 pozwala nam stwierdzić, że dzieje się to
+      kiedy czas ma wartość <M s="\frac{v_0}{g}" />. Teraz kiedy znamy moment,
       kiedy wysokość osiąga maksimum została nam tylko formalność. Podstawiamy
-      we wzorze (3.X) za czas <M s="\frac{g}{t}" />, co pozwala nam dojść do
+      we wzorze (3.X) za czas <M s="\frac{v_0}{g}" />, co pozwala nam dojść do
       wzoru, że maksymalna wysokość w rzucie pionowym wynosi
     </Section>
-    <Formula nr="3.X"> {\displaystyle h = h_0 + \frac{v^2}{2g}} </Formula>
+    <Formula nr="3.28"> {\displaystyle h = h_0 + \frac{v_0^2}{2g}} </Formula>
     <Section>
       Nikt ci oczywiśce broni ci stać na drzewie na jakieś wysokości
       <M s="h_0" /> i rzucać w górę, jednak stojąc na ziemii wysokość początkowa
@@ -99,10 +99,10 @@
       pomijany. Ten sam wzór można wyprowadzić zasady zachowania energii, o
       której również będziemy potem mówić. Dla formalności obliczmy na sam
       koniec czas całego rzutu. Jeśli czas wznoszenia, po którym h wynosi
-      maksimum jest równy<M s="\frac{v}{g}" />, czas spadania wyniesie tyle
+      maksimum jest równy<M s="\frac{v_0}{g}" />, czas spadania wyniesie tyle
       samo. Cały rzut będzie więc trwał
     </Section>
-    <Formula nr="3.X"> {\displaystyle t = \frac{2v}{g} }</Formula>
+    <Formula nr="3.29"> {\displaystyle t = \frac{2v_0}{g} }</Formula>
     <h3>Grawitacja w ujęciu relatywistycznym *</h3>
     <Section>
       Zaraz zaraz, coś tu nie gra. Wróćmy na sam początek tematu do definicji
@@ -129,6 +129,10 @@
       kulkę na tej siatce "wpadnie" ona do dołka, który zrobiła nasza duża
       kulka. Dokładnie tak współcześnie rozumie się grawitację, jako takie
       zagięcie przestrzeni, w które wpadamy.
+    </Section>
+    <Section>
+      Grawitację w ujęciu relatywistycznym będziemy rozpatrywać w ostatnim tomie
+      książek poświęconych podstawom fizyki.
     </Section>
   </Article>
 </template>
