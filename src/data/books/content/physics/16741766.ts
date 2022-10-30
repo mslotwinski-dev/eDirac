@@ -10,8 +10,9 @@ export default {
       'Jednostki i wielkości fizyczne': 'Wstep/2/1.vue',
       'Ruch i jego przyczyny': 'Wstep/2/2.vue',
       'Elektryczność i magnetyzm': 'Wstep/2/3.vue',
-      'Budowa materii': 'Wstep/2/4.vue',
-      'W kosmos i dalej': 'Wstep/2/5.vue',
+      'Tajemniczy świat kwantów': 'Wstep/2/4.vue',
+      'Budowa materii': 'Wstep/2/5.vue',
+      'W kosmos i dalej': 'Wstep/2/6.vue',
     },
   },
   Kinematyka: {

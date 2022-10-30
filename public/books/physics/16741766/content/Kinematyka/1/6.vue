@@ -22,7 +22,7 @@
     </Section>
     <Formula nr="3.24">
       {\displaystyle g = \frac{F_g}{m} = G \frac{Mm}{mr^2} = G \frac{M}{r^2}
-      \approx \htmlClass{nr}{9,81} \frac{m}{s^2}}
+      \approx \htmlClass{nr}{9,81} \ \frac{m}{s^2}}
     </Formula>
     <h3>Swobodny spadek</h3>
     <Section>
@@ -88,7 +88,7 @@
       równaniu (3.27) za prędkość 0 pozwala nam stwierdzić, że dzieje się to
       kiedy czas ma wartość <M s="\frac{v_0}{g}" />. Teraz kiedy znamy moment,
       kiedy wysokość osiąga maksimum została nam tylko formalność. Podstawiamy
-      we wzorze (3.X) za czas <M s="\frac{v_0}{g}" />, co pozwala nam dojść do
+      we wzorze (3.26) za czas <M s="\frac{v_0}{g}" />, co pozwala nam dojść do
       wzoru, że maksymalna wysokość w rzucie pionowym wynosi
     </Section>
     <Formula nr="3.28"> {\displaystyle h = h_0 + \frac{v_0^2}{2g}} </Formula>

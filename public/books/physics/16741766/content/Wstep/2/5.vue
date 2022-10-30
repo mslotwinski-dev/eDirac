@@ -1,39 +1,67 @@
 <template>
   <Article>
-    <Begin nr="2.5" advanced="0"> W kosmos i dalej </Begin>
-    TEST
+    <Begin nr="2.4" advanced="0"> Budowa materii </Begin>
+    <h3>Model standardowy</h3>
     <Section>
-      <Formula nr="21.37">
-        {\displaystyle \rho \left({\frac {\partial {\vec {v}}}{\partial
-        t}}+({\vec {v}}\cdot \nabla ){\vec {v}}\right)=\rho {\vec {f}}-\nabla
-        p+\mu \triangle {\vec {v}}+(\lambda +\mu )\nabla (\nabla \cdot {\vec
-        {v}})+(\nabla \cdot {\vec {v}})(\nabla \lambda )+{\big (}\nabla {\vec
-        {v}}+(\nabla {\vec {v}})^{T}{\big )}\cdot (\nabla \mu )}</Formula
-      >
-      <Formula nr="21.37">
-        {\displaystyle \oiint_{\partial V} {\displaystyle \left(\psi \nabla
-        \!\varphi -\varphi \nabla \!\psi \right)\cdot d\mathbf {S} \ =\ }
-        \oiint_{\partial V} {\displaystyle \left(\psi {\frac {\partial \varphi
-        }{\partial n}}-\varphi {\frac {\partial \psi }{\partial n}}\right)dS}
-        {\displaystyle \displaystyle \ =\ \iiint _{V}\left(\psi \nabla
-        ^{2}\!\varphi -\varphi \nabla ^{2}\!\psi \right)\,dV}}
-      </Formula>
-      <Formula nr="21.37">
-        {\displaystyle {\begin{aligned}\oint _{\partial \Sigma } \mathbf {B}
-        \cdot \mathrm {d} {\boldsymbol {\ell }}=\mu _{0}\left(\iint _{\Sigma
-        }\mathbf {J} \cdot \mathrm {d} \mathbf {S} +\varepsilon _{0}{\frac
-        {\mathrm {d} }{\mathrm {d} t}}\iint _{\Sigma }\mathbf {E} \cdot \mathrm
-        {d} \mathbf {S} \right)\\\end{aligned}}}
-      </Formula>
-      <Formula nr="21.37">
-        {\displaystyle {\hat {H}}{\big |}{\mathit {\Psi }}(t)\rangle ={\textrm
-        {i}}\hbar {\frac {\partial }{\partial t}}{\big |}{\mathit {\Psi
-        }}(t)\rangle ,}
-      </Formula>
-      <Formula nr="21.37">
-        {\displaystyle R_{\mu \nu }-{\frac {1}{2}}g_{\mu \nu }R+\Lambda g_{\mu
-        \nu }=-{\frac {8\pi }{c^{4}}}GT_{\mu \nu },}
-      </Formula>
+      Z czego stworzona jest materia? Jakie cząstki tworzą otaczający nas świat?
+      Większość powie pewnie, że z atomów. Tylko z jakich? Węgiel, żelazo, azot,
+      tlen? Musimy znaleźć coś bardziej fundamentalnego, musimy zejść głębiej.
+      Atomy też się z czegoś składają - z protonów, neutronów i elektronów. Może
+      to jest są fundamentalne składniki materii? Co jednak ze światłem i
+      promieniowaniem elektromagnetycznym? Co z budową nukleonów? One też się z
+      czegoś składają. Potrzebujemy czegoś, co zbierze nam wszystkie elementarne
+      cząstki w jednym miejscu. Czymś takim jest model standardowy.
+    </Section>
+    <Image src="wstep/2.png">Model standardowy</Image>
+    <h3>Atomy w ruchu</h3>
+    <Section>
+      Aby zilustrować siłę idei atomowej, załóżmy, że z boku mamy kroplę wody o
+      wielkości ćwierć cala. Jeśli przyjrzymy się jej bardzo uważnie, zobaczymy
+      tylko wodę – gładką, ciągłą wodę. Nawet jeśli powiększymy ją za pomocą
+      najlepszego dostępnego mikroskopu optycznego – mniej więcej dwa tysiące
+      razy – wtedy kropla wody będzie miała mniej więcej czterdzieści stóp
+      średnicy, mniej więcej tak dużą jak duży pokój, a gdybyśmy przyjrzeli się
+      dość uważnie, nadal zobaczylibyśmy stosunkowo gładką wodę — ale tu i tam
+      małe rzeczy w kształcie piłki nożnej pływają tam i z powrotem. To są
+      pantofelki.
+    </Section>
+    <Section>
+      Powiększając ją ponownie dwa tysiące razy, kropla wody ma szerokość około
+      piętnastu mil i jeśli przyjrzymy się jej bardzo uważnie, zobaczymy rodzaj
+      rojenia, coś, co nie ma już gładkiego wyglądu – wygląda jak tłum na meczu
+      piłki nożnej, widziany z bardzo duża odległość. Aby zobaczyć, o co chodzi
+      w tym roju, powiększymy go jeszcze dwieście pięćdziesiąt razy.
+    </Section>
+    <Section>
+      <Image src="wstep/3.png">Woda powiększona miliard razy</Image>
+      Jest to obraz wody powiększony miliard razy, ale wyidealizowany na kilka
+      sposobów. Zauważ, że istnieją dwa rodzaje „kropelek” lub okręgów
+      reprezentujących atomy tlenu (niebieski) i wodór (biały), a każdy tlen ma
+      dwa wodory związane z nim. (Każda mała grupa tlenu z dwoma wodorami
+      nazywana jest cząsteczką.) Obraz jest jeszcze bardziej wyidealizowany,
+      ponieważ prawdziwe cząsteczki w naturze nieustannie podskakują, obracając
+      się i skręcając wokół siebie. Będziesz musiał sobie to wyobrazić jako
+      dynamiczny, a nie statyczny obraz. Kolejną rzeczą, której nie da się
+      zilustrować na rysunku, jest to, że cząstki są „sklejone” – że przyciągają
+      się nawzajem, ta ciągnięta przez tę itd. Z drugiej strony cząsteczki nie
+      przeciskają się przez siebie. Jeśli spróbujesz ścisnąć dwa z nich zbyt
+      blisko siebie, odepchną się.
+    </Section>
+    <Section>
+      A teraz wyobraź sobie tę wielką kroplę wody z tymi wszystkimi drżącymi
+      cząsteczkami, które sklejają się ze sobą i łączą ze sobą. Woda utrzymuje
+      swoją objętość; nie rozpada się z powodu wzajemnego przyciągania się
+      cząsteczek. Jeśli kropla znajduje się na zboczu, gdzie może przemieszczać
+      się z jednego miejsca na drugie, woda popłynie, ale nie zniknie tak po
+      prostu — rzeczy nie rozlatują się po prostu — z powodu przyciągania
+      molekularnego. Teraz ruch podrygujący jest tym, co przedstawiamy jako
+      ciepło: kiedy zwiększamy temperaturę, zwiększamy ruch. Jeśli podgrzewamy
+      wodę, wzrastają drgania i zwiększa się objętość między atomami, a jeśli
+      ogrzewanie trwa nadal, przychodzi czas, gdy przyciąganie między
+      cząsteczkami nie wystarcza, aby je utrzymać, a one rozlatują się i
+      oddzielają od siebie . Oczywiście w ten sposób wytwarzamy parę z wody —
+      poprzez podwyższanie temperatury; cząstki rozlatują się z powodu
+      zwiększonego ruchu.
     </Section>
   </Article>
 </template>
