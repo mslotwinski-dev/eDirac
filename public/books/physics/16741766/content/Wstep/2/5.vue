@@ -91,9 +91,69 @@
       szalone, że dotąd nie znamy nawet masy neutrin, wiemy tylko, że jest na
       pewno mniejsza niż 2.2eV/c<M s="^2" />.
     </Section>
+    <h3>Bozony</h3>
+    <Section>
+      Budując dom, oprócz budulca potrzebujemy czegoś, co ten budulec utrzyma,
+      swego rodzaju klej. Właśnie taką rolę pełnią bozony - przekazują
+      oddziaływania. Zastanawiałeś się dlaczego ładunki <i>wiedzą</i>, że mają
+      się przyciągać? Dlaczego atom <i>wie</i>, że ma się trzymać, a nie
+      rozpaść? Informacje o tym przenoszą właśnie bozony.
+    </Section>
+    <Section>
+      Oddziaływania w przyrodzie mamy 4 - silne, elektromagnetyczne, słabe i
+      grawitacyjne. Ich siła układa się dokładnie w takiej kolejności.
+    </Section>
+    <Section>
+      Oddziaływanie silne zwane również jądrowym to najpotężniejsze
+      oddziaływanie w przyrodzie, a działa między kwarkami. Jego zasięg jest
+      skrajnie mały, nie działa dalej niż promień jądra atomowego, ale jest tak
+      niewyobrażalnie potężne, że siła połączonych kwarków na odległościach
+      skali 1fm (femto metr) dąży do nieskończoności. Bozony, które przenoszą to
+      odziaływanie to gluony (od angielskiego słowa glue, oznaczającego klej i
+      oznaczane jako g). Po dłuższym zastanowieniu jego siła nie powinna nas
+      dziwić, skoro protony, które są naładowane dodatnio trzymają się razem w
+      jądrze i nie rozpadają się (przynajmniej do pewnego momentu), czyli są w
+      stanie przeciwstawić się oddziaływaniu elektromagnetycznemu.
+    </Section>
+    <Section>
+      No właśnie, skoro jesteśmy przy oddziaływaniu elektromagnetycznym, jest
+      ono kolejnym na naszej liście. Jego nośnikiem są fotony (<M
+        s="\gamma"
+      />), znane powszechnie jako cząstki światła. Tak, światło jest cząstką.
+      Ale jest też falą. Nie słyszałeś o kocie Schrödingera? Taki urok mechaniki
+      kwantowej, wszystko jest wszystkim na raz.
+    </Section>
+    <Section>
+      Kolejne oddziaływanie to oddziaływanie słabe. Działa ono między leptonami
+      i odpowiada między innymi za radioaktywność. Jego wyjątkowość polega na
+      tym, że jest przenoszony przez cząstki W i Z, z których obie są cząstkami
+      masowymi.
+    </Section>
+    <Section>
+      Najsłabsze z nich i to przytłaczająco słabsze to oddziaływanie
+      grawitacyjne. Mimo jego słabości, fakt, że działa na masę sprawił, że to
+      ono decyduje o kształcie wszechświata. Jeśli chodzi o oddziaływanie
+      grawitacyjne mamy tu śmieszną sprawę. Przenosi je hipotetyczna cząstka
+      zwana grawitonem (G). Nikt jej nie zaobserwował i najprawdopodobniej
+      jeszcze przez pokolenia nie będzie to możliwe. Mimo to już znamy prawie
+      wszystkie jego właściwości. Tak jakby się zastanowić jest to poniekąd
+      słodkie. Najsłabsze dziecko oddziaływań mimo, że nie dorównuje innym siłą,
+      swoją wytrwałością w oddziaływaniu na masę przewyższyło wszystkie inne
+      decydując o kształcie całego wszechświata.
+    </Section>
+    <Section>
+      Ostatni z bozonów to tak zwany bozon Higgsa. Najpierw podam ci suchą
+      naukową definicję, a potem przetłumaczę z polskiego na ludzki. Zgodnie z
+      tzw. mechanizmem Higgsa pola kwantowe sprzęgają się z polem Higgsa, w
+      wyniku czego następuje spontaniczne złamanie symetrii, a bezmasowe cząstki
+      Modelu Standardowego nabierają masy. No dobrze, ale co to dokładnie
+      znaczy? Że bez bozonu Higgsa materia nie miałaby w ogóle masy. Bozon
+      Higgsa w dużym uproszczeniu przenosi właśnie masę.
+    </Section>
     <h3>Atomy w ruchu</h3>
     <Section>
-      Aby zilustrować siłę idei atomowej, załóżmy, że z boku mamy kroplę wody o
+      Odejdźmy już od trudnych rzeczy, a na zakończenie zrelaksujmy się. Aby
+      zilustrować siłę idei atomowej, załóżmy, że z boku mamy kroplę wody o
       wielkości ćwierć cala. Jeśli przyjrzymy się jej bardzo uważnie, zobaczymy
       tylko wodę – gładką, ciągłą wodę. Nawet jeśli powiększymy ją za pomocą
       najlepszego dostępnego mikroskopu optycznego – mniej więcej dwa tysiące
