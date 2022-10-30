@@ -4,10 +4,10 @@ export default {
       'Postulaty Bohra': 'Atomowa/1/1.vue',
     },
   },
-  'Fizyka Jądrowa': {
-    '': {},
-  },
-  'Fizyka Cząstek Elementarnych': {
-    '': {},
-  },
+  // 'Fizyka Jądrowa': {
+  //   '': {},
+  // },
+  // 'Fizyka Cząstek Elementarnych': {
+  //   '': {},
+  // },
 }

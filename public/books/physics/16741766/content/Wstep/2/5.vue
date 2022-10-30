@@ -58,6 +58,39 @@
       to ponad 170 tysięcy MeV/c<M s="^2" />. Powiedzieć, że to bydle to nic nie
       powiedzieć.
     </Section>
+    <Section>
+      Z kwarków stworzone są protony i neutrony. Proton tworzą dwa kwarki górne
+      i jeden dolny, natomiast neutron jest tworzony przez dwa kwarki dolne i
+      jeden górny. Z nich natomiast stworzone jest jądro atomowe. Jednak aby
+      stworzyć atom potrzebne nam coś jeszcze.
+    </Section>
+    <Section>
+      Oprócz jądra w atomie mamy też krążące wokół niego elektrony. Elektrony są
+      leptonami, a ich nazwa pochodzi od słowa leptos oznaczający po grecku coś
+      lekkiego. Leptony są bowiem w porównaniu do kwarków naprawdę drobne.
+      Oprócz elektronów oznaczonych symbolem e, możemy dostrzec również miony
+      (μ) oraz taony (τ). Mion jest około 200 razy cięższy od elektronu,
+      natomiast taon około 3 500 razy cięższy, co oznacza, że jest cięższy od
+      protonu.
+    </Section>
+    <Section>
+      Każdemu z leptonów towarzyszy również neutrino - neutrono elektronowe (<M
+        s="\nu_e"
+      />), neutrino mionowe (<M s="\nu_\mu" />) oraz neutrono taonowe (
+      <M s="\nu_\tau" />). Mówiąc neutrino bez żadnych dodatkowych określeń mamy
+      na myśli neutrino elektronowe, gdyż w 99,9% przypadków będziemy mówić
+      właśnie o nim. Neutrina są niesamowicie lekkie, obojętne elektrycznie i
+      wręcz absurdalnie trudne do wychwycenia. Nie dość, że masa jednego
+      neutrina jest około 230 tysięcy razy mniejsza od masy elektronu (która i
+      tak jest kosmicznie mała) to jeszcze nie oddziałują elektromagnetycznie,
+      więc zostaje nam tylko grawitacja. Dlaczego to problem? Bo oddziaływanie
+      elektromagnetyczne jest około 100 kwintyliardów (tak, chora liczba) razy
+      silniejsze od grawitacyjnego. To jest skala 1 do 10<M s="^{35}" />. Więc
+      chyba widzisz, że nie dość, że grawitacyjnie bardzo ciężko wykryć cząstki,
+      to jeszcze są one tak lekkie, że to zadanie wydaje się szalone. Tak
+      szalone, że dotąd nie znamy nawet masy neutrin, wiemy tylko, że jest na
+      pewno mniejsza niż 2.2eV/c<M s="^2" />.
+    </Section>
     <h3>Atomy w ruchu</h3>
     <Section>
       Aby zilustrować siłę idei atomowej, załóżmy, że z boku mamy kroplę wody o

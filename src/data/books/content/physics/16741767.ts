@@ -13,13 +13,13 @@ export default {
       'Strumień objętości i masy': 'Hydrodynamika/2/2.vue',
     },
   },
-  'Teoria Sprężystości': {
-    '': {},
-  },
-  'Drgania i Fale': {
-    '': {},
-  },
-  Akustyka: {
-    '': {},
-  },
+  // 'Teoria Sprężystości': {
+  //   '': {},
+  // },
+  // 'Drgania i Fale': {
+  //   '': {},
+  // },
+  // Akustyka: {
+  //   '': {},
+  // },
 }
