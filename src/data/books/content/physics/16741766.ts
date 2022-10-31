@@ -23,7 +23,7 @@ export default {
       'Prędkość i przyspieszenie': 'Kinematyka/1/4.vue',
       'Ruch prostoliniowy i krzywoliniowy': 'Kinematyka/1/5.vue',
       'Spadek swobodny': 'Kinematyka/1/6.vue',
-      // 'Rzut poziomy i ukośny': 'Kinematyka/1/7.vue',
+      'Rzut poziomy i ukośny': 'Kinematyka/1/7.vue',
       // 'Ruch względny': 'Kinematyka/1/8.vue',
       // 'Ruch po okręgu': 'Kinematyka/1/9.vue',
       // Orbity: 'Kinematyka/1/10.vue',
