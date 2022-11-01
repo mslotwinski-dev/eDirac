@@ -43,8 +43,7 @@
       otrzymujemy:
     </Section>
     <Math>
-      \displaystyle v_{0x} = v_{0} cos \theta_0 \qquad v_{0y} = v_{0} \sin
-      \theta_0
+      \displaystyle v_{0x} = v_{0} cos \theta \qquad v_{0y} = v_{0} \sin \theta
     </Math>
     <Section>
       Podczas tego ruchu wektor położenia, prędkości i kąta się ciągle
@@ -65,7 +64,7 @@
       który omówiliśmy w poprzednim temacie.
     </Section>
     <Math>
-      y = v_{0y}t - \frac{1}{2}gt^2 = v_0 sin \theta_0 \ t - \frac{1}{2}gt^2
+      y = v_{0y}t - \frac{1}{2}gt^2 = v_0 sin \theta \ t - \frac{1}{2}gt^2
     </Math>
     <h3>Równanie toru</h3>
     <Section>
@@ -73,11 +72,45 @@
       przekształceniach otrzymujemy równanie ruchu w rzucie ukośnym.
     </Section>
     <Formula nr="2.30">
-      \displaystyle y = tg\theta_0x - \frac{gx^2}{2(v_0 cos\theta_0)^2}
+      \displaystyle y = h + tg\theta x - \frac{gx^2}{2(v_0 cos\theta)^2}
     </Formula>
     <Section>
-      Dla prostoty przyjmujemy, że rzut rozpoczyna się na początku układu
-      współrzędnych.
+      Dla prostoty przyjmujemy, że <M s="x_0" />, natomiast <M s="y_0" /> to
+      wysokość rzutu h. Możesz zauważyć, że jest to parabola (tg
+      <M s="\theta" />
+      jest wielkością stałą, tak żebyś się nie przestraszył). Chcąc wyznaczyć
+      zasięg rzutu możesz korzystać ze zwykłego równania kwadratowego, jednak
+      mamy na to lepszy sposób.
     </Section>
+    <Section>
+      Zasięg rzutu możemy wyznaczyć tak jak w przypadku rzutu poziomego. Rzut
+      kończy się w momencie zakończenia ruchu pionowego, zatem podstawiając y =
+      0 do wzoru na rzut pionowy. Daje nam to
+    </Section>
+    <Math>\displaystyle t = \frac{2 v_0}{g} \ sin\theta</Math>
+    <Section>
+      Następnie podstawiając czas rzutu do równania współrzędnej x daje nam to
+    </Section>
+    <Math>
+      \displaystyle x_{max} = \frac{2 v_0^2}{g} \ sin\theta \ cos \theta
+    </Math>
+    <Section>
+      Co korzystając z tożsamości trygonometrycznych daje nam ostateczny wzór na
+      zasięg rzutu:
+    </Section>
+    <Formula nr="2.31">
+      \displaystyle x_{max} = \frac{v_0^2}{g} \ sin \ \htmlClass{nr}{2} \theta
+    </Formula>
+    <Section>
+      Możesz zauważyć, że odległość jest największa kiedy sinus z 2θ przyjmuje
+      maksimum, czyli rzucając pod kątem 45<M s="^\circ" />. Nie jest to jednak
+      wzór na drogę przebytą przez ciało. Ten jest znacznie trudniejszy, ale
+      również go wproawdzę (jako ciekawostkę dla słabszych i przypomnienie z
+      matmy dla mocniejszych)
+    </Section>
+    <Formula nr="2.32">
+      \displaystyle L = \int \limits _{0} ^{x_{max}} \sqrt{1 - (tg \theta -
+      \frac{g}{(v_0cos\theta)^2})^2}
+    </Formula>
   </Article>
 </template>
