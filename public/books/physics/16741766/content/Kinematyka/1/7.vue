@@ -110,7 +110,7 @@
     </Section>
     <Formula nr="2.32">
       \displaystyle L = \int \limits _{0} ^{x_{max}} \sqrt{1 - (tg \theta -
-      \frac{g}{(v_0cos\theta)^2})^2}
+      \frac{g}{(v_0cos\theta)^2}x)^2}dx
     </Formula>
   </Article>
 </template>
