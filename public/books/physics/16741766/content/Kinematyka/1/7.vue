@@ -43,7 +43,7 @@
       otrzymujemy:
     </Section>
     <Math>
-      \displaystyle v_{0x} = v_{0} cos \theta \qquad v_{0y} = v_{0} \sin \theta
+      \displaystyle v_{0x} = v_{0} cos \theta \qquad v_{0y} = v_{0} sin \theta
     </Math>
     <Section>
       Podczas tego ruchu wektor położenia, prędkości i kąta się ciągle
@@ -80,7 +80,7 @@
       <M s="\theta" />
       jest wielkością stałą, tak żebyś się nie przestraszył). Chcąc wyznaczyć
       zasięg rzutu możesz korzystać ze zwykłego równania kwadratowego, jednak
-      mamy na to lepszy sposób.
+      póki co załóżmy, że h = 0, wtedy sprawa się uprości.
     </Section>
     <Section>
       Zasięg rzutu możemy wyznaczyć tak jak w przypadku rzutu poziomego. Rzut
@@ -103,14 +103,44 @@
     </Formula>
     <Section>
       Możesz zauważyć, że odległość jest największa kiedy sinus z 2θ przyjmuje
-      maksimum, czyli rzucając pod kątem 45<M s="^\circ" />. Nie jest to jednak
-      wzór na drogę przebytą przez ciało. Ten jest znacznie trudniejszy, ale
-      również go wproawdzę (jako ciekawostkę dla słabszych i przypomnienie z
-      matmy dla mocniejszych)
+      maksimum, czyli rzucając pod kątem 45<M s="^\circ" />. W przypadku, kiedy
+      mamy wysokość początkową nie wygląda to niestety tak kolorowo. W tym
+      przypadku musimy założyć, że czas wznoszenia i opadania jest różny i
+      rozpatrzyć każdy osobno. Po kilku przekształceniach zasięg rzutu wyraża
+      się poprzez wzór
     </Section>
     <Formula nr="2.32">
-      \displaystyle L = \int \limits _{0} ^{x_{max}} \sqrt{1 - (tg \theta -
-      \frac{g}{(v_0cos\theta)^2})^2}
+      \displaystyle x_{max} = \frac{v_0cos \theta}{g} \Bigg( v_0sin\theta +
+      \sqrt{\htmlClass{nr}{2}gh + v_0^2sin^2\theta} \Bigg)
+    </Formula>
+    <Section>
+      Zauważ, że wzór zadziała nawet, jeśli będziemy rzucać z niższej wysokości
+      niż nasz <i>cel</i>. Przykładem są rzuty do kosza. Rzut się kończy wyżej
+      niż h. Można to porównać do rzucania z dołka.
+    </Section>
+    <Image src="kinematyka/5.png">
+      Nic nie stoi na przeszkodzie, aby wysokość, z której rzucamy była ujemna
+    </Image>
+    <h3>Długość łuku</h3>
+    <Section>
+      Wzór na zasięg to jednak nie jest wzór na drogę przebytą przez ciało. Ten
+      jest znacznie trudniejszy, ale również go wprowadzę (jako ciekawostkę dla
+      słabszych i przypomnienie z matmy dla mocniejszych). Długość łuku liczymy
+      jako pewną konkretną całkę.
+    </Section>
+    <Formula nr="2.33">
+      \displaystyle L = \int \limits _{0} ^{x_{max}} \sqrt{1 - \Big(tg \theta -
+      \frac{g}{(v_0cos\theta)^2}x \Big)^2 dx}
+    </Formula>
+    <Section>
+      Jeśli wysokość rzutu jest równa 0, możemy go nieco uprościć. W tym
+      przypadku funkcja będąca wynikiem całkowania nie jest tak straszna i mogę
+      przedstawić ją jako gotowy wzór.
+    </Section>
+    <Formula nr="2.34">
+      {\displaystyle L={\frac {v_{0}^{2}}{2g}}\Bigg(\htmlClass{nr}{2} sin \theta
+      + cos ^{2}\theta \cdot ln \ {\frac {1+ sin \theta }{1- sin \theta
+      }}\Bigg)}
     </Formula>
   </Article>
 </template>
