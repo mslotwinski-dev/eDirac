@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container global-math-container">
     <div class="content">
       <div class="equation" v-dragscroll>
         <span>
@@ -76,6 +76,7 @@ export default defineComponent({
   max-width: 95vw;
   margin-bottom: 5px;
   border-radius: 10px;
+  margin: auto;
 
   .content {
     width: 100%;

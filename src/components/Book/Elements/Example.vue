@@ -1,5 +1,5 @@
 <template>
-  <div :style="{ backgroundColor: color + '33' }">
+  <div class="example" :style="{ backgroundColor: color + '33' }">
     <h3 :style="{ color }" @click="show = !show">
       <span><ic class="flask" icon="flask" /> Przykład</span>
       <span>

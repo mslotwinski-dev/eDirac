@@ -121,7 +121,7 @@
     <Image src="kinematyka/5.png">
       Nic nie stoi na przeszkodzie, aby wysokość, z której rzucamy była ujemna
     </Image>
-    <h3>Długość łuku</h3>
+    <h3>Długość łuku *</h3>
     <Section>
       Wzór na zasięg to jednak nie jest wzór na drogę przebytą przez ciało. Ten
       jest znacznie trudniejszy, ale również go wprowadzę (jako ciekawostkę dla

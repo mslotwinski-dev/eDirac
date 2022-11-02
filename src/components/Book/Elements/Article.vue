@@ -36,5 +36,11 @@
       margin-right: 10px;
     }
   }
+
+  .example {
+    .global-math-container {
+      max-width: 75vw;
+    }
+  }
 }
 </style>

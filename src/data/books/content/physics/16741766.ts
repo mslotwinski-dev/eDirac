@@ -25,7 +25,7 @@ export default {
       'Spadek swobodny': 'Kinematyka/1/6.vue',
       'Rzut poziomy i ukośny': 'Kinematyka/1/7.vue',
       'Ruch względny': 'Kinematyka/1/8.vue',
-      // 'Ruch po okręgu': 'Kinematyka/1/9.vue',
+      'Ruch po okręgu': 'Kinematyka/1/9.vue',
       // Orbity: 'Kinematyka/1/10.vue',
       // 'Krzywizna i skręcenie': 'Kinematyka/1/11.vue',
     },
