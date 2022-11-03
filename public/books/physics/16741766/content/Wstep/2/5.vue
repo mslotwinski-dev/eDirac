@@ -1,13 +1,13 @@
 <template>
   <Article>
-    <Begin nr="2.4" advanced="0"> Budowa materii </Begin>
+    <Begin nr="2.5" advanced="0"> Budowa materii </Begin>
     <h3>Model standardowy</h3>
     <Section>
       Z czego stworzona jest materia? Jakie cząstki tworzą otaczający nas świat?
       Większość powie pewnie, że z atomów. Tylko z jakich? Węgiel, żelazo, azot,
       tlen? Musimy znaleźć coś bardziej fundamentalnego, musimy zejść głębiej.
       Atomy też się z czegoś składają - z protonów, neutronów i elektronów. Może
-      to jest są fundamentalne składniki materii? Co jednak ze światłem i
+      to są fundamentalne składniki materii? Co jednak ze światłem i
       promieniowaniem elektromagnetycznym? Co z budową nukleonów? One też się z
       czegoś składają. Potrzebujemy czegoś, co zbierze nam wszystkie elementarne
       cząstki w jednym miejscu. Czymś takim jest model standardowy.

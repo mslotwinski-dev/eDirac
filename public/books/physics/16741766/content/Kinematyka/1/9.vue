@@ -112,8 +112,8 @@
     <Section>
       Sama ω zatem zyskuje całkiem nowy charakter i będzie jeszcze
       niejednokrotnie używana chociażby w elektronice. Zauważ jak pięknie ona
-      skraca π i wyrównuje miejsca zerowe sinusa tak, że zeruje przyjmuje
-      ekstrema co jedną sekundę, natomiast zeruje się co 0,5s.
+      skraca π i wyrównuje miejsca zerowe sinusa tak, że przyjmuje maksima i
+      minima co jedną sekundę, natomiast zeruje się co 0,5s.
     </Section>
     <Formula nr="5.41"> \displaystyle \omega = \htmlClass{nr}{2}\pi f </Formula>
   </Article>

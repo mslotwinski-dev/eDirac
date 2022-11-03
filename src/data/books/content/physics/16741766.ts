@@ -26,8 +26,8 @@ export default {
       'Rzut poziomy i ukośny': 'Kinematyka/1/7.vue',
       'Ruch względny': 'Kinematyka/1/8.vue',
       'Ruch po okręgu': 'Kinematyka/1/9.vue',
-      // Orbity: 'Kinematyka/1/10.vue',
-      // 'Krzywizna i skręcenie': 'Kinematyka/1/11.vue',
+      Orbity: 'Kinematyka/1/10.vue',
+      'Krzywizna i skręcenie': 'Kinematyka/1/11.vue',
     },
     // 'Ruch pocisków i cząstek naładowanych': {
     //   'Opór powietrza': 'Kinematyka/2/1.vue',
