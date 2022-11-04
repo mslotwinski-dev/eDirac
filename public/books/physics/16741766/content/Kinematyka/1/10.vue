@@ -50,5 +50,55 @@
       \displaystyle \begin{cases} \ddot r - r \dot \theta ^2 + \frac{1}{r^2} = 0
       \\ r \ddot \theta + \htmlClass{nr}{2} \dot r \dot \theta = 0 \end{cases}
     </Math>
+    <h3>Niezmienniki</h3>
+    <Section>
+      Otrzymane równania różniczkowe są nieliniowe. Praktycznie nie ma
+      możliwości rozwiązania ich czystą matematyką na tym etapie. Klasyczne
+      zastosowanie metod mechaniki analitycznej przy rozwiazywaniu równan ruchu
+      polega na wyznaczeniu tzw. niezmienników (stałych ruchu). Sa to wielkosci
+      zalezne od połozen i predkosci, które pozostaja stałe podczas ruchu. W
+      przyrodzie mamy 4 zasady zachowania - są to: energia, pęd, moment pędu
+      oraz ładunek elektryczny. Mając do czynienia z ruchem po orbicie najlepiej
+      użyć zasady zachowania energii i momentu pędu. Dokładnie operować energią
+      i pędem nauczysz się w części poświęconej dynamice.
+    </Section>
+    <Section>
+      Zacznijmy od momentu pędu. We współrzędnych biegunowych wyraża się on
+      poprzez <M s="mr^2 \dot \theta" />. Możemy sprawdzić, czy aby na pewno nie
+      zmienia się on w czasie ruchu. W ten sposób należy policzyć jego pochodną
+      wzdłuż trajektorii.
+    </Section>
+    <Math>
+      \displaystyle \dot L = 2mr \dot r \dot \theta + mr^2 \ddot \theta = mr \
+      (r \ddot \theta + 2 \dot r \dot \theta) = 0
+    </Math>
+    <Section>
+      Jak widać w ciągu ruchu moment pędu się nie zmienia. Drugim kandydatem na
+      niezmiennik jest energia całkowita planety (kinetyczna i potencjalna).
+      Oczywiście trzymamy się założenia, że GM = 1.
+    </Section>
+    <Math>
+      \displaystyle E = \frac{1}{2}mv^2 - \frac{GMm}{r} = \frac{1}{2}m(\dot x^2
+      + \dot y^2) - \frac{m}{r} = \frac{1}{2}m \dot r^2 + \frac{1}{2}L \dot
+      \theta - \frac{m}{r}
+    </Math>
+    <h3>Orbity</h3>
+    <Section>
+      Teraz zacznie się prawdziwa jazda. Okazuje sie, ze te dwa niezmienniki
+      pozwola na rozwiazanie równan ruchu Planety wokół Słonca. Tymczasowo
+      zrezygnujemy jednak z wyznaczenia pełnej trajektorii, a zamiast niej
+      poprzestaniemy na wyliczeniu orbity ruchu r, a dokładniej funkcji u =
+      <M s="r^{-1}" />. W celu wyrazenia energii poprzez funkcje u obliczamy
+    </Section>
+    <Math>
+      \displaystyle \begin{cases} \dot r = \dot{(u^{-1})} =
+      u^{-2}\frac{du}{d\theta}\dot \theta = -r^2 \dot \theta \frac{du}{d\theta}
+      \\ \dot \theta = \frac{L}{m}u^2 \end{cases}
+    </Math>
+    <Section>Energię możemy wyrazić w następujący sposób:</Section>
+    <Math>
+      \displaystyle E = \frac{1}{2} \frac{h^2}{m} \Bigg( \bigg(
+      \frac{du}{d\theta} \bigg)^2 + u^2 \Bigg) - mu
+    </Math>
   </Article>
 </template>
