@@ -29,12 +29,12 @@ export default {
       Orbity: 'Kinematyka/1/10.vue',
       'Krzywizna i skręcenie': 'Kinematyka/1/11.vue',
     },
-    // 'Ruch pocisków i cząstek naładowanych': {
-    //   'Opór powietrza': 'Kinematyka/2/1.vue',
-    //   'Tor i zasięg rzutu w ośrodku z oporem': 'Kinematyka/2/2.vue',
-    //   'Kwadratowa siła oporu powietrza': 'Kinematyka/2/3.vue',
-    //   'Ruch cząstki w polu magnetycznym': 'Kinematyka/2/4.vue',
-    // },
+    'Ruch pocisków i cząstek naładowanych': {
+      'Opór powietrza': 'Kinematyka/2/1.vue',
+      //   'Tor i zasięg rzutu w ośrodku z oporem': 'Kinematyka/2/2.vue',
+      //   'Kwadratowa siła oporu powietrza': 'Kinematyka/2/3.vue',
+      //   'Ruch cząstki w polu magnetycznym': 'Kinematyka/2/4.vue',
+    },
     // 'Ruch obrotowy': {
     //   'Prędkość liniowa i kątowa': 'Kinematyka/3/1.vue',
     // },
