@@ -42,14 +42,13 @@ export default defineComponent({
     })
 
     // onMounted(() => {
-    //   const ignored = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+    //   // const ignored = ['∇']
     //   if (span.value && span.value.innerHTML)
-    //     for (const char of ignored) {
     //       span.value.innerHTML = span.value.innerHTML.replace(
-    //         `<span class="mord mtight">${char}</span>`,
-    //         `<span class="mord mtight ignore-rubik">${char}</span>`
+    //         `<span class="mord">∇</span>`,
+    //         `<span class="mord ignore-rubik">∇</span>`
     //       )
-    //     }
+
     // })
 
     const color = Object.values({ ...CategoriesModule })

@@ -56,7 +56,9 @@
     <h3>Niezmienniki</h3>
     <Section>
       Otrzymane równania różniczkowe są nieliniowe. Praktycznie nie ma
-      możliwości rozwiązania ich czystą matematyką na tym etapie. Klasyczne
+      możliwości rozwiązania ich czystą matematyką na tym etapie. Znając metody
+      numeryczne możesz policzyć te równania komputerowo, ale nie będą to
+      dokładne wyniki, a jedynie przybliżona symulacja ruchu. Klasyczne
       zastosowanie metod mechaniki analitycznej przy rozwiazywaniu równan ruchu
       polega na wyznaczeniu tzw. niezmienników (stałych ruchu). Sa to wielkosci
       zalezne od połozen i predkosci, które pozostaja stałe podczas ruchu. W

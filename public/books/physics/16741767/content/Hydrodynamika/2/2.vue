@@ -1,23 +1,38 @@
 <template>
   <Article>
-    <Begin nr="2.2" advanced="1"> Strumień objętości i masy</Begin>
-    <h3>Strumień objętości</h3>
+    <Begin nr="2.2" advanced="0"> Równowaga w polu sił</Begin>
+    <h3>Pole potencjalne</h3>
     <Section>
-      Strumień objętości <M c="Q_v" /> to wielkość określająca ile
-      <M c="m^3" /> cieczy lub gazu przepłynie przez daną powierzchnię S w ciągu
-      sekundy. Jest to więc iloczyn skalarny wektora v i powierzchni S, a zatem:
+      Jeżeli lewa strona równania (2.2) jest różniczką zupełną, to wyrażenie w
+      nawiasie po prawej stronie tego równania również jest różniczką zupełną
+      pewnej funkcji U współrzędnych przestrzennych, a więc:
     </Section>
-    <Formula nr="2.3">
-      {\displaystyle Q_v = \frac{dV}{dt} = \vec v \cdot S}
-    </Formula>
+    <Math>\displaystyle f_x dx + f_y dy + f_z dz = -dU</Math>
+    <Section>Z czego wynika, że:</Section>
+    <Math
+      >\displaystyle f_x = \frac{- \partial U}{\partial x} \qquad f_y = \frac{-
+      \partial U}{\partial y} \qquad f_z = \frac{- \partial U}{\partial z}</Math
+    >
+    <h3>Ciśnienie hydrostatyczne</h3>
     <Section>
-      Niestety powyższa definicja dotyczy tylko przekrojów płaskich
-      prostopadłych do ruchu płynu. Chcąc być bardziej papiescy od papieża
-      możemy wyprowadzić bardziej formalną definicję w formie całki.
+      Rozpatrzmy najprostszy przypadek cieczy spoczywającej w polu
+      grawitacyjnym. Jedyną siłą masową w tym przypadku jest grawitacja,
+      natomiast gradient ciśnienia będzie działał w dól. Daje nam to następujące
+      równanie.
     </Section>
-    <Formula nr="2.4">
-      {\displaystyle Q_v = \oint \limits_S \vec v \cdot dS = \int \limits_V
-      (\nabla \cdot \vec v) dV}
-    </Formula>
+    <Math> {\displaystyle \varrho g = \frac{dp}{dy}} </Math>
+    <Section>
+      Rozszerzając przez dy, a następnie całkując dochodzimy do wzoru na
+      ciśnienie hydrostatyczne, jaki znamy z podstawówki. Zamienimy tylko dla
+      ładniejszego zapisu stałą całkowania C na <M c="p_0" /> oraz współrzędną y
+      na h, czyli wysokość.
+    </Section>
+    <Formula nr="2.X"> {\displaystyle p = \varrho g h + p_0} </Formula>
+    <Section>
+      Fizyczne uzasadnienie stałej <M c="p_0" /> to najzwyklejsze ciśnienie
+      atmosferycze równe średnio 1000hPa, zależy od dnia. Ciśnienie na dnie
+      naczynia to suma ciśnienie atmosferycznego i hydrostatycznego, stąd
+      dodajemy do wyniku <M c="p_0" />
+    </Section>
   </Article>
 </template>

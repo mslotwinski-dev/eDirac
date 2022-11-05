@@ -5,12 +5,12 @@ export default {
       'Gęstość i ciśnienie': 'Hydrodynamika/1/2.vue',
       'Rozszerzalność płynu': 'Hydrodynamika/1/3.vue',
       Lepkość: 'Hydrodynamika/1/4.vue',
-      'Parametry gazów': 'Hydrodynamika/1/5.vue',
-      'Siły działające w płynach': 'Hydrodynamika/1/6.vue',
+      'Siły działające w płynach': 'Hydrodynamika/1/5.vue',
     },
     'Równowaga płynów': {
       'Równanie równowagi': 'Hydrodynamika/2/1.vue',
-      'Strumień objętości i masy': 'Hydrodynamika/2/2.vue',
+      'Równowaga w polu sił': 'Hydrodynamika/2/2.vue',
+      // 'Strumień objętości i masy': 'Hydrodynamika/2/2.vue',
     },
   },
   // 'Teoria Sprężystości': {

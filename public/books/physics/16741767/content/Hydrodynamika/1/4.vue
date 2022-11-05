@@ -46,14 +46,14 @@
       lepkość dynamiczna:
     </Section>
     <Formula nr="1.12">
-      {\displaystyle \tau = \mu\frac{dv}{dh} = \mu\gamma}.
+      {\displaystyle \tau = \mu\frac{dv}{dh} = \mu \dot \gamma}.
     </Formula>
     <Section>
       Pochodna prędkości po wysokości często jest nazywana szybkością ścinania i
       oznaczana grecką literą gamma, a definiujemy ją jak pewnie zauważyłeś w
       ten sposób:
     </Section>
-    <Formula nr="1.13"> {\displaystyle \gamma = \frac{dv}{dh}}. </Formula>
+    <Formula nr="1.13"> {\displaystyle \dot \gamma = \frac{dv}{dh}}. </Formula>
     <Section>
       Istnieje również coś takiego jak lepkość kinematyczna. Jest to stosunek
       lepkości dynamicznej do gęstości:

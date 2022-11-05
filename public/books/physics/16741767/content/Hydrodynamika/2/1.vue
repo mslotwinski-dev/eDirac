@@ -30,29 +30,44 @@
     <Section>
       Możemy napisać osobno 3 równania dla każdego kierunku albo zapisać je
       wektorowo, w ten sposób otrzymujemy nasze właściwe równanie równowagi
-      płynów zwane równaniem Eulera.
+      płynów zwane hydrostatycznym równaniem Eulera (można je uogólnić również
+      na przypadki dynamiczne, co zostanie zrobione w następnych działach).
     </Section>
     <Formula nr="2.1"> {\displaystyle \varrho \vec f = \nabla p} </Formula>
-    <h3>Ciśnienie hydrostatyczne</h3>
     <Section>
-      Rozpatrzmy najprostszy przypadek cieczy spoczywającej w polu
-      grawitacyjnym. Jedyną siłą masową w tym przypadku jest grawitacja,
-      natomiast gradient ciśnienia będzie działał w dól. Daje nam to następujące
-      równanie.
+      Równanie to można przedstawić również w formie tak zwanej różniczki
+      zupełnej. W tym przypadku otrzymujemy następujący wzór:
     </Section>
-    <Math> {\displaystyle \varrho g = \frac{dp}{dy}} </Math>
+    <Formula nr="2.2">
+      {\displaystyle dp = \varrho (f_x dx + f_y dy + f_z dz)}
+    </Formula>
     <Section>
-      Rozszerzając przez dy, a następnie całkując dochodzimy do wzoru na
-      ciśnienie hydrostatyczne, jaki znamy z podstawówki. Zamienimy tylko dla
-      ładniejszego zapisu stałą całkowania C na <M c="p_0" /> oraz współrzędną y
-      na h, czyli wysokość.
+      Hydrostatyczne równanie Eulera jest zwane również
+      <i>podstawowym równaniem hydrostatyki</i>, określające zależność między
+      ciśnieniem i jednostkowymi siłami masowymi działającymi na płyn znajdujący
+      się w spoczynku.
     </Section>
-    <Formula nr="2.2"> {\displaystyle p = \varrho g h + p_0} </Formula>
+    <h3>Prawo pascala</h3>
     <Section>
-      Fizyczne uzasadnienie stałej <M c="p_0" /> to najzwyklejsze ciśnienie
-      atmosferycze równe średnio 1000hPa, zależy od dnia. Ciśnienie na dnie
-      naczynia to suma ciśnienie atmosferycznego i hydrostatycznego, stąd
-      dodajemy do wyniku <M c="p_0" />
+      Rozważmy sytuację, kiedy siły masowe są równe 0, a więc na płyn działają
+      siły wyłącznie powierzchniowe. Zeruje się wtedy gradient ciśnienia, a więc
+      samo ciśnienie jest stałe w każdym miejscu przestrzeni. To właśnie jest
+      treścią prawa Pascala, zwanego prawem równomiernego rozchodzenia się
+      ciśnienia w płynie.
+    </Section>
+    <Math>\displaystyle \frac{F_1}{S_1} = \frac{F_2}{S_2}</Math>
+    <Section>
+      Nie podałem tego równania w formie wyróżnionego twierdzenia dlatego, że
+      jest to właściwie oczywiste, że jeśli ciśnienie jest stałe to jest stałe.
+    </Section>
+    <Section>
+      Brak sił masowych oznacza, że płyn jest nieważki. Ten warunek w polu sił
+      ciężkości spełniają w przybliżeniu gazy i wszystkie płyny w stanie
+      nieważkości. Prawo Pascala stosuje się również w przybliżeniu do płynów
+      znajdujących się pod działaniem pola sił masowych, jeżeli są one
+      pomijalnie małe w porównaniu z siłami pochodzącymi od ciśnień. Warunki te
+      zachodzą w urządzeniach zawierających płyny pod dużymi ciśnieniami
+      (sprężarki tłokowe, akumulatory wodne, prasy hydrauliczne etc.).
     </Section>
   </Article>
 </template>
