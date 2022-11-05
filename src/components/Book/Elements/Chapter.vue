@@ -2,19 +2,21 @@
   <header
     :style="{
       backgroundImage:
-        'url(' + require(`@/assets/images/books/bg/${book}.jpg`) + ')',
+        'url(' +
+        require(`@/assets/images/books/bg/${book.Tag.main}/${book.Part}.jpg`) +
+        ')',
     }"
   >
     <div
       class="container"
       :style="{
-        color: color,
+        color: book.Color,
       }"
     >
       <div
         class="nr"
         :style="{
-          backgroundImage: `linear-gradient(45deg, #28353a, ${color},  ${color}, #28353a )`,
+          backgroundImage: `linear-gradient(45deg, #28353a, ${book.Color},  ${book.Color}, #28353a )`,
         }"
         v-html="`${$t('book.chapter')} ${nr}`"
       />
@@ -30,16 +32,14 @@ import { Book } from '@/data/types/book'
 
 export default defineComponent({
   props: {
-    book: { type: String, required: true },
     nr: { type: String, required: true },
   },
   data() {
     return {
-      color: Object.values({ ...CategoriesModule })
+      book: Object.values({ ...CategoriesModule })
         .map((e) => e.Books)
         .flat(1)
-        .filter((e: Book) => e.ID == (this.$route.params.id as string))[0]
-        .Color,
+        .filter((e: Book) => e.ID == (this.$route.params.id as string))[0],
     }
   },
 })

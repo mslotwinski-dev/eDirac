@@ -12,13 +12,7 @@
 
       <ol class="root">
         <div v-for="part in [...new Set(toc.map((e) => e.part))]" :key="part">
-          <li
-            v-html="part"
-            class="p"
-            :style="{
-              color: book.Color,
-            }"
-          />
+          <Part :part="part" :color="book.Color" :bg="book.Tag.main" />
 
           <ol class="first-child">
             <div v-for="(chapter, i) in toc" :key="chapter">
@@ -68,11 +62,15 @@
 </template>
 
 <script lang="ts">
-import { Book } from '@/data/types/book'
 import { defineComponent } from 'vue'
+import { Book } from '@/data/types/book'
+import Part from './Part.vue'
 
 export default defineComponent({
   emits: ['setSubject'],
+  components: {
+    Part,
+  },
   props: {
     book: {
       type: Object as () => Book,
@@ -223,17 +221,6 @@ nav {
 li {
   display: block;
 
-  &.p {
-    font-weight: 500;
-    text-transform: uppercase;
-    color: theme(main_dark);
-    font-size: 20px;
-    margin: 10px 0;
-    &:before {
-      font-size: 0;
-      opacity: 0;
-    }
-  }
   &.c {
     font-size: 16px;
     margin: 2px 0;

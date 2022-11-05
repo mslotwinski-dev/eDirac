@@ -30,6 +30,7 @@ import Nobel from '@/components/Book/Elements/Nobel.vue'
 import M from '@/components/Book/Elements/M.vue'
 import Example from '@/components/Book/Elements/Example.vue'
 import Formula from '@/components/Book/Elements/Formula.vue'
+import Cover from '@/components/Book/Elements/Cover.vue'
 
 createApp(App)
   .component('Article', Article)
@@ -46,6 +47,7 @@ createApp(App)
   .component('M', M)
   .component('Example', Example)
   .component('Formula', Formula)
+  .component('Cover', Cover)
 
   .component('ic', FontAwesomeIcon)
   .use(i18n)

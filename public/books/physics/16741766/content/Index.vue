@@ -1,5 +1,6 @@
 <template>
   <Article>
+    <Cover />
     <h3>Czym jest fizyka?</h3>
     <Section>Wszystko i nic [rozbudować]</Section>
     <h3>Doświadczalna czy teoretyczna?</h3>

@@ -1,3 +1,3 @@
 <template>
-  <Article> *Work in progress* </Article>
+  <Article><Cover /></Article>
 </template>

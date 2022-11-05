@@ -1,7 +1,3 @@
 <template>
-	<Article>
-		<Section>
-			* Work in Progress *
-		</Section>
-	</Article>
+  <Article> <Cover /> </Article>
 </template>

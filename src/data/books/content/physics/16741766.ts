@@ -2,17 +2,17 @@ export default {
   'Wstęp do fizyki': {
     'Filozofia fizyki': {
       'Dziedziny i zakres fizyki': 'Wstep/1/1.vue',
-      // 'Fizyka wśród innych nauk': 'Wstep/1/2.vue',
-      // 'Filozofia przyrody': 'Wstep/1/3.vue',
-      // 'Historia fizyki': 'Wstep/1/4.vue',
+      'Fizyka wśród innych nauk': 'Wstep/1/2.vue',
+      'Filozofia przyrody': 'Wstep/1/3.vue',
+      'Historia fizyki': 'Wstep/1/4.vue',
     },
     'Wprowadzenie do fizyki': {
-      // 'Jednostki i wielkości fizyczne': 'Wstep/2/1.vue',
-      // 'Ruch i jego przyczyny': 'Wstep/2/2.vue',
-      // 'Elektryczność i magnetyzm': 'Wstep/2/3.vue',
-      // 'Tajemniczy świat kwantów': 'Wstep/2/4.vue',
+      'Jednostki i wielkości fizyczne': 'Wstep/2/1.vue',
+      'Ruch i jego przyczyny': 'Wstep/2/2.vue',
+      'Elektryczność i magnetyzm': 'Wstep/2/3.vue',
+      'Tajemniczy świat kwantów': 'Wstep/2/4.vue',
       'Budowa materii': 'Wstep/2/5.vue',
-      // 'W kosmos i dalej': 'Wstep/2/6.vue',
+      'W kosmos i dalej': 'Wstep/2/6.vue',
     },
   },
   Kinematyka: {

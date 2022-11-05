@@ -34,7 +34,7 @@ export const Informatics: Category = {
   Books: Object.values({ ..._Informatics }),
 }
 
-import * as _Biophysics from './list/chemistry'
+import * as _Biophysics from './list/biophysics'
 export const Biophysics: Category = {
   Title: 'biophysics',
   Group: 0,
