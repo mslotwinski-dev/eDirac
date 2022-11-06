@@ -1,12 +1,17 @@
 <template>
   <Article>
     <Begin nr="3.11" advanced="1"> Krzywizna i skręcenie </Begin>
+    <Section>
+      <b>UWAGA!</b> W celu zachowania czystości zapisu kropka nad funkcją
+      wyjątkowo oznacza pochodną po x, nie po czasie.
+    </Section>
     <h3>Krzywizna toru</h3>
     <Section>
-      Wyobraź sobie dowolny tor ruchu. Wybierz sobie na nim dowolne dwa punkty:
-      P i oddalony o niego o Δs punkt P'. Następnie wyznaczmy wektory styczne w
-      każdym z tych punktów odpowiednio τ i τ'. Naszym zadaniem jest wyznaczenie
-      tego, jak bardzo nasz tor jest zakrzywiony. Jak możemy to wyznaczyć?
+      Wyobraź sobie dowolny tor ruchu, powiedzmy y(x). Wybierz sobie na nim
+      dowolne dwa punkty: P i oddalony o niego o Δs punkt P'. Następnie
+      wyznaczmy wektory styczne w każdym z tych punktów odpowiednio τ i τ'.
+      Naszym zadaniem jest wyznaczenie tego, jak bardzo nasz tor jest
+      zakrzywiony. Jak możemy to wyznaczyć?
     </Section>
     <Image src="kinematyka/8.png" />
     <Section>
@@ -27,7 +32,8 @@
       wektorami z odległością między nimi. W ten sposób otrzymujemy:
     </Section>
     <Formula nr="2.46">
-      \displaystyle \kappa = \bigg| \frac{d\varphi}{ds} \bigg|
+      \displaystyle \kappa = \bigg| \frac{d\varphi}{ds} \bigg| = \frac{|\dot
+      \tau \times \ddot \tau|}{|\dot \tau|^3 }
     </Formula>
     <Section>
       Dlaczego chcemy wyciągnąć z naszej wielkości wartość bezwzględną? To
@@ -35,5 +41,37 @@
       aby zdefiniować krzywiznę ze znakiem, ale nam zależy tylko, aby znać to
       jak bardzo zakrzywiony jest tor, a nie, w którą stronę jest zakrzywiony.
     </Section>
+    <Section>
+      Odwrotność krzywizny nazywa sie promieniem krzywizny trajektorii w punkcie
+      P.
+    </Section>
+    <Formula nr="2.47">\displaystyle R = \frac{1}{\kappa}</Formula>
+    <Section>
+      Jak wynika z definicji, krzywizna trajektorii okresla jak nieprostoliniowa
+      jest trajektoria, jak dalece odbiega od linii prostej. Na podstawie
+      definicji mozna wyprowadzic nastepujacy wzór na krzywizne trajektorii
+      ruchu we współrzednych kartezjanskich:
+    </Section>
+    <Formula nr="2.48">
+      \displaystyle \kappa = \frac{ | \ \ddot y \ | }{(1 + \dot y )^{3/2}}
+    </Formula>
+    <Section>
+      Bardzo szczególnym przypadkiem krzywej jest okrąg. Krzywizna okręgu jest w
+      każdym punkcie jednakowa i równa odwrotności jego promienia. Z tego można
+      wywnioskować, że promień jego krzywizny to po prostu jego promień.
+    </Section>
+    <h3>Skręcenie</h3>
+    <Section>
+      Analogicznie do wykrzywienia w kierunku stycznym możemy zdefiniować
+      podobną wielkość, ale dotyczącą wykrzywienia prostej w kierunku
+      binormalnym. Nazywamy tę wielkość skręceniem. W przypadku krzywej
+      dwuwymiarowej skręcenie jest równe 0.
+    </Section>
+    <Formula nr="2.49">
+      \displaystyle T = \bigg| \frac{d\psi}{ds} \bigg|
+    </Formula>
+    <!-- = \frac{|(\dot \tau
+      \times \ddot \tau) \cdot \tau \prime \prime \prime |}{|\dot \tau \times
+      \ddot \tau|^2 } -->
   </Article>
 </template>
