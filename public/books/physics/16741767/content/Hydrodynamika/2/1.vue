@@ -33,7 +33,9 @@
       płynów zwane hydrostatycznym równaniem Eulera (można je uogólnić również
       na przypadki dynamiczne, co zostanie zrobione w następnych działach).
     </Section>
-    <Formula nr="2.1"> {\displaystyle \varrho \vec f = \nabla p} </Formula>
+    <Formula nr="2.1">
+      {\displaystyle \varrho \vec f = \bigtriangledown p}
+    </Formula>
     <Section>
       Równanie to można przedstawić również w formie tak zwanej różniczki
       zupełnej. W tym przypadku otrzymujemy następujący wzór:

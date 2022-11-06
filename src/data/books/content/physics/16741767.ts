@@ -10,6 +10,7 @@ export default {
     'Równowaga płynów': {
       'Równanie równowagi': 'Hydrodynamika/2/1.vue',
       'Równowaga w polu sił': 'Hydrodynamika/2/2.vue',
+      'Równowaga hydrostatyczna w gwiazdach': 'Hydrodynamika/2/3.vue',
       // 'Strumień objętości i masy': 'Hydrodynamika/2/2.vue',
     },
   },
