@@ -24,7 +24,8 @@
       zdarzeniem P. Czasami dla wygody zmianę położenia ciała w przestrzeni będę
       oznaczał po prostu jako <M c="\vec{r}" />. Możemy również o
       <M c="\vec{r}" /> myśleć bardziej matematycznie i rozłożyć go na 3 wektory
-      jednostkowe <M c="\hat x" />, <M c="\hat y" /> oraz <M c="\hat z" /> w
+      jednostkowe <M c="\htmlClass{hat}{\hat x}" />,
+      <M c="\htmlClass{hat}{\hat y}" /> oraz <M c="\htmlClass{hat}{\hat z}" /> w
       każdym z kierunków. Jeśli nie wiesz czym jest wersor, baza, ani przestrzeń
       wektorowa nic nie szkodzi, po prostu przejdź do następnego punktu. Pojęcie
       wektora jednak, jest niezbędne, aby rozumieć fizykę. Te 3 wektory
@@ -33,7 +34,8 @@
       możemy otrzymać każdy punkt w przestrzeni.
     </Section>
     <Formula nr="3.1">
-      {\displaystyle r(x, y, z) = x \hat{x} + y \hat{y} + z \hat{z}}
+      {\displaystyle r(x, y, z) = x \htmlClass{hat}{\hat x} + y
+      \htmlClass{hat}{\hat y} + z \htmlClass{hat}{\hat z}}
     </Formula>
     <h3>Czas</h3>
     <Section>

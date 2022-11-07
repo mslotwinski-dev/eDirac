@@ -10,8 +10,9 @@
       przestrzeni twójwymiarowej.
     </Section>
     <Formula nr="3.19">
-      {\displaystyle \vec v = \frac{d \vec r}{dt} = \frac{dx}{dt} \hat{x} +
-      \frac{dy}{dt} \hat{y} + \frac{dz}{dt} \hat{z}}
+      {\displaystyle \vec v = \frac{d \vec r}{dt} = \frac{dx}{dt}
+      \htmlClass{hat}{\hat x} + \frac{dy}{dt} \htmlClass{hat}{\hat y} +
+      \frac{dz}{dt} \htmlClass{hat}{\hat z}}
     </Formula>
     <Section>
       Analogicznie możemy postąpić, żeby otrzymać przyspieszenie. Proste,

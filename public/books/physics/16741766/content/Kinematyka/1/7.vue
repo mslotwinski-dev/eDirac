@@ -33,7 +33,10 @@
       typu ruchem jest na przykład kopnięta piłka lub kula wystrzelona z armaty.
       W tym przypadku sama prędkość początkowa jest wektorem.
     </Section>
-    <Math> \displaystyle \vec v_0 = v_{0x} \hat x + v_{0y} \hat y </Math>
+    <Math>
+      \displaystyle \vec v_0 = v_{0x} \htmlClass{hat}{\hat x} + v_{0y}
+      \htmlClass{hat}{\hat y}
+    </Math>
     <Section>
       To jest ten moment, kiedy wygodniej nam przejść na współrzędne
       krzywoliniowe. Jeśli jednak nie znasz tego pojęcia to nie przejmuj się

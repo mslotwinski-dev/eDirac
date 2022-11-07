@@ -41,16 +41,6 @@ export default defineComponent({
       if (slot.value) eq.value = slot.value.innerHTML
     })
 
-    // onMounted(() => {
-    //   // const ignored = ['∇']
-    //   if (span.value && span.value.innerHTML)
-    //       span.value.innerHTML = span.value.innerHTML.replace(
-    //         `<span class="mord">∇</span>`,
-    //         `<span class="mord ignore-rubik">∇</span>`
-    //       )
-
-    // })
-
     const color = Object.values({ ...CategoriesModule })
       .map((e) => e.Books)
       .flat(1)

@@ -1,6 +1,5 @@
 <template>
   <div v-if="src" class="cont">
-    {{ book }}
     <div class="img-container">
       <img :src="`/books/${tag}/${$route.params.id}/img/${src}`" />
     </div>

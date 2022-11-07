@@ -3,11 +3,11 @@
     <Begin nr="3.11" advanced="1"> Krzywizna i skręcenie </Begin>
     <Section>
       <b>UWAGA!</b> W celu zachowania czystości zapisu kropka nad funkcją
-      wyjątkowo oznacza pochodną po x, nie po czasie.
+      wyjątkowo oznacza pochodną po torze ruchu, nie po czasie.
     </Section>
     <h3>Krzywizna toru</h3>
     <Section>
-      Wyobraź sobie dowolny tor ruchu, powiedzmy y(x). Wybierz sobie na nim
+      Wyobraź sobie dowolny tor ruchu, powiedzmy s(t). Wybierz sobie na nim
       dowolne dwa punkty: P i oddalony o niego o Δs punkt P'. Następnie
       wyznaczmy wektory styczne w każdym z tych punktów odpowiednio τ i τ'.
       Naszym zadaniem jest wyznaczenie tego, jak bardzo nasz tor jest
@@ -32,8 +32,7 @@
       wektorami z odległością między nimi. W ten sposób otrzymujemy:
     </Section>
     <Formula nr="2.46">
-      \displaystyle \kappa = \bigg| \frac{d\varphi}{ds} \bigg| = \frac{|\dot
-      \tau \times \ddot \tau|}{|\dot \tau|^3 }
+      \displaystyle \kappa = \bigg| \frac{d\varphi}{ds} \bigg|
     </Formula>
     <Section>
       Dlaczego chcemy wyciągnąć z naszej wielkości wartość bezwzględną? To
@@ -62,16 +61,40 @@
     </Section>
     <h3>Skręcenie</h3>
     <Section>
+      Chcąc określić krzywiznę krzywej określonej w przestrzenii ciężko nam
+      operować na kątach. W tym przypadku ukazuje się moc wektorów, które
+      wprowadziliśmy. Po zastosowaniu odpowiednich pochodnych otrzymujemy wzór
+      na krzywiznę krzywej L, w przedstawieniu parametrycznym r(t).
+    </Section>
+    <Formula nr="2.49">
+      \displaystyle \kappa = \frac{|\dot \tau \times \ddot \tau|}{|\dot \tau|^3
+      }
+    </Formula>
+    <Section>
       Analogicznie do wykrzywienia w kierunku stycznym możemy zdefiniować
       podobną wielkość, ale dotyczącą wykrzywienia prostej w kierunku
       binormalnym. Nazywamy tę wielkość skręceniem. W przypadku krzywej
       dwuwymiarowej skręcenie jest równe 0.
     </Section>
-    <Formula nr="2.49">
-      \displaystyle T = \bigg| \frac{d\psi}{ds} \bigg|
+    <Formula nr="2.50">
+      \displaystyle T = \bigg| \frac{d\psi}{ds} \bigg| = \frac{|(\dot \tau
+      \times \ddot \tau) \cdot \htmlClass{dddot}{\tau} |}{|\dot \tau \times
+      \ddot \tau|^2 }
     </Formula>
-    <!-- = \frac{|(\dot \tau
-      \times \ddot \tau) \cdot \tau \prime \prime \prime |}{|\dot \tau \times
-      \ddot \tau|^2 } -->
+    <Section />
+    <h3>Wzory Freneta</h3>
+    <Section>
+      Znając już pojęcie krzywizny i skręcenia możemy wyprowadzić tzw. wzory
+      Freneta. Oznaczmy nasze wektory styczny, normalny i binormalny jako
+      tradycyjne <M s="\vec \tau" />, <M s="\vec \eta" /> oraz
+      <M s="\vec b" /> oraz wektor wodzący krzywej jako r. W ten sposób możemy
+      otrzymać 4 wzory opisujące relacje między wektorami, a krzywizną i
+      skręceniem krzywej.
+    </Section>
+    <Formula nr="2.51">
+      \displaystyle \begin{cases} \dot r = \tau \\ \dot \tau = \kappa \eta
+      \end{cases} \qquad \begin{cases} \dot \eta = Tb - \kappa \tau \\ \dot b =
+      -T \eta \end{cases}
+    </Formula>
   </Article>
 </template>

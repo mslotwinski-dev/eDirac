@@ -3,6 +3,7 @@
     v-html="
       katex.renderToString(c || s, {
         throwOnError: false,
+        trust: true,
       })
     "
   />

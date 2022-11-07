@@ -25,8 +25,8 @@
       Zgodnie z prawami grawitacji Newtona masy przyciągją się do siebie.
     </Section>
     <Math>
-      \displaystyle \vec F = \frac{GMm}{r^2} \hat r = \frac{GMm}{r^2} \frac{\vec
-      r}{|r|}
+      \displaystyle \vec F = \frac{GMm}{r^2} \htmlClass{hat}{\hat r} =
+      \frac{GMm}{r^2} \frac{\vec r}{|r|}
     </Math>
     <Section>
       Przyrównując oba równania do siebie i zapisując w kartezjńskim układzie

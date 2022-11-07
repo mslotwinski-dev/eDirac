@@ -87,5 +87,16 @@ textarea:focus {
     font-style: normal !important;
   }
 
+  .dddot:after {
+    content: '…';
+    position: absolute;
+    left: 0;
+    top: -6px;
+    font-size: 90%;
+  }
+
+  .hat .accent-body {
+    transform: scaleY(0.4) translateY(-15px) translateX(-1.5px);
+  }
 
 }
