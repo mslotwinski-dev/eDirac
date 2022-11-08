@@ -28,11 +28,12 @@ export default {
       'Ruch po okręgu': 'Mechanika/1/9.vue',
       Orbity: 'Mechanika/1/10.vue',
       'Krzywizna i skręcenie': 'Mechanika/1/11.vue',
-      Zadania: 'Mechanika/1/Z.vue',
-      Ciekawostki: 'Mechanika/1/C.vue',
+      // Zadania: 'Mechanika/1/Z.vue',
+      // Ciekawostki: 'Mechanika/1/C.vue',
     },
     'Mechanika Newtona': {
-      'Zasady dynamiki Newtona': 'Mechanika/2/1.vue',
+      'Siły i ruch': 'Mechanika/2/1.vue',
+      'Zasady dynamiki Newtona': 'Mechanika/2/2.vue',
     },
     'Ruch pocisków i cząstek naładowanych': {
       'Opór powietrza': 'Mechanika/3/1.vue',

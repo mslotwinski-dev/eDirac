@@ -1,7 +1,7 @@
 <template>
   <Article>
     <Chapter nr="4" book="physics"> Mechanika Newtona </Chapter>
-    <Begin nr="4.1" advanced="0"> Zasady dynamiki Newtona </Begin>
+    <Begin nr="4.1" advanced="0"> Siły i ruch</Begin>
     <h3>Czym jest dynamika?</h3>
     <Section>
       Kinematyka, zajmująca się matematycznym opisem ruchu, jest bardzo ważnym
@@ -100,7 +100,13 @@
       teoria, która sama w sobie ma wiele zastosowań.
     </Section>
     <h3>Siła</h3>
-
+    <Section>
+      Czym jest siła? Pytanie może się wydawać głupie, ale musimy tą wielkość
+      jasno zdefiniować? Siła to najprościej mówiąc miara oddziaływań między
+      ciałami. Im mocniej ciała między sobą oddziałują i wprawiają siebie
+      nazwajem w ruch, odkształcenia czy jakiekolwiek inne zmiany. Jednostką
+      siły jest newton (N).
+    </Section>
     <Section>
       Siła podlega tak zwanej zasadzie superpozycji. Najprościej mówiąc gdy na
       ciało działają dwie różne siły, to po prostu się dodają. Nie dodają się
@@ -113,11 +119,5 @@
       F_3 + ... + \vec F_n
     </Formula>
     <Section />
-    <h3>Wplyw siły na ciało</h3>
-
-    <Section>
-      Zacznijmy od drugiej zasady dynamiki Newtona. Stanowi ona właściwie
-      definicję tego jak siła działa na ciało.
-    </Section>
   </Article>
 </template>
