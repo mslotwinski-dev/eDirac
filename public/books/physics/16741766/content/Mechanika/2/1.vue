@@ -2,7 +2,7 @@
   <Article>
     <Chapter nr="4" book="physics"> Mechanika Newtona </Chapter>
     <Begin nr="4.1" advanced="0"> Zasady dynamiki Newtona </Begin>
-    <h3>Siła</h3>
+    <h3>Czym jest dynamika?</h3>
     <Section>
       Kinematyka, zajmująca się matematycznym opisem ruchu, jest bardzo ważnym
       działem fizyki. Jednakże obejmuje ona wyłącznie opis ruchu ciała z
@@ -21,19 +21,55 @@
       Newton opracował zasady dynamiki, uznawany jest za początek nowożytnej
       nauki.
     </Section>
+    <h3>Newton, Lagrange i Hamilton</h3>
     <Section>
-      Siła podlega tak zwanej zasadzie superpozycji. Najprościej mówiąc gdy na
-      ciało działają dwie różne siły, to po prostu się dodają. Nie dodają się
-      jednak ich wartości, a całe wektory. Stąd możemy zdefiniować pojęcie siły
-      wypadkowej czyli wektor, który powstał po dodaniu wszystkich sił
-      działających na ciało.
+      Mechanika nie kończy się jednak tylko na ujęciu Newtona, chociaż z
+      początku może się tak wydawać. Przez całe początki twojej edukacji
+      będziesz bowiem uczył się mechaniki opartej właśnie na jego trzech
+      zasadach mechaniki. Takiej mechaniki uczą się inżynierowie budownictwa,
+      metalurgii, technologii materiałowych, nawet inżynierowie mechaniki i
+      budowy maszyn przez 99% swojej edukacji. Fizykom jednak to nie wystarcza i
+      jak się okazuje udało im się wytworzyć całkiem nowy opis mechaniki.
     </Section>
-    <Formula nr="4.1">
-      \displaystyle \vec F = \sum_{n} \ \vec F_n = \vec F_1 + \vec F_2 + \vec
-      F_3 + ... + \vec F_n
-    </Formula>
-    <Section />
-    <h3>Ciało w równowadze</h3>
+    <Section>
+      Newton swoje zasady opublikował w roku 1687. Po stu latach zasady
+      mechaniki zostały już doskonale opisane i wydawałoby się, że mechanika
+      jest już właściwie nauką kompletną i dokończoną. Takie samo wrażenie może
+      mieć uczeń w liceum czy student, który uczy się mechaniki. Ruch, siły,
+      energia, wydaje się, że mechanika się na tym kończy i jedynie rozdrabnia
+      się ją na najbardziej szczegółowe przydadki.
+    </Section>
+    <Section>
+      W 1788 roku włosko-francuski matematyk Joseph Louis Lagrange stworzył nową
+      mechanikę z całkiem nowymi metodami, która dawała światu całkiem nowe
+      możliwości. Używa dużo bardziej skomplikowanych struktur matematycznych
+      (do mechaniki newtona wystarczy rachunek różniczkowy, w tym przypadku
+      potrzebny nam rachunek wariacyjny), ale pozwala na opis tak
+      skomplikowanych układów, że ludziom się to nawet nie śniło. Tak jak w
+      równaniach Newtona główną rolę grały siły i przyspieszenia tak tu gra ją
+      działanie i tajemniczy funkcjonał zwany <i>lagranżjanem</i>.
+    </Section>
+    <Section>
+      Następnie w 1833 mechanika została jeszcze raz napisana od nowa przez
+      Williama Rowana Hamiltona, który wprowadził mechanikę na jeszcze wyższy
+      poziom abstrakcji pozwalający modelować układy jeszcze bardziej
+      skomplikowane. Mechanika Hamiltona może służyć do opisu prostych układów,
+      takich jak odbijająca się piłka, wahadło lub drgająca struna, której
+      energia zmienia się z kinetycznej w potencjalną i z powrotem. Jednak jej
+      siła ukazuje się w układach bardziej złożonych i dynamicznych, jak orbity
+      planet w mechanice nieba. Mechanika Hamiltona stała się fundamentem
+      rozwoju aparatu matematycznego mechaniki kwantowej.
+    </Section>
+    <Section>
+      W całej części dotyczącej stricte mechaniki będziemy opisywać układy z
+      wykorzystaniem metod Newtona. Mechaniką Lagrange'a i Hamiltona zajmiemy
+      się w drugiej części, którą zwyczajowo nazwałem mechaniką analityczną
+      (chociaż na uczelni najprawdopodobniej spotkasz ten przedmiot jako
+      mechanika klasyczna lub mechanika teoretyczna, jednak zależało mi na
+      odróżnieniu tych dwóch gałęzi).
+    </Section>
+
+    <h3>Punkt materialny</h3>
     <Section>
       W tym rozdziale omówimy zastosowranie zasad dynamiki Newtona do opisu
       ruchu punktu materialnego. Punkt materialny, który dalej będziemy nazywać
@@ -62,6 +98,26 @@
       opisywana w taki sposób. Mechanika punktu materialnego jest zatem czymś
       więcej, niż tylko punktem wyjścia do mechaniki ciał rozciągłych: jest to
       teoria, która sama w sobie ma wiele zastosowań.
+    </Section>
+    <h3>Siła</h3>
+
+    <Section>
+      Siła podlega tak zwanej zasadzie superpozycji. Najprościej mówiąc gdy na
+      ciało działają dwie różne siły, to po prostu się dodają. Nie dodają się
+      jednak ich wartości, a całe wektory. Stąd możemy zdefiniować pojęcie siły
+      wypadkowej czyli wektor, który powstał po dodaniu wszystkich sił
+      działających na ciało.
+    </Section>
+    <Formula nr="4.1">
+      \displaystyle \vec F = \sum_{n} \ \vec F_n = \vec F_1 + \vec F_2 + \vec
+      F_3 + ... + \vec F_n
+    </Formula>
+    <Section />
+    <h3>Wplyw siły na ciało</h3>
+
+    <Section>
+      Zacznijmy od drugiej zasady dynamiki Newtona. Stanowi ona właściwie
+      definicję tego jak siła działa na ciało.
     </Section>
   </Article>
 </template>
