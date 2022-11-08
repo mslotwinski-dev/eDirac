@@ -37,6 +37,7 @@
       {\displaystyle r(x, y, z) = x \htmlClass{hat}{\hat x} + y
       \htmlClass{hat}{\hat y} + z \htmlClass{hat}{\hat z}}
     </Formula>
+    <Section />
     <h3>Czas</h3>
     <Section>
       Czas pozwala nam na dopełnienie opisu zjawiska. Wbrew pozorom ma więcej
@@ -61,10 +62,18 @@
       w zagadnieniach, w których wszystkie prędkości są znacznie mniejsze od
       prędkości światła, różnice między czasami mierzonymi przez różnych
       obserwatorów są całkowicie pomijalne i tak dokładnie będziemy robić, póki
-      pozostaniemy w mechanice klasycznej. Zjawiska badające ruch ciał, których
-      prędkości są bliskie prędkości światła nie są poprawnie opisywane przez
-      mechanikę klasyczną i nimi zajmiemy się w ostatniej częsci książki
-      związanej z relatywistyką.
+      pozostaniemy w mechanice klasycznej.
+    </Section>
+    <Section>
+      Dopiero dokonania fizyki współczesnej pokazują, iż prawa newtonowskie
+      pozwalają tylko na opis ruchu ciał poruszających się z prędkościami
+      znacznie mniejszymi od prędkości światła, o rozmiarach znacząco większych
+      niż rozmiary molekuł (około 10−9 m średnicy). Ograniczenia te wskazują
+      zakres stosowalności praw mechaniki klasycznej, podanych przez Newtona. Na
+      początku XX wieku Albert Einstein sformułował postulaty szczególnej teorii
+      względności oraz, z udziałem wielu innych wielkich uczonych, prawa
+      mechaniki kwantowej. Mechanika kwantowa pozwala na analizę układów bez
+      ograniczeń znanych z klasycznej mechaniki newtonowskiej.
     </Section>
     <h3>Układy odniesienia</h3>
     <Section>

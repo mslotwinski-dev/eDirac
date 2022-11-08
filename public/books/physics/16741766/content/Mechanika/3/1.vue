@@ -1,9 +1,9 @@
 <template>
   <Article>
-    <Chapter nr="4" book="physics">
+    <Chapter nr="5" book="physics">
       Ruch pocisków i cząstek naładowanych
     </Chapter>
-    <Begin nr="4.1" advanced="0"> Opór powietrza </Begin>
+    <Begin nr="5.1" advanced="0"> Opór powietrza </Begin>
     <h3>Czym jest opór ruchu</h3>
     <Section>
       W programach większości wstępnych kursów fizyki przeznacza się pewien czas
@@ -39,7 +39,7 @@
       prędkości dźwięku. Jednak przy niedużych prędkościach często dobrym
       przybliżeniem jest następujący ogólny wzór (potem będziemy go uzupełniać):
     </Section>
-    <Formula nr="4.1">F(v) = bv + cv^2 </Formula>
+    <Formula nr="5.1">F(v) = bv + cv^2 </Formula>
     <Section>
       Gdzie pierwszy człon to opór liniowy, drugi natomiast to opór kwadratowy.
     </Section>
@@ -53,7 +53,7 @@
       szczególności, dla pocisków o kształcie kulistym współczynniki b i c w
       równaniu (4.1) mają postać:
     </Section>
-    <Formula nr="4.1">
+    <Formula nr="5.2">
       b = \beta R \qquad c = \gamma S \ \Rightarrow c \ \sim R^2
     </Formula>
     <Section>

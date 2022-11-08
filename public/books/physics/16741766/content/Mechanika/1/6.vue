@@ -24,6 +24,7 @@
       {\displaystyle g = \frac{F_g}{m} = G \frac{Mm}{mr^2} = G \frac{M}{r^2}
       \approx \htmlClass{nr}{9,81} \ \frac{m}{s^2}}
     </Formula>
+    <Section />
     <h3>Swobodny spadek</h3>
     <Section>
       Rozważmy sytuację, kiedy puszczamy z jakieś wysokości (oznaczmy ją h)
@@ -103,6 +104,7 @@
       samo. Cały rzut będzie więc trwał
     </Section>
     <Formula nr="3.29"> {\displaystyle t = \frac{2v_0}{g} }</Formula>
+    <Section />
     <h3>Grawitacja w ujęciu relatywistycznym *</h3>
     <Section>
       Zaraz zaraz, coś tu nie gra. Wróćmy na sam początek tematu do definicji

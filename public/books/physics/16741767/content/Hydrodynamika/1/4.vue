@@ -59,6 +59,7 @@
       lepkości dynamicznej do gęstości:
     </Section>
     <Formula nr="1.14"> {\displaystyle \nu = \frac{\mu}{\varrho}}. </Formula>
+    <Section />
     <h3>Od czego zależy lepkość płynu?</h3>
     <Section>
       Lepkość zależy od rodzaju płynu, jego temperatury i nieznacznie od

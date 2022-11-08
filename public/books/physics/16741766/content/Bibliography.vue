@@ -2,17 +2,16 @@
   <Article>
     <h3>Bibliografia</h3>
     <Section>
-      <li><b>John R. Taylor - Mechanika klasyczna tom 1-2</b></li>
-      <li>
-        <b>L. Sokołowski - Szczególna teoria względności, notatki z wykładu</b>
-      </li>
+      <li><b>A. Dragan - Niezwykle szczególna teoria względności</b></li>
+      <li><b>J. Taylor - Mechanika klasyczna tom 1-2</b></li>
       <li><b>W. Kurnik - Wykłady z mechaniki ogólnej</b></li>
-      <li>A. Dragan - Niezwykle szczególna teoria względności</li>
+
       <li>A. Wróblewski - Historia fizyki</li>
       <li>A. Wróblewski - Wstęp do fizyki tom 1-2</li>
       <li>D. Halliday, R. Resnick, J. Walker - Podstawy fizyki tom 1, 2, 4</li>
       <li>J. Leyko - Mechanika ogólna tom 1-2</li>
       <li>K. Tchoń, R. Muszyński - Mechanika analityczna</li>
+      <li>L. Sokołowski - Szczególna teoria względności, notatki z wykładu</li>
       <li>
         L. Susskind, A. Friedman - Szczególna teoria względności i klasyczna
         teoria pola

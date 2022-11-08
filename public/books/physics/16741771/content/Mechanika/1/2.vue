@@ -74,6 +74,7 @@
     <Formula nr="1.13">
       {\displaystyle \hbar = \frac{h}{2\pi} = 1,055 \cdot 10^{-34} \ J\cdot s}
     </Formula>
+    <Section />
     <h3>Pęd fotonu</h3>
     <Section>
       Jeśli ma energię powinien mieć pęd, prawda? Tylko co podstawimy za masę,

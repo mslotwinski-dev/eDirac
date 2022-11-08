@@ -62,6 +62,7 @@
     <Formula nr="3.16">
       {\displaystyle a = \frac{d}{dt}v = \frac{d^2}{dt^2}x = \ddot x}
     </Formula>
+    <Section />
     <h3>Droga jako pole pod wykresem</h3>
     <Section>
       Na lekcji fizyki już w podstawówce najprawdopodobniej dowiedziałeś się, że
@@ -79,6 +80,5 @@
       pochodna „wstecz”, dlatego mając v(t) możemy wyznaczyć x(t) w ten sposób:
     </Section>
     <Formula nr="3.18">{\displaystyle x(t)=\int v(t)dt}</Formula>
-    <h3>Ruch w 3 wymiarach</h3>
   </Article>
 </template>
