@@ -80,12 +80,16 @@
       Wyobraź sobie prostą sytuację, w której mamy dwie osoby. Jedna jedzie
       samochodem, a druga ją obseruje siedząc na przystanku. Ta pierwsza jest w
       układzie nieinercjalnym, natomiast druga inercjalnym. W największym
-      uproszczeniu można powiedzieć, że układ inercjalny to taki, który
-      pozostaje w spoczynku lub porusza się ruchem jednostajnym względem innego
-      układu odniesienia. Układ nieinercjalny to taki, który porusza się z
-      przyspieszeniem względem innego układu odniesienia. Siła bezwładności czy
-      odśrodkowa to pozorna siła działająca jedynie w układzie nieinercjalnym.
-      Brzmi dziwnie, ale w pewnym momencie się z tym oswoisz.
+      uproszczeniu można powiedzieć, że układ inercjalny to taki, który nie
+      przyspiesza ani nie zwalnia względem innego układu odniesienia. Taki,
+      którego prędkość pozostaje stała. Może spoczywać lub poruszać się ze stałą
+      prędkością, dopóki nie zmienia prędkośći pozostaje inercjalny.
+    </Section>
+    <Section>
+      Układ nieinercjalny to taki, który porusza się z przyspieszeniem względem
+      innego układu odniesienia. Siła bezwładności czy odśrodkowa to pozorna
+      siła działająca jedynie w układzie nieinercjalnym. Brzmi dziwnie, ale w
+      pewnym momencie się z tym oswoisz. Ważne jest, aby rozróżniać te pojęcia.
     </Section>
     <h3>Zasada względności Galileusza</h3>
     <Section>

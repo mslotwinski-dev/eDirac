@@ -11,12 +11,14 @@
       zawdzięczamy natomiast matematyczne sformułowanie tej zasady na papierze.
     </Section>
     <Section>
-      Miarą proporcjonalności między siłą, a przyspieszeniem jest masa ciała. Im
-      większa masa tym bardziej ciało <i>opiera się</i> zmianom jego prędkości
-      pod wpływem sił. Ostatecznie możemy teraz wprowadzić równanie, które
-      nazywamy drugą zasadą dynamiki Newtona. Nie jesteśmy w stanie go
-      wyprowadzić, to jest po prostu postulat, a jeśli coś jest postulatem to
-      znaczy, że nie wiemy z czego się bierze - po prostu tak działa świat.
+      Bezwładność ciał jest to zdolność ciał do przeciwstawiania się wszelkim
+      zmianom ruchu. Miarą bezwładności ciała jest jego masa. Właśnie ona jest
+      miarą proporcjonalności między siłą, a przyspieszeniem ciała. Im większa
+      masa tym bardziej ciało <i>opiera się</i> zmianom jego prędkości pod
+      wpływem sił. Ostatecznie możemy teraz wprowadzić równanie, które nazywamy
+      drugą zasadą dynamiki Newtona. Nie jesteśmy w stanie go wyprowadzić, to
+      jest po prostu postulat, a jeśli coś jest postulatem to znaczy, że nie
+      wiemy z czego się bierze - po prostu tak działa świat.
     </Section>
     <Formula nr="4.2"> \vec F = m \vec a</Formula>
     <Section>
@@ -55,5 +57,40 @@
       t}}={\frac {\mathrm {d} }{\mathrm {d} t}}(m{\vec {v}})=m{\frac {\mathrm
       {d} {\vec {v}}}{\mathrm {d} t}}=m{\vec {a}}.}
     </Math>
+    <h3>Siły w równowadze</h3>
+    <Section>
+      Pierwsza zasada wynika z drugiej. Rozważmy sytuację gdy siła jest równa 0.
+      Jeżeli pochodna pędu jest równa 0 to najprostszy rachunek różniczkowy
+      pokazuje, że pęd jest stały. Matematyk powiedziałby, że całkujemy
+      obustronnie, ale dla nas to po prostu jest oczywiste.
+    </Section>
+    <Math>\dot p = 0 \quad \Rightarrow \quad p = const.</Math>
+    <Section>
+      Jeżeli masa jest stała wtedy i prędkość musi pozostać stała, dlatego w
+      szkole uczymy się uproszczonej zasady, zgodnie z którą jeśli na ciało nie
+      działają żadne siły to nie zmienia ono swojej prędkości. Nie jest to
+      jednak w pełni prawda, gdyż wymaganym warunkiem jest to, żeby ciało nie
+      zmieniało swojej masy.
+    </Section>
+    <Section>
+      Pierwszą zasadę dynamiki możemy zatem zapisać w uproszczony sposób przy
+      założeniu, że masa jest stała w postaci:
+    </Section>
+    <Math>
+      {\displaystyle \sum F=0 \Leftrightarrow {\frac {d v}{d t}}=0.}
+    </Math>
+    <Section>
+      Pierwsza zasada dynamiki Newtona jest rozwinięciem idei Galileusza, który
+      zauważył, że jeżeli usuniemy przeszkody ruchu, to zniknie potrzeba
+      podtrzymywania ruchu przez jakąkolwiek siłę. Ruch jednostajny
+      prostoliniowy będzie się odbywać sam przez siebie, bez żadnej pomocy z
+      zewnątrz, o takim ruchu mówimy czasem jako o ruchu swobodnym. Galileusz
+      stwierdza, że z każdym obiektem można związać układ odniesienia i że opisy
+      tego samego ruchu w każdym układzie są równoważne. Stwierdzenie to
+      nazywane jest zasadą względności o której mówiliśmy w pierwszym temacie z
+      kinematyki. Galileusz opisał także sposób zamiany wielkości opisujących
+      ruch, gdy zmieniany jest układ odniesienia, zwany transformacją
+      Galileusza.
+    </Section>
   </Article>
 </template>
