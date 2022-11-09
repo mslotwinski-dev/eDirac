@@ -6,8 +6,8 @@ export {
   // Physics_5,
   Physics_6,
   // Physics_7,
-  Physics_8,
-  Physics_9,
+  // Physics_8,
+  // Physics_9,
 } from './book_data/physics/index'
 
 // export {

@@ -1,17 +1,19 @@
 <template>
-  <section v-for="(bookTag, index) in sortedBooks" :key="bookTag">
-    <div class="categoryLabel">
-      <img :src="require(`@/assets/icons/sciences/${index}.svg`)" />
-      <div
-        class="categoryName"
-        v-html="$t(`sciences.data.${category.Title}.category.${index}`)"
-      />
-    </div>
-    <div class="parts">
-      <BookItem v-for="book in bookTag" :key="book" :book="book" />
-    </div>
-  </section>
-  <div class="sorry" v-if="Object.keys(sortedBooks).length == 0">
+  <div v-if="Object.keys(sortedBooks).length != 0">
+    <section v-for="(bookTag, index) in sortedBooks" :key="bookTag">
+      <div class="categoryLabel">
+        <img :src="require(`@/assets/icons/sciences/${index}.svg`)" />
+        <div
+          class="categoryName"
+          v-html="$t(`sciences.data.${category.Title}.category.${index}`)"
+        />
+      </div>
+      <div class="parts">
+        <BookItem v-for="book in bookTag" :key="book" :book="book" />
+      </div>
+    </section>
+  </div>
+  <div class="sorry" v-else>
     We dont have books in your language. Change the language in menu to Polish.
   </div>
 </template>

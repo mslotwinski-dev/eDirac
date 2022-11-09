@@ -1,6 +1,6 @@
 <template>
   <Article>
-    <Begin nr="4.2" advanced="0"> Zasady dynamiki Newtona</Begin>
+    <Begin nr="4.2" advanced="0"> Siły i ruch</Begin>
     <h3>Wplyw siły na ciało</h3>
     <Section>
       Zacznijmy od drugiej zasady dynamiki Newtona. Stanowi ona właściwie
@@ -59,10 +59,11 @@
     </Math>
     <h3>Siły w równowadze</h3>
     <Section>
-      Pierwsza zasada wynika z drugiej. Rozważmy sytuację gdy siła jest równa 0.
-      Jeżeli pochodna pędu jest równa 0 to najprostszy rachunek różniczkowy
-      pokazuje, że pęd jest stały. Matematyk powiedziałby, że całkujemy
-      obustronnie, ale dla nas to po prostu jest oczywiste.
+      Pierwsza zasada wynika po części z drugiej (jednak jest tu mały szczegół,
+      o którym powiemy potem). Rozważmy sytuację gdy siła jest równa 0. Jeżeli
+      pochodna pędu jest równa 0 to najprostszy rachunek różniczkowy pokazuje,
+      że pęd jest stały. Matematyk powiedziałby, że całkujemy obustronnie, ale
+      dla nas to po prostu jest oczywiste.
     </Section>
     <Math>\dot p = 0 \quad \Rightarrow \quad p = const.</Math>
     <Section>
@@ -91,6 +92,35 @@
       kinematyki. Galileusz opisał także sposób zamiany wielkości opisujących
       ruch, gdy zmieniany jest układ odniesienia, zwany transformacją
       Galileusza.
+    </Section>
+    <h3>Równania różniczkowe</h3>
+    <Section>
+      Niemal wszystkie prawa fizyki mają postać równań różniczkowych lub dają
+      się w takiej postaci zapisać, a każdy fizyk znaczną część swrojego czasu
+      poświęca rozwiązywaniu takich równań. Równania różniczkowe, związane z
+      drugą zasadą dynamiki Newtona lub jego odpowiednikami w sformułowaniu
+      lagranżowskim lub hamiltonowskim, pojawiają się w większości zadań w tej
+      książce. Są bardzo zróżnicowane pod względem stopnia trudności: niektóre
+      są tak łatwe do rozwiązania, że prawie nie zwraca się na nie uwagi.
+      Rozwrażmy na przykład drugą zasadę dynamiki Newtona dla cząstki
+      poruszającej się wzdłuż osi x pod działaniem stałej siły F.
+    </Section>
+    <Math>\displaystyle \ddot x = \frac{F}{m}</Math>
+    <Section>
+      Całkując otrzymujemy wzór na prędkość, natomiast robiąc to dwukrotnie
+      otrzymujemy wzór na położenie ciała.
+    </Section>
+    <Math>x(t) = x_0 + v_0t + \frac{F}{2m}t^2</Math>
+    <Section>
+      Rozwiązanie tego równania było na tyle łatwe, że niepotrzebna była
+      znajomość teorii równań różniczkowych. Będziemy jednak mieć do czynienia z
+      wieloma równaniami różniczkowymi, których rozwiązanie wymaga znajomości
+      tej teorii. Oczywiście, jeśli poznałeś już w jakimś stopniu teorię rówrnań
+      różniczkowych, z pewnością będzie mu łatwiej śledzić wywody, jednak
+      zapoznawfanie się z elementami tej teorii w miarę postępu nauki nie
+      powinno nastręczać trudności. W istocie wielu naukowców uważa, że z tą
+      teorią matematyczną najlepiej zapoznawać się właśnie w kontekście jej
+      zastosowań fizycznych.
     </Section>
   </Article>
 </template>

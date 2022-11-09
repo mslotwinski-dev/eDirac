@@ -32,8 +32,10 @@ export default {
       // Ciekawostki: 'Mechanika/1/C.vue',
     },
     'Mechanika Newtona': {
-      'Siły i ruch': 'Mechanika/2/1.vue',
-      'Zasady dynamiki Newtona': 'Mechanika/2/2.vue',
+      'Wprowadzenie do mechaniki': 'Mechanika/2/1.vue',
+      'Siły i ruch': 'Mechanika/2/2.vue',
+      'Konsekwencje zasad Newtona': 'Mechanika/2/3.vue',
+      'Reakcja ciał na siłę': 'Mechanika/2/4.vue',
     },
     'Ruch pocisków i cząstek naładowanych': {
       'Opór powietrza': 'Mechanika/3/1.vue',

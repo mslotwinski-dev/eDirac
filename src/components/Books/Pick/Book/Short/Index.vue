@@ -1,6 +1,7 @@
 <template>
   <div
     class="container"
+    v-if="Object.keys(sortedBooks).length != 0"
     :style="{ backgroundColor: Object.values(sortedBooks)[0][0].Color }"
   >
     <Toggle @toggle="this.show = !this.show" />

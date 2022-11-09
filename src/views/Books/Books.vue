@@ -5,10 +5,7 @@
       :subtitle="$t(`sciences.data.${id}.full_title`)"
       :blur="true"
     />
-    <div
-      class="def"
-      :style="{ borderColor: Object.values(sortedBooks)[0][0].Color }"
-    >
+    <div class="def">
       <b v-html="$t(`sciences.data.${id}.full_title`)" /> –
       <span v-html="$t(`sciences.data.${id}.def`)" />
     </div>
