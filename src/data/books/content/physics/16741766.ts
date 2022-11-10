@@ -34,8 +34,10 @@ export default {
     'Mechanika Newtona': {
       'Wprowadzenie do mechaniki': 'Mechanika/2/1.vue',
       'Siły i ruch': 'Mechanika/2/2.vue',
-      'Konsekwencje zasad Newtona': 'Mechanika/2/3.vue',
-      'Reakcja ciał na siłę': 'Mechanika/2/4.vue',
+      'Reakcja ciał na siłę': 'Mechanika/2/3.vue',
+      'Układy odniesienia': 'Mechanika/2/4.vue',
+      'Zasady dynamiki w układzie współrzędnych': 'Mechanika/2/5.vue',
+      // 'Współrzędne biegunowe na płaszczyźnie': ''
     },
     'Ruch pocisków i cząstek naładowanych': {
       'Opór powietrza': 'Mechanika/3/1.vue',

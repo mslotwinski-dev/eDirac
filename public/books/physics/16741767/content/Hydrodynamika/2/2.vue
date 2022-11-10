@@ -61,10 +61,11 @@
       Natężenie pola grawitacyjnego jest wtedy równe -<M
         c="\bigtriangledown \phi"
       />, więc siła działająca na ciecz jest wtedy równa
-      <M c="- \varrho \bigtriangledown \phi" />. Stąd warunkiem równowagi jest:
+      <M c="- \varrho { \bigtriangledown \phi }" />. Stąd warunkiem równowagi
+      jest:
     </Section>
     <Math>
-      \displaystyle - \varrho \bigtriangledown \phi = \bigtriangledown p
+      \displaystyle - \varrho {\bigtriangledown \phi} = \bigtriangledown p
     </Math>
     <Section>
       Dzieląc równanie stronami przez gęstość, działając na obie jego strony
@@ -72,8 +73,8 @@
       równanie równowagi gwiazdy w postaci:
     </Section>
     <Formula nr="2.6">
-      \displaystyle \bigtriangledown \cdot \bigg( \frac{1}{\varrho}
-      \bigtriangledown p \bigg) = 4\pi G \varrho
+      \displaystyle \bigtriangledown \cdot \bigg( \frac{1}{\varrho} {
+      \bigtriangledown p} \bigg) = 4\pi G \varrho
     </Formula>
     <Section>
       Jeśli ciało nie obraca się, w równowadze będzie miało kształt kuli, a

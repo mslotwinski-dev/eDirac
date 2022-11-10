@@ -82,9 +82,13 @@ textarea:focus {
 
   .mathnormal,
   .mord {
-    font-family: 'Noto Sans Math', sans-serif !important;
+    font-family: 'Noto Sans Math', sans-serif;
     font-weight: 400 !important;
     font-style: normal !important;
+  }
+
+  .mathcal {
+    font-family: 'KaTeX_Caligraphic' !important;
   }
 
   .dddot:after {

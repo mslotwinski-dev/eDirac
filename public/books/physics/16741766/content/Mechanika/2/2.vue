@@ -16,9 +16,15 @@
       miarą proporcjonalności między siłą, a przyspieszeniem ciała. Im większa
       masa tym bardziej ciało <i>opiera się</i> zmianom jego prędkości pod
       wpływem sił. Ostatecznie możemy teraz wprowadzić równanie, które nazywamy
-      drugą zasadą dynamiki Newtona. Nie jesteśmy w stanie go wyprowadzić, to
-      jest po prostu postulat, a jeśli coś jest postulatem to znaczy, że nie
-      wiemy z czego się bierze - po prostu tak działa świat.
+      drugą zasadą dynamiki Newtona. Nie jesteśmy w stanie go póki co
+      wyprowadzić, to jest póki co postulat, a jeśli coś jest postulatem to
+      znaczy, że nie wiemy z czego się bierze - po prostu tak działa świat.
+    </Section>
+    <Section>
+      Tak naprawdę jednak jest to niemałe przekłmanie. Druga zasada dynamiki
+      Newtona może być wyprowadzona jako szczególny przypadek w mechanice
+      Lagrange'a lub Hamiltona. Mimo, że jej nie znamy to ja pokażę ci jak
+      wygląda jej wyprowadzenie jako czystą ciekawostkę.
     </Section>
     <Formula nr="4.2"> \vec F = m \vec a</Formula>
     <Section>
@@ -110,7 +116,7 @@
       Całkując otrzymujemy wzór na prędkość, natomiast robiąc to dwukrotnie
       otrzymujemy wzór na położenie ciała.
     </Section>
-    <Math>x(t) = x_0 + v_0t + \frac{F}{2m}t^2</Math>
+    <Math>\displaystyle x(t) = x_0 + v_0t + \frac{F}{2m}t^2</Math>
     <Section>
       Rozwiązanie tego równania było na tyle łatwe, że niepotrzebna była
       znajomość teorii równań różniczkowych. Będziemy jednak mieć do czynienia z
@@ -122,5 +128,61 @@
       teorią matematyczną najlepiej zapoznawać się właśnie w kontekście jej
       zastosowań fizycznych.
     </Section>
+    <h3>Skąd się bierze druga zasada dynamiki? *</h3>
+    <Section>
+      Uwaga, to będzie hardcorowy rachunek i jedyne co z tego zrozumiesz to
+      dlaczego nie mówią Ci o tym skąd się biorą równania Newtona. Jednak po
+      przejściu całej książki okaże się, że jest to przypadek tak prosty, że
+      wręcz oczywisty.
+    </Section>
+    <Section>
+      Zasady dynamiki Newtona mogą być wyprowadzone z mechaniki Lagrange'a.
+      Naszym zadaniem jest, aby doprowadzić tajemniczą wielkość S zwaną
+      działaniem do minimum.
+    </Section>
+    <Math>
+      {\displaystyle S = \int \limits _{t_{1}}^{t_{2}} \mathcal {L} (x(t), \dot
+      x(t), t)dt}
+    </Math>
+    <Section>
+      Centralną rolę w mechanice analitycznej pełni pewna funkcja zwana
+      lagranżjanem. Zdefiniujmy go tu jako różnicę między energią kinetyczną i
+      potencjalną.
+    </Section>
+    <Math> \displaystyle \mathcal {L} = \frac{1}{2}m\dot x ^2 - U</Math>
+    <Section>
+      Gdzie U to energia potencjalna. Aby doprowadzić działanie do minimum
+      korzystamy z równań Eulera-Lagrange'a. Wyglądają one w ten sposób.
+    </Section>
+    <Math>
+      \displaystyle \frac{d}{dt} \bigg( \frac{\partial \mathcal L}{\partial \dot
+      x} \bigg ) -\frac{\partial \mathcal L}{\partial x} = 0
+    </Math>
+    <Section>
+      Kilka przekształceń pozwala nam podać oba wyprowadzone przez nas wzory.
+      Pierwszy segment równań Eulara-Lagrange określa pęd układu:
+    </Section>
+    <Math>
+      \displaystyle p = \frac{\partial \mathcal L}{\partial \dot x} = m \dot x
+    </Math>
+    <Section>
+      Drugi segment natomiast jest odpowiedzialny za pochodną pędu po czasie.
+    </Section>
+    <Math>
+      \displaystyle \dot p = \frac{\partial \mathcal L}{\partial x} = -
+      \frac{dU}{dx}
+    </Math>
+    <Section>
+      Zakładając, że nasza siła jest siłą zachowawczą tj. praca wykonana przez
+      tą siłę zależy tylko od wartości drogi, a nie toru ruchu (nasze typowe
+      siły mechaniczne spełniają tę właściwość) możemy zdefiniować siłę jako
+      gradient pewnego potencjału.
+    </Section>
+    <Math>\displaystyle F = - { \bigtriangledown U }</Math>
+    <Section>
+      W ten sposób otrzymujemy ostateczne równanie okazujące się drugą zasadą
+      Newtona.
+    </Section>
+    <Math> \displaystyle \dot p = - \frac{dU}{dx} = F </Math>
   </Article>
 </template>
