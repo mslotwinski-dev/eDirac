@@ -31,12 +31,24 @@
       (grawitacja, przyciąganie elektrostatyczne między ładunkami elektrycznymi
       itd), ma tę właściwość.
     </Section>
-    <h3>Zasada zachowania pędu</h3>
+    <h3>Zakres stosowalności</h3>
     <Section>
-      Już Newton zdawał sobie sprawę z tego, że zasady dynamiki jest związane są
-      z zasadą zachowania pędu. Po pierwsze przypomnijmy sobie pierwszą zasadę.
-      Jeśli na ciało nie działają zewnętrzne siły to jego pęd jest stały.
+      W obrębie fizyki klasycznej trzecia zasada dynamiki, podobnie jak druga,
+      jest spełniona z taką dokładnością, że można ją uznać za ścisły fakt tak
+      jak to, że piłka jest okrągła<span style="text-decoration: line-through"
+        >, a płci są dwie </span
+      >. Znaczy co? Ja tu nic nie widziałem. Wracając, kiedy jednak prędkości
+      ciał zbliżają się do prędkości światła, łatwo jest się przekonać, że tak
+      jak poprzednie i trzecia zasada dynamiki nie może być słuszna. Dlaczego?
+      Zasada ta głosi, że siły akcji i reakcji
+      <i>mierzone w tej samej chwili</i> są równe co do wartości i przeciwnie
+      skierowane. Właśnie tu mamy problem. Gdy zaczynamy mieć do czynienia z
+      efektami relatywistycznymi to nie istnieje coś takiego jak
+      <i>ten sam czas</i>. Dwa zdarzenia, które wedug jednego obserwatora są
+      równoczesne, dla innego obserwatora mogą nie być równoczesne. Nawet jeśli
+      dla jednego obserwatora zasada ta będzie słuszna to dla drugiego już nie
+      musi. Trzecia zasada dynamiki nie może być zatem słuszna, gdy istotne
+      stają się efekty relatywistyczne.
     </Section>
-    <Math>\dot p = 0 \quad \Rightarrow \quad p = const.</Math>
   </Article>
 </template>

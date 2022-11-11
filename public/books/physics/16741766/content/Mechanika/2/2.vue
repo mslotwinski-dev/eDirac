@@ -99,6 +99,7 @@
       ruch, gdy zmieniany jest układ odniesienia, zwany transformacją
       Galileusza.
     </Section>
+
     <h3>Równania różniczkowe</h3>
     <Section>
       Niemal wszystkie prawa fizyki mają postać równań różniczkowych lub dają
