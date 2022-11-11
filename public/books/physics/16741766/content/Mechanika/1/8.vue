@@ -22,7 +22,7 @@
       sytuacjach, kiedy mamy do czynienia z prędkościami dalekimi od prędkości
       światała. Prędkości obiektów w fizyce klasycznej zwyczajnie się dodają.
     </Section>
-    <Formula nr="2.35">\displaystyle \vec v_C = \vec v_A + \vec v_B</Formula>
+    <Formula nr="3.35">\displaystyle \vec v_C = \vec v_A + \vec v_B</Formula>
     <Section>
       Póki co nie jest to niczym niezwykłym, ale czas dla wszystkich
       obserwatorów płynie tak samo.
@@ -41,7 +41,7 @@
       bliskimi prędkości światła. W jej formaliźmie transformacja prędkości
       wygląda następująco.
     </Section>
-    <Formula nr="2.36">
+    <Formula nr="3.36">
       \displaystyle \vec v_C = \frac{\vec v_A + \vec v_B}{1 - \frac{v_A
       v_B}{c^2}}
     </Formula>

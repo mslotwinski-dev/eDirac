@@ -22,7 +22,7 @@
       zmianę kierunku. Wykorzystując wzór (3.23) na przyspieszenie prostopadłe
       jawnie otrzymujemy, że przyspieszenie dośrodkowe wynosi:
     </Section>
-    <Formula nr="5.37">\displaystyle a_{\eta} = \frac{v^2}{r}</Formula>
+    <Formula nr="3.37">\displaystyle a_{\eta} = \frac{v^2}{r}</Formula>
     <Section>
       Takie przyspieszenie działające do środka jest potrzebne, aby
       <i>utrzymać</i> ruch po okręgu. <i>Nadmiarowe</i> przyspieszenie jest
@@ -37,24 +37,24 @@
       jest on proporcjonalny do drogi, jaką przebuwa ciało. Okazuje się, że
       dokładnie tak jest, a współczynnikiem proporcjonalności jest tu promień.
     </Section>
-    <Formula nr="5.38">\displaystyle \varphi = \frac{s}{r}</Formula>
+    <Formula nr="3.38">\displaystyle \varphi = \frac{s}{r}</Formula>
     <Section>
       Określmy zatem miarę zmiany kąta, jaki zakreśla ciało w danym czasie.
       Zmienna ta nazywa się prędkością kątową.
     </Section>
-    <Formula nr="5.38">
+    <Formula nr="3.39">
       \displaystyle \omega = \frac{d\varphi}{dt} = \dot \varphi
     </Formula>
     <Section>
       Relacja między prędkością, a prędkością kątową wyraża się tak jak w
       przypadku zamiany przemieszczenia na kąt.
     </Section>
-    <Formula nr="5.38"> \displaystyle \omega = {\vec v}{r} </Formula>
+    <Formula nr="3.40"> \displaystyle \omega = {\vec v}{r} </Formula>
     <Section>
       Ostatnim parametrem jest jak pewnie się domyślasz przyspieszenie kątowe,
       które wyraża się wzorem
     </Section>
-    <Formula nr="5.39">
+    <Formula nr="3.41">
       \displaystyle \varepsilon = \frac{d\omega}{dt} = {\vec a}{r}
     </Formula>
     <Section>
@@ -70,7 +70,7 @@
       prędkości kątowej przez czas. W ten sposób współrzędne położenia obiektu
       definiujemy jako
     </Section>
-    <Formula nr="5.40">
+    <Formula nr="3.42">
       \displaystyle \begin{cases} r(t) = r \ \ (const) \\ \varphi(t) = \varphi_0
       + \omega t\end{cases}
     </Formula>
@@ -78,7 +78,7 @@
       Przechodząc na współrzędne kartezjańskie, przekształcamy nasze
       współrzędne, aż otrzymamy wzory na współrzędną x oraz y.
     </Section>
-    <Formula nr="5.41">
+    <Formula nr="3.43">
       \displaystyle \begin{cases} x(t) = r \ cos(\omega t + \varphi_0 ) \\ y(t)
       = r \ sin(\omega t + \varphi_0 ) \end{cases}
     </Formula>
@@ -94,7 +94,7 @@
       idzie przechodząc na jednostki kątowe φ/ω, a nas interesuje czas obrotu o
       2π ostateczny wzór wygląda w ten sposób.
     </Section>
-    <Formula nr="5.41">
+    <Formula nr="3.44">
       \displaystyle T = \frac{2\pi}{\omega} = \frac{2\pi r}{v}
     </Formula>
     <Section>
@@ -106,7 +106,7 @@
       jednostka jest wygodniejsza niż mówienie, że okres obrotu elementu to
       0,002 s.
     </Section>
-    <Formula nr="5.41">
+    <Formula nr="3.45">
       \displaystyle f = \frac{1}{T} = \frac{\omega}{2\pi}
     </Formula>
     <Section>
@@ -115,6 +115,6 @@
       skraca π i wyrównuje miejsca zerowe sinusa tak, że przyjmuje maksima i
       minima co jedną sekundę, natomiast zeruje się co 0,5s.
     </Section>
-    <Formula nr="5.41"> \displaystyle \omega = \htmlClass{nr}{2}\pi f </Formula>
+    <Formula nr="3.46"> \displaystyle \omega = \htmlClass{nr}{2}\pi f </Formula>
   </Article>
 </template>

@@ -103,4 +103,10 @@ textarea:focus {
     transform: scaleY(0.4) translateY(-15px) translateX(-1.5px);
   }
 
+  .tr {
+    .delimsizing {
+      color: transparent !important;
+    } 
+  }
+
 }

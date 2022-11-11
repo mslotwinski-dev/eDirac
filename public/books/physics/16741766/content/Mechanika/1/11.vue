@@ -31,7 +31,7 @@
       Możemy więc zdefiniować krzywiznę toru jako granicę stosunku kąta między
       wektorami z odległością między nimi. W ten sposób otrzymujemy:
     </Section>
-    <Formula nr="2.46">
+    <Formula nr="3.51">
       \displaystyle \kappa = \bigg| \frac{d\varphi}{ds} \bigg|
     </Formula>
     <Section>
@@ -44,14 +44,14 @@
       Odwrotność krzywizny nazywa sie promieniem krzywizny trajektorii w punkcie
       P.
     </Section>
-    <Formula nr="2.47">\displaystyle R = \frac{1}{\kappa}</Formula>
+    <Formula nr="3.52">\displaystyle R = \frac{1}{\kappa}</Formula>
     <Section>
       Jak wynika z definicji, krzywizna trajektorii okresla jak nieprostoliniowa
       jest trajektoria, jak dalece odbiega od linii prostej. Na podstawie
       definicji mozna wyprowadzic nastepujacy wzór na krzywizne trajektorii
       ruchu we współrzednych kartezjanskich:
     </Section>
-    <Formula nr="2.48">
+    <Formula nr="3.53">
       \displaystyle \kappa = \frac{ | \ \ddot y \ | }{(1 + \dot y )^{3/2}}
     </Formula>
     <Section>
@@ -66,7 +66,7 @@
       wprowadziliśmy. Po zastosowaniu odpowiednich pochodnych otrzymujemy wzór
       na krzywiznę krzywej L, w przedstawieniu parametrycznym r(t).
     </Section>
-    <Formula nr="2.49">
+    <Formula nr="3.54">
       \displaystyle \kappa = \frac{|\dot \tau \times \ddot \tau|}{|\dot \tau|^3
       }
     </Formula>
@@ -76,7 +76,7 @@
       binormalnym. Nazywamy tę wielkość skręceniem. W przypadku krzywej
       dwuwymiarowej skręcenie jest równe 0.
     </Section>
-    <Formula nr="2.50">
+    <Formula nr="3.55">
       \displaystyle T = \bigg| \frac{d\psi}{ds} \bigg| = \frac{|(\dot \tau
       \times \ddot \tau) \cdot \htmlClass{dddot}{\tau} |}{|\dot \tau \times
       \ddot \tau|^2 }
@@ -91,10 +91,10 @@
       otrzymać 4 wzory opisujące relacje między wektorami, a krzywizną i
       skręceniem krzywej.
     </Section>
-    <Formula nr="2.51">
-      \displaystyle \begin{cases} \dot r = \tau \\ \dot \tau = \kappa \eta
-      \end{cases} \qquad \begin{cases} \dot \eta = Tb - \kappa \tau \\ \dot b =
-      -T \eta \end{cases}
+    <Formula nr="3.56">
+      \displaystyle \htmlClass{tr} {\begin{cases} \dot r = \tau \\ \dot \tau =
+      \kappa \eta \end{cases} \qquad \begin{cases} \dot \eta = Tb - \kappa \tau
+      \\ \dot b = -T \eta \end{cases}}
     </Formula>
   </Article>
 </template>

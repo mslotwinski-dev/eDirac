@@ -32,7 +32,7 @@
       Przyrównując oba równania do siebie i zapisując w kartezjńskim układzie
       współrzędnych otrzymujemy następujące równania ruchu:
     </Section>
-    <Formula nr="3.42">
+    <Formula nr="3.47">
       \displaystyle m \begin{bmatrix} \ddot{x} \\ \ddot{y} \end{bmatrix} =
       \frac{GMm}{x^2 + y^2} \frac{1}{\sqrt{x^2 + y^2}} \begin{bmatrix} x \\ y
       \end{bmatrix}
@@ -120,14 +120,14 @@
       \Bigg)}
     </Math>
     <Section>Drugi element jest unikatową własnością </Section>
-    <Formula nr="3.43">
+    <Formula nr="3.48">
       \displaystyle \varepsilon = \sqrt {\Bigg( 1 + \frac{2EL^2}{m^3} \Bigg)}
     </Formula>
     <Section>
       W przypadku ogólnym, kiedy GM jest różne od 1, wyraża się on następującym
       wzorem:
     </Section>
-    <Formula nr="3.44">
+    <Formula nr="3.49">
       \displaystyle \varepsilon = \sqrt {\Bigg( 1 + \frac{2EL^2 (m + M)}{G^2
       (Mm)^3} \Bigg)}
     </Formula>
@@ -137,7 +137,7 @@
       wszystko do równania ruchu planety wokół słońca, otrzymujemy ostateczne
       równanie ruchu.
     </Section>
-    <Formula nr="3.45">
+    <Formula nr="3.50">
       \displaystyle r(1 + \varepsilon \ cos \ \theta) = l
     </Formula>
     <Section>
