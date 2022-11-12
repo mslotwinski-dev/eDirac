@@ -36,7 +36,8 @@ export default {
       'Siły i ruch': 'Mechanika/2/2.vue',
       'Reakcja ciał na siłę': 'Mechanika/2/3.vue',
       'Układy odniesienia': 'Mechanika/2/4.vue',
-      'Zasady dynamiki w układzie współrzędnych': 'Mechanika/2/5.vue',
+      'Ciężar i tarcie': 'Mechanika/2/5.vue',
+      'Zasady dynamiki w układzie współrzędnych': 'Mechanika/2/6.vue',
       // 'Współrzędne biegunowe na płaszczyźnie': ''
     },
     'Ruch pocisków i cząstek naładowanych': {
