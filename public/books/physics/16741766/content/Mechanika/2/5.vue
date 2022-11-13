@@ -27,7 +27,7 @@
     </Section>
     <Formula nr="4.6"> F_g = mg </Formula>
     <Section>
-      Siła reakcji, którą działa na nas ziemia nazywa się ciężarem. To właśnie
+      Siła z jaką ziemia przyciąga ciało nazywa się również ciężarem. To właśnie
       ciężar, a nie masę podaje nam waga. Łatwo się o tym przekonać, ważąc się
       na księżycu - waga pokaże nam, że ważymy około 6 razy mniej niż na Ziemii.
       Ja tam w to wchodzę.
@@ -50,6 +50,36 @@
       równe:
     </Section>
     <Formula nr="4.7"> F = m(g + a) </Formula>
+    <Example nr="4.1" title="Winda">
+      <Section>
+        Bob jest kaczką waży i 4kg. Ile wyniesie jego ciężar w windzie, która
+        przyspiesza z wartością 5m/s<M s="^2" />?
+      </Section>
+      Zacznijmy od tego, że nie wiemy czy przyspieszaw górę czy w dół, więc
+      musimy rozpatrzyć dwa przypadki. W obu użyjemy naszego wzoru F = m(g + a).
+      Zauważ, że g jest tutaj dodatnie mimo, że reszta przyspieszeń
+      niekoniecznie. Właściwie mamy już wszystko, możemy obliczyć nacisk naszej
+      kaczki.
+      <Section>
+        Najpierw zakładamy, że winda przyspiesza w górę, więc jej przyspieszenie
+        jest równe 5m/s<M s="^2" />.
+      </Section>
+      <Math>F = 4 \cdot (10 + 5) = 60 [N]</Math>
+      <Section>
+        Teraz rozpatrujemy drugi przypadek kiedy winda leci w dół. Wtedy samo
+        przyspieszenie jest zwrócone w dół, a więc jest ono równe -5m/s<M
+          s="^2"
+        />. Podstawiając do wzoru dostajemy drugi wynik.
+      </Section>
+      <Math>F = 4 \cdot (10 - 5) = 20 [N]</Math>
+    </Example>
+    <Section>
+      Zauważmy ciekawą rzecz - spadając z przyspieszeniem g ciało znajduje się w
+      stanie nieważkości, gdyż we wzorze (4.7) g i -g nam się po prostu
+      wyzeruje, a więc siła ciężkości również. Ta myśl, że spadający człowiek
+      jest nieważki natchnęła Einsteina do stworzenia ogólnej teorii
+      względności.
+    </Section>
     <Section>
       Wniosek? Jadąc windą w górę według wagi jesteśmy ciężsi, natomiast jadąc w
       dół jesteśmy lżejsi zupełnie jakbyśmy byli w innym polu grawitacyjnym.
