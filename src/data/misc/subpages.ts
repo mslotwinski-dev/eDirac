@@ -13,9 +13,9 @@ export const subpages = [
   },
   {
     text: 'Tablice',
-    link: 'formulas',
-    corename: 'formulas',
-    image: 'formulas',
+    link: 'tables',
+    corename: 'tables',
+    image: 'tables',
   },
   // {
   //   text: 'Statystyki',

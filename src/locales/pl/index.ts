@@ -39,7 +39,7 @@ export default {
   navigation: {
     navbar: {
       subpages: {
-        formulas: 'Tablice',
+        tables: 'Tablice',
         articles: 'Artykuły',
         books: 'Podręczniki',
         statistics: 'Statystyki',
