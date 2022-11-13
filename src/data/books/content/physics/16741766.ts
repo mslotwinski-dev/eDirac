@@ -36,9 +36,11 @@ export default {
       'Siły i ruch': 'Mechanika/2/2.vue',
       'Reakcja ciał na siłę': 'Mechanika/2/3.vue',
       'Układy odniesienia': 'Mechanika/2/4.vue',
-      'Ciężar i tarcie': 'Mechanika/2/5.vue',
-      'Zasady dynamiki w układzie współrzędnych': 'Mechanika/2/6.vue',
-      // 'Współrzędne biegunowe na płaszczyźnie': ''
+      'Ciężar i nacisk': 'Mechanika/2/5.vue',
+      Tarcie: 'Mechanika/2/6.vue',
+      'Siła dośrodkowa': 'Mechanika/2/7.vue',
+      'Zasady dynamiki w układzie współrzędnych': 'Mechanika/2/8.vue',
+      'Biegunowe układy sił': 'Mechanika/2/9.vue',
     },
     'Ruch pocisków i cząstek naładowanych': {
       'Opór powietrza': 'Mechanika/3/1.vue',

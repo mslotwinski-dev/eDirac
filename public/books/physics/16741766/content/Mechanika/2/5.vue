@@ -1,6 +1,6 @@
 <template>
   <Article>
-    <Begin nr="4.5" advanced="0"> Ciężar i tarcie </Begin>
+    <Begin nr="4.5" advanced="0"> Ciężar i nacisk </Begin>
     <h3>Ciężar</h3>
     <Section>
       Siła ciężkości to siła jaką dane ciało jest przyciągane przez inne ciało.
@@ -74,17 +74,18 @@
       <Math>F = 4 \cdot (10 - 5) = 20 [N]</Math>
     </Example>
     <Section>
+      Wniosek? Jadąc windą w górę według wagi jesteśmy ciężsi, natomiast jadąc w
+      dół jesteśmy lżejsi zupełnie jakbyśmy byli w innym polu grawitacyjnym.
+    </Section>
+    <Section>
       Zauważmy ciekawą rzecz - spadając z przyspieszeniem g ciało znajduje się w
       stanie nieważkości, gdyż we wzorze (4.7) g i -g nam się po prostu
       wyzeruje, a więc siła ciężkości również. Ta myśl, że spadający człowiek
       jest nieważki natchnęła Einsteina do stworzenia ogólnej teorii
       względności.
     </Section>
-    <Section>
-      Wniosek? Jadąc windą w górę według wagi jesteśmy ciężsi, natomiast jadąc w
-      dół jesteśmy lżejsi zupełnie jakbyśmy byli w innym polu grawitacyjnym.
-    </Section>
-    <h3>Tarcie</h3>
+
+    <h3>Nacisk i naciąg</h3>
     <Section>...</Section>
   </Article>
 </template>
