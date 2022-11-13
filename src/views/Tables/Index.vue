@@ -1,14 +1,27 @@
 <template>
   <div class="moved" />
-  <div class="home">
-    {{ $t('main.slogan') }}
-  </div>
+  <Constants
+    v-for="(group, index) in constants"
+    :key="index"
+    :group="group"
+    :name="index"
+  />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import Constants from '@/components/Tables/Constants.vue'
+import constants from '@/data/tables/index'
 
 export default defineComponent({
+  data() {
+    return {
+      constants,
+    }
+  },
+  components: {
+    Constants,
+  },
   created() {
     document.title = 'Tablice | eDirac'
   },
