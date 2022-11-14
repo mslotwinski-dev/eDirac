@@ -36,11 +36,12 @@
         <div v-for="(f, index) in constant.in" :key="index">
           <div
             v-html="
-              katex.renderToString(f, {
+              katex.renderToString(`\\displaystyle ${f}`, {
                 throwOnError: false,
                 trust: true,
               })
             "
+            class="formula"
           />
         </div>
       </div>
@@ -83,7 +84,7 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import '@/styles/index.scss';
 article {
-  padding: 10px;
+  padding: 10px 20px;
   margin: 5px;
   background: theme(light);
   border-radius: 10px;
@@ -104,6 +105,9 @@ article {
 
 .modalcontent {
   padding: 10px 25px;
+  @media (max-width: 1000px) {
+    padding: 7px 10px;
+  }
   .sec {
     padding: 5px 0;
   }
@@ -116,10 +120,21 @@ article {
     font-size: 17px;
     padding: 5px 0;
     max-width: 800px;
+    text-align: justify;
+    @media (max-width: 1000px) {
+      font-size: 15px;
+    }
   }
   .name {
     font-weight: 500;
     font-size: 25px;
+    @media (max-width: 1000px) {
+      font-size: 22px;
+    }
+  }
+
+  .formula {
+    margin: 7px 0;
   }
 }
 </style>

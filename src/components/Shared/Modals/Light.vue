@@ -64,6 +64,7 @@ export default defineComponent({
   right: 20px;
   font-size: 27px;
   cursor: pointer;
+  z-index: 1;
 }
 .content {
   width: 100%;

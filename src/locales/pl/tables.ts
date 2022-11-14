@@ -11,7 +11,7 @@ export default {
 
   planck: {
     name: 'Stała Plancka',
-    for: 'Użycie we wzorach',
+    for: 'Stała fizyczna wszechobecna w świecie fizyki kwantowej wyrażająca kwant działania. Historycznie stała Plancka pojawiła się w pracy Maxa Plancka na temat promieniowania ciała doskonale czarnego.',
   },
 
   planckpi: {
@@ -25,6 +25,6 @@ export default {
   },
   duck: {
     name: 'Waga kaczki',
-    for: 'Użycie we wzorach',
+    for: 'Kto nie jest ciekawy ile waży kaczka?',
   },
 }
