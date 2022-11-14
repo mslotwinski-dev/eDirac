@@ -22,7 +22,7 @@
         <div v-for="(f, index) in constant.content" :key="index">
           <div
             v-html="
-              katex.renderToString(f, {
+              katex.renderToString(`\\displaystyle ${f}`, {
                 throwOnError: false,
                 trust: true,
               })

@@ -29,15 +29,35 @@ export default {
         '\\hbar =6,582 \\ 119 \\ 569 \\ ·10^{−16} \\ eV · s',
       ],
       in: [
+        '\\hbar = \\frac{h}{2\\pi}',
+
         '\\Delta x  \\ \\Delta p_{x} = {\\frac {\\hbar }{2}}',
-        'i\\hbar {\\frac {\\partial }{\\partial t}}\\psi (\\mathbf {r} ,t)=-{\\frac {\\hbar ^{2}}{2m}} \\Big[ {\\bigtriangledown ^{2} } + V \\Big] \\psi (\\mathbf {r} ,t)',
-        '-\\hbar ^{2}{\\frac {\\partial ^{2}}{\\partial t^{2}}}\\psi =c^{2}\\left(-\\hbar ^{2}{\\bigtriangleup} +m_{0}^{2}c^{2}\\right)\\psi ',
+        'i\\hbar {\\frac {\\partial }{\\partial t}}\\psi = -{\\frac {\\hbar ^{2}}{2m}} {\\bigtriangleup }\\psi + V\\psi',
+        // '-\\hbar ^{2}{\\frac {\\partial ^{2}}{\\partial t^{2}}}\\psi =c^{2}\\left(-\\hbar ^{2}{\\bigtriangleup} +m_{0}^{2}c^{2}\\right)\\psi ',
       ],
       type: 'formula',
     },
 
     Gravity: {
-      content: ['G = 6,674 30(15) · 10 \\ \\frac{m^3}{kg \\ s^2}'],
+      content: ['G = 6,674 \\ 30(15) · 10^{-11} \\ \\frac{m^3}{kg \\ s^2}'],
+      in: [
+        'F = G \\frac{Mm}{r^2}',
+        '{\\bigtriangleup \\Phi} = 4\\pi G \\varrho',
+        'R_{\\mu \\nu }-{\\frac {1}{2}}g_{\\mu \\nu }R+\\Lambda g_{\\mu \\nu }=-{\\frac {8\\pi }{c^{4}}}GT_{\\mu \\nu }',
+      ],
+      type: 'formula',
+    },
+
+    Boltzmann: {
+      content: [
+        'k = 1,138 \\ 064 \\ 9 · 10^{-23} \\ \\frac{J}{K} ',
+        'k = 8,617 \\ 333 \\ 262 · 10^{-5} \\ \\frac{eV}{K} ',
+      ],
+      in: [
+        'S = k \\ ln( \\Omega )',
+        '\\langle E \\rangle = \\frac{i}{2}kT',
+        'Z=\\sum _{i} exp \\left(\\frac{-E_{i}}{kT} \\right)',
+      ],
       type: 'formula',
     },
 

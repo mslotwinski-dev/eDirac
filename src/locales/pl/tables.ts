@@ -11,17 +11,22 @@ export default {
 
   planck: {
     name: 'Stała Plancka',
-    for: 'Stała fizyczna wszechobecna w świecie fizyki kwantowej wyrażająca kwant działania. Historycznie stała Plancka pojawiła się w pracy Maxa Plancka na temat promieniowania ciała doskonale czarnego.',
+    for: 'Stała fizyczna powszechna w świecie fizyki kwantowej wyrażająca kwant działania. Historycznie stała Plancka pojawiła się w pracy Maxa Plancka na temat promieniowania ciała doskonale czarnego.',
   },
 
   planckpi: {
     name: 'Zredukowana stała Plancka',
-    for: 'Użycie we wzorach',
+    for: 'Stała używana znacznie częściej niż jej <i>niezredukowany</i> kuzyn. Określa kwant momentu pędu i występuje w praktycznie wszystkich równaniach mechaniki kwantowej.',
   },
 
   gravity: {
     name: 'Stała grawitacji',
-    for: 'Użycie we wzorach',
+    for: 'Fundamentalna stała fizyczna służąca do opisu pola grawitacyjnego. Używana w ogólnej teorii względności, astronomii, astrofizyce i kosmologii.',
+  },
+
+  boltzmann: {
+    name: 'Stała Boltzmanna',
+    for: 'Stała fizyczna pojawiająca się głównie w fizyce statystycznej, w równaniach określających rozkłady energii cząsteczek. ',
   },
   duck: {
     name: 'Waga kaczki',
