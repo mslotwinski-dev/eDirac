@@ -85,7 +85,10 @@
       względności.
     </Section>
 
-    <h3>Nacisk i naciąg</h3>
-    <Section>...</Section>
+    <Section>
+      Jeżeli nasz ciężar jest dodatkowo dociskany, wtedy wypadkowa sił
+      oczywiście się sumuje dając:
+    </Section>
+    <Math>F_N = mg + F</Math>
   </Article>
 </template>
