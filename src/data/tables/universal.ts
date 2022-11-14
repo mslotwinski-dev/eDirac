@@ -3,6 +3,7 @@ export default {
     C: {
       content: ['c = 299  \\ 792  \\ 458 \\ m/s'],
       type: 'formula',
+      in: ['E = mc^2'],
     },
 
     Planck: {

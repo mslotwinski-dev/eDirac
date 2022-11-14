@@ -54,7 +54,7 @@ export default defineComponent({
 }
 
 header {
-  font-size: 30px;
+  font-size: 35px;
   background: theme(light);
   color: theme(dark);
   border-radius: 30px;
@@ -67,9 +67,15 @@ header {
   overflow: hidden;
   font-weight: 500;
 
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+
   .text {
     padding: 30px 10px;
     z-index: 1;
+    flex-grow: 1;
+    text-align: center;
 
     @media (min-width: 1000px) {
       padding: 80px 10px;
@@ -77,11 +83,7 @@ header {
   }
 
   .img {
-    position: absolute;
     width: 500px;
-    height: 100%;
-    right: 0;
-    top: 0;
     background-size: cover;
     background-position: center;
     &:after {
@@ -99,7 +101,14 @@ header {
     }
     @media (max-width: 1000px) {
       width: 100%;
+      height: 100%;
+
       opacity: 0.15;
+
+      position: absolute;
+
+      right: 0;
+      top: 0;
     }
   }
 }

@@ -3,6 +3,9 @@
     <div class="bgclick" @click="toggleModal" />
     <section class="modal">
       <div class="content">
+        <div class="close" @click="toggleModal">
+          <ic icon="times" />
+        </div>
         <slot />
       </div>
     </section>
@@ -55,20 +58,12 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
 }
-.bar {
-  display: flex;
-  justify-content: space-between;
-  padding: 3px calc(15px + 3vw);
-  padding-bottom: 12px;
-  font-size: 24px;
-  color: theme(light);
-  .title {
-    font-weight: 500;
-  }
-  .close {
-    font-size: 27px;
-    cursor: pointer;
-  }
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 27px;
+  cursor: pointer;
 }
 .content {
   width: 100%;
