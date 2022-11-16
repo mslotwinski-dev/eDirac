@@ -73,5 +73,41 @@
         i pomoże ci studiując fizykę lub nauki najbardziej z nią związane.
       </Section>
     </Section>
+    <h3>Po spożyciu</h3>
+    <Section>
+      Znając już zasady fizyki, aby rozumieć piękno otaczającego Cię świata
+      musisz jeszcze wiedzieć do czego wykorzystać je w praktyce, dlatego
+      równolegle na kierunkach fizycznych uczysz się również innych przedmiotów
+      niefizycznych, ale pośrednio związanych. W tym paragrafie spróbuję wskazać
+      ci zarys wszystkiego, czego powinieneś się dowiedzieć, aby być dobrym
+      inżynierem.
+    </Section>
+    <Section>
+      Znając podstawowe zagadnienia mechaniki świetnym pomysłem jest
+      przerobienie dwóch przedmiotów technicznych, które się na niej opierają.
+      Są to budowa maszyn oraz teoria maszyn i mechanizmów. Następnie warto
+      dowiedzieć się czegoś więcej o chemii i inżynierii materiałowej, a także
+      wymianie ciepła.
+    </Section>
+    <Section>
+      Bardzo ważnym, jeśli nie najważniejszym okołofizycznym przedmiotem jest
+      elektronika. Znając właściwości światła możesz zająć się również
+      optoelektroniką, natomiast przy podstaowej znajomości informatyki
+      przydatna jest podstawowa wiedza z mikroelektroniki i mechatroniki.
+    </Section>
+    <Section>
+      Zanim poznasz bardziej złożone aspekty mechaniki kwantowej, jej
+      relatywistyczne uogólnienie, kwantową teorię pola czy nawet teorię pól
+      kwantowych w zakrzywionych czasoprzestrzeniach, warto poświęcić trochę
+      czasu na teorię zwaną informacją kwantową, która opisuje zachowanie się
+      (jak sama nazwa wskazuje) informacjami czy sygnałami, których logika nie
+      jest klasyczna (zero-jedynkowa), a kwantową, która całkiem innej natury.
+    </Section>
+    <Section>
+      Ostatnimi dziedzinami, jakie warto poznać jest energetyka (w szczególności
+      jądrowa i podstawy fizyki reaktorów, ale i również energetyka wodorowa i
+      odnawialne źródła energii), a także biofizyka, która pozwoli ci zrozumieć
+      jak procesy fizyczne są kluczem do tajemnic życia.
+    </Section>
   </Article>
 </template>

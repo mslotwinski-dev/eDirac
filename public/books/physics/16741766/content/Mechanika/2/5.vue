@@ -90,5 +90,9 @@
       oczywiście się sumuje dając:
     </Section>
     <Math>F_N = mg + F</Math>
+    <Section>
+      Bardzo często będę po prostu skrótowo pisał nacisk jako N.
+    </Section>
+    <Math>N = mg + F</Math>
   </Article>
 </template>
