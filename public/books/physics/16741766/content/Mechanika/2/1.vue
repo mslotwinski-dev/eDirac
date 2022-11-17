@@ -1,6 +1,6 @@
 <template>
   <Article>
-    <Chapter nr="4" book="physics"> Mechanika Newtona </Chapter>
+    <Chapter nr="4" book="physics"> Sily w przyrodzie </Chapter>
     <Begin nr="4.1" advanced="0"> Wprowadzenie do mechaniki</Begin>
     <h3>Czym jest dynamika?</h3>
     <Section>

@@ -1,7 +1,7 @@
 <template>
   <Article>
     <Begin nr="4.6" advanced="0"> Tarcie </Begin>
-    <h3>Tarcie Poślizgowe</h3>
+    <h3>Tarcie Statyczne</h3>
     <Section>
       Tarcie to zjawisko powstawania sił oporu na powierzchni styku dwóch ciał.
       Przyczyną powstawania sił tarcia jest chropowatość powierzchni tarć.
@@ -49,6 +49,7 @@
       <i>stokiem piasku</i>. Kąt, który zmierzysz to własnie kąt tarcia.
     </Section>
     <Image src="dynamika/4.png">Kąt tarcia wewnętrznego piasku</Image>
+    <h3>Tarcie kinetyczne</h3>
     <Section>
       Usypany piasek pozwala nam podać jeszcze jedną właściwość tarcia. Kiedy
       piasek jest w spoczynku to trzyma się sztywno, jednak wystarczy mały ruch,
@@ -62,5 +63,12 @@
       analogiczny do (4.8), więc nie ma sensu kolejny raz go podawać, po prostu
       współczynnik tarcia jest inny.
     </Section>
+    <Section>
+      Albo może jednak nie... Wspólczynnik tarcia tylko w przybliżeniu jest
+      stały, a w praktyce zależy od prędkości z jaką ciało się porusza.
+      Przyczyną takiego stanu rzeczy jest ilość ciepła, która wytwarza się
+      podczas szybkiego tarcia.
+    </Section>
+    <Image src="dynamika/5.png"><M s="\mu(t)" /></Image>
   </Article>
 </template>
