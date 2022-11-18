@@ -72,10 +72,15 @@
       krzywiźnie będzie w temacie 11. Kilka prostych przekształceń pozwala nam
       wykazać, że
     </Section>
-    <Formula nr="3.23">
+    <Math>
       {\displaystyle a_\tau = \frac{dv}{dt} = \dot v \quad a_\eta =
       \frac{v^2}{R} \quad a_b = 0}
+    </Math>
+    <Section> Zatem ruch punktu w dwóch wymiarach możemy opisać jako: </Section>
+    <Formula nr="3.23">
+      \displaystyle \vec a = \frac{dv}{dt} \tau + \frac{v^2}{R} \eta
     </Formula>
+    <Section />
 
     <h3>Podział ruchów</h3>
     <Section>

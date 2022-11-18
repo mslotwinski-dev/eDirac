@@ -1,11 +1,31 @@
 <template>
   <Article>
     <Begin nr="4.6" advanced="0"> Tarcie </Begin>
-    <h3>Tarcie Statyczne</h3>
+    <h3>Czym jest tarcie?</h3>
     <Section>
       Tarcie to zjawisko powstawania sił oporu na powierzchni styku dwóch ciał.
       Przyczyną powstawania sił tarcia jest chropowatość powierzchni tarć.
+      Wskutek chropowatości powierzchnie ciał stykają się tylko na małych
+      obszarach styku (rzędu 1 mikrometra), występujących na grzbietach
+      chropowatości. Obszar tych styków jest znacznie mniejszy niż powierzchni
+      całkowitej stykających się ciał. W miejscach styku powstają siły
+      przyczepności. Ponadto, tam, gdzie zachodzi zahaczanie się nierówności oba
+      ciała deformują się, a często także ścierają.
     </Section>
+    <Section>
+      Coulomb sformułował 3 postulaty tarcia (jak się później okaże jeden z nich
+      nie jest zawsze prawdziwy). Pierwszy postulat mówił, że siła tarcia jest
+      niezależna od stykających się powierzchni zależy natomiast od rodzaju
+      materiału, ich gładkości, temperatury, smaru czy zanieczyszczeń.
+    </Section>
+    <Section>
+      Jako drugi postulat założył, że siła tarcia statycznego może zmieniać się
+      od zera do maksymalnej wartości zwanej wartością graniczną. Ostatnim
+      prawem jest założenie, że siła tarcia ma zwrot przeciwny do ruchu ciała,
+      po utracie stanu równowagi i nie zależy od prędkości.
+    </Section>
+
+    <h3>Tarcie Statyczne</h3>
     <Section>
       Wyobraź sobie ciało o ciężarze mg poczywające na jakimś podłożu.
       Chropowatość podłoża określa współczynnik tarcia, a jeśli w naszej
@@ -67,8 +87,21 @@
       Albo może jednak nie... Wspólczynnik tarcia tylko w przybliżeniu jest
       stały, a w praktyce zależy od prędkości z jaką ciało się porusza.
       Przyczyną takiego stanu rzeczy jest ilość ciepła, która wytwarza się
-      podczas szybkiego tarcia.
+      podczas szybkiego tarcia. W ten sposób okazało się, że ostatni postulat
+      Coulomba jest błędny. W praktyce jednak najczęściej to pomijamy i
+      zakładamy, że współczynnik tarcia jest stały.
     </Section>
-    <Image src="dynamika/5.png"><M s="\mu(t)" /></Image>
+    <Image src="dynamika/5.png"><M s="\mu (t)" /></Image>
+    <Grid columns="1fr calc(40px + 5vw) calc(40px + 5vw)">
+      <GridH>Materiał</GridH>
+      <GridH><M s="\mu \ _{stat}" /></GridH>
+      <GridH><M s="\mu \ _{kin}" /></GridH>
+      <div>Aluminium - Stal</div>
+      <div class="d">0.61</div>
+      <div>0.47</div>
+      <div>Stal - Żeliwo</div>
+      <div class="d">0.16</div>
+      <div>0.1</div>
+    </Grid>
   </Article>
 </template>

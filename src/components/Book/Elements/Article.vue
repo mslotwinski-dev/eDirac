@@ -42,5 +42,15 @@
       max-width: 75vw;
     }
   }
+
+  .grid {
+    div {
+      padding: 10px;
+      text-align: center;
+    }
+    .d {
+      backdrop-filter: brightness(0.95);
+    }
+  }
 }
 </style>
