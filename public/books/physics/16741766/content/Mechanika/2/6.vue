@@ -92,16 +92,70 @@
       zakładamy, że współczynnik tarcia jest stały.
     </Section>
     <Image src="dynamika/5.png"><M s="\mu (t)" /></Image>
+    <Section>
+      Na zakończenie pokażę ci tabelę przybliżonych wartości współczynników
+      tarcia różych materiałów.
+    </Section>
     <Grid columns="1fr calc(40px + 5vw) calc(40px + 5vw)">
       <GridH>Materiał</GridH>
       <GridH><M s="\mu \ _{stat}" /></GridH>
       <GridH><M s="\mu \ _{kin}" /></GridH>
+
       <div>Aluminium - Stal</div>
       <div class="d">0.61</div>
       <div>0.47</div>
-      <div>Stal - Żeliwo</div>
-      <div class="d">0.16</div>
-      <div>0.1</div>
+
+      <div>Aluminium - Aluminium</div>
+      <div class="d">1.2</div>
+      <div>1.45</div>
+
+      <div>Platyna - Platyna</div>
+      <div class="d">1.2</div>
+      <div>3</div>
+
+      <div>Srebro - Srebro</div>
+      <div class="d">1.4</div>
+      <div>1.5</div>
+
+      <div>Mosiądz - Stal</div>
+      <div class="d">0.42</div>
+      <div>0.44</div>
+
+      <div>Żeliwo - Miedź</div>
+      <div class="d">1.05</div>
+      <div>0.3</div>
+
+      <div>Żeliwo - Cynk</div>
+      <div class="d">0.85</div>
+      <div>0.21</div>
+
+      <div>Beton - Guma</div>
+      <div class="d">1</div>
+      <div>0.75</div>
+
+      <div>Miedź - Szkło</div>
+      <div class="d">0.68</div>
+      <div>0.53</div>
+
+      <div>Miedź - Stal</div>
+      <div class="d">0.53</div>
+      <div>0.36</div>
+
+      <div>Szkło - Szkło</div>
+      <div class="d">1</div>
+      <div>0.4</div>
+
+      <div>Stal - Stal</div>
+      <div class="d">0.8</div>
+      <div>0.5</div>
+
+      <div>Drewno - Metal</div>
+      <div class="d">0.4</div>
+      <div>0.5</div>
+
+      <div>Drewno - Drewno</div>
+      <div class="d">0.45</div>
+      <div>0.4</div>
     </Grid>
   </Article>
 </template>
