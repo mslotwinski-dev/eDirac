@@ -28,9 +28,25 @@
       Bob postanowił obronić 47. pracę magisterską tym razem z inżynierii
       kosmicznej. W ramach praktyk został wysłany do Międzynarodowej Stacji
       Kosmicznej. Krąży ona wokól ziemii o stałej wartości v równej 7,5km/h po
-      orbicie kołowej na wysokości 520km. Bob waży 4kg jak przeciętna kaczka
+      orbicie kołowej na wysokości 530km. Bob waży 4kg jak przeciętna kaczka
       jego rasy (może trochę mu się przytyło ostatnio).
       <Section> Jaka siłą dośrodkową działa Ziemia na Boba? </Section>
+      Promień okręgu po jakim porusza się Bob to promień Ziemii + wysokość nad
+      ziemią. Dodając obie liczby otrzymujemy:
+      <Math> R = 6670 + 530 = 7 \ 200 km = 7 \ 200 \ 000 m </Math>
+      Zadanie niestety typu podstaw do wzoru, ale to ma być jedynie przykład.
+      Podstawiając dane do wzoru 4.10 (pamiętając o jednostkach) otrzymujemy
+      gotowy wynik na siłę, jaka działa na Boba.
+      <Math>
+        \displaystyle F = \frac{mv^2}{r} = \frac{4 \cdot (7 \ 500)^2}{7 \ 200 \
+        000} = 31,25 [N]
+      </Math>
     </Example>
+    <Section>
+      Ten dział był swego rodzaju odpoczynkiem. Teraz kiedy znasz najprostsze
+      rodzaje sił mechanicznych możemy przejść do analizy układów mechanicznych,
+      a następnie poznasz siły na poziomie znacznie bardziej fundamentalnym niż
+      sobie póki co wyobrażasz. To co, zaczynamy?
+    </Section>
   </Article>
 </template>
