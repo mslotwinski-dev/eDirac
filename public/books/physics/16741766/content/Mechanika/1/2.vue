@@ -5,8 +5,8 @@
     <Section>
       Tor ruchu to krzywa zakreślana w przestrzeni przez wybrany punkt
       poruszającego się ciała. Możemy go wyznaczyć poprzez wyznaczenie równań
-      trzech współrzędnych w zależności od czasu. Najłatwiej pokazać to na
-      przykładzie.
+      trzech współrzędnych w zależności od czasu, a następnie dopasowaniu do
+      pewnego rodzaju krzywej. Najłatwiej pokazać to na przykładzie.
     </Section>
     <Example title="Elipsoida" nr="3.1">
       <Section>
@@ -34,5 +34,22 @@
       </Section>
       <Image src="kinematyka/3.png" />
     </Example>
+    <h3>Różne rodzaje krzywych</h3>
+    <Section>
+      W tablicach do matematyki znajdziesz setki rodzajów krzywych, jednak
+      spróbuję pokazać ci najpopularniejsze ich rodzaje, aby łatwo było ci
+      wybrnąć z zadania. Niestety tabela jest dostępna tylko na komputerach,
+      gdyż jest zbyt szeroka na telefony :C
+    </Section>
+    <Grid class="display-min-800px">
+      <GridH style="width: calc(80px + 10vw)">Krzywa</GridH>
+      <GridH style="flex-grow: 1">Równanie</GridH>
+      <GridH style="width: 292px">Wykres</GridH>
+      <Flex style="width: 100%">
+        <div style="width: calc(80px + 10vw)">Astroida</div>
+        <M style="flex-grow: 1" s="x^{2/3} + y^{2/3} = a^{2/3}" />
+        <img src="/books/physics/16741766/img/kinematyka/krzywe/1.png" />
+      </Flex>
+    </Grid>
   </Article>
 </template>

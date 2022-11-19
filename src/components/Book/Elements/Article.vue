@@ -48,6 +48,11 @@
       padding: 10px;
       text-align: center;
     }
+    &.display-min-800px {
+      @media (max-width: 800px) {
+        display: none;
+      }
+    }
   }
 }
 </style>
