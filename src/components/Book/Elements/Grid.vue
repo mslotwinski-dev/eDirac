@@ -30,7 +30,8 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 .grid {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   border-radius: 10px;
   overflow: hidden;
 }

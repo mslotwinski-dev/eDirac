@@ -29,11 +29,10 @@ export default defineComponent({
 @import '@/styles/index.scss';
 
 .gridh {
-  padding: 10px;
   color: theme(light);
+  height: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 </style>

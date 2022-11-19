@@ -33,7 +33,7 @@
       <Section> Jaka siłą dośrodkową działa Ziemia na Boba? </Section>
       Promień okręgu po jakim porusza się Bob to promień Ziemii + wysokość nad
       ziemią. Dodając obie liczby otrzymujemy:
-      <Math> R = 6670 + 530 = 7 \ 200 km = 7 \ 200 \ 000 m </Math>
+      <Math> r = 6670 + 530 = 7 \ 200 km = 7 \ 200 \ 000 m </Math>
       Zadanie niestety typu podstaw do wzoru, ale to ma być jedynie przykład.
       Podstawiając dane do wzoru 4.10 (pamiętając o jednostkach) otrzymujemy
       gotowy wynik na siłę, jaka działa na Boba.

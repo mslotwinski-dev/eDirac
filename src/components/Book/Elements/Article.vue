@@ -48,9 +48,6 @@
       padding: 10px;
       text-align: center;
     }
-    .d {
-      backdrop-filter: brightness(0.95);
-    }
   }
 }
 </style>
