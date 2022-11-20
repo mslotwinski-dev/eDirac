@@ -19,5 +19,6 @@
       Sztandarowym przykładem użycia równań Newtona do rozwiązywania problemów
       mechanicznych jest równia pochyła.
     </Section>
+    <Image src="dynamika/6.png">Rozkład sił na równi pochyłej</Image>
   </Article>
 </template>
