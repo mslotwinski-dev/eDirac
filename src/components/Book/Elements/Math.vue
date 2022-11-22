@@ -5,7 +5,7 @@
         <span>
           <div
             v-html="
-              katex.renderToString(eq, {
+              katex.renderToString(`\\displaystyle ${eq}`, {
                 throwOnError: false,
                 trust: true,
               })

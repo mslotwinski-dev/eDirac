@@ -51,7 +51,7 @@ div {
   }
 
   transition: 0.2s all;
-  max-height: 1000px;
+  max-height: 3000px;
 }
 
 div {

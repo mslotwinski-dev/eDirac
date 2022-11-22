@@ -40,10 +40,9 @@ export default {
       Tarcie: 'Mechanika/2/6.vue',
       'Siła dośrodkowa': 'Mechanika/2/7.vue',
       'Zasady dynamiki w układzie współrzędnych': 'Mechanika/2/8.vue',
-      // 'Biegunowe układy sił': 'Mechanika/2/9.vue',
-      // 'Siły pozorne': 'Mechanika/2/10.vue',
-      // 'Siły podstawowe i pola': 'Mechanika/2/11.vue',
-      // 'Siły molekularne i jądrowe': 'Mechanika/2/12.vue',
+      'Siły pozorne': 'Mechanika/2/9.vue',
+      // 'Siły podstawowe i pola': 'Mechanika/2/10.vue',
+      // 'Siły molekularne i jądrowe': 'Mechanika/2/11.vue',
     },
     'Ruch pocisków i cząstek naładowanych': {
       'Opór powietrza': 'Mechanika/3/1.vue',
