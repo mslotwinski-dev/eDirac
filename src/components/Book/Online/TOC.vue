@@ -51,6 +51,7 @@
     <div
       class="show"
       @click="hide = !hide"
+      @keyup.enter="hide = !hide"
       :style="{
         color: small || hide ? '#e3e3e3' : book.Color,
         backgroundColor: small || hide ? book.Color : 'transparent',
@@ -114,6 +115,12 @@ export default defineComponent({
 
     window.addEventListener('resize', () => {
       this.small = window.innerWidth > 1000
+    })
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key == 'Enter') {
+        this.hide = !this.hide
+      }
     })
   },
 })

@@ -177,7 +177,9 @@
       Zakładając, że nasza siła jest siłą zachowawczą tj. praca wykonana przez
       tą siłę zależy tylko od wartości drogi, a nie toru ruchu (nasze typowe
       siły mechaniczne spełniają tę właściwość) możemy zdefiniować siłę jako
-      gradient pewnego potencjału.
+      gradient energii potencjalnej (często spotkasz się z uproszczonym, ale
+      mylącym stwierdzeniem, że jest to gradient potencjału, w domyśle fizycy
+      wiedzą o którą rzecz chodzi, ale ty jeszcze nie musisz).
     </Section>
     <Math>\displaystyle F = - { \bigtriangledown U }</Math>
     <Section>
