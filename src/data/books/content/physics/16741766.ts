@@ -42,7 +42,7 @@ export default {
       'Zasady dynamiki w układzie współrzędnych': 'Mechanika/2/8.vue',
       'Siły molekularne i jądrowe': 'Mechanika/2/9.vue',
       'Podstawy teorii pola': 'Mechanika/2/10.vue',
-      'Właściwości pól fizycznych': 'Mechanika/2/11.vue',
+      'Równania pola': 'Mechanika/2/11.vue',
     },
     'Ruch pocisków i cząstek naładowanych': {
       'Opór powietrza': 'Mechanika/3/1.vue',

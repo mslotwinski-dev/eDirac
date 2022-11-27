@@ -17,9 +17,9 @@
       wskazuje wielkość ta wskazuje jak silne jest dane pole w danym miejscu. W
       oparciu o jego natężenie można zdefiniować tak jak w matematyce potencjał
       pola jako następującą funkcje. Oznaczmy natężenie jakiegoś pola skalarnego
-      jako C i jego potencjał jako V. W ten sposób otrzymujemy następujący wzór:
+      jako A i jego potencjał jako V. W ten sposób otrzymujemy następujący wzór:
     </Section>
-    <Formula nr="4.19">C = - {\bigtriangledown \ V}</Formula>
+    <Formula nr="4.19">A = - {\bigtriangledown \ V}</Formula>
     <Section>
       Potrafimy również określić czym są zaburzenia rozpatrywanego pola i to
       nawet na dwa sposoby - jako cząstke i jako falę. To jest właśnie ten
@@ -48,6 +48,18 @@
       elektromagnetycznego).
     </Section>
     <Section>
+      Dość intuicyjny podział to podział na pola stacjonarne i niestacjonarne.
+      Co się kryje pod tą nazwą? Pola stacjonarne to takie, które są niezmienne
+      w czasie, one są i tyle, nie zmieniają się.
+    </Section>
+    <Formula nr="4.20">\frac{\partial A}{\partial t} = 0</Formula>
+    <Section>
+      Przykładem pola stacjonarnego to pole wytwarzane wokół gwiazdy lub wokół
+      spoczywającego ładunku. Polem niestacjonarnym jest pole poruszającego się
+      ładunku lub pola rozpędzające cząstki w akceleratorach.
+    </Section>
+
+    <Section>
       Ważną klasą pól są pola centralne i pola jednorodne. Pola centralne to
       pola, wytwarzane przez masy czy ładunki punktowe. Cechuje je to, że mają
       jeden centralny punkt, z którego wychodzą wszystkie linie pola. Jego
@@ -59,12 +71,12 @@
       Kolejną możliwością klasyfikacji pól jest użycie operatorów analizy
       wektorowej. Pole bezwirowe to pole, którego dywergencja jest równa 0.
     </Section>
-    <Formula nr="4.20">\bigtriangledown \cdot C = 0</Formula>
+    <Formula nr="4.21">\bigtriangledown \cdot A = 0</Formula>
     <Section>
       Taki sam podział można zrobić z polem ze względu na jego rotację, która
       gdy jest równa 0 mówi nam, że pole jest bezwirowe.
     </Section>
-    <Formula nr="4.21">\bigtriangledown \times C = 0</Formula>
+    <Formula nr="4.22">\bigtriangledown \times A = 0</Formula>
     <Section>
       Ważnym wspomnienia jest fakt, że jedyne pole centralne, które spełnia
       warunek bycia bezźródłowym to pole postaci <M s="C/r^2" />, gdzie C jest
@@ -200,7 +212,7 @@
       najszybszych zmian pola energii potencjalnej (jej gradient) jest co do
       wartości równy sile, jaka działa na ciało w tym polu w tym pukcie.
     </Section>
-    <Formula nr="4.22"> F = - { \bigtriangledown U }</Formula>
+    <Formula nr="4.23"> F = - { \bigtriangledown U }</Formula>
 
     <Image src="dynamika/7.png">
       Zależność między energią potencjalną, a siłą
