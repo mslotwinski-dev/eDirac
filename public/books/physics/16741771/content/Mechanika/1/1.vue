@@ -160,8 +160,16 @@
       <M s="E_\gamma" /> i zdefiniujemy jako:
     </Section>
     <Formula nr="1.7">
-      {\displaystyle E_\gamma = \frac{hc}{\lambda}} = hf
+      {\displaystyle E_\gamma = \frac{hc}{\lambda}} = h \nu
     </Formula>
+    <Section>
+      Czym jest tajemnicze <M s="\nu" />? Chciałem tego uniknąć, ale
+      jednocześnie nie chcę iść pod prąd, gdyż to oznaczenie jest wszechobecne w
+      literaturze. Jest to nic innego jak częstotliwość. Z jakiegoś powodu
+      fizycy kwantowi zamiast zwykłego f przypisują częstotliwości fotonu
+      szczególną literkę, która będzie go odznaczała od zwykłych fal. Tylko tyle
+      i aż tyle.
+    </Section>
     <Section>
       Równanie 1.6 było pierwszym użyciem symbolu h i rozpoczęło nową erę w
       historii fizyki. Planck jednak, z jego wykształceniem w fizyce klasycznej,
@@ -181,7 +189,7 @@
           Skoro atomy są skwantowane to energie promieniowania są również
           skwantowane w postaci kwantów promieniowania elektromagnetycznego
           (które teraz nazywamy fotonami i skrótowo oznaczamy symbolem
-          <M s="\gamma" />), każdy o energii <M s="E_\gamma = hf" />.
+          <M s="\gamma" />), każdy o energii <M s="E_\gamma = h\nu" />.
         </li>
       </ol>
       W swoim modelu wyjaśnił procesy, dzięki którym atomy mogą emitować i

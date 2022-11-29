@@ -42,14 +42,14 @@
       proporcjonalna do jego częstotliwości.
     </Section>
     <Formula nr="1.11">
-      {\displaystyle E_\gamma = \frac{hc}{\lambda}} = hf
+      {\displaystyle E_\gamma = \frac{hc}{\lambda}} = h \nu
     </Formula>
     <Section>
       Już ten wzór widzieliśmy, prawda? Dokładnie on występował w prawie
       Plancka. Teraz wiemy co on oznacza. Zgodnie z tym, światło o
       częstotliwości f zawsze niesie energię, która jest całkowitą
-      wielokrotnością hf tak samo jak pieniądze w dollarach zawsze są
-      wielokrotnością jednego centa.
+      wielokrotnością h<M s="\nu" /> tak samo jak pieniądze w dollarach zawsze
+      są wielokrotnością jednego centa.
     </Section>
 
     <h3>Stała plancka</h3>

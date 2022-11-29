@@ -28,7 +28,7 @@ export const Physics_1: Book = {
   Part: 1,
   Subtitles: [
     'Mechanika: ruch postępowy i obrotowy, siły i równowaga,',
-    'teoria grawitacji Newtona, szczególna teoria względności',
+    'mechanika analityczna, szczególna teoria względności',
   ],
 
   Content: B_1,
@@ -76,8 +76,8 @@ export const Physics_3: Book = {
 
   Part: 3,
   Subtitles: [
-    'Termodynamika i fizyka statystyczna, kinetyczna',
-    'teoria gazów, elementy chemii fizycznej',
+    'Termodynamika i kinetyczna teoria gazów',
+    'elementy chemii fizycznej, transport ciepła',
   ],
   Content: B_3,
 }
@@ -139,8 +139,8 @@ export const Physics_6: Book = {
 
   Part: 6,
   Subtitles: [
-    'Mechanika kwantowa, wstęp do kwantowej teorii pola ',
-    'oraz fizyki współczesnej, optyka kwantowa, fotonika',
+    'Mechanika kwantowa i statystyczna,',
+    'wstęp do fizyki współczesnej',
   ],
   Content: B_6,
 }

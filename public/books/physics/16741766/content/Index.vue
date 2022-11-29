@@ -1,8 +1,6 @@
 <template>
   <Article>
     <Cover />
-    <h3>Czym jest fizyka?</h3>
-    <Section>Wszystko i nic [rozbudować]</Section>
     <h3>Doświadczalna czy teoretyczna?</h3>
     <Section>
       W każdej nauce istnieje podział podział na specjalność teoretyczną,
@@ -40,7 +38,7 @@
       zagiętych czasoprzestrzeni oraz astrofizyki (tom IX) obecnej tylko na
       uniwersytetach.
     </Section>
-    <h3>Przed spożyciem</h3>
+    <h3>Poziomy zaawansowania</h3>
     <Section>
       Cały materiał jest podzielony na poziomy zaawansowania, aby całość była
       przydatna dla wszystkich.
@@ -73,6 +71,37 @@
         i pomoże ci studiując fizykę lub nauki najbardziej z nią związane.
       </Section>
     </Section>
+    <h3>Przed spożyciem</h3>
+    <Section>
+      Fizyka opiera się na matematyce, dlatego zaczynając zabawę z fizyką musisz
+      najpierw opanować podstawy matematyki.
+    </Section>
+    <Section>
+      Przedmiotem absolutnie najważniejszym koniecznym do dalszej nauki jest
+      analiza matematyczna, w szczególności rachunek różniczkowy oraz całkowy.
+      Nie znając analizy nie przejdziesz dalej. Dość ważną, chociaż nie aż tak
+      konieczną do ogólnego rozumienia przedmiotu, rolę pełni również algebra
+      (algebra liniowa).
+    </Section>
+    <Section>
+      Znając algebrę i analizę możesz zacząć uczyć się czegoś, co najczęściej
+      określane jest jako matematyczne metody fizyki. Nie jest to osobny dział
+      matematyki, raczej zlepek skrajnie różnych teorii matematycznych, które
+      łączy to, że przydają się w fizyce. Są to elementy: analizy zespolonej,
+      rachunku wariacyjnego, geometrii różniczkowej, analizy funkcjonalnej,
+      teorii grup, dystrybucji i operatorów. Ten dział przyda Ci się w
+      zagadnieniach oznaczonych przynajmniej jako poziom zaawansowany.
+    </Section>
+    <Section>
+      Ostatnimi działami matematyki, jakie warto znać są propablistyka i
+      matematyka obliczeniowa. O zasady rachunku prawdopodobieństwa i statystyki
+      oparte są fizyka statystyczna i mechanika kwantowa. Znajomość metod
+      numerycznych pozwala Ci natomiast na znajdowanie przybliżonych wyników
+      najbardziej skomplikowanych równań metodami komputerowymi. Obecnie skrajna
+      większość obliczeń w fizyce, szczególnie fizyce kwantowej, statystycznej,
+      jądrowej i astrofizyce opiera się właśnie na metodach numerycznych.
+    </Section>
+
     <h3>Po spożyciu</h3>
     <Section>
       Znając już zasady fizyki, aby rozumieć piękno otaczającego Cię świata
