@@ -70,6 +70,50 @@
       średniej.
     </Section>
     <h3>Siły jądrowe</h3>
-    <Section>...</Section>
+    <Section>
+      Zakończymy ten rozdział krótką wzmianką o siłach innej natury niż
+      wszystkie poprzednie, a mianowicie siłach jądrowych. Są to siły działające
+      wewnątrz jąder atomowych. Chociaż się je bada, nikt nie obliczył siły
+      działającej między nukleonami jądra i na razie nie znamy żadnego prawa
+      opisującego te siły. Siły jądrowe to przykład oddziaływania silnego, czyli
+      siły działającej między kwarkami. Jako, że jądra składają się z kwarków,
+      zatem będą podlegać temu oddziaływaniu. Siły te maja skrajnie krótki
+      zasięg, mniej więcej rzędu rozmiarów jądra, czyli być może
+      <M s="10^{-13}" /> cm. Gdy cząstki są tak małe i tak blisko siebie, można
+      stosować tylko prawa mechaniki kwantowej, a nie prawa Newtona (ale nawet
+      teoria kwantów nie wystarczy nam do opisu skrajnie mocnych zderzeń w
+      akceleratorach - tutaj wkracza tak zwana kwantowa teoria pola). W
+      zagadnieniach fizyki jądrowej nie korzystamy już nawet z pojęcia siły,
+      zastępując je mianowicie pojęciem energii oddziaływania między dwiema
+      cząstkami.
+    </Section>
+    <Section>
+      Wszelkie wzory, które można by napisać dla sił jądrowych są tylko grubymi
+      przybliżeniami pomijającymi wiele szczegółow. Jedną z zależności można tak
+      sformułować: siły wewnątrz jądra nie zmieniają się odwrotnie
+      proporcjonalnie do kwadratu odległości, a maleją wykładniczo rozpoczynając
+      od pewnej odległości. Można byłoby zapisać to w takiej formie:
+    </Section>
+    <Math> F = \frac{e^{-r/r_0}}{r^2} </Math>
+    <Section>
+      Jest to jednak wciąż hipoteza, mimo, że dość sensowna. Jak możemy sądzić
+      obecnie, siłami jądrowymi rządzą bardzo skomplikowane prawa, nie umiemy
+      ich wyjaśnić w prosty sposób i cały problem badania mechanizmy tych sił
+      nie jest rozwiązany. Próbując odkryć jak działają te siły odkryliśmy wiele
+      dziwnych cząstek jak mezony <M s="\pi" />, jednak samych oddziaływań jak
+      na złość nie zrozumieliśmy. Dziedzina fizyki, która bada oddziaływania
+      silne to chromodynamika.
+    </Section>
+    <Section>
+      Nazwa wywodzi się od greckiego słowa <i>chroma</i> oznaczającego
+      <i>kolor</i>, co wiąże się z tym, że tak jak oddziaływania
+      elektromagnetyczne wiążą się z ładunkiem tak oddziaływania silne wiążą się
+      z czymś co fizycy mylnie określili jako kolor (nie, nie ma nic wspólnego z
+      widzialnym kolorem, nie mam pojęcia kto na to wpadł i jak bardzo mu
+      zależało, żeby każdemu się to myliło). Kolor to najzwyklejsza właściwość
+      cząstki, tak jak masa czy ładunek, ale i dziwność (kto to wymyślił),
+      zapach (???????? tak, on też nie ma nic wspólnego z zapachem) spin czy
+      izospin. Cząstki po prostu je mają i tyle.
+    </Section>
   </Article>
 </template>
