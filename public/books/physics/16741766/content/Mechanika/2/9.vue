@@ -94,7 +94,7 @@
       proporcjonalnie do kwadratu odległości, a maleją wykładniczo rozpoczynając
       od pewnej odległości. Można byłoby zapisać to w takiej formie:
     </Section>
-    <Math> F = \frac{e^{-r/r_0}}{r^2} </Math>
+    <Math> F = k e^{-r/r_0} </Math>
     <Section>
       Jest to jednak wciąż hipoteza, mimo, że dość sensowna. Jak możemy sądzić
       obecnie, siłami jądrowymi rządzą bardzo skomplikowane prawa, nie umiemy

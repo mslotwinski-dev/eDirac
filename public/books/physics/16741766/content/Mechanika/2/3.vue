@@ -35,8 +35,8 @@
     <Section>
       W obrębie fizyki klasycznej trzecia zasada dynamiki, podobnie jak druga,
       jest spełniona z taką dokładnością, że można ją uznać za ścisły fakt tak
-      jak to, że piłka jest okrągła, a kaczki są cudowne (to nie tak, że stoi
-      nade mną kaczka trzymająca nóż
+      jak to, że piłka jest okrągła, a kaczki powinny rządzić światem (to nie
+      tak, że stoi nade mną kaczka trzymająca nóż
       <span style="text-decoration: line-through">błagam ratunku</span>).
       Wracając, kiedy jednak prędkości ciał zbliżają się do prędkości światła,
       łatwo jest się przekonać, że tak jak poprzednie i trzecia zasada dynamiki

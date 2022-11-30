@@ -87,7 +87,8 @@
         która chce zostać inżynierem! Kiedyś mówił chyba, że jest jakimś
         międzywymiarowym bóstwem pochodzącym z prastarych celtyckich krain, ale
         byłem zajęty robieniem sobie makaronu w mikrofalówce. Tak czy inaczej
-        Bob to bardzo sympatyczna kaczka.
+        Bob to bardzo sympatyczna kaczka i niejednokrotnie pojawi się w
+        zadaniach.
       </Section>
     </Flex>
     <Right>Twórca projektu,<br /><b>Mateusz Słotwiński</b></Right>
