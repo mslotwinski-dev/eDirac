@@ -25,8 +25,10 @@
     <Section>
       Zakładamy w naszym przykładzie, że nie ma innych sił. To, co otrzymaliśmy
       dowodzi temu, że w zamkniętym układzie pęd jest zawsze zachowany. W ten
-      sposób wyrażamy zasadę zachowania pędu.
+      sposób wyrażamy zasadę zachowania pędu. Rozumowanie to możemy rozszerzyć o
+      przypadek wielu różnych ciał, co daje nam ostateczną zasadę.
     </Section>
+    <Formula nr="6.1"> {\sum} _{i} m_i v_i = const</Formula>
     <Section>
       Zasad zachowania jest przynajmniej kilka. Wiemy o tym, że zachowane są
       bezwzględnie energia, pęd, moment pędu oraz ładunek. Wszystko spoko tylko
@@ -96,6 +98,5 @@
       Musisz przyznać, że jest to ciekawszy dowód i co najlepsze z góry załatwia
       nam wszystkie zasady zachowania.
     </Section>
-    <h3>Zachowanie pędu</h3>
   </Article>
 </template>

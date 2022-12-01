@@ -52,6 +52,7 @@ export default {
     },
     'Pęd i moment pędu': {
       'Zasada zachowania pędu': 'Mechanika/4/1.vue',
+      Zderzenia: 'Mechanika/4/2.vue',
     },
     // Energia: {},
     // Obroty: {},
