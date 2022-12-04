@@ -12,7 +12,7 @@ export default {
       // 'Elektryczność i magnetyzm': 'Wstep/2/3.vue',
       // 'Tajemniczy świat kwantów': 'Wstep/2/4.vue',
       'Budowa materii': 'Wstep/2/5.vue',
-      // 'W kosmos i dalej': 'Wstep/2/6.vue',
+      'W kosmos i dalej': 'Wstep/2/6.vue',
     },
   },
   Mechanika: {
@@ -53,6 +53,7 @@ export default {
     'Pęd i moment pędu': {
       'Zasada zachowania pędu': 'Mechanika/4/1.vue',
       Zderzenia: 'Mechanika/4/2.vue',
+      Rakieta: 'Mechanika/4/3.vue',
     },
     // Energia: {},
     // Obroty: {},

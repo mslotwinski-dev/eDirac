@@ -23,10 +23,10 @@
     <Image src="dynamika/11.png">
       Zderzenie sprężyste o góry i niesprężyste na dole
     </Image>
-    <h3>Proste zderzenia</h3>
+    <h3>Zderzenia niesprężyste</h3>
     <Section>
-      Przejdźmy do praktyki, zaczynając od zderzenia niesprężystego dwóch ciał.
-      Początkowy pęd układu jest równy:
+      Przejdźmy do praktyki, zaczynając od opisu zderzenia niesprężystego dwóch
+      ciał. Początkowy pęd układu jest równy:
     </Section>
     <Math> p = m_1 v_1 + m_2 v_2 </Math>
     <Section> natomiast pęd końcowy jest równy </Section>
