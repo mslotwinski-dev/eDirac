@@ -14,6 +14,13 @@
     <Section>
       Już od najdawniejszych epok człowiek patrzył w nocne niebo myśląc
     </Section>
+    <FunFact>
+      Największe znane ludzkości gwiazdy są około 1500 razy większe od naszego
+      słońca i 250 razy masywniejsze. Jedną z takich gwiazd jest gwiazda VY
+      Canis Majoris. Sa przypuszczenia zaobserwowania gwiazd nawet 2100 razy
+      większych, jednak te doniesienia często się odrzuca, bo wedle naszej
+      wiedzy tak duża gwiazda nie ma prawa istnieć.
+    </FunFact>
 
     <h3>Astronomia i obserwacje</h3>
     <Section>

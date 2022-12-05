@@ -34,6 +34,7 @@ import Cover from '@/components/Book/Elements/Cover.vue'
 import Grid from '@/components/Book/Elements/Grid.vue'
 import GridH from '@/components/Book/Elements/GridH.vue'
 import Column from '@/components/Book/Elements/Column.vue'
+import FunFact from '@/components/Book/Elements/FunFact.vue'
 
 createApp(App)
   .component('Article', Article)
@@ -54,6 +55,7 @@ createApp(App)
   .component('Grid', Grid)
   .component('GridH', GridH)
   .component('Column', Column)
+  .component('FunFact', FunFact)
 
   .component('ic', FontAwesomeIcon)
   .use(i18n)

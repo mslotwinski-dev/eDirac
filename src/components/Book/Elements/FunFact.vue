@@ -1,13 +1,9 @@
 <template>
   <div class="example" :style="{ backgroundColor: color + '33' }">
-    <h3 :style="{ color }" @click="show = !show">
-      <span><ic class="flask" icon="flask" /> Przykład</span>
-      <span>
-        <span class="nr" v-html="nr" />
-        <ic class="i" :class="{ rev: !show }" icon="angles-down" />
-      </span>
+    <h3 :style="{ color }">
+      <span><ic class="star" icon="star" /> Ciekawostka</span>
     </h3>
-    <section :class="{ hidden: !show }">
+    <section>
       <header v-html="title" />
       <slot />
     </section>
@@ -24,8 +20,7 @@ export default defineComponent({
   },
   data() {
     return {
-      show: true,
-      color: '#006E89',
+      color: '#CC8400',
     }
   },
 })
