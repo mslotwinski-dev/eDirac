@@ -20,13 +20,13 @@
       "type": "image/png"
     },
     {
-      "src": "img/icons/96x96.png",
-      "sizes": "96x96",
+      "src": "img/icons/64x64.png",
+      "sizes": "64x64",
       "type": "image/png"
     },
     {
-      "src": "img/icons/64x64.png",
-      "sizes": "64x64",
+      "src": "img/icons/96x96.png",
+      "sizes": "96x96",
       "type": "image/png"
     },
     {
