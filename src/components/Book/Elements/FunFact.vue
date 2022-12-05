@@ -51,7 +51,6 @@ div {
 h3 {
   display: flex;
   justify-content: space-between;
-  cursor: pointer;
 }
 
 .hidden {
