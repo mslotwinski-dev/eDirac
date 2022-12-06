@@ -156,8 +156,8 @@
       statyczny nie jest). Po prawej stronie mamy zbitek pewnych stałych, ale
       to, co nas interesuje to czynnik <M s="T_{\mu \nu}" />. Jest to tensor
       energii i pędu, a informuje nas o (tak zgadłeś) pędzie i energii, a zatem
-      poruszaniu się cząstek. Możemy więc rozważania Einsteina skrócić w jednym
-      zdaniu autorstwa Johna Wheelera.
+      poruszaniu się naszych cząstek. Możemy więc rozważania Einsteina skrócić w
+      jednym zdaniu autorstwa Johna Wheelera.
     </Section>
     <Section>
       <Right>
