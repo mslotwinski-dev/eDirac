@@ -72,9 +72,9 @@
       Ten wynik nakłada istotne ograniczenie na maksymalną prędkość rakiety.
       Stosunek <M s="m_0" />/m jest największy, gdy całe paliwro zostaje spalone
       i m jest jedynie masą rakiety z ładunkiem użytecznym. Jednak nawet wtedy,
-      gdy spalone paliwo stanowi 90% masy początkowej, a ten stosunek jest równy
-      zaledwie 10, logarytmując 10 otrzymujemy 2,3. Przyrost prędkości nie może
-      być więc większy niż 2,3u. Z tego powodu konstruktorzy rakiet starają się
+      gdy paliwo stanowi 10% masy początkowej, a ten stosunek jest równy 10,
+      logarytmując go otrzymujemy zaledwie 2,3. Przyrost prędkości nie może być
+      więc większy niż 2,3u. Z tego powodu konstruktorzy rakiet starają się
       maksymalnie zwiększyć u i tworzą rakiety wielostopniowe, które mogą
       odrzucać ciężkie zbiorniki paliwa, wykorzystywane na początku lotu, aby
       zredukowrać całkowitą masę rakiety w późniejszych fazach lotu.
