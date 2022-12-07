@@ -58,7 +58,25 @@
     </Formula>
     <Section>
       Gdzie R to promień naszej kuli, natomiast pozostałe współczynniki zależą
-      od ośrodka.
+      od ośrodka. Dla kulistego pocisku w powietrzu w tzw. warunkach normalnych
+      ich wartości wynoszą mniej więcej tyle:
+    </Section>
+    <Math>
+      \beta = 1,6 \cdot 10^{-4} \ \frac{N \cdot s}{m^2}, \qquad \gamma = 0,25
+      \frac{N \cdot s^2}{m^4}
+    </Math>
+    <Section>
+      Choć te parametry są właściwe jedynie dla kuli poruszającej się w
+      powietrzu w warunkach normalnych, dają jednak pewne wyobrażenie o tym, na
+      ile istotna jest siła oporu nawet w przypadku ciał o kształcie
+      odbiegającym od sfery, poruszających się w rozmaitych gazach, przy
+      temperaturze i ciśnieniu nie odbiegającym zbytnio od warunków normalnych.
+    </Section>
+    <Section>
+      Często zdarza się, że jeden z wyrazów we wzorze (5.1) jest zaniedbywalnie
+      mały w porównaniu z drugim. W takim przypadku rozwiązanie równania Newtona
+      jest łatwiejsze. Aby określić, kiedy tak można zrobić w danym zagadnieniu
+      i który człon pominąć, musimy porównać wielkości obu członów.
     </Section>
   </Article>
 </template>

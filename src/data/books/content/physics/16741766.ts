@@ -50,7 +50,7 @@ export default {
       //   'Kwadratowa siła oporu powietrza': 'Mechanika/2/3.vue',
       //   'Ruch cząstki w polu magnetycznym': 'Mechanika/2/4.vue',
     },
-    'Pęd i moment pędu': {
+    'Pęd i jego przemiany': {
       'Zasada zachowania pędu': 'Mechanika/4/1.vue',
       Zderzenia: 'Mechanika/4/2.vue',
       Rakieta: 'Mechanika/4/3.vue',
