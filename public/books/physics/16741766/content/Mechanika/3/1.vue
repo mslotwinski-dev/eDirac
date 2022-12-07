@@ -59,10 +59,12 @@
     <Section>
       Gdzie R to promień naszej kuli, natomiast pozostałe współczynniki zależą
       od ośrodka. Dla kulistego pocisku w powietrzu w tzw. warunkach normalnych
-      ich wartości wynoszą mniej więcej tyle:
+      ich wartości są podane poniżej. W przeciwieństwie do Johna Taylora, ja
+      zamiast średnicami kul wolę operować promieniami, stąd ich inne wartości
+      niż w jego podręczniku.
     </Section>
     <Math>
-      \beta = 1,6 \cdot 10^{-4} \ \frac{N \cdot s}{m^2}, \qquad \gamma = 0,25
+      \beta = 3,22 \cdot 10^{-4} \ \frac{N \cdot s}{m^2}, \qquad \gamma = 0,85
       \frac{N \cdot s^2}{m^4}
     </Math>
     <Section>
@@ -78,5 +80,6 @@
       jest łatwiejsze. Aby określić, kiedy tak można zrobić w danym zagadnieniu
       i który człon pominąć, musimy porównać wielkości obu członów.
     </Section>
+    <Formula nr="5.3">\frac{cv^2}{bv} = (2,65 \cdot 10^3 ) \ r v </Formula>
   </Article>
 </template>
