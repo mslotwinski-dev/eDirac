@@ -55,7 +55,9 @@ export default {
       Zderzenia: 'Mechanika/4/2.vue',
       Rakieta: 'Mechanika/4/3.vue',
     },
-    // Energia: {},
+    Energia: {
+      'Energia kinetyczna i praca': 'Mechanika/5/1.vue',
+    },
     // Obroty: {},
     // 'Układy nieinercjalne': {},
     // Równowaga: {},
