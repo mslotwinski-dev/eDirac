@@ -18,6 +18,7 @@
         sin(t)}.
       </Math>
       <Section>Po jakim torze porusza się punkt?</Section>
+      <b>Rozwiązanie</b>
       <Section>
         Dzieląc dwa pierwsze równania stronami, odpowiednio przez a i b,
         podnosząc stronami do kwadratu i dodając otrzymujemy

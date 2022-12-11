@@ -48,6 +48,7 @@
         samochodu, ale i przekroczył na ulicy dozwoloną prędkość 50km/h. Czy
         może mieć rację? Współczynnik tarcia drogi to 0,5.
       </Section>
+      <b>Rozwiązanie</b>
       <Section>
         Zadanie możemy znacznie szybciej zrobić z zasady zachowania energii,
         jednak i teraz jest to możliwe. Na samym początu określmy prędkość po

@@ -169,13 +169,16 @@
       deskorolka na rampie.
     </Section>
     <Example title="Deskorolka">
-      Na placach dla deskorolkarzy można natrafić na konstrukcję onazwie
-      <i>half-pipe</i>. Przypomina ona walcową rynnę o betonowych ścianach.
-      Puszczamy deskorolkę na brzegu <i>rynny</i> o promieniu 5m. Korzystając z
-      zasad dynamiki Newtona, opisz ruch deskorolki przy założeniu, że wszelkie
-      opory ruchu można pominąć. W przypadku, kiedy początkowe położenie
-      deskorolki znajduje się blisko najniższego punktu rynny, oblicz czas, po
-      jakim deskorolka wróci do położenia początkowego.
+      <Section>
+        Na placach dla deskorolkarzy można natrafić na konstrukcję onazwie
+        <i>half-pipe</i>. Przypomina ona walcową rynnę o betonowych ścianach.
+        Puszczamy deskorolkę na brzegu <i>rynny</i> o promieniu 5m. Korzystając
+        z zasad dynamiki Newtona, opisz ruch deskorolki przy założeniu, że
+        wszelkie opory ruchu można pominąć. W przypadku, kiedy początkowe
+        położenie deskorolki znajduje się blisko najniższego punktu rynny,
+        oblicz czas, po jakim deskorolka wróci do położenia początkowego.
+      </Section>
+      <b>Rozwiązanie</b>
       <Section>
         Deskorolka może poruszać się tylko po okręgu, więc zagadnienie
         najłatwiej opisać we współrzędnych biegunowych. Jeśli R jest stałe,

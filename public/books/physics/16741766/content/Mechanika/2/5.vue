@@ -55,11 +55,14 @@
         Bob jest kaczką waży i 4kg. Ile wyniesie jego ciężar w windzie, która
         przyspiesza z wartością 5m/s<M s="^2" />?
       </Section>
-      Zacznijmy od tego, że nie wiemy czy przyspieszaw górę czy w dół, więc
-      musimy rozpatrzyć dwa przypadki. W obu użyjemy naszego wzoru F = m(g + a).
-      Zauważ, że g jest tutaj dodatnie mimo, że reszta przyspieszeń
-      niekoniecznie. Właściwie mamy już wszystko, możemy obliczyć nacisk naszej
-      kaczki.
+      <b>Rozwiązanie</b>
+      <Section>
+        Zacznijmy od tego, że nie wiemy czy przyspieszaw górę czy w dół, więc
+        musimy rozpatrzyć dwa przypadki. W obu użyjemy naszego wzoru F = m(g +
+        a). Zauważ, że g jest tutaj dodatnie mimo, że reszta przyspieszeń
+        niekoniecznie. Właściwie mamy już wszystko, możemy obliczyć nacisk
+        naszej kaczki.
+      </Section>
       <Section>
         Najpierw zakładamy, że winda przyspiesza w górę, więc jej przyspieszenie
         jest równe 5m/s<M s="^2" />.
