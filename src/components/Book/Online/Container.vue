@@ -1,6 +1,6 @@
 <template>
   <section>
-    <Content v-if="render & (render.length > 1)" :render="render" />
+    <Content v-if="render" :render="render" />
     <Loading v-if="!render && !error" />
     <Center class="err" v-if="error">
       <span>
@@ -41,17 +41,18 @@ export default defineComponent({
     Content,
     Loading,
   },
-  mounted() {
-    axios
-      .get(
+  async mounted() {
+    try {
+      const res = await axios.get(
         `/books/${this.book.Tag.main}/${this.$route.params.id}/content/${this.subject}`
       )
-      .then((res) => {
-        this.render = res.data
-          .replace('<template>', '')
-          .replace('</template>', '')
-      })
-      .catch(() => (this.error = true))
+
+      this.render = res.data
+        .replace('<template>', '')
+        .replace('</template>', '')
+    } catch (e) {
+      this.error = true
+    }
   },
 })
 </script>
