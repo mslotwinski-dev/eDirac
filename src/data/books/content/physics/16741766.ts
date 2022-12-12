@@ -57,6 +57,13 @@ export default {
     },
     Energia: {
       'Energia kinetyczna i praca': 'Mechanika/5/1.vue',
+      'Siły zachowawcze i energia potencjalna': 'Mechanika/5/2.vue',
+      'Siła i potencjał': 'Mechanika/5/3.vue',
+      'Energia w układach jednowymiarowych': 'Mechanika/5/4.vue',
+      'Krzywoliniowe układy jednowymiarowe': 'Mechanika/5/5.vue',
+      'Siły centralne': 'Mechanika/5/6.vue',
+      'Energia oddziaływania dwóch cząstek': 'Mechanika/57.vue',
+      'Energia układu wielu cząstek': 'Mechanika/5/8.vue',
     },
     // Obroty: {},
     // 'Układy nieinercjalne': {},

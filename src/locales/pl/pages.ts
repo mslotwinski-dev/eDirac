@@ -9,4 +9,7 @@ export default {
   register: 'Rejestracja',
   login: 'Logowanie',
   settings: 'Ustawienia',
+  loading: {
+    wait: 'Ładowanie',
+  },
 }

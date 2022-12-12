@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <div>
+    <div class="d">
       <div id="loader"></div>
-      <div>{{ $t('loading.wait') }}...</div>
+      <div>{{ $t('pages.loading.wait') }}...</div>
     </div>
   </div>
 </template>
@@ -17,21 +17,20 @@ export default defineComponent({})
 @import '@/styles/index.scss';
 .container {
   display: flex;
-  width: 100vw;
-  height: 100vh;
-  left: 0;
-  top: 0;
-  position: fixed;
-  background-image: linear-gradient(105deg, theme(dark), #161616);
   overflow: hidden;
   z-index: 12;
   justify-content: center;
   align-items: center;
-  color: theme(light);
-  font-size: 30px;
+  color: theme(dark);
+  font-size: 20px;
+  height: 100%;
   div {
     text-align: center;
   }
+}
+
+.d {
+  padding: 10vh 0;
 }
 
 $width: 6px;
@@ -44,8 +43,8 @@ $width: 6px;
   left: calc(50% - 10 * $width - 35px);
   margin-bottom: 10 * $width - 35px;
   border: $width solid transparent;
-  border-top-color: #3498db;
-  border-bottom-color: #3498db1e;
+  border-top-color: #009ac0;
+  border-bottom-color: #009ac01e;
   border-radius: 50%;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
@@ -57,8 +56,8 @@ $width: 6px;
     right: $width;
     bottom: $width;
     border: $width solid transparent;
-    border-top-color: #e73c3c;
-    border-bottom-color: #e73c3c1e;
+    border-top-color: #d30000;
+    border-bottom-color: #d300001e;
     border-radius: 50%;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
@@ -72,8 +71,8 @@ $width: 6px;
     bottom: 3 * $width;
     border: 3px solid transparent;
     border: $width solid transparent;
-    border-top-color: #f9c922;
-    border-bottom-color: #f9c9221e;
+    border-top-color: #e5b227;
+    border-bottom-color: #e5b2271e;
     border-radius: 50%;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
