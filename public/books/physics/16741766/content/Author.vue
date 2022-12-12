@@ -1,3 +1,3 @@
 <template>
-  <Article> *Work in progress* </Article>
+  <Article> eDirac </Article>
 </template>

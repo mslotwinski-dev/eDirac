@@ -43,13 +43,17 @@ export default defineComponent({
   },
   async mounted() {
     try {
-      const res = await axios.get(
-        `/books/${this.book.Tag.main}/${this.$route.params.id}/content/${this.subject}`
-      )
+      const res = await axios
+        .get(
+          `/books/${this.book.Tag.main}/${this.$route.params.id}/content/${this.subject}`
+        )
+        .catch((error) => console.log(error))
 
-      this.render = res.data
-        .replace('<template>', '')
-        .replace('</template>', '')
+      if (res) {
+        this.render = res.data
+          .replace('<template>', '')
+          .replace('</template>', '')
+      }
     } catch (e) {
       this.error = true
     }
