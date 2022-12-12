@@ -18,7 +18,6 @@ export default defineComponent({})
 .container {
   display: flex;
   overflow: hidden;
-  z-index: 12;
   justify-content: center;
   align-items: center;
   color: theme(dark);
