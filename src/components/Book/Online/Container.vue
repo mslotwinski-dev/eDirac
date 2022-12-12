@@ -1,6 +1,6 @@
 <template>
   <section>
-    <Content v-if="render" :render="render" />
+    <Content v-if="render & (render.length > 1)" :render="render" />
     <Loading v-if="!render && !error" />
     <Center class="err" v-if="error">
       <span>
