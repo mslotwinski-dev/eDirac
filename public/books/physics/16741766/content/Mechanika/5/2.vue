@@ -13,7 +13,16 @@
       istnieją dwa warunki, które siła musi spełniać, aby była zachowawcza.
     </Section>
     <Section>
-      Rozważmy teraz prostą sytuację, gdy na ciało działa tylko jedna siła.
+      Rozważmy teraz prostą sytuację, gdy na ciało działa tylko jedna siła, może
+      to być przyciąganie grawitacyjne albo elektrostatyczne. F może zależeć od
+      wielu zmiennych: może zależeć od położenia ciała r (im większa jest
+      odległość planety od Słońca, tym słabsze jest przyciąganie grawitacyjne),
+      może zależeć od prędkości ciała, jak w przypadku oporu aerodynamicznego,
+      może też zależeć również od czasu, jak byłoby to w przypadku ładunku
+      elektrycznego w polu elektrycznym zależnym od czasu. Wreszcie, jeśli siła
+      jest wynikiem działania ludzi, może zależeć od wielu innych zmiennych — na
+      przykład od tego, czy ci ludzie są wypoczęci, czy zmęczeni, czy są
+      właściwe ustawieni itd.
     </Section>
   </Article>
 </template>

@@ -43,11 +43,9 @@ export default defineComponent({
   },
   async mounted() {
     try {
-      const res = await axios
-        .get(
-          `/books/${this.book.Tag.main}/${this.$route.params.id}/content/${this.subject}`
-        )
-        .catch((error) => console.log(error))
+      const res = await axios.get(
+        `/books/${this.book.Tag.main}/${this.$route.params.id}/content/${this.subject}`
+      )
 
       if (res) {
         this.render = res.data
@@ -55,6 +53,12 @@ export default defineComponent({
           .replace('</template>', '')
       }
     } catch (e) {
+      this.$notify({
+        title: 'Błąd',
+        text: 'Sekcja nieprawidłowa lub w budowie',
+        type: 'warn',
+      })
+
       this.error = true
     }
   },
