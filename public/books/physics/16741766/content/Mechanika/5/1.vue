@@ -97,6 +97,51 @@
       więc walizkę nie wykonujesz pracy, bo przmieszczenie jest na przykład w
       przód, natomiast siła grawitacyjna jest zwrócona w dół.
     </Section>
+    <h3>Dlaczego trzymając przedmiot męczymy się?</h3>
+    <Section>
+      Przed chwilą stwierdziliśmy, że trzymając przedmiot w rękach nie
+      wykonujemy pracy. Faktem jest, że kiedy ktoś ma ciężar, musi wykonywać
+      <i>fizjologiczną</i> pracę. Dlaczego miałby się pocić? Dlaczego miałby
+      spożywać jedzenie, aby utrzymać ciężar?
+    </Section>
+    <Section>
+      W rzeczywistości waga może być podtrzymywana bez wysiłku, po prostu
+      umieszczając ją na stole. Wtedy stół, cicho i spokojnie, bez dostaw
+      energii, jest w stanie utrzymać tę samą wagę na tej samej wysokości.
+      Sytuacja fizjologiczna wygląda mniej więcej tak. W ciałach ludzi i
+      zwierząt istnieją dwa rodzaje mięśni: mięśnie prążkowane, takie jak na
+      przykład w naszych ręlach (można nim poruszać zgodnie z naszą wolą) o
+      mięśnie gładkie takie jak w jelitach czy jak u małży (mięsień zamykający
+      muszlę).
+    </Section>
+    <Section>
+      Mięśnie gładkie działają bardzo powoli, ale potrafią się zacisnąć w tym
+      sensie, że jeśli jeśli małż zamknie skorupę to jakby zakrzepnie w tej
+      pozycji, choćby się próbowało rozchylić skorupę z wielką siłą. W takiej
+      pozycji może on trwać bardzo długo nawet pod obciążeniem i nie męczy się,
+      ponieważ - podobnie jak stół dźwigający ciężar - krzepnie w pewnej pozycji
+      i cząsteczki zastygają na pewien czas bez wykonywania pracy i wysiłku ze
+      strony małża.
+    </Section>
+    <Section>
+      Fakt, że musimy wykonać wysiłek, aby utrzymać ciężar, wynika po prostu ze
+      struktury mięśni prążkowanych. Gdy do włókna mięśnia dochodzi impuls
+      nerwowy, mięsień lekko się kurczy, a następnie rozluźnia, tak, że gdy coś
+      trzymamy w reku, ogromne strymienie impulsów przebiegają nieustannie do
+      mięśni. Wielkie liczby skurczonych włókien podtrzymują ciężar, podczas gdy
+      inne włókna się rozciągają.
+    </Section>
+    <Section>
+      Wiemy to z doświadczenia - kiedy długo coś trzymamy w ręku, ręka zaczyna
+      drgać, gdy się zmęczymy, Powodem są nieregularne strumienie impulsów i
+      niedostatecznie szybkra reakcja zmęczonego mięśnia. Dlaczego to tak
+      nieudolnie działa? Nie wiemy dokładnie dlaczego, ale ewolucja nie była w
+      stanie rozwijać szybkich mięśni gładkich. Mięśnie gładkie byłyby znacznie
+      bardziej skuteczne w utrzymywaniu ciężarów, ponieważ umieją się po prostu
+      zacisnąć w jednej pozycji - nie byłoby pracy i zużycia energii. Ich wadą
+      jest jednak zbyt powolne działanie.
+    </Section>
+
     <Example title="Praca na różnych drogach">
       <Section>
         Oblicz pracę wykonaną przez siłę o wartości
