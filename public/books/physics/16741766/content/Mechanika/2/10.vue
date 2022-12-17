@@ -187,35 +187,5 @@
       próżni zmiany pól grawitacyjnych i elektromagnetycznych rozchodzą się z
       prędkością światła.
     </Section>
-
-    <h3>Pole sił i energia potencjalna</h3>
-    <Section>
-      A co jeśli same siły też potraktować jako pole? W sumie, nic nie stoi na
-      przeszkodzie, żeby to zrobić. Każda z sił może być opisana jako pole
-      wektorowe opisujące wektor siły w każdym punkcie przestrzeni. Zakladając,
-      że nasza siła jest zachowawcza (praca wykonana przez tą siłę zależy tylko
-      od wartości drogi, a nie toru ruchu), rotacja tego pola jest równa 0, więc
-      pole to posiada potencjał. Jest to jednak dość niezwykły potencjał.
-      Potencjał sił zwany jest energią potencjalną i oznaczony jest U lub
-      <M s="E_P" />.
-    </Section>
-
-    <Section>
-      Każde bezwirowe pole posiada energię potencjalną. Energia w ogólności to
-      zdolność wykonania pracy przez ciało, jednak ten szczególny rodzaj energii
-      możemy rozpartywać jako pole skalarne, którego zmiany są miarą siły,
-      jakiej doznaje ciało.
-    </Section>
-
-    <Section>
-      Rozumowanie w kierunku odwrotnym mówi nam, że wektor wskazujący kierunek
-      najszybszych zmian pola energii potencjalnej (jej gradient) jest co do
-      wartości równy sile, jaka działa na ciało w tym polu w tym pukcie.
-    </Section>
-    <Formula nr="4.23"> F = - { \bigtriangledown U }</Formula>
-
-    <Image src="dynamika/7.png">
-      Zależność między energią potencjalną, a siłą
-    </Image>
   </Article>
 </template>
