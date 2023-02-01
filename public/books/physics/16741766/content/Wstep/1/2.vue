@@ -147,7 +147,71 @@
     </Section>
     <Image src="wstep/5.png"> Imperium Arabskie w szczycie potęgi </Image>
     <h3>Renesans</h3>
+    <Section>
+      Renesans był okresem, w którym odkryto i ponownie doceniono dzieła
+      starożytnej Grecji i Rzymu. Wprowadzenie druku w XV wieku umożliwiło
+      szybsze i łatwiejsze rozpowszechnianie wiedzy, co przyczyniło się do
+      rozwoju nauki. W XV i XVII wieku, naukowcy tacy jak Galileo Galilei,
+      Johannes Kepler i Isaac Newton opracowali teorie i wnioski, które zmieniły
+      nasze rozumienie ruchu ciał i ruchów planet. W tym okresie powstały także
+      nowe podejścia do badań naukowych, takie jak użycie matematyki do opisu
+      świata fizycznego. W renesansie powstały także ważne dzieła z zakresu
+      filozofii, takie jak "Kanony i ścieżki filozofii naturalnej" Franciszka
+      Bacona, które zainspirowały nowe podejście do badań naukowych.
+    </Section>
+    <Section>
+      W XV wieku włoski uczony Leonardo da Vinci zaczął interesować się fizyką i
+      mechaniką, badając ruchy i działania sił. Jego rysunki i notatki stały się
+      ważne dla rozwoju fizyki i innych nauk. XVI wiek był okresem intensywnych
+      badań i dyskusji na temat natur filozofii i nauk przyrodniczych. Wielu
+      uczonych, takich jak Francis Bacon i Galileo Galilei, zaczęło kwestionować
+      tradycyjne teorie i dogmaty i zachęcać do nowych podejść do badań
+      naukowych.
+    </Section>
+    <Section>
+      Galileo Galilei jest uważany za jednego z najważniejszych naukowców
+      renesansu. Jego odkrycia dotyczące ruchu ciał i niezmienności prawa
+      grawitacji umożliwiły mu opracowanie teorii heliocentrycznej, zgodnie z
+      którą Słońce jest centrum Układu Słonecznego. Kepler opracował teorie
+      dotyczące ruchu planet, z których wynika, że one poruszają się po
+      eliptycznych orbitach. Newton opracował zasadę zachowania masy i prawo
+      grawitacji, które są nadal używane do opisywania ruchów ciał w
+      przestrzeni.
+    </Section>
+    <Section>
+      XVIII wiek to czas gwałtownego rozwoju chemii i fizyki. Naukowcy tacy jak
+      Antoine Lavoisier (nazywany ojcem chemii) i John Dalton opracowali teorie
+      chemiczne, które umożliwiły lepsze zrozumienie i opisanie reakcji
+      chemicznych. W chemii, Antoine Lavoisier opracował teorię o zachodzących
+      reakcjach chemicznych, z których wynika, że masa materii jest zachowana w
+      każdej reakcji. Lavoisier opracował teorię o procesie termodynamicznym i
+      wprowadził do fizyki pojęcie entalpii. John Dalton opracował teorię
+      atomistyczną, która umożliwiła lepsze zrozumienie budowy i właściwości
+      substancji chemicznych. W tym czasie powstała teoria gazów, a naukowcy
+      tacy jak Joseph Black i Daniel Bernoulli opracowali teorie dotyczące
+      ciepła i temperatury.
+    </Section>
+    <Section>
+      W XVIII wieku francuski uczony Pierre-Simon Laplace opracował teorię ruchu
+      planetarnych, która opisywała ruchy ciał w Układzie Słonecznym. Niemiecki
+      uczony Johann Lambert zbadał zjawiska światła, takie jak odbijanie i
+      załamywanie się, co przyczyniło się do rozwoju optyki.
+    </Section>
+    <Section>
+      W XVIII wieku dokonano również wielu ważnych odkryć w dziedzinie
+      elektryczności i magnetyzmu. Benjamin Franklin, amerykański uczony,
+      opracował teorię elektryczności i opisał różne zjawiska z nią związane,
+      takie jak ładunki elektryczne, przepływ prądu i wyładowania elektryczne. W
+      Europie Alessandro Volta opracował pierwszą baterię elektryczną, co
+      stanowiło przełom dla dalszych badań nad elektrycznoscią. W tym samym
+      czasie angielski uczony Henry Cavendish dokonał ważnych odkryć w
+      dziedzinie elektryczności, takich jak wyznaczenie stałej elektrycznej i
+      magnetostatycznej. Prawdziwego tempa fizyka nabrała jednak dopiero w wieku
+      XIX.
+    </Section>
+
     <h3>Wiek XIX</h3>
+    <Section> </Section>
     <h3>Rewolucja w fizyce i czasy współczesne</h3>
   </Article>
 </template>
