@@ -14,6 +14,7 @@
       \displaystyle \vec F = m \vec a \quad \Leftrightarrow \quad \begin{cases}
       \ F_x = m \ddot x \\ \ F_y = m \ddot y \end{cases}
     </Formula>
+    <Section />
     <h3>Równia pochyła</h3>
     <Section>
       Sztandarowym przykładem użycia równań Newtona do rozwiązywania problemów

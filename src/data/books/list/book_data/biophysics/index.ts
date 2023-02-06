@@ -7,8 +7,6 @@ import B_3 from '@/data/books/content/biophysics/47257392'
 import B_4 from '@/data/books/content/biophysics/47257393'
 import B_5 from '@/data/books/content/biophysics/47257394'
 import B_6 from '@/data/books/content/biophysics/47257395'
-import B_7 from '@/data/books/content/biophysics/47257396'
-import B_8 from '@/data/books/content/biophysics/47257397'
 
 export const Biophysics_1: Book = {
   ID: '47257390',
@@ -118,10 +116,32 @@ export const Biophysics_5: Book = {
 
   Part: 5,
   Subtitles: [
-    'Optyka biomedyczna, nanotechnologie w medycynie',
-    'radiofarmaceutyki, radiochemia, radiologia',
+    'Elektronika biomedyczna, biomechanika,',
+    'podstawy inżynierii biomedycznej',
   ],
   Content: B_5,
+}
+
+export const Biophysics_6: Book = {
+  ID: '47257396',
+
+  Title: 'Biofizyka',
+  Author: ['Mateusz Słotwiński'],
+
+  Color: '#2e7d32',
+  Icon: 'biophysics',
+  BG: 'biophysics',
+  Pages: 500,
+
+  About: aboutplaceholder,
+  Tag: { main: 'biophysics', official: true, lang: ['pl'] },
+
+  Part: 6,
+  Subtitles: [
+    'Neurofizyka, neuroinformatyka, neurobiologia,',
+    'sztuczna inteligencja i sieci neuronowe',
+  ],
+  Content: B_6,
 }
 
 // export const Biophysics_6: Book = {
@@ -145,66 +165,3 @@ export const Biophysics_5: Book = {
 //   ],
 //   Content: B_1,
 // }
-
-export const Biophysics_6: Book = {
-  ID: '47257396',
-
-  Title: 'Biofizyka',
-  Author: ['Mateusz Słotwiński'],
-
-  Color: '#2e7d32',
-  Icon: 'biophysics',
-  BG: 'biophysics',
-  Pages: 500,
-
-  About: aboutplaceholder,
-  Tag: { main: 'biophysics', official: true, lang: ['pl'] },
-
-  Part: 6,
-  Subtitles: [
-    'Elektronika medyczna, biomechanika,',
-    'podstawy inżynierii biomedycznej',
-  ],
-  Content: B_6,
-}
-
-export const Biophysics_7: Book = {
-  ID: '47257398',
-
-  Title: 'Biofizyka',
-  Author: ['Mateusz Słotwiński'],
-
-  Color: '#2e7d32',
-  Icon: 'biophysics',
-  BG: 'biophysics',
-  Pages: 500,
-
-  About: aboutplaceholder,
-  Tag: { main: 'biophysics', official: true, lang: ['pl'] },
-
-  Part: 7,
-  Subtitles: [
-    'Metody fizyki i informatyki w neurobiologii, neurofizyka,',
-    'neuroinformatyka, sztuczna inteligencja i sieci neuronowe',
-  ],
-  Content: B_7,
-}
-
-export const Biophysics_8: Book = {
-  ID: '47257397',
-
-  Title: 'Biofizyka',
-  Author: ['Mateusz Słotwiński'],
-
-  Color: '#2e7d32',
-  Icon: 'biophysics',
-  BG: 'biophysics',
-  Pages: 500,
-
-  About: aboutplaceholder,
-  Tag: { main: 'biophysics', official: true, lang: ['pl'] },
-
-  Part: 8,
-  Subtitles: ['Bioinformatyka i biologia obliczeniowa, biocybernetyka'],
-  Content: B_8,
-}

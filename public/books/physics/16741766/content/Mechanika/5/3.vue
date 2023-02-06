@@ -41,7 +41,7 @@
     </Center>
     <Center>
       Dalej nie przejdziesz, plików chroni ten przerażający strażnik. Spodziewaj
-      się kolejnej aktualizacji w Marcu.
+      się kolejnej aktualizacji w Maju.
     </Center>
   </Article>
 </template>
