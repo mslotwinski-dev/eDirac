@@ -5,8 +5,8 @@ export default {
     universal: 'Uniwersalne',
   },
   c: {
-    name: 'Prędkość światła w próżni',
-    for: 'Fundamentalna stała charakteryzująca maksymalną prędkość przesyłu informacji. Z tą prędkością poruszają się również fale elektromagnetyczne (a więc i światło) oraz grawitacyjne. Powszechnie występuje we wzorach w relatywistyce.',
+    name: 'Prędkość światła',
+    for: 'Fundamentalna stała charakteryzująca maksymalną prędkość przesyłu informacji w czasoprzestrzeni. Z tą prędkością poruszają się również fale elektromagnetyczne (a więc i światło) oraz grawitacyjne. Jest centralnym składnikiem równań teorii wględności. Występuje w prawie wszystkich wzorach w szczególnej i ogólnej teorii względności, a także kwantowej teorii pola i relatywistycznej mechanice kwantowej.',
   },
 
   planck: {
