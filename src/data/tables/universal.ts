@@ -4,7 +4,9 @@ export default {
       content: ['c = 299  \\ 792  \\ 458 \\ m/s'],
       type: 'formula',
       in: [
-        'E = mc^2',
+        'E_0 = mc^2',
+        'E^2 = (pc)^2 + (mc^2)^2'
+        'dS = d(ct)^2 - dx^2 - dy^2 - dz^2',
         '\\gamma = \\sqrt{1 - \\frac{v^2}{c^2}}',
         'c^2 = \\frac{1}{\\varepsilon_0 \\ \\mu_0}',
       ],
