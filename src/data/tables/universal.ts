@@ -45,7 +45,7 @@ export default {
       in: [
         'F = G \\frac{Mm}{r^2}',
         '{\\bigtriangleup \\Phi} = 4\\pi G \\varrho',
-        'R_{\\mu \\nu }-{\\frac {1}{2}}g_{\\mu \\nu }R+\\Lambda g_{\\mu \\nu }=-{\\frac {8\\pi }{c^{4}}}GT_{\\mu \\nu }',
+        'G_{\\mu \\nu }+\\Lambda g_{\\mu \\nu }={\\frac {8\\pi }{c^{4}}}GT_{\\mu \\nu }',
       ],
       type: 'formula',
     },
