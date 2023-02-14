@@ -30,7 +30,5 @@ export default {
       ],
       type: 'formula',
     },
-    
-    
   }
 }
