@@ -3,6 +3,7 @@ export default {
   eq: 'Wartość',
   categories: {
     universal: 'Uniwersalne',
+    astrophysics: 'Astrofizyka i Kosmologia',
   },
   c: {
     name: 'Prędkość światła',
