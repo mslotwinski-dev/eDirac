@@ -5,7 +5,7 @@ export default {
       type: 'formula',
       in: [
         'E_0 = mc^2',
-        'E^2 = (pc)^2 + (mc^2)^2'
+        'E^2 = (pc)^2 + (mc^2)^2',
         'dS = d(ct)^2 - dx^2 - dy^2 - dz^2',
         '\\gamma = \\sqrt{1 - \\frac{v^2}{c^2}}',
         'c^2 = \\frac{1}{\\varepsilon_0 \\ \\mu_0}',
