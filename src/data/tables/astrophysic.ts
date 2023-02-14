@@ -1,7 +1,7 @@
 export default {
   '': {
      Gravity: {
-      content: ['G = 6,674 \\ 30(15) · 10^{-11} \\ \\frac{m^3}{kg \\ s^2}'],
+      content: ['G = 6,674 \\ 30(15) \\ · 10^{-11} \\ \\frac{m^3}{kg \\ s^2}'],
       in: [
         'F = G \\frac{Mm}{r^2}',
         '{\\bigtriangleup \\Phi} = 4\\pi G \\varrho',
@@ -11,7 +11,7 @@ export default {
     },
     
     Cosmological: {
-      content: ['\\Lambda = 1.106 · 10^{-52}'],
+      content: ['\\Lambda = 1.1056 \\ · 10^{-52}'],
       in: [
         'G_{\\mu \\nu }+\\Lambda g_{\\mu \\nu }={\\frac {8\\pi }{c^{4}}}GT_{\\mu \\nu }',
         'H^{2} = {\\frac {8\\pi G}{3}}\\rho -{\\frac {kc^{2}}{a^{2}}}+{\\frac {\\Lambda c^{2}}{3}}',
