@@ -3,10 +3,11 @@ export default {
   eq: 'Wartość',
   categories: {
     universal: 'Uniwersalne',
+    astrophysic: 'Astrofizyka i Kosmologia',
   },
   c: {
-    name: 'Prędkość światła w próżni',
-    for: 'Fundamentalna stała charakteryzująca maksymalną prędkość przesyłu informacji. Z tą prędkością poruszają się również fale elektromagnetyczne (a więc i światło) oraz grawitacyjne. Powszechnie występuje we wzorach w relatywistyce.',
+    name: 'Prędkość światła',
+    for: 'Fundamentalna stała charakteryzująca maksymalną prędkość przesyłu informacji w czasoprzestrzeni. Z tą prędkością poruszają się również fale elektromagnetyczne (a więc i światło) oraz grawitacyjne. Jest centralnym składnikiem równań teorii wględności. Występuje w prawie wszystkich wzorach w szczególnej i ogólnej teorii względności, a także kwantowej teorii pola i relatywistycznej mechanice kwantowej.',
   },
 
   planck: {
@@ -31,5 +32,15 @@ export default {
   duck: {
     name: 'Waga kaczki',
     for: 'Kto nie jest ciekawy ile waży kaczka?',
+  },
+  
+  cosmological: {
+    name: 'Stała kosmologiczna',
+    for: 'stała zaproponowana przez Alberta Einsteina jako modyfikacja do jego własnej ogólnej teorii względności mająca pomóc w wyjaśnieniu modelu kosmologicznego Wszechświata i jego kształtu. Odpowiada za przyspieszoną ekspansje wszechświata.',
+  },
+  
+  hubble: {
+    name: 'Stała Hubble’a-Lemaître’a',
+    for: 'Stała Hubble’a opisuje tempo rozszerzania się Wszechświata. Jest to (przy założeniu prawdziwości pewnego modelu) odwrotność wieku wszechświata. Jako, że zmienia się niewyobrażalnie wolno można z dobrym przybliżeniem uznać go jako stałą, jednak przy bardzo dokładnych obliczeniach kosmologicznych jest nazywany raczej parametrem, a stałą Hubble’a-Lemaître’a nazywamy parametr w tej jednej obecnej chwili t₀ i oznaczamy H₀.',
   },
 }
