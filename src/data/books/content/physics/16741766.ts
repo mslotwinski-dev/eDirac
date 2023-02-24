@@ -7,10 +7,10 @@ export default {
       // 'Fizyka wśród innych nauk': 'Wstep/1/4.vue',
     },
     'Wprowadzenie do fizyki': {
-      // 'Jednostki i wielkości fizyczne': 'Wstep/2/1.vue',
-      // 'Ruch i jego przyczyny': 'Wstep/2/2.vue',
+      // 'Ruch i jego przyczyny': 'Wstep/2/1.vue',
+      'Cząstki w ruchu': 'Wstep/2/2.vue',
       // 'Elektryczność i magnetyzm': 'Wstep/2/3.vue',
-      // 'Tajemniczy świat kwantów': 'Wstep/2/4.vue',
+      'Tajemniczy świat kwantów': 'Wstep/2/4.vue',
       'Budowa materii': 'Wstep/2/5.vue',
       'W kosmos i dalej': 'Wstep/2/6.vue',
     },
