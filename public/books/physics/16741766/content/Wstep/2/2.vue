@@ -173,7 +173,21 @@
       Jednak prawdziwe oblicze termodynamiki wciąż pozostaje pod płaszczem i
       teraz wiedząc to wszystko jestem w stanie Ci pokazać czym jest naprawdę...
     </Section>
-    <h3>Fizyka statystyczna</h3>
+    <h3>To wszystko jest statystyka</h3>
+    <Section>
+      <i>
+        Kiedy w grę wchodzi walka, wbrew legionom wrogów,<br />
+        tak nieprzeliczalnych jak piasek na pustyni <br />
+        choć polegniemy to wspólnie, ich jest tu za wiele <br />
+        lecz wszystko, co się zdarzy to tylko statystyki.
+      </i>
+    </Section>
+    <Section>
+      Cytat ten może odnosić się do dwóch rzeczy - zdziwienia żołnierza
+      Wermachtu gdy zabijał na froncie tego samego Rosjanina czwarty raz lub
+      powodem, dla którego powstała fizyka statystyczna. Dopasuj sobie to
+      samemu.
+    </Section>
     <Section>*DO ZROBIENIA*</Section>
   </Article>
 </template>
