@@ -171,7 +171,8 @@
     </Section>
     <Section>
       Jednak prawdziwe oblicze termodynamiki wciąż pozostaje pod płaszczem i
-      teraz wiedząc to wszystko jestem w stanie Ci pokazać czym jest naprawdę...
+      teraz wiedząc to wszystko jestem w stanie Ci pokazać co za nią się kryje
+      naprawdę...
     </Section>
     <h3>To wszystko jest statystyka</h3>
     <Section>
