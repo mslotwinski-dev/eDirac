@@ -156,6 +156,9 @@
       z chemii, a po jakimś czasie stał się jednym z najwybitniejszych chemików.
       Widzisz? Nie tylko ty jesteś właściwym człowiekiem na niewłaściwym
       stanowisku.
+      <Image src="wstep/onsager.png" border="true">
+        Nie wiem jak wyglądał Onsager ale pewnie jakos tak
+      </Image>
     </FunFact>
     <Section>
       Zasady termodynamiki można więc sterścić w 4 stwierdzeniach.

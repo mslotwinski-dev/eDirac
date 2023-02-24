@@ -60,7 +60,7 @@
       podbili w średniowieczu tereny sięgające aż po Indie, a stamtąd przejęli
       system liczbowy, który został im przypisany.
     </FunFact>
-    <Image src="wstep/4.png">
+    <Image src="wstep/4.png" border="true">
       Platon i Arystoteles na obrazie pt. "Szkoła Ateńska"
     </Image>
     <h3>Średniowiecze i wiek islamu</h3>
@@ -145,7 +145,9 @@
       prosperować w krajach islamskich, co pozostaje ważnym i inspirującym
       przykładem do dziś.
     </Section>
-    <Image src="wstep/5.png"> Imperium Arabskie w szczycie potęgi </Image>
+    <Image src="wstep/5.png" border="true">
+      Imperium Arabskie w szczycie potęgi
+    </Image>
     <h3>Renesans</h3>
     <Section>
       Renesans był okresem, w którym odkryto i ponownie doceniono dzieła

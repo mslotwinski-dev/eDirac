@@ -1,7 +1,14 @@
 <template>
   <div v-if="src" class="cont">
     <div class="img-container">
-      <img :src="`/books/${tag}/${$route.params.id}/img/${src}`" />
+      <img
+        :src="`/books/${tag}/${$route.params.id}/img/${src}`"
+        :class="{ border: true }"
+      />
+      <!-- <img
+        :src="`/books/${tag}/${$route.params.id}/img/${src}`"
+        :class="{ border: border == 'true' }"
+      /> -->
     </div>
     <div class="sub"><slot /></div>
   </div>
@@ -19,6 +26,10 @@ export default defineComponent({
     src: {
       type: String,
       required: true,
+    },
+    border: {
+      type: String,
+      required: false,
     },
   },
   setup() {
@@ -62,6 +73,10 @@ export default defineComponent({
   img {
     max-width: 100%;
     max-height: 100%;
+
+    &.border {
+      border-radius: 10px;
+    }
   }
 }
 </style>
