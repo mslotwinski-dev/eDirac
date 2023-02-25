@@ -33,12 +33,12 @@ export default {
     name: 'Waga kaczki',
     for: 'Kto nie jest ciekawy ile waży kaczka?',
   },
-  
+
   cosmological: {
     name: 'Stała kosmologiczna',
     for: 'stała zaproponowana przez Alberta Einsteina jako modyfikacja do jego własnej ogólnej teorii względności mająca pomóc w wyjaśnieniu modelu kosmologicznego Wszechświata i jego kształtu. Odpowiada za przyspieszoną ekspansje wszechświata.',
   },
-  
+
   hubble: {
     name: 'Stała Hubble’a-Lemaître’a',
     for: 'Stała Hubble’a opisuje tempo rozszerzania się Wszechświata. Jest to (przy założeniu prawdziwości pewnego modelu) odwrotność wieku wszechświata. Jako, że zmienia się niewyobrażalnie wolno można z dobrym przybliżeniem uznać go jako stałą, jednak przy bardzo dokładnych obliczeniach kosmologicznych jest nazywany raczej parametrem, a stałą Hubble’a-Lemaître’a nazywamy parametr w tej jednej obecnej chwili t₀ i oznaczamy H₀.',

@@ -1,7 +1,7 @@
 <template>
   <div class="example" :style="{ backgroundColor: color + '33' }">
     <h3 :style="{ color }">
-      <span><ic class="icon" icon="star" /> Ciekawostka</span>
+      <span><ic class="icon" icon="scroll" /> Biografia </span>
     </h3>
     <section>
       <header v-html="title" />
@@ -20,7 +20,7 @@ export default defineComponent({
   },
   data() {
     return {
-      color: '#CC8400',
+      color: '#008d00',
     }
   },
 })
@@ -74,7 +74,7 @@ h3 {
 }
 
 .icon {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 header {
