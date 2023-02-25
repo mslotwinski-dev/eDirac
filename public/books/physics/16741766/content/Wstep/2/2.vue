@@ -267,10 +267,10 @@
     <Section>
       Gdzie m to masa cząstek, T to temperatura, natomiast k to stała Boltzmanna
       pojawiająca się praktycznie we wszystkich wzorach fizyki statystycznej.
-      Teraz wreszcie dojdziemy do czegoś celu, który próbowaliśmy osiągnąć od
-      samego początku. Pomnóżmy obie strony przez masę i podzielmy przez 2. Po
-      lewej stronie dostajemy coś, co jest nam bardzo dobrze znane - (średnia,
-      gdyż użyliśmy średniej prędkości) energia kinetyczna cząstek.
+      Teraz wreszcie dojdziemy do celu, który próbowaliśmy osiągnąć od samego
+      początku. Pomnóżmy obie strony przez masę i podzielmy przez 2. Po lewej
+      stronie dostajemy coś, co jest nam bardzo dobrze znane - (średnia, gdyż
+      użyliśmy średniej prędkości) energia kinetyczna cząstek.
     </Section>
     <Formula nr="2.X">\langle E_k \rangle = \frac{3}{2}kT</Formula>
     <Section>
@@ -362,7 +362,7 @@
       kierunku odwrotnym może wydarzyć (np. ciepła i zimna woda zamiast się
       mieszać rozdzialą się) jednak jest to tak skrajnie mało prawdopodobne, że
       praktycznie niemożliwe. Można to porównać do małpy, której damy
-      klawiaturę. Jakkolwiek absurdalnie mało prawdopodobne by to nie było
+      klawiaturę. Jakkolwiek absurdalnie mało prawdopodobne by to nie było,
       istnieje niezerowa szansa, że napisze ona Szekspira - istnieje szansa, że
       chaos zamieni się w porządek.
     </Section>
