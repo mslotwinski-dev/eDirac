@@ -85,13 +85,99 @@
     </Section>
     <Section>
       Albo może jednak nie... Wspólczynnik tarcia tylko w przybliżeniu jest
-      stały, a w praktyce zależy od prędkości z jaką ciało się porusza.
-      Przyczyną takiego stanu rzeczy jest ilość ciepła, która wytwarza się
-      podczas szybkiego tarcia. W ten sposób okazało się, że ostatni postulat
-      Coulomba jest błędny. W praktyce jednak najczęściej to pomijamy i
-      zakładamy, że współczynnik tarcia jest stały.
+      stały, a w praktyce zależy od prędkości z jaką ciało się porusza i od
+      powierzchni styku. Przyczyną takiego stanu rzeczy jest ilość ciepła, która
+      wytwarza się podczas szybkiego tarcia.
+    </Section>
+    <Section>
+      W ten sposób okazało się, że ostatni postulat Coulomba jest błędny. W
+      praktyce jednak najczęściej to pomijamy i zakładamy, że współczynnik
+      tarcia jest stały.
     </Section>
     <Image src="dynamika/5.png"><M s="\mu (t)" /></Image>
+
+    <h3>Ograniczenia modelu Coulomba</h3>
+    <Section>
+      O pierwszym ograniczeniu modelu tarcia jaki założyliśmy przekonaliśmy się
+      przy analizie tarcia kinetycznego. Okazało się, że tarcie wbrew modelowi
+      zależy od prędkości. A co z powierzchnią styku?
+    </Section>
+    <Section>
+      Przybliżenie kulombowskie wynika z założeń, że: powierzchnie są w bliskim
+      kontakcie atomowym tylko na niewielkim ułamku ich całkowitej powierzchni,
+      że ta powierzchnia kontaktu jest proporcjonalna do siły normalnej oraz że
+      siła tarcia jest proporcjonalna do przyłożonej siły normalnej, niezależnie
+      od powierzchni styku. Przybliżenie Coulomba jest zasadniczo konstrukcją
+      empiryczną. Jest to praktyczna zasada opisująca przybliżony wynik
+      niezwykle skomplikowanej interakcji fizycznej. Siłą przybliżenia jest jego
+      prostota i wszechstronność. Chociaż zależność między siłą normalną a siłą
+      tarcia nie jest dokładnie liniowa (a więc siła tarcia nie jest całkowicie
+      niezależna od powierzchni styku powierzchni), przybliżenie Coulomba jest
+      odpowiednim przybliżeniem tarcia do analizy wielu układów fizycznych.
+    </Section>
+    <Section>
+      Kiedy powierzchnie są połączone, tarcie kulombowskie staje się bardzo
+      słabym przybliżeniem (na przykład taśma klejąca jest odporna na
+      przesuwanie, nawet gdy nie ma siły normalnej lub ujemnej siły normalnej).
+      W tym przypadku siła tarcia może silnie zależeć od powierzchni styku. Z
+      tego powodu niektóre opony wyścigowe są przyczepne. Jednak pomimo
+      złożoności podstawowej fizyki stojącej za tarciem, zależności te są
+      wystarczająco dokładne, aby były przydatne w wielu zastosowaniach.
+    </Section>
+
+    <h3>Tarcie w skali mikroskopowej</h3>
+    <Section>
+      Dotychczas analizowane problemy opierały się na uproszczonej makroskopowej
+      naturze siły tarcia. Jednak w ostatnich dziesięcioleciach poczyniono
+      ogromne postępy w zrozumieniu natury tarcia na poziomie atomowym. Naukowcy
+      odkryli, że atomowa natura tarcia wydaje się mieć pewne fundamentalne
+      właściwości. Właściwości te nie tylko wyjaśniają niektóre proste aspekty
+      tarcia. Ich odkrycie ma również potencjał do zbudowania niemal
+      beztarciowego ośrodka, który mogłoby pomóc zaoszczędzić setki miliardów
+      dolarów na energii, która jest teraz (niepotrzebnie) przekształcana w
+      ciepło.
+    </Section>
+    <Image src="dynamika/13.png">
+      Makroskopowa struktura tarcia; Ilustracja z OpenStax.org
+    </Image>
+    <Section>
+      Ilustracja przedstawia makroskopowy charakter tarcia, które z kolei
+      wyjaśniane będzie w oparciu o analizę mikroskopową (w małej skali).
+      Odkryliśmy, że tarcie jest proporcjonalne do siły normalnej i niezależne
+      od powierzchni kontaktu między dwoma ciałami. Jest to nieco kontrowersyjna
+      kwestia. Kiedy stykają się dwie szorstkie powierzchnie, styka się tylko
+      najwyższy punkt, więc rzeczywista powierzchnia styku stanowi niewielki
+      ułamek całkowitej powierzchni. Rzeczywista powierzchnia styku zwiększa
+      się, gdy przyłożona jest większa siła normalna. Sugeruje to, że wartość
+      siły tarcia jest proporcjonalna do wielkości tego obszaru.
+    </Section>
+    <Section>
+      Jednakże obserwacje na poziomie atomowym mogą wyjaśnić znacznie więcej niż
+      tylko proste właściwości tarcia. Na przykład możesz analizować w ten
+      sposób mechanizm powstawania ciepła. Innymi słowy, dlaczego jest
+      powierzchnie stają się gorące podczas pocierania? Atomy są zasadniczo
+      połączone, tworząc sieć. Kiedy powierzchnie o siebie pocierają, atomy
+      powierzchniowe przylegają do siebie i wywołują drgania sieci – tworząc
+      fale dźwiękowe, które penetrują materiał. Fale dźwiękowe tłumią się wraz z
+      odległością, a ich energia jest zamieniana na ciepło. Ponadto między
+      atomami i cząsteczkami na powierzchniach tarcia mogą zachodzić reakcje
+      chemiczne związane z to tak zwanym zużyciem ciernym.
+    </Section>
+    <Image src="dynamika/14.png">
+      Mikroskopowa struktura tarcia; Ilustracja z OpenStax.org
+    </Image>
+    <Section>
+      Na powyższym obrazku widać, jak końcówka sondy dotyka obiektu, w skutek
+      czego materiał ulega deformacji. Jest ona związana z naprężeniem
+      ścinającym, które jest szerzej omawiane w rozdziale Równowaga statyczna i
+      sprężystość. Zróżnicowanie wartości naprężenia ścinającego jest ogromne
+      (nawet rzędu <M s="10^{12}" /> ) i trudne do przewidzenia w sposób
+      teoretyczny, ale to właśnie ono daje fundamentalne podstawy do zrozumienia
+      zjawiska tarcia w dużej skali.
+    </Section>
+
+    <h3>Wartości współczynnika tarcia</h3>
+
     <Section>
       Na zakończenie pokażę ci tabelę przybliżonych wartości współczynników
       tarcia różych materiałów.

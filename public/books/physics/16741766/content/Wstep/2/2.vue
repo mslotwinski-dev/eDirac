@@ -1,6 +1,6 @@
 <template>
   <Article>
-    <Begin nr="2.2" advanced="0"> Cząstki w ruchu </Begin>
+    <Begin nr="2.2" advanced="0"> Ciepło, a statystyka </Begin>
     <h3>Czym jest ciepło?</h3>
     <Section>
       Wbrew pozorom jednym z najtrudniejszych do zdefiniowania pojęć jest

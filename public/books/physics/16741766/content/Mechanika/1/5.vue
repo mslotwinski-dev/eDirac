@@ -22,12 +22,14 @@
     </Section>
     <Formula nr="3.20"> {\displaystyle ds^2 = dx^2 + dy^2 + dz^2} </Formula>
     <Section>
-      Oczywiste, prawda? Prawie. Będzie oczywiste przez praktycznie całe 8 tomów
-      tej książki, jednak w ostatnim tomie poświęconym grawitacji i astrofizyce
-      okaże się, że nie zawsze tak jest. Musimy założyć jedno ważne założenie
-      aby to zadziałało - czasoprzestrzeń musi być płaska.
+      Oczywiste, prawda? Prawie. Po pewnej małej modyfikacji (w przyszłości
+      dodamy do tej równości czwarty wymiar czasowy), będzie oczywiste przez
+      praktycznie całe 8 tomów tej książki, jednak w ostatnim tomie poświęconym
+      grawitacji i astrofizyce okaże się, że nie zawsze tak jest. Musimy
+      poczynić jedno ważne założenie aby to zadziałało - czasoprzestrzeń musi
+      być płaska.
     </Section>
-    <Section>
+    <FunFact>
       <Flex>
         Jako ciekawostkę mogę pokazać ci to równanie, ale w przestrzeni wygiętej
         w kształt fistaszka. Myślę, że często spotykamy się z czasoprzestrzenią
@@ -35,11 +37,12 @@
         ramach przypomnienia używamy tu układu współrzędnych sferycznych.
         <!-- <img class="bob" src="/books/shared/img/duck.png" /> -->
       </Flex>
-    </Section>
-    <Math>
-      ds^2 = r^2(d\theta^2 + \ \big[ sin \ \theta(1 - \frac{3}{4}sin^2 \ \theta)
-      \big] ^2 d\phi^2)
-    </Math>
+      <Math>
+        ds^2 = r^2(d\theta^2 + \ \big[ sin \ \theta(1 - \frac{3}{4}sin^2 \
+        \theta) \big] ^2 d\phi^2)
+      </Math>
+    </FunFact>
+
     <Section>
       Wracamy na ziemię. Tak samo jak drogę, z twierdzenia pitagorasa możemy
       wyliczyć prędkość. Scałkowanie obustronne daje nam dodatkowy wzór na

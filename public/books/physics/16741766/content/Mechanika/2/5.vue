@@ -20,12 +20,11 @@
       ujemny. Zgodnie z prawami Newtona siła to iloczym masy i przyspieszenia,
       więc... Więc mamy nasz wzór.
     </Section>
-    <Math> -F = m(-g)</Math>
+    <Formula nr="4.6"> F_g = m \vec g </Formula>
     <Section>
-      Jako, że zarówno siła działa w dół (ma znak ujemny), jak i przyspieszenie
-      również, możemy te minusy skrócić, co nam daje ostateczny wzór.
+      Pamiętaj, że przyspieszenie ziemskie jest zwrócone w dół, a więc wektorowo
+      ta siła będzie ujemna.
     </Section>
-    <Formula nr="4.6"> F_g = mg </Formula>
     <Section>
       Siła z jaką ziemia przyciąga ciało nazywa się również ciężarem. To właśnie
       ciężar, a nie masę podaje nam waga. Łatwo się o tym przekonać, ważąc się
@@ -46,10 +45,13 @@
       Co więc możemy zrobić? Skoro przyspieszenie i grawitacja są
       nierozróżnialne, to aby <i>wytworzyć</i> grawitację wystarczy przyspieszać
       w górę lub w dół np. w windzie. Idąc dalej, skoro są tym samym to
-      zwyczajnie można je dodać lub odjąć. Wskazanie wagi zatem jest wtedy
-      równe:
+      zwyczajnie można je odjąć. Dlaczego odjąć? Grawitacja działa w dół. Gdy
+      winda będzie poruszać się w dół w końcu nadąży za grawitacją, wtedy
+      będziemy w stanie nieważkości, a więc siła musi być równa 0. To na czym
+      nam zależy to przyspieszenie względne między naszym przyspieszeniem, a
+      przyspieszeniem ziemskim. Wskazanie wagi zatem jest wtedy równe:
     </Section>
-    <Formula nr="4.7"> F = m(g + a) </Formula>
+    <Formula nr="4.7"> F = m(\vec g - \vec a) </Formula>
     <Example nr="4.1" title="Winda">
       <Section>
         Bob jest kaczką waży i 4kg. Ile wyniesie jego ciężar w windzie, która
@@ -58,23 +60,24 @@
       <b>Rozwiązanie</b>
       <Section>
         Zacznijmy od tego, że nie wiemy czy przyspieszaw górę czy w dół, więc
-        musimy rozpatrzyć dwa przypadki. W obu użyjemy naszego wzoru F = m(g +
-        a). Zauważ, że g jest tutaj dodatnie mimo, że reszta przyspieszeń
-        niekoniecznie. Właściwie mamy już wszystko, możemy obliczyć nacisk
-        naszej kaczki.
+        musimy rozpatrzyć dwa przypadki. W obu użyjemy naszego wzoru, który
+        pokazaliśmy przed chwilą. Znak siły jest nieistotny, my chcemy poznać
+        jedynie jej wartość, dlatego możemy dowolnie odwracać znaki, aby wynik
+        wyszedł nam dodatni. Właściwie z danych mamy wszystko, możemy obliczyć
+        nacisk naszej kaczki.
       </Section>
       <Section>
         Najpierw zakładamy, że winda przyspiesza w górę, więc jej przyspieszenie
         jest równe 5m/s<M s="^2" />.
       </Section>
-      <Math>F = 4 \cdot (10 + 5) = 60 [N]</Math>
+      <Math>F = 4 \cdot (-10 - 5) = -60 [N]</Math>
       <Section>
         Teraz rozpatrujemy drugi przypadek kiedy winda leci w dół. Wtedy samo
         przyspieszenie jest zwrócone w dół, a więc jest ono równe -5m/s<M
           s="^2"
         />. Podstawiając do wzoru dostajemy drugi wynik.
       </Section>
-      <Math>F = 4 \cdot (10 - 5) = 20 [N]</Math>
+      <Math>F = 4 \cdot (-10 + 5) = -20 [N]</Math>
     </Example>
     <Section>
       Wniosek? Jadąc windą w górę według wagi jesteśmy ciężsi, natomiast jadąc w

@@ -175,6 +175,14 @@
       drugą. Po drugie dopóki nie poznamy tej wielkości cząstka zachowuje się
       tak jakby była wszędzie i nigdzie.
     </Section>
+    <Section>
+      <Right>
+        <i>
+          Cząstki są jak politycy. Im bardziej ich przyciśniesz do ściany tym
+          bardziej będą zmieniać położenie.
+        </i>
+      </Right>
+    </Section>
     <h3>Spin - król mechaniki kwantowej</h3>
     <Section>
       No dobrze, a teraz sobie zadajmy pewne pytanie. Wszysto spoko, nie
