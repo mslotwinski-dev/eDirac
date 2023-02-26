@@ -28,7 +28,7 @@ export default {
       'Ruch po okręgu': 'Mechanika/1/9.vue',
       Orbity: 'Mechanika/1/10.vue',
       'Krzywizna i skręcenie': 'Mechanika/1/11.vue',
-      // Zadania: 'Mechanika/1/Z.vue',
+      Zadania: 'Mechanika/1/Z.vue',
       // Ciekawostki: 'Mechanika/1/C.vue',
     },
     'Sily w przyrodzie': {

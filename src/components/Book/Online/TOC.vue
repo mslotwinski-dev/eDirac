@@ -31,7 +31,11 @@
                         color: book.Color,
                       }"
                     >
-                      {{ `${i + 1}.${k + 1}. ${subject[0]}` }}
+                      {{
+                        `${!subject[1].includes('/Z.vue') ? i + 1 + '.' : ''}${
+                          !subject[1].includes('/Z.vue') ? k + 1 + '.' : ''
+                        } ${subject[0]}`
+                      }}
                       <div
                         class="after"
                         :style="{

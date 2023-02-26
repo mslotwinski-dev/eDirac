@@ -168,5 +168,16 @@
         <div>~ John Wheeler</div>
       </Right>
     </Section>
+    <FunFact>
+      Im czasoprzestrzeń bardziej zagięta tym czas płynie wolniej. Nawet na
+      ziemii jest to zauważalne (czas na mount everest, a nawet na powierchni
+      twojej głowy płynie szybciej niż dla twoich stóp). Grawitacja czarnej
+      dziury jednak przewyższa wszystko inne do tego stopnia, że zagięcie na jej
+      powierzchni jest nieskończone, a czas przestaje płynąć całkiem. Na
+      powierzchni, gdyż w środku czarnej dziry czasoprzestrzeń jest "przewlekana
+      na drugą stronę" jak ubranie. Nie wyobrazisz sobie tego, nawet nie trać
+      czasu.
+      <Image src="wstep/10.png" />
+    </FunFact>
   </Article>
 </template>

@@ -37,6 +37,10 @@ import Column from '@/components/Book/Elements/Column.vue'
 import FunFact from '@/components/Book/Elements/FunFact.vue'
 import Bio from '@/components/Book/Elements/Bio.vue'
 import Video from '@/components/Book/Elements/Video.vue'
+import Exercise from '@/components/Book/Elements/Exercise.vue'
+import Answer from '@/components/Book/Elements/Answer.vue'
+import Solution from '@/components/Book/Elements/Solution.vue'
+import Hint from '@/components/Book/Elements/Hint.vue'
 
 createApp(App)
   .component('Article', Article)
@@ -60,6 +64,11 @@ createApp(App)
   .component('FunFact', FunFact)
   .component('Bio', Bio)
   .component('Video', Video)
+
+  .component('Exercise', Exercise)
+  .component('Answer', Answer)
+  .component('Solution', Solution)
+  .component('Hint', Hint)
 
   .component('ic', FontAwesomeIcon)
   .use(i18n)
