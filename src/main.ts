@@ -36,6 +36,7 @@ import GridH from '@/components/Book/Elements/GridH.vue'
 import Column from '@/components/Book/Elements/Column.vue'
 import FunFact from '@/components/Book/Elements/FunFact.vue'
 import Bio from '@/components/Book/Elements/Bio.vue'
+import Video from '@/components/Book/Elements/Video.vue'
 
 createApp(App)
   .component('Article', Article)
@@ -58,6 +59,7 @@ createApp(App)
   .component('Column', Column)
   .component('FunFact', FunFact)
   .component('Bio', Bio)
+  .component('Video', Video)
 
   .component('ic', FontAwesomeIcon)
   .use(i18n)

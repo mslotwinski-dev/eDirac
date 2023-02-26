@@ -1,6 +1,13 @@
 <template>
   <Article>
     <Begin nr="2.4" advanced="0"> Tajemniczy świat kwantów </Begin>
+    <Section>
+      Fizyka kwantowa to naprawdę niesamowitą, ale przy tym bardzo trudną nauka.
+      Nie zdziw się gdy nie zrozumiesz wszystkiego, o czym mówię (sam nie
+      rozumiem wszystkiego o czym mówię, więc luz), ale mam nadzieję, że po tym
+      wszystkim przynajmniej minimalnie będziesz orientować się w jej
+      podstawowych zasadach.
+    </Section>
     <h3>Cząstki czy fale?</h3>
     <Section>
       Pod koniec XIX. wieku, panowało przekonanie, że fizyka jest już właściwie
@@ -54,6 +61,7 @@
     <Formula nr="2.X">\lambda = \frac{h}{p} = \frac{h}{mv} </Formula>
     <Section />
     <h3>Im więcej wiemy tym mniej wiemy</h3>
+
     <Section>
       Skoro mamy już długość fali fajnie byłoby znać cały jej wzór (tzw. funkcja
       falowa). Tu jednak robi się problem. To, co mamy do dyspozycji to dwa
@@ -72,7 +80,7 @@
       Nie da się go udowodnić lub póki co tego nie potrafimy, ale osobą, której
       się to udało, był Erwin Schrödinger, ten sam od paradoksu z kotem.
       Równanie to wygląda przerażająco, ale uwierz, że działa. Przedstawię ci je
-      w jednym wymiarze (x), żeby nie mącić jeszcze bardziej dla cząstki bez
+      w jednym wymiarze (x), żeby nie mącić jeszcze bardziej, dla cząstki bez
       energii potencjalnej. Jeśli się go boisz przejdź pod obrazek.
     </Section>
     <Formula nr="2.X">
@@ -82,8 +90,10 @@
       Okej, to wygląda przerażająco, ale nie załamuj się. To jest równanie z
       naprawdę wysokiej półki i jedynie poglądowo ci się postaram je
       wytłumaczyć. <M s="\psi" /> to oczywiście nasza szukana funkcja falowa.
-      Nie jest jednak podana wprost, a poprzez zmiany. Ignorując wszelkie stałe
-      fizyczne otrzymamy wniosek, że tempo wzorstu funkcji falowej w czasie jest
+      Nie jest jednak podana wprost, a poprzez zmiany. Stała
+      <M s="\hbar" /> jest nazywana zredukowaną stałą Plancka lub h kreślonym i
+      co do wartości równa <M s="h/2\pi" />. Ignorując wszelkie stałe fizyczne
+      otrzymamy wniosek, że tempo wzorstu funkcji falowej w czasie jest
       proporcjonalne do tempa wzrostu z tempa wzrostu funkcji falowej w
       przestrzeni (tak samo jak przyspieszenie to tempo wzrostu z tempa wzrostu
       drogi). Brzmi kosmicznie, ale mogliśmy się tego spodziewać po teorii
@@ -115,13 +125,117 @@
       pewnych trochę mniej (w zależności od prawdopodobieństwa znalezienia
       elektronu w danym miejscu).
     </Section>
+    <FunFact>
+      Chcąc rozumieć zasady fizyki kwantowej dosłownie dopóki nie odpakujesz
+      swojego prezentu w środku jest jednocześnie piłka, deskorolka, kredki,
+      milion dolarów i dokładna lokalizacja pobytu Jacka Jaworka. Dopiero
+      odpakowując prezent okazuje się co jest w środku.
+    </FunFact>
     <Section>
       Powtórzmy to jeszcze raz - cząstka nie ma określonego położenia zanim go
       nie zbadamy. Jest to tak zwana superpozycja - nie dowiesz się dopóki nie
       sprawdzisz, ale zanim to zrobisz będę wszędzie i nigdzie. Jedynym naszym
       zmartwieniem jest więc stopniowe badanie położeń cząstek naszego układu i
-      jesteśmy w domu. Prawda? Prawda...?
+      jesteśmy w domu. Prawda? Prawda, że jedynym...?
     </Section>
-    <Section> Otóż niestety nie. </Section>
+    <Section>
+      Otóż niestety nie. Nie tylko energia promieniowania jest podzielona na
+      porcje. Każda dawka energii (a ściślej działanie, ale póki co wszystko
+      upraszczam) jest podzielona na małe porcje. Dla nas ta dawka jest
+      niewyobrażalnie mała, ale dla małych cząstek będzie spora. Nie można
+      dokonać pomiaru bez ingerencji w obiekt, jednak im mniejsza skala tym
+      bardziej ta pozornie malutka dawka energii potrzebnej do pomiaru będzie
+      wydawać się większa. Próba zbadania przez nas stanu dowolnej cząstki
+      będzie jak próba zbadania truskawki za pomocą koparki. Chcąc nie chcąc po
+      tak solidnym pomiarze nasza truskawka nie będzie już taka jak wcześniej (o
+      ile cokolwiek prócz plamy po niej zostanie). Właśnie dlatego jedną z
+      najsmutniejszych dla nas informacji jest fakt, że
+      <b>każdy pomiar niszczy stan kwantowy</b>.
+    </Section>
+    <Section>
+      Zasada ta oznaczana jest zasadą nieoznczoności Heisenberga. Mówi ona, że
+      istnieją takie wielkości, których nie możemy poznać jednocześnie. Jakie są
+      to wielkości? W najprostszej postaci są to pęd (a więc i prędkość) i
+      położenie. Znając dokładnie pęd nie znamy położenia. Znając położenie nie
+      znamy pędu. Im bardziej dokładnie znamy jedno tym mniej dokładnie znamy
+      drugie. Oznaczając niepewność pomiarową położenia jako <M s="\Delta x" />,
+      natomiast pędu <M s="\Delta p" /> możemy się dowiedzieć jak te niepewności
+      są ze sobą powiązane.
+    </Section>
+    <Formula nr="2.X"> \Delta x \Delta p= \frac{\hbar}{2} </Formula>
+    <Section>
+      Teraz widzisz, że jeśli jedna niepewność dąży do zera to druga dąży do
+      nieskończoności. To o czym musisz wiedzieć to fakt, że ta niedokładność
+      nie jest wynikiem naszego aparatu pomiarowego. To, co sprawia, że
+      niemożliwe jest poznać wszystkie informacje o cząsteczce, to sama natura
+      cząsteczek. No dobrze, czyli podsumujmy, co wiemy. Cząstki mają swoje
+      właściwości, ale są bardzo ciężkie do zbadania. Po pierwsze nie jesteśmy w
+      stanie ich poznać w całości (pomiar prędkości ingeruje w położenie, a
+      pomiar położenia w prędkość etc.), gdyż pomiar jednej wielkości niszczy
+      drugą. Po drugie dopóki nie poznamy tej wielkości cząstka zachowuje się
+      tak jakby była wszędzie i nigdzie.
+    </Section>
+    <h3>Spin - król mechaniki kwantowej</h3>
+    <Section>
+      No dobrze, a teraz sobie zadajmy pewne pytanie. Wszysto spoko, nie
+      jesteśmy w stanie poznać stanu cząstki, jakoś to przetrawimy. Jednak to
+      tylko brak możliwości zbadania. Ona tak naprawdę gdzieś jest tylko nie
+      wiemy gdzie. Ta zasada była nazwana zmiennymi ukrytymi - cząstka je
+      posiada, ale o nich nie mówi. Do samej śmierci bronił jej Einstein i wiele
+      innych wielkich fizyków. Jest tylko jeden problem, cząstki nie mają
+      zmiennych ukrytych. Absurdu temu wszystkiemu dodaje fakt, że ona sama tego
+      nie wie. Zanim nie zbadamy położenia cząstki cząstka sama nie wie gdzie
+      jest. Zanim nie zbadamy spinu cząstka nie wie czy jest on zwrócony w górę
+      i w dół. Eksperymenty zrobiły z naszego potężnego elektronu przegrywa,
+      który nie ma pojęcia na co sie zdecydować do momentu, kiedy go do tego nie
+      zmuszą.
+    </Section>
+    <Section>
+      Właśnie, spin. Co to dokładnie jest? Każdy poważny wykład o fizyce musi
+      zawierać wtrącenie o tej tajemniczej właściwości. Zacznijmy od początku.
+      Spin to moment pędu cząsteczki. W uproszczeniu (skrajnym uproszczeniu)
+      można powiedzieć, że spin mówi o tym czy cząstka kręci się w górę czy w
+      dół. Spin jest zawsze wielokrotnością h kreślonego (jest więc wielkością
+      skwantowaną czyli podzieloną na porcje, a <M s="\hbar" /> określa się
+      mianem kwantu momentu pędu, bo jest jego minimalną porcją): 0,
+      <M s="\frac{1}{2} \hbar" />, <M s="\hbar" />, <M s="\frac{3}{2} \hbar" />,
+      <M s="2\hbar" />, <M s="\frac{5}{2} \hbar" /> etc. Cząstki o spinie
+      połówkowym np. <M s="\frac{1}{2} \hbar" /> to fermiony, natomiast o spinie
+      całkowitym np. <M s="2\hbar" /> to bozony. Po co ten podział? Otóż oba
+      mają bardzo ciekawe odmienne właściwości, o których się dowiesz za chwilę.
+    </Section>
+    <FunFact>
+      Pełen obrót cząstki nie zajmuje 360<M s="^\circ" />, a 720<M
+        s="^\circ"
+      />. Obracając ją o 360<M s="^\circ" /> otrzymamy cząstkę w stanie
+      przeciwnym do tego w jakim była na początku.
+    </FunFact>
+    <Section>
+      To czy spin jest dodatni czy ujemny tyczy się zwrotu jego momentu pędu.
+      Jednak jak wiemy obracać można się w trzech różnych wymiarach: prawo/lewo,
+      góra/dół oraz przód/tył lub bardziej matematycznie w kierunku osi x, y
+      oraz z. I jakkolwiek by nas to nie drażniło pan maruda "fizka kwantowa"
+      zabrania nam poznać jednocześnie więcej niż zwrot jednej składowej spinu.
+      Jeśli wiemy czy jest zwrócony w prawo i lewo to nie wiemy czy jest
+      zwrócony w górę czy w dół.
+    </Section>
+    <Section>
+      Ostatnie, co musisz wiedzieć to w czym tak mocno cząstki o połowicznym
+      spinie różnią się od cząstek o całkowitym. Fermiony cechuje to, że
+      nienawidzą siebie nawzajem. Jeśli jeden ma spin zwrócony w górę drugi musi
+      mieć zwrócony w dół. Jeśli pojawi się trzeci musi zwiększyć swoją energię,
+      żeby tylko się od nich odróżnić. One nigdy nie mogą przebywać w tym samym
+      stanie obok siebie. Zasada ta nazywa się zakazem Pauliego. Co natomiast z
+      bozonami? Bozony się wręcz kochają. Im więcej takich samych tym weselej, a
+      wręcz ich fale wzmacniają się nawzajem.
+    </Section>
+    <Section>
+      Znając podstawy spróbuj obejrzeć ten film. Widząc to wszystko na własne
+      oczy dowiesz się więcej niż przez tysiąc stron czytania (tak naprawdę nie
+      chce mi się wklejać miliona obrazków) i to będzie ostatnie, co powinineś
+      zrobić, aby w pełni móc się zachwycić tą niesamowitą dziedziną nauki.
+      Powodzenia.
+    </Section>
+    <Video src="https://www.youtube.com/embed/emvyvg8tzug" />
   </Article>
 </template>
