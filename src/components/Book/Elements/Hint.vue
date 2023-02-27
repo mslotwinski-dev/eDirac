@@ -1,16 +1,26 @@
 <template>
   <div>
     <div>
-      <div class="button-show hint"><ic icon="lightbulb" />Wskazówka</div>
+      <div class="button-show hint" @click="hide = !hide">
+        <ic icon="lightbulb" />Wskazówka
+      </div>
     </div>
-    <div :class="{ hide: true }">
-      <slot />
+    <div class="spoiler" :class="{ hide }">
+      <div>
+        <slot />
+      </div>
     </div>
   </div>
 </template>
 
-<style lang="scss" scoped>
-li {
-  // background: red;
-}
-</style>
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  data() {
+    return {
+      hide: true,
+    }
+  },
+})
+</script>
