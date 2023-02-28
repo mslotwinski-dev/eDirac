@@ -54,10 +54,10 @@
     border-radius: 7px;
     margin-bottom: 5px;
     max-height: 2000px;
-    transition: 0.2s all;
+    transition: 0.25s all;
 
     > div {
-      transition: 0.2s all;
+      transition: 0.25s all;
       padding: 5px 10px;
     }
 
@@ -65,6 +65,7 @@
       max-height: 0px;
       margin-bottom: 0;
       // font-size: 0px;
+      opacity: 0;
       > div {
         padding: 0 10px;
         transform: ScaleY(0%);
