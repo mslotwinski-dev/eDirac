@@ -9,8 +9,12 @@
 @import '@/styles/index.scss';
 
 .exercise {
-  padding: 5px 10px;
+  padding: 5px;
   margin-top: 10px;
+  text-align: justify;
+  .b {
+    margin-top: 10px;
+  }
   .button-show {
     svg {
       padding-right: 10px;
@@ -22,14 +26,17 @@
     border-radius: 5px;
     cursor: pointer;
 
+    width: 180px;
+
     font-size: 18px;
 
     @media (max-width: 1000px) {
-      font-size: 16px;
+      padding: 5px 7px;
+      margin: 3px 0;
+      font-size: 15px;
     }
 
     &.hint {
-      margin-top: 10px;
       background: #00647d40;
     }
 
@@ -63,6 +70,10 @@
         transform: ScaleY(0%);
       }
     }
+  }
+
+  .global-math-container {
+    max-width: 75vw;
   }
 }
 </style>

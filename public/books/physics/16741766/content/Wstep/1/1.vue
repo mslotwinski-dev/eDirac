@@ -281,23 +281,24 @@
       niebieskich - gwiazd i obiektów planetarnych. Jej szerszym odpowiednikiem
       jest <b>kosmologia</b>, która różni się tym, że bada właściwości
       wszechświata jako całości, nie konkretne obiekty, a także opisuje jego
-      pochodzenie i rozwój – od Wielkiego Wybuchu do jego wiecznej ekspansji.
-      Została ostatnia nauka o kosmosie, czyli <b>astrofizyka</b>, która
-      tłumaczy oddziaływania między obiektami i procesy, które sprawiają, że
-      wszechświat jest jaki jest. Istotnym, a tak naprawdę to najważniejszym
-      narzędziem astrofizyki jest <b>teoria grawitacji</b>. Istnieją w zasadzie
-      3 teorie pozwalające ją opisywać. Pierwsza to teoria grawitacji Newtona,
-      będąca pierwszą znaną teorią, jednak szybko okazała się zbyt ogólna.
-      Rewolucję przyniosła dopiero <b>ogólna teoria względności</b>, która
-      opisuje wszechświat jako czasoprzestrzeń naginaną przez masę różnych
-      obiektów. Jest stosowana do dziś, chociaż pojawiają się już dziś głosy
-      krytyki sugerujące, że nie jest to wystarczająca i ostateczna teoria,
-      jednak nie powstała lepsza. Nadzieję pokłada się w kwantowej teorii
-      grawitacji, zgodnie z którą grawitacja jest przenoszona przez cząstki
-      zwane grawitonami, jednak ich detekcja jest w praktyce niemożliwa ze
-      względu na niewyobrażalnie małą siłę tego oddziaływania (grawitacja jest
-      ponad 30 razy słabsza niż oddziaływanie elektromagnetyczne przenoszone
-      przez fotony).
+      strukturę, pochodzenie i rozwój – od Wielkiego Wybuchu do jego wiecznej
+      ekspansji. Została ostatnia nauka o kosmosie, czyli <b>astrofizyka</b>,
+      która tłumaczy oddziaływania między obiektami, ich budowę i procesy, które
+      sprawiają, że wszechświat jest jaki jest. Istotnym, a tak naprawdę to
+      najważniejszym narzędziem astrofizyki jest <b>teoria grawitacji</b>.
+      Istnieją w zasadzie 3 teorie pozwalające ją opisywać. Pierwsza to teoria
+      grawitacji Newtona, będąca pierwszą znaną teorią, jednak szybko okazała
+      się zbyt ogólna. Rewolucję przyniosła dopiero
+      <b>ogólna teoria względności</b>, która opisuje wszechświat jako
+      czasoprzestrzeń naginaną przez masę różnych obiektów. Jest stosowana do
+      dziś, chociaż pojawiają się już dziś głosy krytyki sugerujące, że nie jest
+      to wystarczająca i ostateczna teoria, jednak nie powstała lepsza. Nadzieję
+      pokłada się w kwantowej teorii grawitacji, zgodnie z którą grawitacja jest
+      przenoszona przez cząstki zwane grawitonami, jednak ich detekcja jest w
+      praktyce niemożliwa ze względu na niewyobrażalnie małą siłę tego
+      oddziaływania (grawitacja jest ponad <M s="10^{30}" /> razy słabsza
+      (kwintylion) niż oddziaływanie elektromagnetyczne przenoszone przez
+      fotony).
     </Section>
     <h3>Fizyka Techniczna</h3>
     <Section> *Work in progress* </Section>

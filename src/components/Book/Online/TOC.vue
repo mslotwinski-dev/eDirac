@@ -31,6 +31,10 @@
                         color: book.Color,
                       }"
                     >
+                      <ic
+                        v-if="subject[1].includes('/Z.vue')"
+                        icon="graduation-cap"
+                      />
                       {{
                         `${!subject[1].includes('/Z.vue') ? i + 1 + '.' : ''}${
                           !subject[1].includes('/Z.vue') ? k + 1 + '.' : ''

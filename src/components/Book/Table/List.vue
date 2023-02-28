@@ -18,11 +18,17 @@
             <li v-html="`${i + 1}. ${chapter.chapter}`" class="c" />
             <ol>
               <div v-for="(subject, k) in chapter.subjects" :key="subject">
-                <li
-                  @click="push(subject[1])"
-                  v-html="`${i + 1}.${k + 1}. ${subject[0]}`"
-                  class="s"
-                />
+                <li @click="push(subject[1])" class="s">
+                  <ic
+                    v-if="subject[1].includes('/Z.vue')"
+                    icon="graduation-cap"
+                  />
+                  {{
+                    `${!subject[1].includes('/Z.vue') ? i + 1 + '.' : ''}${
+                      !subject[1].includes('/Z.vue') ? k + 1 + '.' : ''
+                    } ${subject[0]}`
+                  }}
+                </li>
               </div>
             </ol>
           </div>
