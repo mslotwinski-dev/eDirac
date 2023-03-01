@@ -1,9 +1,50 @@
 <template>
-  <li class="exercise">
-    <div class="placeholder" />
-    <slot />
+  <li>
+    <div
+      class="exercise"
+      :class="{
+        hint: show == 1,
+        solution: show == 2,
+        answer: show == 3,
+        hh: !s.includes('h'),
+        hs: !s.includes('s'),
+        ha: !s.includes('a'),
+      }"
+    >
+      <slot />
+      <div class="container">
+        <div
+          v-for="(button, index) in [
+            ['hint', 'lightbulb'],
+            ['solution', 'feather-pointed'],
+            ['answer', 'eye'],
+          ]"
+          :key="index"
+          class="button-show"
+          :class="button[0]"
+          @click="show == index + 1 ? (show = 0) : (show = index + 1)"
+        >
+          <ic :icon="button[1]" />Wskazówka
+        </div>
+      </div>
+    </div>
   </li>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  props: {
+    s: String,
+  },
+  data() {
+    return {
+      show: 0,
+    }
+  },
+})
+</script>
 
 <style lang="scss">
 @import '@/styles/index.scss';
@@ -12,45 +53,20 @@
   padding: 5px;
   margin-top: 10px;
   text-align: justify;
+  display: flex;
+  flex-direction: column;
 
-  .hint {
-    .button-show {
-      background: #00647d40;
-    }
-    .abs {
-      z-index: 1;
-    }
-  }
-
-  .answer {
-    .button-show {
-      background: #a5003440;
-    }
-    .abs {
-      z-index: 2;
-    }
-  }
-
-  .solution {
-    .button-show {
-      background: #008d0040;
-    }
-    .abs {
-      z-index: 3;
-    }
-  }
-
-  .b {
+  .container {
     margin-top: 10px;
     @media (min-width: 1000px) {
       display: flex;
     }
   }
+
   .button-show {
     svg {
       padding-right: 10px;
     }
-    display: inline-block;
 
     margin: 5px;
     padding: 7px 10px;
@@ -70,44 +86,80 @@
     @media (min-width: 1000px) {
       margin-bottom: 10px;
     }
+
+    &.hint {
+      background: #00647d40;
+    }
+
+    &.solution {
+      background: #008d0040;
+    }
+
+    &.answer {
+      background: #a5003440;
+    }
   }
 
-  .spoiler {
-    position: static;
+  &.hh .hint,
+  &.hs .solution,
+  &.ha .answer {
+    display: none;
+  }
+
+  .hint-box,
+  .solution-box,
+  .answer-box {
     overflow: hidden;
-    border-radius: 7px;
-    margin-bottom: 5px;
-    max-height: 2000px;
     transition: 0.25s all;
-
-    .placeholder {
-      opacity: 0;
-      padding-top: 10px;
-      width: 180px;
-    }
-    .abs {
-      position: absolute;
-      padding: 10px;
-      margin-left: 5px;
-      left: 0;
-      border-radius: 5px;
-      width: 100%;
-    }
+    max-height: 0px;
+    transform: scaleY(0);
+    transform-origin: top;
+    opacity: 0;
   }
 
-  .hide {
-    .spoiler {
-      max-height: 0px;
-      margin-bottom: 0;
-      // font-size: 0px;
-      opacity: 0;
-      width: 180px;
-    }
+  &.hint .hint-box,
+  &.solution .solution-box,
+  &.answer .answer-box {
+    max-height: 2000px;
+    transform: scaleY(1);
+    opacity: 1;
   }
 
-  .static {
-    position: static;
+  .b {
+    order: 10;
+    background: theme(light);
+    padding: 10px;
+    border-radius: 5px;
   }
+
+  // .spoiler {
+  //   position: static;
+  //
+  //   border-radius: 7px;
+  //   margin-bottom: 5px;
+
+  //   .placeholder {
+  //     opacity: 0;
+  //     padding-top: 10px;
+  //     width: 180px;
+  //   }
+  //   .abs {
+  //     position: absolute;
+  //     padding: 10px;
+  //     margin-left: 5px;
+  //     left: 0;
+  //     width: 100%;
+  //   }
+  // }
+
+  // .hide {
+  //   .spoiler {
+  //     margin-bottom: 0;
+  //     // font-size: 0px;
+  //     opacity: 0;
+  //     width: 180px;
+  //   }
+  // }
 
   .global-math-container {
     margin: 5px 0;

@@ -1,18 +1,6 @@
 <template>
-  <div class="static hint" :class="{ hide }">
-    <div>
-      <div class="button-show" @click="hide = !hide">
-        <ic icon="lightbulb" />Wskazówka
-      </div>
-    </div>
-    <div class="spoiler">
-      <div class="abs">
-        <slot />
-      </div>
-      <div class="placeholder">
-        <slot />
-      </div>
-    </div>
+  <div class="hint-box">
+    <slot />
   </div>
 </template>
 

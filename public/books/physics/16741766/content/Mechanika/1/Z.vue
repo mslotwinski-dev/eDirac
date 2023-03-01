@@ -1,14 +1,16 @@
 <template>
   <Article>
     <ol>
-      <Exercise>
-        Przyspieszenie poprzeczne tolerowane przez człowieka bez specjalnego
-        kombinezonu w okresie czasu dłuższym niż 30 s jest równe 14 g
-        (przyspieszenie ziemskie). Na jak długim odcinku s będzie rozpędzać się
-        rakieta z takim przyspieszeniem a, aby mogła uzyskać pierwszą prędkość
-        kosmiczną v₁ = 7,8 km/s w obszarze Ziemi? Ile czasu będzie trwało
-        rozpędzanie się rakiety? Czy nasz człowiek przeżyje czy nie jesteśmy w
-        stanie osiągnąć tego w ciągu 30 sekund?
+      <Exercise s="sa">
+        <header>
+          Przyspieszenie poprzeczne tolerowane przez człowieka bez specjalnego
+          kombinezonu w okresie czasu dłuższym niż 30 s jest równe 14 g
+          (przyspieszenie ziemskie). Na jak długim odcinku s będzie rozpędzać
+          się rakieta z takim przyspieszeniem a, aby mogła uzyskać pierwszą
+          prędkość kosmiczną v₁ = 7,8 km/s w obszarze Ziemi? Ile czasu będzie
+          trwało rozpędzanie się rakiety? Czy nasz człowiek przeżyje czy nie
+          jesteśmy w stanie osiągnąć tego w ciągu 30 sekund?
+        </header>
         <div class="b">
           <Solution>
             Ze wzoru (3.10) otrzymujemy
@@ -26,11 +28,13 @@
         </div>
       </Exercise>
 
-      <Exercise>
-        Ciało porusza się cały czas z przyspieszeniem a = g. Po jakim czasie
-        osiągnęłoby - według (fałszywej) zależności mechaniki klasycznej –
-        prędkość światła c i jaką drogę s przebyłoby w tym czasie? Wyraź
-        wielkość s w latach świetlnych (inaczej byłoby ciężko).
+      <Exercise s="hsa">
+        <header>
+          Ciało porusza się cały czas z przyspieszeniem a = g. Po jakim czasie
+          osiągnęłoby - według (fałszywej) zależności mechaniki klasycznej –
+          prędkość światła c i jaką drogę s przebyłoby w tym czasie? Wyraź
+          wielkość s w latach świetlnych (inaczej byłoby ciężko).
+        </header>
         <div class="b">
           <Hint> s (lata świetlne) = t (lata) • c (światło) </Hint>
           <Solution>
@@ -46,11 +50,14 @@
           <Answer> t = 0,95 lat, s = 0,485 ly </Answer>
         </div>
       </Exercise>
-      <Exercise>
-        Dwie jednakowe kulki wyrzucono do góry jedna za drugą, z jednakową
-        prędkością początkową <M s="v_0" /> = 20 m/s. O ile później należy
-        wyrzucić drugą kulkę, aby spotkały się one na wysokości h równej 1/n
-        wysokości maksymalnej.
+
+      <Exercise s="sa">
+        <header>
+          Dwie jednakowe kulki wyrzucono do góry jedna za drugą, z jednakową
+          prędkością początkową <M s="v_0" /> = 20 m/s. O ile później należy
+          wyrzucić drugą kulkę, aby spotkały się one na wysokości h równej 1/n
+          wysokości maksymalnej.
+        </header>
         <div class="b">
           <Solution>
             Szczerze to na początku mnie poskładało jak to pierwszy raz
@@ -104,12 +111,6 @@
           </Answer>
         </div>
       </Exercise>
-      <!-- 
-      <Exercise>Bob waży 3 kg.</Exercise>
-      <Exercise>Bob waży 3 kg.</Exercise>
-      <Exercise>Bob waży 3 kg.</Exercise>
-      <Exercise>Bob waży 3 kg.</Exercise>
-      <Exercise>Bob waży 3 kg.</Exercise> -->
     </ol>
   </Article>
 </template>
