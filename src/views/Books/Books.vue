@@ -9,8 +9,9 @@
       <b v-html="$t(`sciences.data.${id}.full_title`)" /> –
       <span v-html="$t(`sciences.data.${id}.def`)" />
     </div>
-    <Short :key="key" :sortedBooks="sortedBooks" :category="category" />
+    <Short :key="key" :sortedBooks="sortedBooks" :category="category" />4
     <Books :key="key" :sortedBooks="sortedBooks" :category="category" />
+    <Ad />
   </div>
 </template>
 
@@ -24,12 +25,14 @@ import { toCapitalCase } from '@/scripts/helpers/strings'
 import SmallHero from '@/components/Shared/SmallHero.vue'
 import Short from '@/components/Books/Pick/Book/Short/Index.vue'
 import Books from '@/components/Books/Pick/Book/Books.vue'
+import Ad from '@/components/Shared/Ads/VerticalSmall.vue'
 
 export default defineComponent({
   components: {
     SmallHero,
     Short,
     Books,
+    Ad,
   },
   data() {
     return {

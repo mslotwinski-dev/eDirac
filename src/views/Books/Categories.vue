@@ -1,8 +1,10 @@
 <template>
   <div class="flex">
     <div class="moved" />
+    <!-- <Ad /> -->
     <!-- <Hero img="pages/formulas/hero.jpg" :subtitle="$t('formulas.index.hero')" /> -->
     <Categories />
+    <Ad />
   </div>
 </template>
 
@@ -11,11 +13,13 @@ import { defineComponent } from 'vue'
 
 // import Hero from '@/components/Shared/Hero.vue'
 import Categories from '@/components/Books/Pick/Category/Categories.vue'
+import Ad from '@/components/Shared/Ads/VerticalSmall.vue'
 
 export default defineComponent({
   components: {
     // Hero,
     Categories,
+    Ad,
   },
   methods: {},
   mounted() {

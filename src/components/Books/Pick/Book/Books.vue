@@ -20,7 +20,6 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-
 import { Book, Category } from '@/data/types/book'
 
 import BookItem from './Book.vue'

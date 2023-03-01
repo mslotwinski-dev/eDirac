@@ -90,10 +90,19 @@ li {
     text-transform: uppercase;
     font-size: 27px;
     margin: 10px 0;
+    @media (max-width: 1000px) {
+      font-size: 23px;
+      margin: 8px 0;
+    }
   }
   &.c {
     font-size: 19px;
+
     margin: 2px 0;
+
+    @media (max-width: 1000px) {
+      font-size: 17px;
+    }
   }
   &.s {
     font-size: 16px;
@@ -117,11 +126,18 @@ li {
     &:hover:after {
       opacity: 1;
     }
+
+    @media (max-width: 1000px) {
+      font-size: 15px;
+    }
   }
 }
 
 .intro {
   margin: 2px 10px !important;
   font-size: 20px !important;
+  @media (max-width: 1000px) {
+    font-size: 17px !important;
+  }
 }
 </style>

@@ -1,4 +1,5 @@
 <template>
+  <Ad />
   <div class="container">
     <nav v-if="toc && Object.keys(toc).length > 0">
       <List :toc="toc" :color="book.Color" :ID="book.ID" />
@@ -23,6 +24,8 @@ import * as CategoriesModule from '@/data/books/categories'
 import List from './List.vue'
 import { romanize } from '@/scripts/canvas/roman'
 
+import Ad from '@/components/Shared/Ads/VerticalSmall.vue'
+
 export default defineComponent({
   data() {
     return {
@@ -32,7 +35,7 @@ export default defineComponent({
       key: 0,
     }
   },
-  components: { List },
+  components: { List, Ad },
   methods: { romanize },
   mounted() {
     const books = Object.values({ ...CategoriesModule })

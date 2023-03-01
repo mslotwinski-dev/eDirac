@@ -1,5 +1,6 @@
 <template>
   <Header :book="book" />
+  <Ad />
   <div class="content">
     <Nav :book="book" />
     <Content :book="book" />
@@ -14,6 +15,8 @@ import Header from './Header.vue'
 import Nav from './Nav.vue'
 import Content from './Content.vue'
 
+import Ad from '@/components/Shared/Ads/VerticalSmall.vue'
+
 export default defineComponent({
   props: {
     book: Object as () => Book,
@@ -22,6 +25,7 @@ export default defineComponent({
     Header,
     Nav,
     Content,
+    Ad,
   },
 })
 </script>

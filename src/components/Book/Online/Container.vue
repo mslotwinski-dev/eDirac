@@ -74,6 +74,9 @@ section {
   margin: 12px;
   margin-top: 30px;
   width: 825px;
+  @media (max-width: 1000px) {
+    margin-top: 10px;
+  }
 }
 
 .err {
