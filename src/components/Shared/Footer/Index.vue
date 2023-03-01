@@ -10,7 +10,7 @@
           <Social :key="media" v-for="media in socialMedia" :media="media" />
         </div>
         <div class="pages">
-          <router-link to="/">Regulamin</router-link>
+          <router-link to="/rules">Regulamin</router-link>
           <router-link to="/">Prywatność</router-link>
         </div>
       </div>

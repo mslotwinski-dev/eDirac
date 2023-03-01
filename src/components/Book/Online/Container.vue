@@ -1,5 +1,6 @@
 <template>
   <section>
+    <Ad />
     <Content v-if="render" :render="render" />
     <Loading v-if="!render && !error" />
     <Center class="err" v-if="error">
@@ -18,6 +19,7 @@ import axios from 'axios'
 import { Book } from '@/data/types/book'
 import Content from '../Online/Content.vue'
 import Loading from './Loading.vue'
+import Ad from '@/components/Shared/Ads/VerticalSmall.vue'
 
 export default defineComponent({
   props: {
@@ -40,6 +42,7 @@ export default defineComponent({
   components: {
     Content,
     Loading,
+    Ad,
   },
   async mounted() {
     try {
