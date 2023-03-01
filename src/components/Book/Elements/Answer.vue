@@ -1,12 +1,15 @@
 <template>
-  <div>
+  <div class="static answer" :class="{ hide }">
     <div>
-      <div class="button-show answer" @click="hide = !hide">
+      <div class="button-show" @click="hide = !hide">
         <ic icon="eye" />Odpowiedź
       </div>
     </div>
-    <div class="spoiler" :class="{ hide }">
-      <div>
+    <div class="spoiler">
+      <div class="abs">
+        <slot />
+      </div>
+      <div class="placeholder">
         <slot />
       </div>
     </div>
