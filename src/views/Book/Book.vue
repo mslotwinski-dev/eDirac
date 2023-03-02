@@ -2,16 +2,19 @@
   <div>
     <div class="moved" />
     <Online />
+    <Ad />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import Online from '@/components/Book/Online/Index.vue'
+import Ad from '@/components/Shared/Ads/VerticalBig.vue'
 
 export default defineComponent({
   components: {
     Online,
+    Ad,
   },
 })
 </script>

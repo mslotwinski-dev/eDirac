@@ -376,7 +376,7 @@
       do czynienia z dwoma cząstkami każda z nich ma do dyspozycji 36 stanów, a
       więc widzimy łącznie <M s="\Omega" /> jest równa 1 296 (<M s="36^2" />).
       Jak widzisz te liczby bardzo szybko stają się gigantyczne, co pokazuje, że
-      coraz trudniej osiągnąć porządek . Entropię otrzymujemy licząc logarytm
+      coraz trudniej osiągnąć porządek. Entropię otrzymujemy licząc logarytm
       naturalny ze wszystkich możliwych stanów (logarytm o podstawie e = 2,72) i
       mnożąc przez znaną nam już stałą Boltzmanna.
     </Section>

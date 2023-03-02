@@ -9,7 +9,7 @@
       <b v-html="$t(`sciences.data.${id}.full_title`)" /> –
       <span v-html="$t(`sciences.data.${id}.def`)" />
     </div>
-    <Short :key="key" :sortedBooks="sortedBooks" :category="category" />4
+    <Short :key="key" :sortedBooks="sortedBooks" :category="category" />
     <Books :key="key" :sortedBooks="sortedBooks" :category="category" />
     <Ad />
   </div>

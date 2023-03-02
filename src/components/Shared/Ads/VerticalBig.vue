@@ -25,6 +25,9 @@ export default defineComponent({
 ins {
   width: 100%;
   max-width: 1000px;
-  height: 100px;
+  height: 300px;
+  @media (max-width: 1000px) {
+    height: 200px;
+  }
 }
 </style>

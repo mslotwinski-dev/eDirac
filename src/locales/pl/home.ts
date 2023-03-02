@@ -1,4 +1,6 @@
 export default {
+  slogan: 'Bo od ciekawości wszystko się zaczęło',
+
   main: {
     header: 'Wiedza dostępna jak nigdy dotąd',
     desc: 'eDirac to projekt non-profit, który ma na celu zwiększenie dostępności edukacji i utworzenie w pełni darmowych kompleksowych źródeł wiedzy. Przyświeca nam idea, że każdy niezależnie od pochodzenia i zamożności ma pełne prawo do nauki, a naszym celem jest zapewnienie wszystkim ludziom równości szans na godne życie.',

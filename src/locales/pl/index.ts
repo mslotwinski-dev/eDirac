@@ -6,6 +6,7 @@ import sciences from './sciences'
 import tables from './tables'
 import pages from './pages'
 import errors from './errors'
+import info from './info'
 
 export default {
   main,
@@ -16,4 +17,5 @@ export default {
   tables,
   pages,
   errors,
+  info,
 }

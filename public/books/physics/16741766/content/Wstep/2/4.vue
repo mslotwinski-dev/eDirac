@@ -84,7 +84,7 @@
       energii potencjalnej. Jeśli się go boisz przejdź pod obrazek.
     </Section>
     <Formula nr="2.X">
-      i \hbar \frac{d}{dt} \psi = -\frac{\hbar}{2m} \frac{d^2}{dx^2} \psi
+      i \hbar \frac{d}{dt} \psi = -\frac{\hbar^2}{2m} \frac{d^2}{dx^2} \psi
     </Formula>
     <Section>
       Okej, to wygląda przerażająco, ale nie załamuj się. To jest równanie z
@@ -94,10 +94,10 @@
       <M s="\hbar" /> jest nazywana zredukowaną stałą Plancka lub h kreślonym i
       co do wartości równa <M s="h/2\pi" />. Ignorując wszelkie stałe fizyczne
       otrzymamy wniosek, że tempo wzorstu funkcji falowej w czasie jest
-      proporcjonalne do tempa wzrostu z tempa wzrostu funkcji falowej w
-      przestrzeni (tak samo jak przyspieszenie to tempo wzrostu z tempa wzrostu
-      drogi). Brzmi kosmicznie, ale mogliśmy się tego spodziewać po teorii
-      opisującej tak kosmiczne rzeczy jak świat mikroskopowych cząstek.
+      proporcjonalne do przyspieszenia (tempa wzrostu z tempa wzrostu) wzrostu
+      funkcji falowej w przestrzeni. Brzmi kosmicznie, ale mogliśmy się tego
+      spodziewać po teorii opisującej tak kosmiczne rzeczy jak świat
+      mikroskopowych cząstek.
     </Section>
     <Image src="wstep/9.gif">
       Tak wyglada obliczona z równania Schrödingera funkcja falowa podróżującego

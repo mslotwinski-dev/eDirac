@@ -3,7 +3,7 @@
     <div class="box">
       <img src="@/assets/icons/logo/logo.svg" />
       <div class="data">
-        <div class="title">eDirac</div>
+        <div class="title"><span>e</span>Dirac</div>
         <div class="subtitle">Foundation</div>
       </div>
     </div>
@@ -26,6 +26,7 @@ export default defineComponent({})
   padding: 10px;
   img {
     filter: brightness(0.15);
+
     height: 150px;
     @media (max-width: 1000px) {
       height: 90px;
@@ -38,7 +39,9 @@ export default defineComponent({})
   font-weight: 700;
   line-height: 42px;
   top: 10px;
+  padding: 10px;
   .title {
+    font-family: 'Pacifico';
     font-size: 60px;
     text-transform: uppercase;
     @media (max-width: 1000px) {
@@ -51,6 +54,11 @@ export default defineComponent({})
     @media (max-width: 1000px) {
       font-size: 27px;
     }
+  }
+
+  span {
+    color: theme(main);
+    text-transform: lowercase;
   }
 }
 </style>
