@@ -83,22 +83,48 @@
     <Section>
       Nie jest zagadką, że im ciało szybsze i im ciało cięższe to trudniej je
       zatrzymać. Fizycy też nie kombinowali, pomnożyli te dwie wielkości i
-      nazwali pędem. Z fizycznego punktu widzenia jest niesamowicie ciekawa, a o samym pędzie jeszcze niejednokrotnie usłyszysz.
+      nazwali pędem. Z fizycznego punktu widzenia jest niesamowicie ciekawa, a o
+      samym pędzie jeszcze niejednokrotnie usłyszysz.
     </Section>
     <Formula nr="2.2">\vec p = m \vec v</Formula>
     <Section>
-    Jak widzisz jego postać jest bardzo analogiczna do siły, różni się tylko tym, że po w jednym mamy prędkość, a w drugim zmianę prędkości w czasie. Kilka przekształceń matematycznych pozwala nam połączyć te wielkości tworząc alternatywną formę drugiej dynamiki.
+      Jak widzisz jego postać jest bardzo analogiczna do siły, różni się tylko
+      tym, że po w jednym mamy prędkość, a w drugim zmianę prędkości w czasie.
+      Kilka przekształceń matematycznych pozwala nam połączyć te wielkości
+      tworząc alternatywną formę drugiej dynamiki.
     </Section>
     <Formula nr="2.3">\vec p = \vec F \cdot t </Formula>
-    <Section>To, co cechuje pęd to fakt, że jest wielkością zachowaną. Nie da się go wytworzyć i zniszczyć, można go tylko przetransformować. Oprócz tego jest jeszcze jedna wielkość o której póki co musisz wiedzieć, która jest zachowana, a jest to energia.</Section>
-    <Section>Nie mamy tak naprawdę dobrej definicji energii. Energia to jest coś, co ciało ma, a im więcej ma energii tym większą pracę jest w stanie wykonać. Energia to wedle jednej z wielu definicji zdolność do wykonania pracy. Pracę oznaczamy za pomocą W i jest równa iloczynowi siły i drogi na której działa.</Section>
+    <Section>
+      To, co cechuje pęd to fakt, że jest wielkością zachowaną. Nie da się go
+      wytworzyć i zniszczyć, można go tylko przetransformować. Oprócz tego jest
+      jeszcze jedna wielkość o której póki co musisz wiedzieć, która jest
+      zachowana, a jest to energia.
+    </Section>
+    <Section>
+      Nie mamy tak naprawdę dobrej definicji energii. Energia to jest coś, co
+      ciało ma, a im więcej ma energii tym większą pracę jest w stanie wykonać.
+      Energia to wedle jednej z wielu definicji zdolność do wykonania pracy.
+      Pracę oznaczamy za pomocą W i jest równa iloczynowi siły i drogi na której
+      działa.
+    </Section>
     <Formula nr="2.4">W = F \cdot s </Formula>
     <Section>
-    Sama energia ma natomiast wiele postaci. Dla nas póki co będzie istotna energia kinetyczna i potencjalna. Energia kinetyczna jest związana z ruchem i jej przejawem jest fakt, że kiedy uderzy w ciebie rozpędzony tir raczej nie będzie co zbierać z ciebie i twojego samochodu. Jego energia kinetyczna zostanie przekształcona w pracę, która powoduje zgniecienie twojego samochodu. Liczbowo wyraża się to poprzez następujący wzór: 
+      Sama energia ma natomiast wiele postaci. Dla nas póki co będzie istotna
+      energia kinetyczna i potencjalna. Energia kinetyczna jest związana z
+      ruchem i jej przejawem jest fakt, że kiedy uderzy w ciebie rozpędzony tir
+      raczej nie będzie co zbierać z ciebie i twojego samochodu. Jego energia
+      kinetyczna zostanie przekształcona w pracę, która powoduje zgniecienie
+      twojego samochodu. Liczbowo wyraża się to poprzez następujący wzór:
     </Section>
     <Formula nr="2.5">E = \frac{1}{2} mv^2 </Formula>
-    <Section>Energia potencjalna jest najbardziej skomplikowana i związana jest z otoczeniem. Energii potencjalnej nabywa się w polach grawitacyjncych (-Gmm/r), polach elektrycznych (kQq/r) czy poprzez naciągnięcie sprężyny (1/2kx²). Wzór -GMm/r w warunkach ziemskich można przybliżyć, co nam absolutnie wystarczy do rachunków otrzymując użyteczny dla nas wzór na energię kinetyczną grawitacji.</Section>
-    <Formula nr="2.5">E = mgh </Formula>
-    
+    <Section>
+      Energia potencjalna jest najbardziej skomplikowana i związana jest z
+      otoczeniem. Energii potencjalnej nabywa się w polach grawitacyjncych
+      (-Gmm/r), polach elektrycznych (kQq/r) czy poprzez naciągnięcie sprężyny
+      (1/2kx²). Wzór -GMm/r w warunkach ziemskich można przybliżyć, co nam
+      absolutnie wystarczy do rachunków otrzymując użyteczny dla nas wzór na
+      energię kinetyczną grawitacji.
+    </Section>
+    <Formula nr="2.6">E = mgh </Formula>
   </Article>
 </template>
