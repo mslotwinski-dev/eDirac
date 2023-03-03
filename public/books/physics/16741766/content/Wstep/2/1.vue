@@ -93,7 +93,7 @@
       Kilka przekształceń matematycznych pozwala nam połączyć te wielkości
       tworząc alternatywną formę drugiej dynamiki.
     </Section>
-    <Formula nr="2.3">\vec p = \vec F \cdot t </Formula>
+    <Formula nr="2.3">\vec p = \vec F t </Formula>
     <Section>
       To, co cechuje pęd to fakt, że jest wielkością zachowaną. Nie da się go
       wytworzyć i zniszczyć, można go tylko przetransformować. Oprócz tego jest
@@ -107,7 +107,7 @@
       Pracę oznaczamy za pomocą W i jest równa iloczynowi siły i drogi na której
       działa.
     </Section>
-    <Formula nr="2.4">W = F \cdot s </Formula>
+    <Formula nr="2.4">W = F s </Formula>
     <Section>
       Sama energia ma natomiast wiele postaci. Dla nas póki co będzie istotna
       energia kinetyczna i potencjalna. Energia kinetyczna jest związana z
@@ -126,5 +126,67 @@
       energię kinetyczną grawitacji.
     </Section>
     <Formula nr="2.6">E = mgh </Formula>
+    <Section />
+    <h3>Działanie</h3>
+    <Section>
+      Teraz dowiesz się o czymś, czego nie dowiedziałbyś się nigdzie indziej na
+      żadnych studiach innych niż fizyka, jednak jest to na tyle ciekawe, że
+      powinieneś o tym wiedzieć. Fizycy jak dobrze wiesz mają obsesję na punkcie
+      wielkości stałych i zachowanych. Energia czy pęd to tylko niektóre, które
+      się nie zmieniają. Ale jako, że my jesteśmy upierdliwi i nie słuchamy się
+      reguł zróbmy coś całkiem na odwrót - odejmijmy od siebie energię
+      kinetyczną i potencjalną.
+    </Section>
+    <Formula nr="2.7">\mathcal L = \frac{1}{2}mv^2 - mgh </Formula>
+    <Section>
+      Ta wielkość nazywa się lagranżjanem. Teraz zróbmy wykres
+      <M s="\mathcal L (t)" /> pokazujący jak nasza wielkość zmienia się w
+      czasie i policzmy polę pod tym wykresem od początku do końca ruchu.
+    </Section>
+    <Image src="wstep/11.png"><M s="\mathcal L (t)" /> i pole pod nim</Image>
+    <Section>
+      Otrzymane pole to całkiem nowa fizyczna wielkość, którą nazywamy
+      działaniem. W czym ona jest tak magiczna? Okazuje się, że poruszający się
+      układ zawsze, ale to zawsze wybiera taką drogę dla której działanie jest
+      najmniejsze. Nosi to nazwę zasadą najmniejszego działania. Dlaczego tak
+      się dzieje? Nikt nie ma pojęcia. Mimo to okazuje się, że jest to
+      najważniejsza zasada w całej fizyce i z tej jednej reguły jesteśmy w
+      stanie wyprowadzić praktycznie każdy wzór w fizyce. Możemy podejrzewać, że
+      jedynym, co dla natury jest wysiłkiem jest zamiana energii kinetycznej w
+      potencjalną, dlatego każdy obiekt dąży do tego, aby ich różnica była
+      minimalna.
+    </Section>
+    <Image src="wstep/12.png">
+      Ze wszystkich trajektorii każdy obiekt zawsze wybierze tą, dla której
+      działanie jest minimalne. Jest to zasada najmniejszego działania.
+    </Image>
+    <Section>
+      No dobrze, ale jak to osiągnąć? Doprowadzenie naszego pola pod wykresem do
+      minimum to zagadnienie ściśle matematyczne i na nasze szczęście istnieje
+      dział matematyki, który się wyspecjalizował w tym jednym konkretnym
+      zadaniu. Nazywa się on rachunek wariacyjny. Aby dostać trajektorię dla
+      której działanie jest minimalne musimy rozwiązać równanie
+      Eulera-Lagrange'a. Samo równanie zawiera w sobie jednak pochodne, a nasza
+      trajektoria będzie zadana równaniem różniczkowym, które należy później
+      rozwiązać. Z tego względu jest to zagadnienie nieco bardziej skomplikowane
+      i matematycznie stanie się dla ciebie osiągalne dopiero na studiach,
+      jednakże mimo wszystko warto jest je poznać. Wzór ten wygląda tak.
+    </Section>
+    <Math>
+      \frac{d}{dt} \bigg( \frac{\partial \mathcal L}{\partial \dot x} \bigg) -
+      \frac{\partial \mathcal L}{\partial x} = 0
+    </Math>
+    <h3>Płyny</h3>
+    <Section>
+      Prawa mechaniki pozwoliły na opis nie tylko sztywnych obiektów, ale
+      również płynów. Niestety masa czy siła przestają tu być jakkolwiek
+      użyteczne. Potrzebujemy całkiem odmiennych wielkości, aby radzić sobie z
+      płynami. Pierwszą z nich będzie gęstość i definiujemy ją poprzez stosunek
+      masy płynu do jego objętości.
+    </Section>
+    <Formula nr="2.8">\varrho = \frac{m}{V}</Formula>
+    <Section></Section>
+    <h3>Sprężystość i drgania</h3>
+    <h3>Fale i dźwięk</h3>
   </Article>
 </template>
