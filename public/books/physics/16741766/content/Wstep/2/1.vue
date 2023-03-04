@@ -11,8 +11,9 @@
       było zbyt nudne. Podstaram się więc nakreślić ci szkic tej prawdziwej
       fizyki. Fizyki, która nie ma uczyć cię obliczeń, a ma pozwolić ci poznać
       świat. Dowiesz się czym naprawdę jest to, co cię otacza. Nawet jeśli będą
-      to informacje w 90% uproszczone pozwolą Ci chociaż w małym stopniu
-      zachwycić się pięknem naszego świata i jego działaniem.
+      to informacje w 90% uproszczone i nieścisłe, a wzory często nie do końca
+      prawidłowe pozwolą Ci chociaż w małym stopniu zachwycić się pięknem
+      naszego świata i jego działaniem.
     </Section>
     <Section>
       Ten temat będzie stanowił najszybsze jak to tylko możliwe podsumowanie
@@ -238,8 +239,8 @@
       tak:
     </Section>
     <Math>
-      \varrho \bigg( \frac{\partial \vec v }{\partial t} + \vec v
-      (\bigtriangledown \cdot \vec v) \bigg) = \varrho g - \bigtriangledown p
+      \varrho \bigg( \frac{\partial \vec v }{\partial t} + \vec v (
+      \bigtriangledown \cdot \vec v ) \bigg) = \varrho g - \bigtriangledown p
     </Math>
     <Section>
       Teraz spróbujmy je zrozumieć. Prędkość płynu płynu zależy od dwóch
@@ -252,6 +253,16 @@
       po prawej? Iloczyn gęstości i przyspieszenia grawitacyjnego od którego
       odejmujemy zmianę ciśnienia w przestrzeni.
     </Section>
+    <Section>
+      Dla lepszego zrozumienia rozpiszmy sobie dokładnie to, co mamy po lewej
+      stronie.
+    </Section>
+    <Math>
+      \frac{\partial \vec v }{\partial t} + ( \vec v \cdot \bigtriangledown )
+      \vec v = \frac{\partial \vec v }{\partial t} + v_x \frac{\partial \vec v
+      }{\partial x} + x_y \frac{\partial \vec v }{\partial y} + v_z
+      \frac{\partial \vec v }{\partial z}
+    </Math>
     <Section>
       Wniosek jest taki, zmiana prędkości (zarówno ta w czasie jak i
       przestrzeni) jest proporcjonalna do gęstości płynu i zmian ciśnienia. Nie
@@ -276,8 +287,9 @@
       Naviera-Stokesa.
     </Section>
     <Math>
-      \varrho \bigg( \frac{\partial v }{\partial t} + v (\bigtriangledown \cdot
-      v) \bigg) = \varrho g - \bigtriangledown p + \mu \bigtriangleup v
+      \varrho \bigg( \frac{\partial \vec v }{\partial t} + \vec v (
+      \bigtriangledown \cdot \vec v ) \bigg) = \varrho g - \bigtriangledown p +
+      \mu \bigtriangleup v
     </Math>
     <Section>
       Lepkość jest oznaczona jako <M s="\mu" />, natomiast symbol
@@ -305,10 +317,111 @@
     </FunFact>
     <Section />
     <h3>Sprężystość i drgania</h3>
-    <Section
-      >Skoro już zajęliśmy się płynami to dlaczego nie wykorzystać zasad
-      mechaniki do opisu
+    <Section>
+      Skoro już zajęliśmy się płynami to dlaczego nie wykorzystać zasad
+      mechaniki do opisu materiałów i ogólnie rzecz biorąc ciał stałych?
+      Materiałami zajmiemy się na poważnie gdy dowiemy się więcej o fizyce
+      kwantowej, termodynamice i elektrodynamice. Póki co zajmiemy się jedynie
+      ich mechaniką.
     </Section>
+    <Section>
+      Pierwszym, co nasuwa nam się na myśl, kiedy myślimy o badaniu ciał stałych
+      są odkształcenia i naprężenia. Wydaje się nam, że są ze sobą
+      nierozerwalnie związane. W końcu im większe naprężenie pręta tym bardziej
+      się rozciąga. Intuicja ta wcale nie jest błędna, a prawo to nazywa się
+      prawem Hooke'a.
+    </Section>
+    <Formula nr="2.9">\sigma = E \cdot \varepsilon</Formula>
+    <Section>
+      Spoko, a teraz co jest czym. Naprężenie zależy od siły i pola przekroju
+      pręta, który rozciągamy. Jest więc niczym innym jak ciśnieniem, jakie
+      działa na pręt, po prostu inaczej się nazywa. Grecka literka oznacza
+      odkształcenie i nie ma ono jednostki. Odkształcenie 0.1 oznacza, że pręt
+      rozciągnął się o 10%, odkształcenie 0.5 o 50%, a odkształcenie 1 oznacza,
+      że pręt wydłużył się dwukrotnie (zwiększył długość o 100%). Współczynnik
+      oznaczony E nosi nazwę modułu Younga i mówi nam o tym jak bardzo ciało
+      jest podatne na odkształcenia.
+    </Section>
+    <Section>
+      Prawo to jest spełnione dlatego, że niektóre obiekty mają właściwość,
+      zwaną sprężystością. Nie pozwala ona na zmienianie ich kształtu. Im
+      bardziej ciało wyginamy tym większa siła próbuje doprowadzić nasz pręt do
+      stanu początkowego. Siła ta zwana jest siłą sprężystości. Trochę
+      matematyki pozwala nam dotrzeć do wzoru w następującej postaci.
+    </Section>
+    <Formula nr="2.9">\vec F = -k \vec x </Formula>
+    <Section>
+      Gdzie x to wychylenie sprężyny, natomiast k to jej współczynnik
+      sprężystości. Minus we wzorze oznacza, że siła sprężystości ma zwrot
+      przeciwny do zwrotu wektora wydłużenia (lub skrócenia) sprężyny.
+    </Section>
+    <Section>
+      Teraz zrobi się trochę trudniej. Naprężenia bowiem mogą nie tylko
+      rozciągać pręt, ale też go zginać. Potrzebujemy więc dwie informacje o
+      danym naprężeniu. Po pierwsze na jaką oś działamy, a po drugie w którą
+      stronę ją wyginamy. Zobrazuje ci to ten rysunek.
+    </Section>
+    <Image src="wstep/13.png" />
+    <Section>
+      Jak łatwo się domyślisz musimy wprowadzić 9 składowych naprężeń.
+      Naprężenia <M s="\sigma_{xx}" />, <M s="\sigma_{yy}" /> i
+      <M s="\sigma_{zz}" /> będą odpowiadać za rozciąganie i ściskanie,
+      natomiast pozostałe za zginanie. Otrzymany obiekt nie będzie więc
+      wektorem, a czymś, co nazywamy macierzą lub tensorem. Dla porównania obok
+      pokazałem pokazałem ci strukurę wielkości tensorowej (naprężenie),
+      wektorowej (prędkość) i skalarnej / liczbowej (gęstość).
+    </Section>
+    <Math>
+      \sigma = \begin{bmatrix} \sigma_{xx} \quad \sigma_{yx} \quad \sigma_{zx}
+      \\ \sigma_{xy} \quad \sigma_{yy} \quad \sigma_{zy} \\ \sigma_{xz}\quad
+      \sigma_{yz} \quad \sigma_{zz} \\ \end{bmatrix} \qquad v = \begin{bmatrix}
+      v_x \\ v_y \\ v_z \end{bmatrix} \qquad \varrho = [ \varrho ]
+    </Math>
+
+    <Section>
+      Co się jednak dzieje gdy puścimy naciągniętą sprężyne? Zauważymy, że
+      wykonuje ona ruch, jednak nie byle jaki - sprężyna wykonuje drgania.
+      Drgania mają to do siebie, że nasz obiekt będzie skakał od minimum do
+      maksimum i z powrotem. Doskonale więc do opisu jego ruchu nada się funkcja
+      sinus.
+    </Section>
+    <Formula nr="2.10">
+      x(t) = A \ sin (\omega t) \\ v(t) = A \omega \ cos (\omega t) \\ a(t) = -A
+      \omega^2 \ sin (\omega t)
+    </Formula>
+    <Section>
+      A to amplituda czyli maksymalne wyhylenie sprężyny. Omega to tak zwana
+      częstość kołowa lub pulsacja. Informuje nas o tym jak szybko drga
+      sprężyna. Ściśle matematycznie wyraża się dwoma wzorami.
+    </Section>
+    <Formula nr="2.11">\omega = \frac{2\pi}{T} = \sqrt \frac{k}{m}</Formula>
+    <Section>
+      T to czas potrzebny do wykonania pełnego drgania. Przykładowo nasza
+      sprężyna musi przejść od minimum do maksimum i wrócić znowu do minimum.
+      Litera k to znany nam już wcześniej współczynnik sprężystości, natomiast m
+      to masa sprężyny. Teraz wzór F = -kx można zapisać alternatywnie jako F =
+      - m<M s="\omega^2 " />x.
+    </Section>
+    <Section>
+      Ostatnim, co musimy zrozumieć jest energia oscylatora (ciała wykonującego
+      drgania). Oczywiście jak każde ciało ma on energię kinetyczną i
+      potencjalną, która w przypadku sprężystości jest zależna od wychylenia.
+    </Section>
+    <Math>
+      E_k = \frac{1}{2}mv^2, E_p = \frac{1}{2}kx^2 = \frac{1}{2}m \omega^2 x^2
+    </Math>
+    <Section>
+      Zauważmy jednak, że gdy oscylator jest w punkcie maksimum lub minimum
+      wtedy wychylenie, a zatem energia potencjalna mają maksimum i wynosi ona
+      ona <M s="\frac{1}{2}kA^2" />, natomiast prędkość i energia kinetyczna są
+      równe 0. Energia całkowita oscylatora wynosi zatem
+      <M s="\frac{1}{2}kA^2" />, a jako, że energia zawsze pozostaje zachowana
+      możemy wyprowadzić alternatywny wzór na energię kinetyczną.
+    </Section>
+    <Math>
+      E_k = E - E_p = \frac{1}{2}kA^2 - \frac{1}{2}kx^2 = \frac{1}{2}k(A^2 -
+      x^2)
+    </Math>
     <h3>Fale i dźwięk</h3>
   </Article>
 </template>
