@@ -12,7 +12,13 @@
       fizyki. Fizyki, która nie ma uczyć cię obliczeń, a ma pozwolić ci poznać
       świat. Dowiesz się czym naprawdę jest to, co cię otacza. Nawet jeśli będą
       to informacje w 90% uproszczone pozwolą Ci chociaż w małym stopniu
-      zachwycić się pięknem naszego świata i jego działaniem. To co, zaczynamy?
+      zachwycić się pięknem naszego świata i jego działaniem.
+    </Section>
+    <Section>
+      Ten temat będzie stanowił najszybsze jak to tylko możliwe podsumowanie
+      wszystkich wiadomości z mechaniki. Będzie dość nudny i mało odkrywczy, ale
+      niestety potrzebny. Obiecuję, że następne tematy tego działu będą znacznie
+      ciekawsze. To co, zaczynamy?
     </Section>
     <h3>Narodziny fizyki</h3>
     <Section>
@@ -79,6 +85,23 @@
       związana z oporem powietrza. Cząsteczki powietrza zderzają się z naszym
       obiektem w końcu go wychamowując.
     </Section>
+    <Bio>
+      Isaac Newton prywatnie był bardzo podłym i wrednym człowiekiem. Dziś
+      raczej nazwalibyśmy go socjopatą. Prawdopodobnie z tego względu nigdy nie
+      stworzył rodziny. Znamy w historii tylko jeden przypadek kiedy Newton się
+      uśmiechnął. Było to wtedy, gdy zapytano się go czy warto czytać dzieła
+      greckich matematyków. Newton zamiast odpowiedzieć wybuchł maniakalnym
+      śmiechem. Jego cytat
+      <i>
+        Jeśli widzę dalej, to tylko dlatego, że stoję na ramionach olbrzymów
+      </i>
+      wcale nie odnosił się do uznania dorobku swoich poprzedników. Była to
+      złośliwa uwaga do wzrostu innego fizyka, Roberta Hooke'a, który był dość
+      niski. Newton przywłaszczył sobie prawie cały jego dorobek i robił
+      wszystko, aby nikt nigdy o nim nie usłyszał. Prawdopodobnie to Hooke
+      zauważył wcześniej to, co Newton opisał jako własne zasady dynamiki.
+    </Bio>
+    <Section />
     <h3>Energia i pęd</h3>
     <Section>
       Nie jest zagadką, że im ciało szybsze i im ciało cięższe to trudniej je
@@ -107,7 +130,7 @@
       Pracę oznaczamy za pomocą W i jest równa iloczynowi siły i drogi na której
       działa.
     </Section>
-    <Formula nr="2.4">W = F s </Formula>
+    <Formula nr="2.4">W = \vec F \cdot \vec s </Formula>
     <Section>
       Sama energia ma natomiast wiele postaci. Dla nas póki co będzie istotna
       energia kinetyczna i potencjalna. Energia kinetyczna jest związana z
@@ -185,8 +208,107 @@
       masy płynu do jego objętości.
     </Section>
     <Formula nr="2.8">\varrho = \frac{m}{V}</Formula>
-    <Section></Section>
+    <Section>
+      Każdy płyn i materiał mają swoją unikatową gęstość. Drugim parametrem,
+      który przyda nam się w opisie płynu jest ciśinenie. Wyraża ono siłę, jaka
+      działa na powierzchnie płynu. Matematycznie ciśnienie otrzymujemy poprzez
+      iloraz siły (nazywanej tu siłą parcia) i powierzchni na jaką działa.
+    </Section>
+    <Formula nr="2.8">\vec p = \frac{\vec F}{S}</Formula>
+    <Section>
+      No dobrze, ale spróbujmy teraz tych dwóch wielkości użyć. Wyobraź sobie,
+      że wchodzisz pod wodę. Im jesteś niżej tym bardziej czujesz nacisk wody.
+      Pomyślmy od czego może zależeć ciśnienie, jakie woda na nas wywiera. No
+      oczywiście od głębokości, to podstawowy czynnik. Ale mamy jeszcze dwa
+      dodatkowe. Jest to po pierwsze gęstość (im płyn bardziej gęsty tym nacisk
+      na ciebie będzie wyższy) i przyspieszenie grawitacyjne (co jest oczywiste,
+      gdyż zależy od niego jak mocno woda jest przyciągana w dół). Czy jest coś
+      jeszcze? Okazuje się, że nie. Mnożąc te trzy wielkości dostajemy kompletny
+      wzór na ciśnienie hydrostatyczne, jakie wywiera na nas spoczywający płyn.
+    </Section>
+    <Formula nr="2.8">p = \varrho g h</Formula>
+    <Section>
+      Hydrostatyka, która zajmuje się płynami w spoczynku jest naprawdę prostą
+      nauką. Znacznie ciekawiej robi się, gdy zaczynamy analizować płyn w ruchu.
+      Równania hydrodynamiki są znacznie trudniejsze, a niektóre dotąd nie
+      zostały poznane. Instytut Matematyczny Claya ogłosił nagrodę miliona
+      dolarów za dowód, że równanie Naviera-Stokesa posiada ogólne i
+      jednoznaczne rozwiązanie. Spróbujmy jednak poznać je chociaż w minimalnym
+      stopniu. W najprostszym przypadku jest to równanie Eulera, które wygląda
+      tak:
+    </Section>
+    <Math>
+      \varrho \bigg( \frac{\partial \vec v }{\partial t} + \vec v
+      (\bigtriangledown \cdot \vec v) \bigg) = \varrho g - \bigtriangledown p
+    </Math>
+    <Section>
+      Teraz spróbujmy je zrozumieć. Prędkość płynu płynu zależy od dwóch
+      zmiennych - czasu i miejsca. Iloraz <M s="\partial v / \partial t" />
+      to tak zwana pochodna cząstkowa po czasie (t) i opisuje (nic odkrywczego)
+      zmianę prędkości płynu w czasie (a więc przyspieszenie płynu). Symbol
+      <M s="\bigtriangledown \cdot \vec v " /> to zmiana prędkości płynu, ale w
+      przestrzeni. Wskazuje kierunek w którym nasz płyn przyspiesza. Po lewej
+      stronie mamy więc sumę zmian czasowych i przestrzennych. Co mamy natomiast
+      po prawej? Iloczyn gęstości i przyspieszenia grawitacyjnego od którego
+      odejmujemy zmianę ciśnienia w przestrzeni.
+    </Section>
+    <Section>
+      Wniosek jest taki, zmiana prędkości (zarówno ta w czasie jak i
+      przestrzeni) jest proporcjonalna do gęstości płynu i zmian ciśnienia. Nie
+      powinno nas to absolutnie dziwić. Druga zasada mówi przecież, że zmiana
+      prędkości ciała (jego przyspieszenie) zależy od masy (a im płyn gęstszy
+      tym cięższy) oraz siły (ciśnienie to siła działająca na daną
+      powierzchnię).
+    </Section>
+    <Section>
+      Prawdopodobnie większość ludzi teraz uzna, że oszalałem, ale zapomnieli,
+      że oszalałem już jakieś 10 lat temu. W każdym razie, pamiętasz jak przed
+      chwilą mówiłem o równaniu przedstawionym jako problem milenijny? Pokażę ci
+      je i pomogę zrozumieć. Płyny dzielą się na doskonałe i rzeczywiste.
+      Kryterium jest tu lepkość. W analizie płynów doskonałych pomijamy lepkość
+      i uznajemy, że wynosi 0. Płyny rzeczywiste jednak tą lepkość posiadają.
+      Lepkość wody to około 0,001 Pa<M s="\cdot" />s. W równaniu Eulera całkiem
+      ją pomijamy, a więc opisuje ono płyn doskonały. Co natomiast jeśli lepkość
+      płynu jest naprawdę duża i musimy ją uwzględnić? Płynami lepkimi są np.
+      miód (10 Pa<M s="\cdot" />s), czy smoła (absurdalne 10 milionów Pa
+      <M s="\cdot" />s). Wtedy musimy dodać do równania Eulera poprawkę
+      zawierającą lepkość, a otrzymane równanie to właśnie równanie
+      Naviera-Stokesa.
+    </Section>
+    <Math>
+      \varrho \bigg( \frac{\partial v }{\partial t} + v (\bigtriangledown \cdot
+      v) \bigg) = \varrho g - \bigtriangledown p + \mu \bigtriangleup v
+    </Math>
+    <Section>
+      Lepkość jest oznaczona jako <M s="\mu" />, natomiast symbol
+      <M s="\bigtriangleup " /> to coś w rodzaju podwójnego
+      <M s="\bigtriangledown" />. Opisuje nam nie zmianę prędkości płynu w
+      przestrzeni, a zmianę ze zmian prędkości płynu w przestrzeni. Słownie jest
+      to zagmatwane, ale matematycznie wygląda bardzo prosto. Właśnie
+      udowodnienie, że to równanie ma zawsze rozwiązane jest problemem
+      milenijnym. Nie obliczenie go, ale pokazanie, że w ogóle istnieje. Chyba
+      się nie dziwisz patrząc jak bardzo to równanie jest skomplikowane.
+    </Section>
+    <Section>
+      Po co to wszystko? Oczywiście nie po to, żebyś liczył rozwiązania dla
+      przepływów płynu. Chcę ci jedynie nakreślić ich zachowanie i pomóc chociaż
+      w minimalnym stopniu rozumieć od czego zależy sposób w jaki przepływają
+      woda, olej czy majonez.
+    </Section>
+    <FunFact>
+      Istnieje zjawisko, które sprawia, że nawet w rzeczywistym płynie całkiem
+      zanika lepkość. Zjawisko to nazywa się nadciekłością, jest niewyobrażalnie
+      skomplikowane i może być opisane jedynie na gruncie fizyki kwantowej, ale
+      istnieje i zajmiemy się jego opisem. W stanie nadciekłym była na przykład
+      plazma kwarkowo-gluonowa, z której składał się wszechświat na początku
+      swojego istnienia.
+    </FunFact>
+    <Section />
     <h3>Sprężystość i drgania</h3>
+    <Section
+      >Skoro już zajęliśmy się płynami to dlaczego nie wykorzystać zasad
+      mechaniki do opisu
+    </Section>
     <h3>Fale i dźwięk</h3>
   </Article>
 </template>
