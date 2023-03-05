@@ -254,16 +254,6 @@
       odejmujemy zmianę ciśnienia w przestrzeni.
     </Section>
     <Section>
-      Dla lepszego zrozumienia rozpiszmy sobie dokładnie to, co mamy po lewej
-      stronie.
-    </Section>
-    <Math>
-      \frac{\partial \vec v }{\partial t} + ( \vec v \cdot \bigtriangledown )
-      \vec v = \frac{\partial \vec v }{\partial t} + v_x \frac{\partial \vec v
-      }{\partial x} + x_y \frac{\partial \vec v }{\partial y} + v_z
-      \frac{\partial \vec v }{\partial z}
-    </Math>
-    <Section>
       Wniosek jest taki, zmiana prędkości (zarówno ta w czasie jak i
       przestrzeni) jest proporcjonalna do gęstości płynu i zmian ciśnienia. Nie
       powinno nas to absolutnie dziwić. Druga zasada mówi przecież, że zmiana
@@ -423,5 +413,9 @@
       x^2)
     </Math>
     <h3>Fale i dźwięk</h3>
+    <Section></Section>
+    <Image src="wstep/14.png">
+      Długość fali to odległość, jaką przebiega fala w ciągu jednego okresu.
+    </Image>
   </Article>
 </template>
