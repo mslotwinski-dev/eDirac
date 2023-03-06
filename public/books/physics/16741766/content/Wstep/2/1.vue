@@ -376,13 +376,15 @@
       sinus.
     </Section>
     <Formula nr="2.10">
-      x(t) = A \ sin (\omega t) \\ v(t) = A \omega \ cos (\omega t) \\ a(t) = -A
-      \omega^2 \ sin (\omega t)
+      x(t) = A \ sin (\omega t + \varphi_0) \\ v(t) = A \omega \ cos (\omega t +
+      \varphi_0) \\ a(t) = -A \omega^2 \ sin (\omega t + \varphi_0)
     </Formula>
     <Section>
-      A to amplituda czyli maksymalne wyhylenie sprężyny. Omega to tak zwana
-      częstość kołowa lub pulsacja. Informuje nas o tym jak szybko drga
-      sprężyna. Ściśle matematycznie wyraża się dwoma wzorami.
+      A to amplituda czyli maksymalne wyhylenie sprężyny. Omega (
+      <M s="\omega" />) to tak zwana częstość kołowa lub pulsacja. Informuje nas
+      o tym jak szybko drga sprężyna. Oznaczenie <M s="varphi_0" /> odpowiada
+      natomiast za położenie początkowe sprężyny (tzw. faza). Ściśle
+      matematycznie wyraża się dwoma wzorami.
     </Section>
     <Formula nr="2.11">\omega = \frac{2\pi}{T} = \sqrt \frac{k}{m}</Formula>
     <Section>
@@ -413,9 +415,70 @@
       x^2)
     </Math>
     <h3>Fale i dźwięk</h3>
-    <Section></Section>
+    <Section>
+      Bardzo często po analizie drgań przychodzi czas na fale. Czym one się
+      różnią? Fale to trochę (znacznie) bardziej skomplikowane zagadnienie.
+      Między innymi z tego względu, że fale rozchodzą się w przestrzeni. Nasze
+      wychylenie fali nie będzie zależeć jedynie od czasu, ale i od miejsca,
+      które wybierzemy. Dlatego potrzebujemy dwóch zmiennych, x i t. Równanie
+      najprostszej fali wygląda w ten sposób:
+    </Section>
+
+    <Math>y = A \ sin (-kx + \varphi_0)</Math>
+    <Section>
+      Literka k to dowolna stała, a skoro jest dowolna to znak nie robi różnicy,
+      dlatego dałem tutaj -k. Tak wygląda sobie fala w dwuwymiarowej
+      przestrzeni. Musimy jednak zadbać jeszcze, żeby się ruszała, a więc dodać
+      zależność od czasu. W ten sposób otrzymujemy zależność już czasową i
+      czasową i przestrzenną.
+    </Section>
+    <Formula nr="2.12">y = A \ sin (\omega t - kx + \varphi_0)</Formula>
+    <Section>
+      A teraz tradycyjnie co jest czym. Jak widzisz równanie to jest bardzo
+      podobne do równania opisującego ruch drgania z tą różnicą, że drganie
+      dzieje się w jednym wymiarze, natomiast wychylenie fali zależy jeszcze od
+      miejsca przestrzeni. Omega jest ci już dobrze znana, natomiast k jest tak
+      zwanym wektorem falowym, który co do wartości jest odwrotnie
+      proporcjonalny do długości fali (natomiast zwrócony jest w stronę w którą
+      fala biegnie, jednak to jest nieistotne).
+    </Section>
+
+    <Formula nr="2.13">
+      \omega = \frac{2\pi}{T}, \quad k = \frac{2\pi}{\lambda}
+    </Formula>
+    <Section>
+      Zaraz, zaraz, zaraz. Czym jest zatem długość fali. Otóż tak jak okres jest
+      rozciągnięciem czasowym fali, tak długość fali jest rozciągnięciem
+      przestrzennym. Okres i długość fali łączą się ważną zależnością. Zanim
+      jednak ją opiszemy wprowadźmy jeszcze pomocniczą wielkość zwaną
+      częstotliwością.
+    </Section>
     <Image src="wstep/14.png">
       Długość fali to odległość, jaką przebiega fala w ciągu jednego okresu.
     </Image>
+    <Formula nr="2.14"> f = \frac{1}{T} = \frac{\omega}{2\pi} </Formula>
+    <Section>
+      Częstotliwość mierzymy w hercach (Hz) i określa jak często dane zjawisko
+      (w tym przypadku pełen okres fali) zachodzi w ciągu jednej sekundy. Dużo
+      wygodniejsze jest pisać, że częstotliwość odświeżania twojego monitora to
+      200Hz zamiast pisać, że odświeża się co 0,005s. Długość fali,
+      częstotliwość i prędkość z jaką fala biegnie łączą się następującą
+      zależnością.
+    </Section>
+    <Formula nr="2.14"> f = \frac{v}{ \lambda} </Formula>
+    <FunFact>
+      Fakt, że czas różni się w równaniu falowym od przestrzeni tylko znakiem
+      wydaje się zwykłym matematycznym przypadkiem. Jednak kiedy dowiemy się
+      czegoś więcej, przestaje to być całkiem niewarty uwagi przypadek, a staje
+      się to bardzo ciekawy przypadek. W teorii względności okazuje się, że gdy
+      czas i przestrzeń tworzą jeden byt (zwany czasoprzestrzenią). Jedynym, co
+      różni czas od przestrzeni to znak minus w
+      <i>metryce czasoprzestrzeni</i> (pewnej macierzy opisującej jej kształt) .
+      <Math>
+        \eta_{\mu\nu} = \begin{bmatrix} -1 \quad 0 \quad 0 \quad 0 \\ 0 \quad 1
+        \quad 0 \quad 0 \\ 0 \quad 0 \quad 1 \quad 0 \\ 0 \quad 0 \quad 0 \quad
+        1\end{bmatrix}
+      </Math>
+    </FunFact>
   </Article>
 </template>
