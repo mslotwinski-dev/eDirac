@@ -45,7 +45,7 @@
       dostarczymy 100J to tyle i tylko tyle układ może nam oddać w postaci pracy
       i wydzielonego ciepła.
     </Section>
-    <Formula nr="2.X">\Delta U = Q + W</Formula>
+    <Formula nr="2.17">\Delta U = Q + W</Formula>
     <Section>
       W formie matematycznej wygląda to tak. Zmiana energii wewnętrznej (U)
       równa jest sumie dostarczonego ciepła (forma energii, oznaczana Q) i
@@ -83,7 +83,7 @@
       Wydaje się czymś bardzo prostym, ale nie jest takie, jak się wydaje na
       pierwszy rzut oka.
     </Section>
-    <Formula nr="2.X">dS = \frac{dQ}{T}</Formula>
+    <Formula nr="2.18">dS = \frac{dQ}{T}</Formula>
     <Section>
       Litera d to różniczka. Oznacza mniej więcej to samo, co
       <M s="\Delta" /> (zmiana wielkości) za wyjątkiem jednego szczegółu. Zmiana
@@ -188,7 +188,7 @@
       oraz temperatura (T). Mając bardzo prosty model gazu są one związane tzw.
       równaniem Clapeyrona, które pełni bardzo ważną rolę w fizyce i chemii.
     </Section>
-    <Formula nr="2.X">pV = nRT</Formula>
+    <Formula nr="2.19">pV = nRT</Formula>
     <Section>
       Oznaczenia p, V oraz T są nam znane, jednak czym są n oraz R? R to stała
       gazowa równa około 8,31 J/mol<M s="\cdot" />K. Stałe w fizyce zwykle są
@@ -197,7 +197,7 @@
       prostu jest potrzebna, aby otrzymać prawidłowy wynik. Literą n natomiast
       oznaczamy liczbę moli gazu. W molach liczymy ilość cząsteczek.
     </Section>
-    <Formula nr="2.X">1 \ mol = 6,022 \cdot 10^{23} \ cząsteczek</Formula>
+    <Formula nr="2.20">1 \ mol = 6,022 \cdot 10^{23} \ cząsteczek</Formula>
     <Section>
       Ta przeogromna liczba cząsteczek, jaka mieści się w jednym molu nazywamy
       liczbą Avogadra. Mimo, że nie on ją wprowadził zaproponował teorię zgodnie
@@ -272,7 +272,7 @@
       stronie dostajemy coś, co jest nam bardzo dobrze znane - (średnia, gdyż
       użyliśmy średniej prędkości) energia kinetyczna cząstek.
     </Section>
-    <Formula nr="2.X">\langle E_k \rangle = \frac{3}{2}kT</Formula>
+    <Formula nr="2.21">\langle E_k \rangle = \frac{3}{2}kT</Formula>
     <Section>
       Właśnie tym jest temperatura - energią kinetyczną cząstek naszego układu.
       Fizycy jednak nie poprzestali na tym. Fizyka statystyczna stała się
@@ -380,7 +380,7 @@
       naturalny ze wszystkich możliwych stanów (logarytm o podstawie e = 2,72) i
       mnożąc przez znaną nam już stałą Boltzmanna.
     </Section>
-    <Formula nr="2.X">S = k \ ln \Omega</Formula>
+    <Formula nr="2.22">S = k \ ln \Omega</Formula>
     <Section>
       Niestety prowadzi nas to też do innego wniosku. Skoro wszechświat stale
       będzie dążył w kierunku coraz większej entropii, w końcu w całości
