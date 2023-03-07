@@ -482,7 +482,7 @@
       Podawanie głośności w watach na metr kwadratowy nie było jednak wygodne. Ludzie stworzyli w tym celu wielkość zwaną poziomem natężenia, którą wyrażamy w decybelach.
       Brzmi znajomo? Jak zatem uzyskać głośność w decybelach? Służy nam do tego ten wzór.
     </Section>
-    <Formula nr="2.16"> L = 10 log_{10} \bigg( \frac{I}{I_0} \bigg) </Formula>
+    <Formula nr="2.16"> L = 10 \ log_{10} \bigg( \frac{I}{I_0} \bigg) </Formula>
     <Section>
     <M s="I_0" /> jest tu stałą nazywaną dźwiękiem otoczenia. Jest to najcichszy dźwięk możliwy do zarejestrowania przez ucho większości ludzi. Liczbowo wynosi <M s="10^{-12} W/m^2" />.
     Wynik otrzymujemy oczywiście w decybelach. Znając właściwości logarytmu możemy stwierdzić, że zwiększenie mocy dziesięciokrotnie spowoduje zwiększenie poziomu 
