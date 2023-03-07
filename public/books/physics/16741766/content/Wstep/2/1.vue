@@ -470,6 +470,20 @@
       zależnością.
     </Section>
     <Formula nr="2.14"> f = \frac{v}{ \lambda} </Formula>
+    <FunFact>
+      Fakt, że czas różni się w równaniu falowym od przestrzeni tylko znakiem
+      wydaje się zwykłym matematycznym przypadkiem. Jednak kiedy dowiemy się
+      czegoś więcej, przestaje to być całkiem niewarty uwagi przypadek, a staje
+      się to bardzo ciekawy przypadek. W teorii względności okazuje się, że gdy
+      czas i przestrzeń tworzą jeden byt (zwany czasoprzestrzenią). Jedynym, co
+      różni czas od przestrzeni to znak minus w
+      <i>metryce czasoprzestrzeni</i> (pewnej macierzy opisującej jej kształt) .
+      <Math>
+        \eta_{\mu\nu} = \begin{bmatrix} -1 \quad 0 \quad 0 \quad 0 \\ 0 \quad 1
+        \quad 0 \quad 0 \\ 0 \quad 0 \quad 1 \quad 0 \\ 0 \quad 0 \quad 0 \quad
+        1\end{bmatrix}
+      </Math>
+    </FunFact>
     <Section>
       Myśląc o falach mechanicznych pierwsze co przychodzi nam na myśl to dźwięk. Nic dziwnego, jego odczuwanie to jeden z naszych zmysłów.
       Fale cechują się wielkością zwaną natężeniem. W przypadku fal świetlnych określa jasność, natomiast w przypadku dźwiękowych głośność.
@@ -488,19 +502,5 @@
     Wynik otrzymujemy oczywiście w decybelach. Znając właściwości logarytmu możemy stwierdzić, że zwiększenie mocy dziesięciokrotnie spowoduje zwiększenie poziomu 
     natężenia dźwięku o 10 dB.
     </Section>
-    <FunFact>
-      Fakt, że czas różni się w równaniu falowym od przestrzeni tylko znakiem
-      wydaje się zwykłym matematycznym przypadkiem. Jednak kiedy dowiemy się
-      czegoś więcej, przestaje to być całkiem niewarty uwagi przypadek, a staje
-      się to bardzo ciekawy przypadek. W teorii względności okazuje się, że gdy
-      czas i przestrzeń tworzą jeden byt (zwany czasoprzestrzenią). Jedynym, co
-      różni czas od przestrzeni to znak minus w
-      <i>metryce czasoprzestrzeni</i> (pewnej macierzy opisującej jej kształt) .
-      <Math>
-        \eta_{\mu\nu} = \begin{bmatrix} -1 \quad 0 \quad 0 \quad 0 \\ 0 \quad 1
-        \quad 0 \quad 0 \\ 0 \quad 0 \quad 1 \quad 0 \\ 0 \quad 0 \quad 0 \quad
-        1\end{bmatrix}
-      </Math>
-    </FunFact>
   </Article>
 </template>
