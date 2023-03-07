@@ -117,7 +117,7 @@
       Kilka przekształceń matematycznych pozwala nam połączyć te wielkości
       tworząc alternatywną formę drugiej dynamiki.
     </Section>
-    <Formula nr="2.3">\vec p = \vec F t </Formula>
+    <Math>\vec p = \vec F t </Math>
     <Section>
       To, co cechuje pęd to fakt, że jest wielkością zachowaną. Nie da się go
       wytworzyć i zniszczyć, można go tylko przetransformować. Oprócz tego jest
@@ -128,10 +128,14 @@
       Nie mamy tak naprawdę dobrej definicji energii. Energia to jest coś, co
       ciało ma, a im więcej ma energii tym większą pracę jest w stanie wykonać.
       Energia to wedle jednej z wielu definicji zdolność do wykonania pracy.
-      Pracę oznaczamy za pomocą W i jest równa iloczynowi siły i drogi na której
+      Pracę liczymy w dżulach (J) oznaczamy za pomocą W i jest równa iloczynowi siły i drogi na której
       działa.
     </Section>
-    <Formula nr="2.4">W = \vec F \cdot \vec s </Formula>
+    <Formula nr="2.3">W = \vec F \cdot \vec s </Formula>
+    <Section>
+      Bardzo wygodnie jest wprowadzić wielkość zwaną mocą określającą jak wiele pracy wykonuje dany obiekt (np. silnik) na jednostkę czasu. Silnik o mocy 500W wykonuje pracę 500J w ciągu jednej sekundy.
+    </Section>
+    <Formula nr="2.4">P = \frac{W}{t} </Formula>
     <Section>
       Sama energia ma natomiast wiele postaci. Dla nas póki co będzie istotna
       energia kinetyczna i potencjalna. Energia kinetyczna jest związana z
@@ -480,5 +484,23 @@
         1\end{bmatrix}
       </Math>
     </FunFact>
+    <Section>
+      Myśląc o falach mechanicznych pierwsze co przychodzi nam na myśl to dźwięk. Nic dziwnego, jego odczuwanie to jeden z naszych zmysłów.
+      Fale cechują się wielkością zwaną natężeniem. W przypadku fal świetlnych określa jasność, natomiast w przypadku dźwiękowych głośność.
+      Natężenie równa się mocy źródła podzielonej przez powierzchnię jaką fala obejmuje. Jest to dość logiczne. Im większa moc głośnika i im blizej niego jesteśmy
+      tym dźwięk wydaje się głośniejszy. Jaką jednak powierzchnię mamy wstawić do równania? Fale rozchodzą się w przestrzeni po powierzchni kuli. Dźwięk głośnika rozchodzi
+      się nie tylko w przód, ale wokół niego. Dlatego powierzchnią jest tu powierzchnia kuli.
+    </Section>
+    <Formula nr="2.15"> I = \frac{P}{S} = \frac{P}{4\pi r^2} </Formula>
+    <Section>
+      Podawanie głośności w watach na metr kwadratowy nie było jednak wygodne. Ludzie stworzyli w tym celu wielkość zwaną poziomem natężenia, którą wyrażamy w decybelach.
+      Brzmi znajomo? Jak zatem uzyskać głośność w decybelach? Służy nam do tego ten wzór.
+    </Section>
+    <Formula nr="2.16"> L = 10 \ log_{10} \bigg( \frac{I}{I_0} \bigg) </Formula>
+    <Section>
+    <M s="I_0" /> jest tu stałą nazywaną dźwiękiem otoczenia. Jest to najcichszy dźwięk możliwy do zarejestrowania przez ucho większości ludzi. Liczbowo wynosi <M s="10^{-12} W/m^2" />.
+    Wynik otrzymujemy oczywiście w decybelach. Znając właściwości logarytmu możemy stwierdzić, że zwiększenie mocy dziesięciokrotnie spowoduje zwiększenie poziomu 
+    natężenia dźwięku o 10 dB.
+    </Section>
   </Article>
 </template>
