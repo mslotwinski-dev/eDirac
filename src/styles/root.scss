@@ -73,6 +73,11 @@ textarea:focus {
   }
 }
 
+img {
+  pointer-events: none;
+}
+
+
 .katex-html {
   font-size: 17px;
 
