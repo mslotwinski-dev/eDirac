@@ -1,9 +1,16 @@
 <template>
   <div class="flex">
-    <div class="moved" />
+    <!-- <div class="moved" /> -->
     <!-- <Ad /> -->
     <!-- <Hero img="pages/formulas/hero.jpg" :subtitle="$t('formulas.index.hero')" /> -->
+    <SmallHero
+      :img="`images/books/bg/physics_quantum.jpg`"
+      :subtitle="$t(`navigation.navbar.subpages.books`)"
+      :blur="true"
+    />
+
     <Categories />
+
     <Ad />
   </div>
 </template>
@@ -12,12 +19,13 @@
 import { defineComponent } from 'vue'
 
 // import Hero from '@/components/Shared/Hero.vue'
-import Categories from '@/components/Books/Pick/Category/Categories.vue'
+import SmallHero from '@/components/Shared/SmallHero.vue'
+import Categories from '@/components/Books/Pick/Categories.vue'
 import Ad from '@/components/Shared/Ads/VerticalSmall.vue'
 
 export default defineComponent({
   components: {
-    // Hero,
+    SmallHero,
     Categories,
     Ad,
   },

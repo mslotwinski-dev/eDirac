@@ -14,12 +14,11 @@ import B_9 from '@/data/books/content/electronics/18851010'
 export const Electronics_1: Book = {
   ID: '18851002',
 
-  Title: 'Elektronika',
+  Title: 'Elektronika I',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#aa2222',
-  Icon: 'electronics',
-  BG: 'electronics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -41,8 +40,7 @@ export const Electronics_2: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#aa2222',
-  Icon: 'electronics',
-  BG: 'electronics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -60,8 +58,7 @@ export const Electronics_3: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#aa2222',
-  Icon: 'electronics',
-  BG: 'electronics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -83,8 +80,7 @@ export const Electronics_4: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#aa2222',
-  Icon: 'electronics',
-  BG: 'electronics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -102,8 +98,7 @@ export const Electronics_5: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#aa2222',
-  Icon: 'electronics',
-  BG: 'electronics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -121,8 +116,7 @@ export const Electronics_6: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#aa2222',
-  Icon: 'electronics',
-  BG: 'electronics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -140,8 +134,7 @@ export const Electronics_7: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#aa2222',
-  Icon: 'electronics',
-  BG: 'electronics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -162,8 +155,7 @@ export const Electronics_8: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#aa2222',
-  Icon: 'electronics',
-  BG: 'electronics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -184,8 +176,7 @@ export const Electronics_9: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#aa2222',
-  Icon: 'electronics',
-  BG: 'electronics',
+
   Pages: 500,
 
   About: aboutplaceholder,

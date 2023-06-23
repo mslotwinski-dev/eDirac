@@ -1,8 +1,8 @@
 <template>
   <div class="background" v-if="display">
     <div class="bgclick" @click="toggleModal" />
-    <section class="modal">
-      <div class="content">
+    <section class="modal" :class="`size_${size}`">
+      <div class="content" :class="{ nopadding: padding == 'none' }">
         <div class="close" @click="toggleModal">
           <ic icon="times" />
         </div>
@@ -18,6 +18,8 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   props: {
     title: String,
+    size: String,
+    padding: String,
   },
   data() {
     return {
@@ -57,6 +59,14 @@ export default defineComponent({
   overflow: hidden;
   display: flex;
   flex-direction: column;
+
+  &.size_3 {
+    width: 1600px;
+    height: 1000px;
+
+    max-width: 95vw;
+    max-height: 85vh;
+  }
 }
 .close {
   position: absolute;
@@ -66,13 +76,21 @@ export default defineComponent({
   cursor: pointer;
   z-index: 1;
 }
+
 .content {
   width: 100%;
   flex-grow: 1;
   background: theme(light);
+
   border-radius: 20px;
   padding: 10px;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+
+  &.nopadding {
+    padding: 0px;
+  }
 }
 .bgclick {
   width: 100vw;

@@ -14,12 +14,11 @@ import B_9 from '@/data/books/content/physics/16741774'
 export const Physics_1: Book = {
   ID: '16741766',
 
-  Title: 'Fizyka',
+  Title: 'Mechanika I',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',
-  Icon: 'physics',
-  BG: 'physics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -37,12 +36,11 @@ export const Physics_1: Book = {
 export const Physics_2: Book = {
   ID: '16741767',
 
-  Title: 'Fizyka',
+  Title: 'Mechanika II',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',
-  Icon: 'physics',
-  BG: 'physics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -59,12 +57,11 @@ export const Physics_2: Book = {
 export const Physics_3: Book = {
   ID: '16741768',
 
-  Title: 'Fizyka',
+  Title: 'Termodynamika',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',
-  Icon: 'physics',
-  BG: 'physics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -77,7 +74,7 @@ export const Physics_3: Book = {
   Part: 3,
   Subtitles: [
     'Termodynamika i kinetyczna teoria gazów',
-    'elementy chemii fizycznej, transport ciepła',
+    'chemia fizyczna, transport ciepła i masy',
   ],
   Content: B_3,
 }
@@ -85,12 +82,11 @@ export const Physics_3: Book = {
 export const Physics_4: Book = {
   ID: '16741769',
 
-  Title: 'Fizyka',
+  Title: 'Elektrodynamika',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',
-  Icon: 'physics',
-  BG: 'physics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -107,12 +103,11 @@ export const Physics_4: Book = {
 export const Physics_5: Book = {
   ID: '16741770',
 
-  Title: 'Fizyka',
+  Title: 'Optyka',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',
-  Icon: 'physics',
-  BG: 'physics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -126,12 +121,11 @@ export const Physics_5: Book = {
 export const Physics_6: Book = {
   ID: '16741771',
 
-  Title: 'Fizyka',
+  Title: 'Fizyka kwantowa',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',
-  Icon: 'physics',
-  BG: 'physics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -148,12 +142,11 @@ export const Physics_6: Book = {
 export const Physics_7: Book = {
   ID: '16741772',
 
-  Title: 'Fizyka',
+  Title: 'Fizyka ciała stałego',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',
-  Icon: 'physics',
-  BG: 'physics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -170,12 +163,11 @@ export const Physics_7: Book = {
 export const Physics_8: Book = {
   ID: '16741773',
 
-  Title: 'Fizyka',
+  Title: 'Fizyka jądrowa',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',
-  Icon: 'physics',
-  BG: 'physics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -189,12 +181,11 @@ export const Physics_8: Book = {
 export const Physics_9: Book = {
   ID: '16741774',
 
-  Title: 'Fizyka',
+  Title: 'Astrofizyka i kosmologia',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',
-  Icon: 'physics',
-  BG: 'physics',
+
   Pages: 500,
 
   About: aboutplaceholder,

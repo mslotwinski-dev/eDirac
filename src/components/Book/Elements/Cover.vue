@@ -2,9 +2,7 @@
   <header
     :style="{
       backgroundImage:
-        'url(' +
-        require(`@/assets/images/books/bg/${book.Tag.main}/${book.Part}.jpg`) +
-        ')',
+        'url(' + require(`@/assets/images/books/bg/${book.Tag.main}.jpg`) + ')',
     }"
   >
     <div class="title">

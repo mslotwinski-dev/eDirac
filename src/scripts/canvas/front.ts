@@ -114,7 +114,7 @@ export const render = (c: HTMLCanvasElement | null, data: Book): void => {
         }
       }
     }
-    img.src = require(`@/assets/icons/sciences/${data.Icon}.svg`)
-    background.src = require(`@/assets/images/books/bg/${data.BG}.jpg`)
+    img.src = require(`@/assets/icons/sciences/${data.Tag.main}.svg`)
+    background.src = require(`@/assets/images/books/bg/${data.Tag.main}.jpg`)
   }
 }

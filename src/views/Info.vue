@@ -36,7 +36,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('../assets/images/info/hero.jpg');
+  background-image: url('~@/assets/images/info/hero.jpg');
   background-size: cover;
   background-position: center;
   padding-top: $height;

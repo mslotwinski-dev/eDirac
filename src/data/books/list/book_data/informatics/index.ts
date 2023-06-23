@@ -18,8 +18,7 @@ export const Informatics_1: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#3F647F',
-  Icon: 'informatics',
-  BG: 'informatics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -37,8 +36,7 @@ export const Informatics_2: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#3F647F',
-  Icon: 'informatics',
-  BG: 'informatics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -57,8 +55,7 @@ export const Informatics_3: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#3F647F',
-  Icon: 'informatics',
-  BG: 'informatics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -84,8 +81,7 @@ export const Informatics_4: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#3F647F',
-  Icon: 'informatics',
-  BG: 'informatics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -103,8 +99,7 @@ export const Informatics_5: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#3F647F',
-  Icon: 'informatics',
-  BG: 'informatics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -125,8 +120,7 @@ export const Informatics_6: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#3F647F',
-  Icon: 'informatics',
-  BG: 'informatics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -144,8 +138,7 @@ export const Informatics_7: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#3F647F',
-  Icon: 'informatics',
-  BG: 'informatics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -163,8 +156,7 @@ export const Informatics_8: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#3F647F',
-  Icon: 'informatics',
-  BG: 'informatics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -185,8 +177,7 @@ export const Informatics_9: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#3F647F',
-  Icon: 'informatics',
-  BG: 'informatics',
+
   Pages: 500,
 
   About: aboutplaceholder,

@@ -15,8 +15,7 @@ export const Biophysics_1: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#2e7d32',
-  Icon: 'biophysics',
-  BG: 'biophysics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -37,8 +36,7 @@ export const Biophysics_2: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#2e7d32',
-  Icon: 'biophysics',
-  BG: 'biophysics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -59,8 +57,7 @@ export const Biophysics_3: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#2e7d32',
-  Icon: 'biophysics',
-  BG: 'biophysics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -85,8 +82,7 @@ export const Biophysics_4: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#2e7d32',
-  Icon: 'biophysics',
-  BG: 'biophysics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -107,8 +103,7 @@ export const Biophysics_5: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#2e7d32',
-  Icon: 'biophysics',
-  BG: 'biophysics',
+
   Pages: 500,
 
   About: aboutplaceholder,
@@ -129,8 +124,7 @@ export const Biophysics_6: Book = {
   Author: ['Mateusz Słotwiński'],
 
   Color: '#2e7d32',
-  Icon: 'biophysics',
-  BG: 'biophysics',
+
   Pages: 500,
 
   About: aboutplaceholder,

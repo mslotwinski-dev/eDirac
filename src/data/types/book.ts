@@ -13,8 +13,6 @@ export interface Book {
   CoverTitle?: string[]
   Author: string[]
   Color: string
-  Icon: string
-  BG: string
   Pages?: number
   About: string
   Tag: {
