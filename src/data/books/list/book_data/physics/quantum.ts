@@ -54,7 +54,7 @@ export const Physics_Quantum_2: Book = {
 export const Physics_Quantum_3: Book = {
   ID: '73628463',
 
-  Title: 'Informatyka kwantowa',
+  Title: 'Informatyka Kwantowa',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#3A5489',
@@ -65,6 +65,9 @@ export const Physics_Quantum_3: Book = {
   Tag: { main: 'physics_quantum', official: true, lang: ['pl'] },
 
   Part: 3,
-  Subtitles: ['Informatyka kwantowa', 'klasyczna i kwantowa teorii informacji'],
+  Subtitles: [
+    'Informatyka kwantowa, ',
+    'klasyczna i kwantowa teorii informacji',
+  ],
   Content: B_3,
 }

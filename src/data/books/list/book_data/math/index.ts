@@ -14,7 +14,6 @@ export const Mat_1: Book = {
   ID: '57046161',
 
   Title: 'Algebra I',
-  CoverTitle: ['Matematyka', ''],
   Author: ['Mateusz Słotwiński'],
 
   Color: '#CC8400',
@@ -25,7 +24,7 @@ export const Mat_1: Book = {
   Tag: { main: 'mathematics', official: true, lang: ['pl'] },
 
   Part: 1,
-  Subtitles: ['Wstęp do matematyki, logika, zbiory, algebra liniowa,'],
+  Subtitles: ['Wstęp do matematyki, logika, zbiory, algebra liniowa'],
   Content: B_1,
 }
 
@@ -133,7 +132,7 @@ export const Mat_6: Book = {
 export const Mat_7: Book = {
   ID: '57046167',
 
-  Title: 'Propablistyka',
+  Title: 'Propablistyka i Statystyka',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#CC8400',
@@ -151,7 +150,7 @@ export const Mat_7: Book = {
 export const Mat_8: Book = {
   ID: '57046168',
 
-  Title: 'Metody numeryczne',
+  Title: 'Metody Numeryczne',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#CC8400',
@@ -162,9 +161,6 @@ export const Mat_8: Book = {
   Tag: { main: 'mathematics', official: true, lang: ['pl'] },
 
   Part: 8,
-  Subtitles: [
-    'Matematyka dyskretna: logika, teoria mnogości,',
-    'teoria gier, kombinatoryka, relacje, rekurencje',
-  ],
+  Subtitles: [],
   Content: B_8,
 }

@@ -6,6 +6,4 @@ export {
   Informatics_5,
   Informatics_6,
   Informatics_7,
-  Informatics_8,
-  Informatics_9,
 } from './book_data/informatics/'

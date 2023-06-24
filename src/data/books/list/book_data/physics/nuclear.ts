@@ -22,7 +22,7 @@ export const Physics_Nuclear_1: Book = {
   Part: 1,
   Subtitles: [
     'Zaawansowana fizyka i chemia jądrowa,',
-    'fizyka cząstek elementarnych',
+    'fizyka zderzeń jąder i cząstek elementarnych',
   ],
 
   Content: B_1,

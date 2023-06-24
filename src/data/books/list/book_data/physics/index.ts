@@ -121,7 +121,7 @@ export const Physics_5: Book = {
 export const Physics_6: Book = {
   ID: '16741771',
 
-  Title: 'Fizyka kwantowa',
+  Title: 'Fizyka Kwantowa',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',
@@ -142,7 +142,7 @@ export const Physics_6: Book = {
 export const Physics_7: Book = {
   ID: '16741772',
 
-  Title: 'Fizyka ciała stałego',
+  Title: 'Fizyka Ciała Stałego',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',
@@ -163,7 +163,7 @@ export const Physics_7: Book = {
 export const Physics_8: Book = {
   ID: '16741773',
 
-  Title: 'Fizyka jądrowa',
+  Title: 'Fizyka Jądrowa i Cząstek Elementarnych',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',
@@ -181,7 +181,7 @@ export const Physics_8: Book = {
 export const Physics_9: Book = {
   ID: '16741774',
 
-  Title: 'Astrofizyka i kosmologia',
+  Title: 'Astrofizyka i Kosmologia',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',
