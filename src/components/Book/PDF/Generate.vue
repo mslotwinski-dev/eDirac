@@ -63,7 +63,10 @@ export default defineComponent({
   align-items: center;
 
   canvas {
-    height: 98vh;
+    height: 95vh;
+    @media (max-width: 1000px) {
+      height: 75vh;
+    }
   }
 
   span {
