@@ -4,21 +4,16 @@
       backgroundImage:
         'url(' + require(`@/assets/images/books/bg/${book.Tag.main}.jpg`) + ')',
     }"
+    :class="{ long }"
   >
     <div class="blur" />
     <div class="dark" />
     <!-- <Cover class="cover" :book="book" width="618.75" height="900" /> -->
     <div class="center">
-      <div class="t" v-html="book.Title" />
-      <div class="v" v-html="`${$t('sciences.vol')} ${romanize(book.Part)}`" />
-      <div
-        class="s"
-        v-html="
-          `${book.Subtitles[0] ? book.Subtitles[0] : ''} ${
-            book.Subtitles[1] ? book.Subtitles[1] : ''
-          }`
-        "
-      />
+      <div class="container">
+        <img :src="require(`@/assets/icons/sciences/${book.Tag.main}.svg`)" />
+        <div class="t" v-html="$t(`sciences.${book.Tag.main}`)" />
+      </div>
     </div>
   </header>
 </template>
@@ -30,8 +25,18 @@ import { romanize } from '@/scripts/canvas/canvas'
 // import Cover from './Cover.vue'
 export default defineComponent({
   props: {
-    book: Object as () => Book,
+    book: {
+      type: Object as () => Book,
+      required: true,
+    },
+    long: String,
   },
+
+  // data() {
+  //   return {
+  //     small: this.$t(`sciences.${this.book.Tag.main}`).length > 18,
+  //   }
+  // },
   methods: {
     romanize,
   },
@@ -47,6 +52,20 @@ header {
   backdrop-filter: blur(5px) !important;
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
+  max-width: 100vw;
+  &.long {
+    height: 300px;
+    .t {
+      font-size: 55px;
+    }
+    @media (max-width: 1000px) {
+      height: 250px;
+      .t {
+        font-size: 35px;
+      }
+    }
+  }
 }
 
 .blur,
@@ -61,33 +80,43 @@ header {
   backdrop-filter: blur(5px) !important;
 }
 .center {
-  width: 1000px;
-  max-width: 90vw;
+  // width: 100;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: theme(light);
+
   .t {
-    font-size: 60px;
+    font-size: 45px;
     text-transform: uppercase;
     font-weight: 500;
     line-height: 52px;
+    margin-right: 10px;
+    text-align: center;
+
     @media (max-width: 1000px) {
-      font-size: 45px;
+      font-size: 30px;
       line-height: 40px;
     }
   }
-  .v {
-    font-size: 30px;
-    @media (max-width: 1000px) {
-      font-size: 24px;
-    }
-  }
-  .s {
-    margin-top: 5px;
-    @media (max-width: 1000px) {
-      font-size: 13px;
-    }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  height: 120px;
+  margin-right: 10px;
+  filter: invert(0.5) brightness(1000) brightness(0.9)
+    drop-shadow(0px 0px 3px #00000055);
+
+  @media (max-width: 1000px) {
+    margin-bottom: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 60px;
   }
 }
 </style>

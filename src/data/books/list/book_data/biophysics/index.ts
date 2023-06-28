@@ -1,12 +1,6 @@
 import { aboutplaceholder } from '@/data/books/placeholders'
 import { Book } from '@/data/types/book'
 
-import B_1 from '@/data/books/content/biophysics/47257390'
-import B_2 from '@/data/books/content/biophysics/47257391'
-import B_3 from '@/data/books/content/biophysics/47257392'
-import B_4 from '@/data/books/content/biophysics/47257393'
-import B_5 from '@/data/books/content/biophysics/47257394'
-
 export const Biophysics_1: Book = {
   ID: '47257390',
 
@@ -25,7 +19,6 @@ export const Biophysics_1: Book = {
     'Podstawy teoretyczne biofizyki, wprowadzenie do zastosowań',
     'fizyki i metod fizycznych w biologii i medycynie',
   ],
-  Content: B_1,
 }
 
 export const Biophysics_2: Book = {
@@ -46,7 +39,6 @@ export const Biophysics_2: Book = {
     'Biofizyka układów biologicznych, biofizyka molekularna,',
     'wpływ czynników fizycznych na organizm',
   ],
-  Content: B_2,
 }
 
 export const Biophysics_3: Book = {
@@ -71,7 +63,6 @@ export const Biophysics_3: Book = {
     'Fizyka medyczna, wprowadzenie do nauk medycznych,',
     'promieniowanie, ochrona radiologiczna i dozymetria',
   ],
-  Content: B_3,
 }
 
 export const Biophysics_4: Book = {
@@ -92,7 +83,6 @@ export const Biophysics_4: Book = {
     'Elektronika biomedyczna, biomechanika,',
     'podstawy inżynierii biomedycznej',
   ],
-  Content: B_4,
 }
 
 export const Biophysics_5: Book = {
@@ -113,7 +103,6 @@ export const Biophysics_5: Book = {
     'Neurofizyka, neuroinformatyka, neurobiologia,',
     'sztuczna inteligencja i sieci neuronowe',
   ],
-  Content: B_5,
 }
 
 // export const Biophysics_6: Book = {

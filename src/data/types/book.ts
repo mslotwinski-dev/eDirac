@@ -10,7 +10,6 @@ export interface Category {
 export interface Book {
   ID: string
   Title: string
-  CoverTitle?: string[]
   Author: string[]
   Color: string
   Pages?: number
@@ -23,8 +22,6 @@ export interface Book {
 
   Part: number
   Subtitles: string[]
-
-  Content: BookData
 }
 
 export interface BookData {
@@ -36,6 +33,11 @@ export interface BookData {
     }
   }
 }
+
+export type BookDB = {
+  ID: string
+  Content: BookData
+}[]
 
 // export type Data = {
 //   TITLE: string

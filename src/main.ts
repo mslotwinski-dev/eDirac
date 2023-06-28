@@ -7,12 +7,12 @@ import store from './store'
 import i18n from './locales/i18n'
 import VueSmoothScroll from 'vue3-smooth-scroll'
 import VueDragScroll from 'vue-dragscroll'
-import scrollsettings from './utilities/scroll'
+import scrollsettings from './config/scroll'
 import Notifications from '@kyvg/vue3-notification'
 
-import FontAwesomeIcon from './utilities/FontsAwesome'
+import FontAwesomeIcon from './config/FontsAwesome'
 
-import './utilities/registerServiceWorker'
+import './config/registerServiceWorker'
 
 import 'katex/dist/katex.min.css'
 

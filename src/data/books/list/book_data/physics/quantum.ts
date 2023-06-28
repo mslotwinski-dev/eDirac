@@ -1,10 +1,6 @@
 import { Book } from '@/data/types/book'
 import { aboutplaceholder } from '@/data/books/placeholders'
 
-import B_1 from '@/data/books/content/physics_quantum/73628461'
-import B_2 from '@/data/books/content/physics_quantum/73628462'
-import B_3 from '@/data/books/content/physics_quantum/73628463'
-
 export const Physics_Quantum_1: Book = {
   ID: '73628461',
 
@@ -23,7 +19,6 @@ export const Physics_Quantum_1: Book = {
     'Zaawansowana mechanika kwantowa i kwantowa teoria pola',
     'elektrodynamika kwantowa, optyka kwantowa',
   ],
-  Content: B_1,
 }
 
 export const Physics_Quantum_2: Book = {
@@ -48,7 +43,6 @@ export const Physics_Quantum_2: Book = {
     'Inżynieria kwantowa w praktyce: elektronika kwantowa',
     'kryptografia kwantowa, fizyka laserów',
   ],
-  Content: B_2,
 }
 
 export const Physics_Quantum_3: Book = {
@@ -66,8 +60,7 @@ export const Physics_Quantum_3: Book = {
 
   Part: 3,
   Subtitles: [
-    'Informatyka kwantowa, ',
-    'klasyczna i kwantowa teorii informacji',
+    'Informatyka kwantowa, klasyczna i kwantowa',
+    'teorii informacji',
   ],
-  Content: B_3,
 }

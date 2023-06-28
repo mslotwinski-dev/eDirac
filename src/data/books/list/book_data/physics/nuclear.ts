@@ -1,11 +1,6 @@
 import { Book } from '@/data/types/book'
 import { aboutplaceholder } from '@/data/books/placeholders'
 
-import B_1 from '@/data/books/content/physics_nuclear/74829121'
-import B_2 from '@/data/books/content/physics_nuclear/74829122'
-import B_3 from '@/data/books/content/physics_nuclear/74829123'
-import B_4 from '@/data/books/content/physics_nuclear/74829124'
-
 export const Physics_Nuclear_1: Book = {
   ID: '74829121',
 
@@ -24,8 +19,6 @@ export const Physics_Nuclear_1: Book = {
     'Zaawansowana fizyka i chemia jądrowa,',
     'fizyka zderzeń jąder i cząstek elementarnych',
   ],
-
-  Content: B_1,
 }
 
 export const Physics_Nuclear_2: Book = {
@@ -43,7 +36,6 @@ export const Physics_Nuclear_2: Book = {
 
   Part: 2,
   Subtitles: ['Metody i techniki jądrowe, modelowanie procesów jądrowych'],
-  Content: B_2,
 }
 
 export const Physics_Nuclear_3: Book = {
@@ -69,7 +61,6 @@ export const Physics_Nuclear_3: Book = {
     'Fizyka reaktorów jądrowych, energetyka jądrowa',
     'i termojądrowa, nowe rozwiązania w energetyce',
   ],
-  Content: B_3,
 }
 
 export const Physics_Nuclear_4: Book = {
@@ -90,6 +81,4 @@ export const Physics_Nuclear_4: Book = {
     'Oddziaływanie promieniowania jonizującego z materią,',
     'dozymetria, ochrona radiologiczna i bezpieczeństwo jądrowe',
   ],
-
-  Content: B_4,
 }

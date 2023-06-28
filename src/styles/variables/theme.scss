@@ -1,6 +1,7 @@
-@function theme($key) {
+@function theme($key, $opacity: 1) {
   @if map-has-key($theme, $key) {
-    @return map-get($theme, $key);
+    @return rgba(map-get($theme, $key), $opacity) ;
+  
   }
 
   @warn "Unknown `#{$key}` in $colors.";

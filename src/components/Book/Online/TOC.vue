@@ -72,8 +72,9 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { Book } from '@/data/types/book'
+import { Book, BookData } from '@/data/types/book'
 import Part from './Part.vue'
+import bookDB from '@/data/books/content/db'
 
 export default defineComponent({
   emits: ['setSubject'],
@@ -92,6 +93,7 @@ export default defineComponent({
       small: false,
       currentSubject: '',
       toc: [] as { subjects: string[][] }[],
+      bookDB,
     }
   },
   methods: {
@@ -101,18 +103,23 @@ export default defineComponent({
     },
   },
   mounted() {
-    this.toc = Object.entries(this.book.Content)
-      .map((e) =>
-        Object.entries(e[1]).map(
-          (f) =>
-            new Object({
-              part: e[0],
-              chapter: f[0],
-              subjects: Object.entries(f[1]),
-            })
+    const toc = this.bookDB.find((e) => e.ID == this.book.ID)!
+      .content as BookData
+
+    if (toc) {
+      this.toc = Object.entries(toc)
+        .map((e) =>
+          Object.entries(e[1]).map(
+            (f) =>
+              new Object({
+                part: e[0],
+                chapter: f[0],
+                subjects: Object.entries(f[1]),
+              })
+          )
         )
-      )
-      .flat(2) as { subjects: string[][] }[]
+        .flat(2) as { subjects: string[][] }[]
+    }
 
     this.setSubject(
       Object.keys(this.$store.getters.getBookChapters[this.$route.params.id])

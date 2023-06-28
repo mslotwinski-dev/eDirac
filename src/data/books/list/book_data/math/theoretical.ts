@@ -1,9 +1,6 @@
 import { Book } from '@/data/types/book'
 import { aboutplaceholder } from '@/data/books/placeholders'
 
-import B_1 from '@/data/books/content/mathematics/57046161'
-import B_2 from '@/data/books/content/mathematics/57046161'
-
 export const Mat_Theo_1: Book = {
   ID: '57046169',
 
@@ -19,7 +16,6 @@ export const Mat_Theo_1: Book = {
 
   Part: 1,
   Subtitles: [''],
-  Content: B_1,
 }
 
 export const Mat_Theo_2: Book = {
@@ -37,11 +33,10 @@ export const Mat_Theo_2: Book = {
 
   Part: 2,
   Subtitles: [''],
-  Content: B_2,
 }
 
 export const Mat_Theo_3: Book = {
-  ID: '57046170',
+  ID: '57046171',
 
   Title: 'Analiza Rzeczywista III',
   Author: ['Mateusz Słotwiński'],
@@ -55,11 +50,10 @@ export const Mat_Theo_3: Book = {
 
   Part: 3,
   Subtitles: [''],
-  Content: B_2,
 }
 
 export const Mat_Theo_4: Book = {
-  ID: '57046170',
+  ID: '57046172',
 
   Title: 'Analiza Funkcjonalna',
   Author: ['Mateusz Słotwiński'],
@@ -73,11 +67,10 @@ export const Mat_Theo_4: Book = {
 
   Part: 4,
   Subtitles: [''],
-  Content: B_2,
 }
 
 export const Mat_Theo_5: Book = {
-  ID: '57046170',
+  ID: '57046173',
 
   Title: 'Geometria Różniczkowa',
   Author: ['Mateusz Słotwiński'],
@@ -91,11 +84,10 @@ export const Mat_Theo_5: Book = {
 
   Part: 5,
   Subtitles: [''],
-  Content: B_2,
 }
 
 export const Mat_Theo_6: Book = {
-  ID: '57046170',
+  ID: '57046174',
 
   Title: 'Równania Różniczkowe',
   Author: ['Mateusz Słotwiński'],
@@ -109,5 +101,4 @@ export const Mat_Theo_6: Book = {
 
   Part: 6,
   Subtitles: [''],
-  Content: B_2,
 }

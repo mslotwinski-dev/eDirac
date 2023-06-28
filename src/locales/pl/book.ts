@@ -18,4 +18,13 @@ export default {
   index: 'Wprowadzenie',
   author: 'Autor',
   bibliography: 'Bibliografia',
+
+  pdf: {
+    download: 'Pobierz PDF',
+    status: {
+      ok: 'Pobieranie się zaraz rozpocznie',
+      error: 'Plik nie może zostać pobrany',
+    },
+    generate: 'Wygeneruj okładkę',
+  },
 }

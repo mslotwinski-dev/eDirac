@@ -1,14 +1,6 @@
 import { aboutplaceholder } from '@/data/books/placeholders'
 import { Book } from '@/data/types/book'
 
-import B_1 from '@/data/books/content/electronics/18851002'
-import B_2 from '@/data/books/content/electronics/18851003'
-import B_3 from '@/data/books/content/electronics/18851004'
-import B_4 from '@/data/books/content/electronics/18851005'
-import B_5 from '@/data/books/content/electronics/18851006'
-import B_6 from '@/data/books/content/electronics/18851007'
-import B_7 from '@/data/books/content/electronics/18851008'
-
 export const Electronics_1: Book = {
   ID: '18851002',
 
@@ -27,8 +19,6 @@ export const Electronics_1: Book = {
     'Wstęp do elektroniki i elektrotechniki, półprzewodniki,',
     'fizyczne podstawy elektroniki, teoria obwodów elektrycznych',
   ],
-
-  Content: B_1,
 }
 
 export const Electronics_2: Book = {
@@ -49,7 +39,6 @@ export const Electronics_2: Book = {
     'Elementy i układy elektroniczne, ',
     'teoria i przetwarzanie sygnałów',
   ],
-  Content: B_2,
 }
 
 export const Electronics_3: Book = {
@@ -74,7 +63,6 @@ export const Electronics_3: Book = {
     'Elektronika cyfrowa, systemy cyfrowe',
     'i komputerowe, wstęp do inżynierii komputerowej',
   ],
-  Content: B_3,
 }
 
 export const Electronics_4: Book = {
@@ -92,7 +80,6 @@ export const Electronics_4: Book = {
 
   Part: 4,
   Subtitles: ['Elementy optoelektroniczne, fotonika, fotowoltaika'],
-  Content: B_4,
 }
 
 export const Electronics_5: Book = {
@@ -110,7 +97,6 @@ export const Electronics_5: Book = {
 
   Part: 5,
   Subtitles: ['Nowoczesna mikroelektronika, układy scalone'],
-  Content: B_5,
 }
 
 export const Electronics_6: Book = {
@@ -131,7 +117,6 @@ export const Electronics_6: Book = {
     'Podstawy mikrokontrolerów i mikrosystemów ',
     'oraz systemów wbudowanych, nowoczesna elektronika',
   ],
-  Content: B_6,
 }
 
 export const Electronics_7: Book = {
@@ -149,5 +134,4 @@ export const Electronics_7: Book = {
 
   Part: 7,
   Subtitles: ['Podstawy metrologii i automatyzacji pomiarów'],
-  Content: B_7,
 }

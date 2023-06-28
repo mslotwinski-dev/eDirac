@@ -45,7 +45,6 @@ export default defineComponent({
   props: {
     toc: Object as () => { subjects: string[][] }[],
     color: String,
-    ID: String,
   },
   methods: {
     push(subject: string) {
@@ -56,7 +55,7 @@ export default defineComponent({
 
       this.$router.push({
         name: 'BookView',
-        params: { id: this.ID },
+        params: { id: this.$route.params.id },
       })
     },
   },

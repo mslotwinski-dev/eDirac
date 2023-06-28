@@ -1,16 +1,6 @@
 import { Book } from '@/data/types/book'
 import { aboutplaceholder } from '@/data/books/placeholders'
 
-import B_1 from '@/data/books/content/physics/16741766'
-import B_2 from '@/data/books/content/physics/16741767'
-import B_3 from '@/data/books/content/physics/16741768'
-import B_4 from '@/data/books/content/physics/16741769'
-import B_5 from '@/data/books/content/physics/16741770'
-import B_6 from '@/data/books/content/physics/16741771'
-import B_7 from '@/data/books/content/physics/16741772'
-import B_8 from '@/data/books/content/physics/16741773'
-import B_9 from '@/data/books/content/physics/16741774'
-
 export const Physics_1: Book = {
   ID: '16741766',
 
@@ -26,11 +16,9 @@ export const Physics_1: Book = {
 
   Part: 1,
   Subtitles: [
-    'Mechanika: ruch postępowy i obrotowy, siły i równowaga,',
+    'Ruch postępowy i obrotowy, siły i równowaga,',
     'mechanika analityczna, szczególna teoria względności',
   ],
-
-  Content: B_1,
 }
 
 export const Physics_2: Book = {
@@ -51,7 +39,6 @@ export const Physics_2: Book = {
     'Mechanika ośrodków ciągłych: podstawy hydrodynamiki,',
     'teoria sprężystości, drgania i fale mechaniczne, akustyka',
   ],
-  Content: B_2,
 }
 
 export const Physics_3: Book = {
@@ -76,7 +63,6 @@ export const Physics_3: Book = {
     'Termodynamika i kinetyczna teoria gazów',
     'chemia fizyczna, transport ciepła i masy',
   ],
-  Content: B_3,
 }
 
 export const Physics_4: Book = {
@@ -94,10 +80,9 @@ export const Physics_4: Book = {
 
   Part: 4,
   Subtitles: [
-    'Elektrodynamika: pole elektryczne i magnetyczne, prąd',
-    'elektryczny, elektromagnetyzm, elementy elektroniki',
+    'Pole elektryczne i magnetyczne, prąd elektryczny,',
+    'elektromagnetyzm, elementy elektroniki',
   ],
-  Content: B_4,
 }
 
 export const Physics_5: Book = {
@@ -115,7 +100,6 @@ export const Physics_5: Book = {
 
   Part: 5,
   Subtitles: ['Fale elektromagnetyczne, optyka geometryczna i falowa'],
-  Content: B_5,
 }
 
 export const Physics_6: Book = {
@@ -136,7 +120,6 @@ export const Physics_6: Book = {
     'Mechanika kwantowa i statystyczna,',
     'wstęp do fizyki współczesnej',
   ],
-  Content: B_6,
 }
 
 export const Physics_7: Book = {
@@ -157,13 +140,12 @@ export const Physics_7: Book = {
     'Fizyka materii skondensowanej, podstawy fizyki',
     'półprzewodników, przewodnictwo i magnetyzm materii',
   ],
-  Content: B_7,
 }
 
 export const Physics_8: Book = {
   ID: '16741773',
 
-  Title: 'Fizyka Jądrowa i Cząstek Elementarnych',
+  Title: 'Fizyka Jądrowa',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#006E89',
@@ -175,7 +157,6 @@ export const Physics_8: Book = {
 
   Part: 8,
   Subtitles: ['Podstawy fizyki atomowej, jądrowej i cząstek elementarnych'],
-  Content: B_8,
 }
 
 export const Physics_9: Book = {
@@ -196,5 +177,4 @@ export const Physics_9: Book = {
     'Astrofizyka i kosmologia: ogólna teoria względności,',
     'pole grawitacyjne, kwantowe zjawiska kosmologiczne',
   ],
-  Content: B_9,
 }

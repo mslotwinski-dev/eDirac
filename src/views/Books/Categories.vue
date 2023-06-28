@@ -20,7 +20,7 @@ import { defineComponent } from 'vue'
 
 // import Hero from '@/components/Shared/Hero.vue'
 import SmallHero from '@/components/Shared/SmallHero.vue'
-import Categories from '@/components/Books/Pick/Categories.vue'
+import Categories from '@/components/Books/Categories.vue'
 import Ad from '@/components/Shared/Ads/VerticalSmall.vue'
 
 export default defineComponent({
