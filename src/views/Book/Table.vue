@@ -7,7 +7,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import { Book, BookData, Category } from '@/data/types/book'
-import * as CategoriesModule from '@/data/books/categories'
+import CategoriesModule from '@/data/books/'
 import bookDB from '@/data/books/content/db'
 
 import List from '@/components/Book/Table/List.vue'

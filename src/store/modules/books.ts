@@ -1,6 +1,6 @@
 import { Module, VuexModule, Mutation } from 'vuex-module-decorators'
 
-import * as CategoriesModule from '@/data/books/categories'
+import CategoriesModule from '@/data/books/'
 import { Category } from '@/data/types/book'
 
 @Module({ name: 'books' })

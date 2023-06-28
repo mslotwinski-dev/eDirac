@@ -24,7 +24,7 @@
 <script lang="ts">
 import { defineComponent, ref, onMounted } from 'vue'
 import katex from 'katex'
-import * as CategoriesModule from '@/data/books/categories'
+import CategoriesModule from '@/data/books/'
 
 export default defineComponent({
   props: {

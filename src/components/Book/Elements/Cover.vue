@@ -28,7 +28,7 @@
 import { defineComponent } from 'vue'
 import { Book } from '@/data/types/book'
 import { romanize } from '@/scripts/canvas/roman'
-import * as CategoriesModule from '@/data/books/categories'
+import CategoriesModule from '@/data/books/'
 
 export default defineComponent({
   data() {

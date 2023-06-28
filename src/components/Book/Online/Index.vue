@@ -14,7 +14,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import { Book, Category } from '@/data/types/book'
-import * as CategoriesModule from '@/data/books/categories'
+import CategoriesModule from '@/data/books/'
 import TableOfContents from '@/components/Book/Online/TOC.vue'
 import Container from '@/components/Book/Online/Container.vue'
 import { romanize } from '@/scripts/canvas/roman'

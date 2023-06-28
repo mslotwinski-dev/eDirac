@@ -10,7 +10,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import * as CategoriesModule from '@/data/books/categories'
+import CategoriesModule from '@/data/books/'
 import { Book } from '@/data/types/book'
 
 export default defineComponent({

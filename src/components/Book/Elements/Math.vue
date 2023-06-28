@@ -24,7 +24,7 @@
 import { defineComponent, ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import katex from 'katex'
-import * as CategoriesModule from '@/data/books/categories'
+import CategoriesModule from '@/data/books'
 import { Book } from '@/data/types/book'
 
 export default defineComponent({

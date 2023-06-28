@@ -9,7 +9,7 @@
 import { defineComponent } from 'vue'
 
 import { Book, Category } from '@/data/types/book'
-import * as CategoriesModule from '@/data/books/categories'
+import CategoriesModule from '@/data/books/'
 
 import Navigation from '@/components/Book/Navigation.vue'
 import Download from '@/components/Book/PDF/Download.vue'

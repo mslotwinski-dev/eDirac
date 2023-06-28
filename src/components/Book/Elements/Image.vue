@@ -18,7 +18,7 @@
 import { defineComponent } from 'vue'
 import { useRoute } from 'vue-router'
 
-import * as CategoriesModule from '@/data/books/categories'
+import CategoriesModule from '@/data/books/'
 import { Book } from '@/data/types/book'
 
 export default defineComponent({

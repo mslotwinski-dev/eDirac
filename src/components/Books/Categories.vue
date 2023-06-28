@@ -13,7 +13,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import * as CategoriesModule from '@/data/books/categories'
+import CategoriesModule from '@/data/books/'
 import { Category as CategoryType } from '@/data/types/book'
 import Category from './Category.vue'
 import Contents from './Contents.vue'
