@@ -292,7 +292,7 @@
       Bosego-Einsteina. Nie będę jednak ci o nim mówił zbyt wiele, gdyż ich
       zastosowanie jest bardziej skomplikowane. Wystarczy wiedzieć, że pierwszy
       rozkład tyczy się fermionów (np. elektrony), natomiast drugi bozonów (np.
-      fotonów). O fermionach i bozonach dowiesz się w rozdziale 2.5 o budowie
+      fotonów). O fermionach i bozonach dowiesz się w rozdziale 2.7 o budowie
       materii.
     </Section>
     <Section>

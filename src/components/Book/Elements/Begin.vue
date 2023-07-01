@@ -4,7 +4,7 @@
       class="nr"
       v-html="`${$t('book.subject')} ${nr}`"
       :style="{
-        backgroundImage: `linear-gradient(to right, ${color}, #28353a)`,
+        backgroundImage: `linear-gradient(to right, ${color}, ${color}a5, transparent)`,
       }"
     />
     <slot />
@@ -63,6 +63,7 @@ h2 {
     font-size: 23px;
     text-transform: uppercase;
     color: theme(light);
+    background-color: theme(dark);
     margin-bottom: 5px;
     @media (max-width: 1000px) {
       font-size: 19px;

@@ -86,12 +86,22 @@
       Jeśli rozważane ciało jest kamieniem poruszającym się po okręgu,
       przymocowanym do linki, której drugi koniec trzymam w ręce, to
       <M s="F_r" /> będzie siłą naprężenia linki, a <M s="F_\varphi" />, siłą
-      oporu powietrza, hamującą ruch w kierunku stycznym do okręgu. Naszym
-      pierwszym zadaniem jest znaleźć pochodną wersora r, a wynosi ona
+      oporu powietrza, hamującą ruch w kierunku stycznym do okręgu.
+    </Section>
+
+    <Section>
+      Znajdźmy więc wzór na prędkosć i przyspieszenie w biegunowym układzie
+      współrzędnych. Potrzebna tu będzie minimalna znajomość geometrii
+      różniczkowej, a konktetnie różniczkowania w krzywoliniowych układach
+      współrzędnych. Geometria różniczkowa dla fizyka jest bardzo dobrym
+      narzędziem, aby opisywać ruch w innych układach współrzędnych niż
+      kartezjański. Jeśli nie różniczkowałeś wersorów to musisz uwierzyć na
+      słowo, że robi się to w ten sposób.
     </Section>
     <Math>
       \displaystyle \frac{d}{dt} \htmlClass{hat}{\hat r} = \dot \varphi
-      \htmlClass{hat}{\hat \varphi}
+      \htmlClass{hat}{\hat \varphi}, \qquad \frac{d}{dt} \htmlClass{hat}{\hat
+      \varphi} = - \dot \varphi \htmlClass{hat}{\hat r}
     </Math>
     <Section>
       Dysponując wyrażeniem na pochodną wersora r, możemy obliczyć pochodną po
@@ -111,16 +121,8 @@
     </Math>
     <Section>
       Jedyne, co nam jest w tym przypadku potrzebne to pochodna po czasie
-      wersora <M s="\varphi" />. Tym razem znowu możesz zaufać na słowo, że jest
-      to:
-    </Section>
-    <Math>
-      \displaystyle \frac{d}{dt} \htmlClass{hat}{\hat \varphi} = - \dot \varphi
-      \htmlClass{hat}{r}
-    </Math>
-    <Section>
-      Teraz możemy wykonać różniczkowanie otrzymując wzór na przyspieszenie w
-      uporządkowanej postaci:
+      wersora <M s="\varphi" />. Teraz możemy wykonać różniczkowanie otrzymując
+      wzór na przyspieszenie w uporządkowanej postaci:
     </Section>
     <Formula nr="4.14">
       \vec a = (\ddot r - r \dot \varphi^2) \htmlClass{hat}{\hat r} + (r \ddot
@@ -186,7 +188,7 @@
         druga zasada dynamiki przyjmuje postać:
       </Section>
       <Math>
-        F_r = -mR\dot \varphi ^2, \qquad F_\varphi = -mR\dot \varphi ^2
+        F_r = -mR\dot \varphi ^2, \qquad F_\varphi = mR \ddot \varphi
       </Math>
       <Section>
         Na deskorolkę działają dwie siły: jej ciężar w = mg i siła reakcji rynny
@@ -268,7 +270,7 @@
       Szerzej o naturze drgań i fal porozmawiamy w drugim tomie w części
       dotyczącej drgań i fal mechanicznych. Pojęcie fal jednak nie ogranicza się
       do mechaniki i tak w tomie 4 i 5, spotkamy fale elektromagnetyczne, a w
-      tomie 6 i 8, poznamy funkcje falowyme układów kwantowych. Już teraz
+      tomie 6 i 8, poznamy funkcje falowe układów kwantowych. Już teraz
       powinieneś wiedzieć, że właściwie cała nasza materia składa się z fal,
       każdy obiekt i każde oddziaływanie jest falą i nawet tekst, który czytasz
       zapisany jest na pewnej fali materii.

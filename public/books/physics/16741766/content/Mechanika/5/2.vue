@@ -36,7 +36,14 @@
     <Section>
       Drugim warunkiem, aby uznać siłę za zachowawczą, jest właściwość, że praca
       od punktu 1 do punktu 2 zależy tylko i wyłącznie od odległości między
-      punktami. Nie zależy od wyboru krzywej.
+      punktami. Nie zależy od wyboru krzywej. Możemy stwierdzić, że praca po
+      krzywej zamkniętej będzie wtedy równa zawsze 0.
+    </Section>
+    <Formula nr="7.6"> \oint \limits _L W \cdot ds = 0 </Formula>
+    <Section>
+      Możemy traktować to albo jako skutek naszej definicji, albo ten wzór
+      dosłownie traktować jako definicję siły zachowawczej - jeśli praca po
+      krzywej zamkniętej jest równa 0 to siła jest zachowawcza.
     </Section>
     <h3>Energia potencjalna</h3>
     <Section>
@@ -53,7 +60,7 @@
       na mocy definicji U będzie miała wartość równą zeru. Następnie definiujemy
       energię potencjalną U(r) w dowolnym punkcie r jako
     </Section>
-    <Formula nr="7.6">
+    <Formula nr="7.7">
       U = -W(r_0 \rightarrow r) = \int \limits _{r_0}^r \vec F \cdot d \vec s
     </Formula>
     <Section>
@@ -68,7 +75,7 @@
       zwrocie w dół. Za poziom odniesienia można przyjąć dowolny punkt. Wtedy
       wszystkie punkty na poziomie odniesienia mają zerową energię potencjalną.
     </Section>
-    <Formula nr="7.7">U = mgh</Formula>
+    <Formula nr="7.8">U = mgh</Formula>
     <h3>Zachowanie energii</h3>
     <Section>
       Wiemy już, że energia potencjalna to praca od punktu <M s="r_0" /> do r z
@@ -86,6 +93,6 @@
       Co przenosząc na drugą stronę daje nam związek zwany zasadą zachowania
       energii.
     </Section>
-    <Formula nr="7.8">\Delta (T + U) = \Delta E = 0</Formula>
+    <Formula nr="7.9">\Delta (T + U) = \Delta E = 0</Formula>
   </Article>
 </template>

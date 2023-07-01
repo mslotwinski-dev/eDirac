@@ -1,5 +1,8 @@
 <template>
-  <div class="container" :style="{ backgroundColor: `#00647d40` }">
+  <div
+    class="container"
+    :style="{ backgroundColor: `${color}20`, borderColor: color }"
+  >
     <div class="content">
       <div class="equation" v-dragscroll>
         <span>
@@ -23,7 +26,9 @@
 
 <script lang="ts">
 import { defineComponent, ref, onMounted } from 'vue'
+import { useRoute } from 'vue-router'
 import katex from 'katex'
+import { Book } from '@/data/types/book'
 import CategoriesModule from '@/data/books/'
 
 export default defineComponent({
@@ -31,13 +36,20 @@ export default defineComponent({
     nr: String,
   },
   setup() {
+    const route = useRoute()
     const slot = ref<HTMLSpanElement | null>(null)
     const span = ref<HTMLSpanElement | null>(null)
+
     let eq = ref('')
 
     onMounted(() => {
       if (slot.value) eq.value = slot.value.innerHTML
     })
+
+    const color = Object.values({ ...CategoriesModule })
+      .map((e) => e.Books)
+      .flat(1)
+      .filter((e: Book) => e.ID == (route.params.id as string))[0].Color
 
     return {
       katex,
@@ -45,6 +57,7 @@ export default defineComponent({
       slot,
       span,
       eq,
+      color,
     }
   },
 })
@@ -63,6 +76,8 @@ export default defineComponent({
   border-radius: 10px;
   padding: 8px;
   margin: auto;
+
+  border: solid 2.5px;
 
   .content {
     width: 100%;

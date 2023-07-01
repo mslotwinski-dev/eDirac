@@ -329,14 +329,15 @@
     </Section>
     <Formula nr="2.9">\sigma = E \cdot \varepsilon</Formula>
     <Section>
-      Spoko, a teraz co jest czym. Naprężenie zależy od siły i pola przekroju
-      pręta, który rozciągamy. Jest więc niczym innym jak ciśnieniem, jakie
-      działa na pręt, po prostu inaczej się nazywa. Grecka literka oznacza
-      odkształcenie i nie ma ono jednostki. Odkształcenie 0.1 oznacza, że pręt
-      rozciągnął się o 10%, odkształcenie 0.5 o 50%, a odkształcenie 1 oznacza,
-      że pręt wydłużył się dwukrotnie (zwiększył długość o 100%). Współczynnik
-      oznaczony E nosi nazwę modułu Younga i mówi nam o tym jak bardzo ciało
-      jest podatne na odkształcenia.
+      Spoko, a teraz co jest czym. Naprężenie <M s="\sigma" /> zależy od siły i
+      pola przekroju pręta, który rozciągamy. Jest więc niczym innym jak
+      ciśnieniem, jakie działa na pręt, po prostu inaczej się nazywa. Grecka
+      literka <M s="\varepsilon" /> oznacza odkształcenie i nie ma ono
+      jednostki. Odkształcenie 0.1 oznacza, że pręt rozciągnął się o 10%,
+      odkształcenie 0.5 o 50%, a odkształcenie 1 oznacza, że pręt wydłużył się
+      dwukrotnie (zwiększył długość o 100%). Współczynnik oznaczony E nosi nazwę
+      modułu Younga i mówi nam o tym jak bardzo ciało jest podatne na
+      odkształcenia.
     </Section>
     <Section>
       Prawo to jest spełnione dlatego, że niektóre obiekty mają właściwość,

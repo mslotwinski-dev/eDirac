@@ -30,7 +30,7 @@
       najszybszych zmian pola energii potencjalnej (jej gradient) jest co do
       wartości równy sile, jaka działa na ciało w tym polu w tym pukcie.
     </Section>
-    <Formula nr="4.23"> F = - { \bigtriangledown U }</Formula>
+    <Formula nr="7.10"> F = - { \bigtriangledown U }</Formula>
 
     <Image src="dynamika/7.png">
       Zależność między energią potencjalną, a siłą
