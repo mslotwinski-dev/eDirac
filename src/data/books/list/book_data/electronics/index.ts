@@ -16,8 +16,8 @@ export const Electronics_1: Book = {
 
   Part: 1,
   Subtitles: [
-    'Wstęp do elektroniki i elektrotechniki, półprzewodniki,',
-    'fizyczne podstawy elektroniki, teoria obwodów elektrycznych',
+    'Wstęp do elektroniki i elektrotechniki, fizyczne podstawy',
+    'elektroniki, materiały w elektronice, teoria obwodów',
   ],
 }
 
@@ -36,7 +36,7 @@ export const Electronics_2: Book = {
 
   Part: 2,
   Subtitles: [
-    'Elementy i układy elektroniczne, ',
+    'Elementy i układy elektroniczne,',
     'teoria i przetwarzanie sygnałów',
   ],
 }
