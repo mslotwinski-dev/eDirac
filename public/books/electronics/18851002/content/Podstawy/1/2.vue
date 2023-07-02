@@ -75,6 +75,11 @@
     </Section>
     <Formula nr="1.6"> E = \frac{Q}{4 \pi \varepsilon r^2} </Formula>
     <Section>
+      Tajemnicza <M s="\varepsilon" /> to przenikalność elektryczna ośrodka.
+      Zależy ona od materiału i określa jak dobrze dany ośrodek przepuszcza pole
+      elektryczne.
+    </Section>
+    <Section>
       Oczywiście możemy liczyć również pole elektryczne pierścienia, druta,
       pączka czy tostera, ale nie ma potrzeby. Nie będziemy się na elektronice
       rozpatrywać pola elektrycznego w każdej sytuacji, bo nam to nie jest
