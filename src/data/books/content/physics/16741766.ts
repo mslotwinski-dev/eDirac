@@ -10,7 +10,7 @@ export default {
     'Wprowadzenie do fizyki': {
       'Ruch i jego przyczyny': 'Wstep/2/1.vue',
       'Ciepło, a statystyka': 'Wstep/2/2.vue',
-      // 'Elektryczność i magnetyzm': 'Wstep/2/3.vue',
+      'Elektryczność i magnetyzm': 'Wstep/2/3.vue',
       'Tajemniczy świat kwantów': 'Wstep/2/4.vue',
       // 'Materiały i struktury': 'Wstep/2/5.vue',
       // 'O energii jądrowej': 'Wstep/2/6.vue',

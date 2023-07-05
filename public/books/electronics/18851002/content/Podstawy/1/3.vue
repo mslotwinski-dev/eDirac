@@ -40,6 +40,18 @@
       trudno się mu przeciwstawić. Natężenie mierzy nam prąd ilościowo mówiąc
       jak wiele jest elektronów.
     </Section>
+    <Section>
+      Aby znaleźć całkowity ładunek, który przepłynął musimy przekształcić nasz
+      wzór. Najpierw mnożymy obustronnie przez dt, a potem całkujemy.
+    </Section>
+    <Formula nr="1.11"> Q = \int \limits_{t} I \ dt</Formula>
+    <Section>
+      Dla przykładu w obwodach prądu przemiennego, jeśli prąd będzie równy
+      <M s="I_0 sin (\omega t)" /> funkcja ładunku będzie równa
+    </Section>
+    <Section>A mając całkę nieoznaczoną, oznaczona to formalność.</Section>
+
+    <Math> Q = - \frac{I_0}{\omega} cos (\omega t) </Math>
     <h3>Obwody</h3>
     <Section>
       Nareszcie przyszedł czas na pierwszy obwód. Będzie absurdalnie prosty, ale
