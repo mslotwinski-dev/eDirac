@@ -1,7 +1,7 @@
 <template>
   <Article>
     <Begin nr="2.3" advanced="0"> Elektryczność i magnetyzm </Begin>
-    <h3>Początki Elektrostatyki</h3>
+    <h3>Narodziny Elektrostatyki</h3>
     <Section>
       Już w starożytnej Grecji (a prawdopodobnie nawet i wcześniej) ludzie
       zauważali, że niektóre obiekty posiadają naturę elektrostatyczną. Nie
