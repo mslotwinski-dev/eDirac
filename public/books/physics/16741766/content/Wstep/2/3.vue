@@ -107,7 +107,7 @@
       jednak bez problemu możemy zastosować je do opisu
       <i>klasycznych</i> obwodów.
     </Section>
-    <Formula nr="2.26"> R = \frac{U}{I} </Formula>
+    <Formula nr="2.27"> R = \frac{U}{I} </Formula>
     <Section />
     <h3>Teoria elektromagnetyzmu</h3>
     <Section>
@@ -123,7 +123,79 @@
       Ørsted zauważył, że igła magnesu odchyla się w otoczeniu przewodnika, w
       którym płynie prąd. Prąd wytworzył pole magnetyczne. Tylko jak? W jaki
       sposób sa one związane? Jeszcze ciekawiej zrobiło się gdy Ampere odkrył,
-      że przewodzący drut wytwarza wokół siebie pole magnetyczne.
+      że przewodzące druty wytwarzają wokół siebie pole magnetyczne przyciągając
+      się nawzajem. Był to ostateczny dowód, że coś jest tu na rzeczy. Natężenie
+      pola magnetycznego w odległości r od przewodnika jest równe:
+    </Section>
+    <Formula nr="2.28"> \vec H = \frac{I}{2\pi r} </Formula>
+    <Section>
+      A co tutaj robi <M s="\pi" />? Mamy tu do czynienia z jakimś okręgiem?
+      Otóż tak. Przepływ prądu wytwarza wirowe pole magnetyczne. Dlaczego
+      wirowe? Gdy już dojdziemy do prawdziwych praw elektrodynamiki zauważymy tu
+      operator rotacji. Rotacja to taki operator, który mówi nam o rotacji lub
+      wirowaniu naszego pola wektorowego.
+    </Section>
+    <Image src="wstep/16.png"></Image>
+    <Section>
+      Wygląda to tak, tylko się nie przestrasz. Gęstość prądu J (natężenie I /
+      powierzchnia S) jest równa rotacji pola magnetycznego. Nie musisz wiedzieć
+      jak to wygląda matematycznie. Wystarczy, że wiesz, że rotacja opisuje wiry
+      funkcji.
+    </Section>
+    <Math>\vec J = \bigtriangledown \times \vec H</Math>
+    <Section>
+      Częściej niż natężenie pola magnetycznego podaje się indukcję magnetyczną.
+      Jest to dobry moment na wprowadzenie dwóch stałych: <M s="\varepsilon" />,
+      czyli przenikalności elektrycznej i <M s="\mu" /> - przenikalności
+      magnetycznej. Oba są charakterystyczne dla materiału i mówią jak dobrze
+      dany materiał tłumi / przepuszcza pola elektryczne i magnetyczne. No
+      dobra, a czym jest ta indukcja magnetyczna? Wystarczy pomnożyć natężenie
+      pola przez przenikalność.
+    </Section>
+    <Math> \vec B = \mu \vec H </Math>
+    <Section>
+      Indukcję magnetyczną B podajemy w Teslach (T). Wiemy już, że płynące pole
+      elektryczne wytwarza pole magnetyczne. A może działa to również w drugą
+      stronę? Zajęło 10 lat, żeby ludzkość przekonała się, że to również działa.
+      Prawo to odkrył angielski fizyk Michael Faraday. Za chwilę podam ci to
+      prawo, tylko najpiew wprowadźmy jeszcze jedną zmienną. Będzie nią strumień
+      magnetyczny, który określa jak wiele pola magnetycznego przechodzi przez
+      naszą powierzchnię.
+    </Section>
+    <Formula nr="2.29"> \phi = \vec B \cdot \vec S </Formula>
+    <Section>
+      Teraz możemy podać prawo Faradaya, zgodnie z którym zmiana pola
+      magnetycznego powoduje powstanie napięcia, a więc przepływ prądu.
+    </Section>
+    <Formula nr="2.30"> U = - \frac{d\phi}{dt} </Formula>
+    <Section>
+      Symbol d to nieskończenie mała zmiana. Możesz używać również symbolu
+      <M s="\Delta" /> jak w szkole podstawowej pamiętając, że nasza zmiana
+      powinna być bardzo, bardzo mała. Właściwie każde szkolne równanie gdzie
+      mamy <M s="\Delta" />x/<M s="\Delta" />y to imitacja różniczkowania i
+      prawdziwy wzór to dx/dy. Prędkość, moc, natężenie. Ale to szczegół.
+    </Section>
+    <h3>Elektrodynamika Maxwella</h3>
+    <Section>
+      Zaraz, coś tu jest podejrzane. Zmienne pole elektryczne wytwarza nam
+      zmienne pole magnetyczne, natomiast zmienne pole magnetyczne wytwarza
+      zmienne pole elektryczne? O co tu chodzi? Wygląda na to, że skoro pierwsze
+      tworzy drugie, a drugie pierwsze to jesteśmy w nieskończonej spirali, a
+      oba pola są dokładnie tą samą rzeczą, którą nieudolnie próbujemy
+      rozdzielić.
+    </Section>
+    <Section>
+      Jeszcze ciekawiej się zrobi gdy uświadomimy sobie, że zmiany są względne.
+      Wyobraź sobie, że elektron wiruje wokół druta. Drut powinien doznać
+      działania pola magnetycznego. A teraz <i>usiądźmy na elektronie</i>.
+      Elektron względem nas jest w tym samym położeniu, nie ma więc prawa
+      wytwarzać pola magnetycznego. Przecież jest w spoczynku, siedzimy na nim.
+      Jakim cudem więc drut doznaje siły magnetycznej, skoro to on się porusza
+      nie my?
+    </Section>
+    <Section>
+      Do tego drugiego kiedyś wrócimy, bo właśnie ta sprzeczność doprowadziła do
+      powstania teorii względności Einsteina.
     </Section>
     <h3>Czym jest światło?</h3>
     <h3>Nowoczesna elektronika</h3>
