@@ -1,7 +1,7 @@
 <template>
   <Article>
     <Begin nr="2.3" advanced="0"> Elektryczność i magnetyzm </Begin>
-    <h3>Narodziny Elektrostatyki</h3>
+    <h3>Początki Elektrostatyki</h3>
     <Section>
       Już w starożytnej Grecji (a prawdopodobnie nawet i wcześniej) ludzie
       zauważali, że niektóre obiekty posiadają naturę elektrostatyczną. Nie
@@ -92,7 +92,9 @@
     <Formula nr="2.25"> U = \frac{W}{q} </Formula>
     <Section>
       Jeśli chcemy podać ilościowo podajemy jego natężenie liczone w amperach
-      (A).
+      (A). Sam Amper jest odkrywcą tak zwanej siły elektrodynamicznej, która
+      głosi, że przewody w których płynie prąd mogą się przyciągać lub odpychać
+      (w zależności od kierunku prądu).
     </Section>
     <Formula nr="2.26"> I = \frac{q}{t} </Formula>
     <Section>
@@ -106,6 +108,24 @@
       <i>klasycznych</i> obwodów.
     </Section>
     <Formula nr="2.26"> R = \frac{U}{I} </Formula>
-    <h3>DO DOKOŃCZENIA</h3>
+    <Section />
+    <h3>Teoria elektromagnetyzmu</h3>
+    <Section>
+      Nauka o elektryczności rozwijała się bardzo dynamicznie, a świat nauki z
+      niecierpliwością wyczekiwał kolejnych badań. Kolejne pół wieku zapowiadało
+      się epoką ważnych odkryć i ciekawych konstrukcji. Wszystko byłoby fajnie,
+      wszystko szło by swoim spokojnym tempem gdyby nie pewien Duńczyk. Bo to,
+      do czego on doprowadził to nie epoka zwykłych odkryć. To była rewolucja.
+      Ale od początku.
+    </Section>
+    <Section>
+      Wszystko zaczęło się od niepozornego doświadczenia. Duński fizyk Hans
+      Ørsted zauważył, że igła magnesu odchyla się w otoczeniu przewodnika, w
+      którym płynie prąd. Prąd wytworzył pole magnetyczne. Tylko jak? W jaki
+      sposób sa one związane? Jeszcze ciekawiej zrobiło się gdy Ampere odkrył,
+      że przewodzący drut wytwarza wokół siebie pole magnetyczne.
+    </Section>
+    <h3>Czym jest światło?</h3>
+    <h3>Nowoczesna elektronika</h3>
   </Article>
 </template>
