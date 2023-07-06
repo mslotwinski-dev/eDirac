@@ -195,9 +195,139 @@
     </Section>
     <Section>
       Do tego drugiego kiedyś wrócimy, bo właśnie ta sprzeczność doprowadziła do
-      powstania teorii względności Einsteina.
+      powstania teorii względności Einsteina. Spróbujmy jednak zastanowić się w
+      jaki sposób lepiej opisać zmiany naszego pola. W matematyce mamy 3
+      najważniejsze działania na polach w przestrzeni. Są to gradient
+      dywergencja i rotacja. Gradient wskazuje kierunek zmian naszego pola i
+      oznaczamy go <M s="\bigtriangledown \vec A"></M>. Dywergencja wskazuje
+      źródło z którego pochodzą zmiany. Oznaczamy ją
+      <M s="\bigtriangledown \cdot \vec A"></M>. Ostatnia jest rotacja, która
+      wkazuje dosłownie rotację naszego pola, czyli jak mocno jest zawirowane i
+      oznaczamy ją w ten sposób <M s="\bigtriangledown \times \vec A"></M>. Nie
+      musisz wiedzieć jak to liczyć, musisz wiedzieć jak to słownie wytłumaczyć.
     </Section>
+    <Section>
+      Za pomocą tych działań opisujących zmienność pól możemy zapisać 4
+      fundamentalne równania Maxwella. Najważniejsze równania elektrodynamiki z
+      których wynika każde inne równanie.
+    </Section>
+    <Section>
+      Pierwsze równanie mówi nam o tym, że źródłem (dlatego dywergencja) pola
+      elektrycznego są ładunki, a im bardziej gęste (stąd też uwzględniamy
+      objętość) są ładunki w danym miejscu tym silniejsze pole elektryczne. Dość
+      oczywiste, prawda? No i oczywiście musimy uwzględnić przenikalność
+      elektryczną.
+    </Section>
+    <Formula nr="2.31">
+      \bigtriangledown \cdot \vec E = \frac{Q}{ \varepsilon \ V }
+    </Formula>
+    <Section>
+      Drugie równanie mówi nam, że pole magnetyczne źródła nie ma. Jak to
+      możliwe? Linie pola magnetycznego zataczają kręgi dokładnie tak jak mogłeś
+      zauważyć na ilustracji z przewodnikiem. Linie pola magnetycznego są zawsze
+      zamknięte. A na logike nie jesteśmy w stanie podać źródła okręgu. Dlatego
+      jego dywergencja wynosi 0 - nie mamy żadnego źródła.
+    </Section>
+    <Formula nr="2.32"> \bigtriangledown \cdot \vec B = 0 </Formula>
+    <Section>
+      Trzecie równanie mówi nam, że zmienne w czasie pole magnetyczne wytwarza
+      zmienne wirowe pole elektryczne. To jest dokładnie to samo prawo Faradaya
+      co w równaniu (2.30), tylko tym razem operujemy nie na prądach tylko
+      polach. Skoro wirowe pole elektryczne to musi być jego rotacja. A skoro
+      zmiana w czasie pola magnetycznego to musi być <M s="\Delta" />B/<M
+        s="\Delta"
+      />t lub jak to jest w prawdziwym wzorze dB/dt. Nie zapomnij tylko o znaku
+      -, który był w prawie Faradaya.
+    </Section>
+    <Formula nr="2.33">
+      \bigtriangledown \times \vec E = - \frac{d { \vec B}}{ dt }
+    </Formula>
+    <Section>
+      A teraz lecimy w drugą stronę. Zmienne w czasie pole elektryczne wytwarza
+      zmienne wirowe pole magnetyczne. Czy coś jeszcze? Okazuje się, że musimy
+      uwzględnić jeszcze płynący prąd, bo z pewnego powodu płynący prąd
+      traktowany jest jako osobne źródło. Więc wystarczy w takim razie dodać
+      efekty wywołane zmianą pola i przepływem prądu oraz tym razem uwzlędnić
+      przenikalności, które na słowo uwierz, że wyglądają w taki dziwny sposób.
+    </Section>
+    <Formula nr="2.34">
+      \bigtriangledown \times \vec B = \mu \vec J + \varepsilon \mu \frac {d
+      \vec E}{d t}
+    </Formula>
+    <Section>
+      W ten sposób mamy już 4 najważniejsze równania całej elektrodynamiki,
+      które możemy jeszcze raz wypisać, aby podziwiać jak chorą rzecz się
+      pakujemy.
+    </Section>
+    <Math>
+      \bigtriangledown \cdot \vec E = \frac{Q}{ \varepsilon \ V } \qquad {
+      \bigtriangledown } \cdot \vec B = 0
+    </Math>
+    <Math>
+      \bigtriangledown \times \vec E = - \frac{d { \vec B}}{ dt } \qquad {
+      \bigtriangledown } \times \vec B = \mu \vec J + \varepsilon \mu \frac {d
+      \vec E}{d t}
+    </Math>
     <h3>Czym jest światło?</h3>
-    <h3>Nowoczesna elektronika</h3>
+    <Section>
+      Wszystko fajnie, tylko co nam to ostatecznie daje? Zapisaliśmy to samo, co
+      wiedzieliśmy tylko w nieco inny sposób. Tak mogłoby się wydawać na
+      pierwszy rzut oka. Jednak równania zapisane w tej formie są znacznie
+      potężniejsze. Maxwell zaczął po kolei podstawiać każdy wzór do każdego
+      bawiąc się nimi. Ostatecznie z czterech równań uzyskał dwa identyczne
+      twory. Nie zmierzam ci nawet ich tłumaczyć, ale w tej formie pole
+      elektryczne i magnetyczne są jeszcze bardziej podobne. No jeśli bardzo
+      chcesz wiedzieć co tu się dzieje to tu są nie prędkości zmian, a
+      przyspieszenia zmian, dlatego zmiany są w kwadratach.
+    </Section>
+    <Math>
+      \frac{1}{c^2} \frac{d^2 \vec E}{dt^2} - {\bigtriangledown}^2 \vec E = 0
+    </Math>
+
+    <Math>
+      \frac{1}{c^2} \frac{d^2 \vec B}{dt^2} - {\bigtriangledown}^2 \vec B = 0
+    </Math>
+
+    <Section>
+      Fizycy od dawna zdawali sobie sprawę z tajemniczej wielkości o wymiarze
+      prędkości, którą dostajemy mnożąc przenikalność elektryczną i magnetyczną,
+      jednak nie do końca wiedzieli co z nią zrobić.
+    </Section>
+    <Formula nr="2.35"> \frac{1}{c^2} = \varepsilon \ \mu </Formula>
+    <Section>
+      Wiedzieli, że wynosi ona około 300 milionów metrów na sekundę i jest
+      podejrzanie zbliżona do prędkości światła. Szczęścliwie dla Maxwella,
+      fizycy może nie znali odpowiedzi co tu się dzieje, ale matematycy już tak.
+      Równanie zawierające zmiany to równanie różniczkowe, a matematycy
+      potrafili od jakiegoś już czasu takie równania rozwiązywać i tak się
+      składa, że rozwiązaniem takiego równania jest funkcja sinus.
+    </Section>
+    <Formula nr="2.36">
+      E (x, t) = E_0 sin(kx - \omega t) \\ B (x, t) = B_0 sin(kx - \omega t)
+    </Formula>
+    <Section>
+      To jest dokładnie to samo równanie, które widzieliśmy przy okazji
+      omawiania fal (2.12). Pole elektromagnetyczne rozchodzi się drgając.
+      Zmiana pola elektrycznego powoduje zmiane pola magnetycznego, która
+      powoduje zmiane pola elektrycznego i tak w kółko. To jest właśnie fala
+      elektromagnetyczna.
+    </Section>
+    <Image src="wstep/17.png"></Image>
+
+    <Section>
+      A co z prędkością światła? Gdzie nam zniknęła? Prędkość światła wiąże
+      naszą falę w całość.
+    </Section>
+    <Formula nr="2.37">
+      c = \frac{E}{B} = \frac{E_0}{B_0} = \frac{\omega}{k}
+    </Formula>
+    <Section>
+      Tak w pół wieku okazało się, że całkiem oddzilne zjawiska jak
+      elektryczność i magnetyzm stały się tym samym - światlem. I to właśnie
+      dlatego Maxwell określany jest mianem jednego z największych geniuszów w
+      historii.
+    </Section>
+
+    <!-- <h3>Nowoczesna elektronika</h3> -->
   </Article>
 </template>
