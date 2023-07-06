@@ -322,6 +322,21 @@
       c = \frac{E}{B} = \frac{E_0}{B_0} = \frac{\omega}{k}
     </Formula>
     <Section>
+      Warto wprowadzić też natężenie światła. Natężenie światła określa nam ono
+      jak jasne / ciemne lub w języku kwantowym jak wiele jest fotonów. Z
+      pominięciem stałych natężenie światła to uśredniony kwadrat funkcji
+      falowej. Kwadrat, więc mamy <M s="E_0 ^2 sin^2(...)" />, a następnie
+      liczymy wartość średnią, a wartość średnia z <M s="sin^2(...)" /> to
+      zawsze 1/2 (sinus oscyluje od 0 do 1). To jest bardzo ważne gdy
+      przejdziemy do fizyki kwantowej i postaw sobie tu gwiazdkę.
+      <ic icon="star" />
+    </Section>
+    <Formula nr="2.38">
+      I = \frac{\varepsilon c}{2} E_0^2 = \frac{cB_0^2}{2 \mu} = \frac{E_0
+      B_0}{2\mu}
+    </Formula>
+    <Section> </Section>
+    <Section>
       Tak w pół wieku okazało się, że całkiem oddzilne zjawiska jak
       elektryczność i magnetyzm stały się tym samym - światlem. I to właśnie
       dlatego Maxwell określany jest mianem jednego z największych geniuszów w

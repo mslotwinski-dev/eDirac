@@ -37,7 +37,7 @@
       światła. Chcąc policzyć energię jednego fotonu musimy skorzystać z
       następującego wzoru zaproponowanego przez Plancka.
     </Section>
-    <Formula nr="2.X">E = h \nu</Formula>
+    <Formula nr="2.39">E = h \nu</Formula>
     <Section>
       Teraz pytanie co jest czym. Literą h oznaczamy stałą Plancka. Jest to
       jedna z najważniejszych stałych w fizyce i cechuje się występowaniem w
@@ -58,20 +58,27 @@
       fotony mają pęd mimo braku masy) pasuje również do wszelkich innych
       cząstek. W ten sposób otrzymano długość na falę materii.
     </Section>
-    <Formula nr="2.X">\lambda = \frac{h}{p} = \frac{h}{mv} </Formula>
+    <Formula nr="2.40">\lambda = \frac{h}{p} = \frac{h}{mv} </Formula>
     <Section />
     <h3>Im więcej wiemy tym mniej wiemy</h3>
 
     <Section>
       Skoro mamy już długość fali fajnie byłoby znać cały jej wzór (tzw. funkcja
       falowa). Tu jednak robi się problem. To, co mamy do dyspozycji to dwa
-      fakty. Pierwszym jest oczywiście, że długość naszej funkcji falowej musi
-      być równa h/p. Drugi jest taki, że skoro natężenie światła, a więc ilość
-      fotonów padających na naszą powierzchnie jest równa kwadratowi równania
-      falowego światła (póki co uwierz na słowo, kiedyś to wyprowadzimy), to
-      kwadrat naszej funkcji falowej musi być związany z tym ile fotonów jest w
-      jakim miejscu. Musi być zatem związany z prawdopodobieństwem znalezienia
-      fototu tam, a nie gdzie indziej.
+      fakty.
+      <ol>
+        <li>
+          Pierwszym jest oczywiście, że długość naszej funkcji falowej musi być
+          równa h/p.
+        </li>
+        <li>
+          Drugi jest taki, że skoro natężenie światła, a więc ilość fotonów
+          padających na naszą powierzchnie jest równa kwadratowi równania
+          falowego światła. Pamiętasz gwiazdkę <ic icon="star" /> pod koniec
+          poprzedniego działu? Kwadrat funkcji falowej musi być zatem związany z
+          prawdopodobieństwem znalezienia cząstki tam, a nie gdzie indziej.
+        </li>
+      </ol>
     </Section>
     <Section>
       Chcąc nie chcąc nie jesteśmy w stanie takiego równania wyprowadzić, możemy
@@ -83,7 +90,7 @@
       w jednym wymiarze (x), żeby nie mącić jeszcze bardziej, dla cząstki bez
       energii potencjalnej. Jeśli się go boisz przejdź pod obrazek.
     </Section>
-    <Formula nr="2.X">
+    <Formula nr="2.41">
       i \hbar \frac{d}{dt} \psi = -\frac{\hbar^2}{2m} \frac{d^2}{dx^2} \psi
     </Formula>
     <Section>
@@ -162,7 +169,7 @@
       natomiast pędu <M s="\Delta p" /> możemy się dowiedzieć jak te niepewności
       są ze sobą powiązane.
     </Section>
-    <Formula nr="2.X"> \Delta x \Delta p= \frac{\hbar}{2} </Formula>
+    <Formula nr="2.42"> \Delta x \Delta p= \frac{\hbar}{2} </Formula>
     <Section>
       Teraz widzisz, że jeśli jedna niepewność dąży do zera to druga dąży do
       nieskończoności. To o czym musisz wiedzieć to fakt, że ta niedokładność
