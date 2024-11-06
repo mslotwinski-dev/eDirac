@@ -1,120 +1,100 @@
 <template>
   <Article>
-    <Begin nr="3.9" advanced="0"> Ruch po okręgu </Begin>
-    <h3>Ruch jednostajny po okręgu</h3>
+    <Begin nr="3.9" advanced="1"> Krzywizna i skręcenie </Begin>
     <Section>
-      Kolejnym szczególnym przypadkiem ruchu jest ruch jednostajny po okręgu.
-      Jest bardzo ciekawy z tego względu, że o ile wartość prędkości jest stała,
-      ruch jest ruchem przyspieszonym. Zaraz, co?
+      <b>UWAGA!</b> W celu zachowania czystości zapisu kropka nad funkcją
+      wyjątkowo oznacza pochodną po torze ruchu, nie po czasie.
+    </Section>
+    <h3>Krzywizna toru</h3>
+    <Section>
+      Wyobraź sobie dowolny tor ruchu, powiedzmy s(t). Wybierz sobie na nim
+      dowolne dwa punkty: P i oddalony o niego o Δs punkt P'. Następnie
+      wyznaczmy wektory styczne w każdym z tych punktów odpowiednio τ i τ'.
+      Naszym zadaniem jest wyznaczenie tego, jak bardzo nasz tor jest
+      zakrzywiony. Jak możemy to wyznaczyć?
+    </Section>
+    <Image src="kinematyka/8.png" />
+    <Section>
+      Wektory styczne tworzą pewien kąt. Oznaczmy go tak jak najczęściej
+      oznaczamy kąt czyli φ. Zauważ, że im on większy tym bardziej nasza krzywa
+      zmienia kierunek. Gdy funkcja jest stała kąt jest równy 0. Im funkcja
+      bardziej <i>zakręca</i> tym kąt jest większy. Jesteśmy więc na dobrej
+      drodze.
     </Section>
     <Section>
-      Przypomnij sobie czym jest przyspieszenie. Jest to zmiana wektora
-      prędkości, jednak wcale nie jest powiedziane, że musi zmieniać się jego
-      wartość. W tym przypadku zmienia się kierunek prędkości. Co ważne, jest on
-      zawsze styczny do toru. Przyspieszenie natomiast jest prostopadłe do toru
-      i zwrócone do środka okręgu. Dlatego właśnie przyspieszenie to nazywa się
-      przyspieszeniem dośrodkowym.
+      Drugą składową krzywizny jest odległość wektorów od siebie. Jeśli dwie
+      krzywe <i>zakręciły się o ten sam kąt</i>, lecz jedna zrobiła to w ciągu
+      2m, a druga w 20m, bardziej <i>ostra i zakrzywiona</i> będzie ta, która
+      zrobiła to szybciej.
     </Section>
     <Section>
-      Przyspieszenie jak pamiętasz z rozdziału 3.5 dzieli się na przyspieszenie
-      styczne i prostopadłe. Przyspieszenie styczne odpowiada tutaj za zmianę
-      wartości prędkości, natomiast prostopadłe, działające do środka okręgu, za
-      zmianę kierunku. Wykorzystując wzór (3.23) na przyspieszenie prostopadłe
-      jawnie otrzymujemy, że przyspieszenie dośrodkowe wynosi:
+      Możemy więc zdefiniować krzywiznę toru jako granicę stosunku kąta między
+      wektorami z odległością między nimi. W ten sposób otrzymujemy:
     </Section>
-    <Formula nr="3.37">\displaystyle a_{\eta} = \frac{v^2}{r}</Formula>
-    <Section>
-      Takie przyspieszenie działające do środka jest potrzebne, aby
-      <i>utrzymać</i> ruch po okręgu. <i>Nadmiarowe</i> przyspieszenie jest
-      <i>przetwarzane</i> w przyspieszanie ruchu po okręgu.
-    </Section>
-    <Image src="kinematyka/6.png" />
-    <h3>Ruch kątowy</h3>
-    <Section>
-      Z każdą sekundą ruchu po okręgu nasze ciało zakreśla pewien kąt φ. Nie
-      jest on bezpośrednio związany z odległością, jaką przebywa ciało, a jednak
-      im większy tym większe przemieszczenie ciałą. Możemy więc przypuszczać, że
-      jest on proporcjonalny do drogi, jaką przebuwa ciało. Okazuje się, że
-      dokładnie tak jest, a współczynnikiem proporcjonalności jest tu promień.
-    </Section>
-    <Formula nr="3.38">\displaystyle \varphi = \frac{s}{r}</Formula>
-    <Section>
-      Określmy zatem miarę zmiany kąta, jaki zakreśla ciało w danym czasie.
-      Zmienna ta nazywa się prędkością kątową.
-    </Section>
-    <Formula nr="3.39">
-      \displaystyle \omega = \frac{d\varphi}{dt} = \dot \varphi
+    <Formula nr="3.51">
+      \displaystyle \kappa = \bigg| \frac{d\varphi}{ds} \bigg|
     </Formula>
     <Section>
-      Relacja między prędkością, a prędkością kątową wyraża się tak jak w
-      przypadku zamiany przemieszczenia na kąt.
+      Dlaczego chcemy wyciągnąć z naszej wielkości wartość bezwzględną? To
+      raczej kwestia do czego nam krzywizna służy. Nic nie stoi na przeszkodzie,
+      aby zdefiniować krzywiznę ze znakiem, ale nam zależy tylko, aby znać to
+      jak bardzo zakrzywiony jest tor, a nie, w którą stronę jest zakrzywiony.
     </Section>
-    <Formula nr="3.40"> \displaystyle \omega = {\vec v}{r} </Formula>
     <Section>
-      Ostatnim parametrem jest jak pewnie się domyślasz przyspieszenie kątowe,
-      które wyraża się wzorem
+      Odwrotność krzywizny nazywa sie promieniem krzywizny trajektorii w punkcie
+      P.
     </Section>
-    <Formula nr="3.41">
-      \displaystyle \varepsilon = \frac{d\omega}{dt} = {\vec a}{r}
+    <Formula nr="3.52">\displaystyle R = \frac{1}{\kappa}</Formula>
+    <Section>
+      Jak wynika z definicji, krzywizna trajektorii okresla jak nieprostoliniowa
+      jest trajektoria, jak dalece odbiega od linii prostej. Na podstawie
+      definicji mozna wyprowadzic nastepujacy wzór na krzywizne trajektorii
+      ruchu we współrzednych kartezjanskich:
+    </Section>
+    <Formula nr="3.53">
+      \displaystyle \kappa = \frac{ | \ \ddot y \ | }{(1 + \dot y )^{3/2}}
     </Formula>
     <Section>
-      Zauważ, że dla zmiennych kątowych obowiązują wszystkie relacje kinematyki
-      tak samo jak obowiązywały dla zmiennych liniowych.
+      Bardzo szczególnym przypadkiem krzywej jest okrąg. Krzywizna okręgu jest w
+      każdym punkcie jednakowa i równa odwrotności jego promienia. Z tego można
+      wywnioskować, że promień jego krzywizny to po prostu jego promień.
     </Section>
-    <h3>Położenie cząstki</h3>
+    <h3>Skręcenie</h3>
     <Section>
-      Chcąc określić położenie cząstki w dowolnym miejscu najłatwiej posłużyć
-      się współrzędnymi biegunowymi. Jako, że promień jest stały, ten parametr
-      jest wręcz wykluczony z rozważań. Pozostaje nam tylko kąt φ, który ma
-      jakąś wartość początkową, a jego zmiana odbywa się poprzez pomnożenie
-      prędkości kątowej przez czas. W ten sposób współrzędne położenia obiektu
-      definiujemy jako
+      Chcąc określić krzywiznę krzywej określonej w przestrzenii ciężko nam
+      operować na kątach. W tym przypadku ukazuje się moc wektorów, które
+      wprowadziliśmy. Po zastosowaniu odpowiednich pochodnych otrzymujemy wzór
+      na krzywiznę krzywej L, w przedstawieniu parametrycznym r(t).
     </Section>
-    <Formula nr="3.42">
-      \displaystyle \begin{cases} r(t) = r \ \ (const) \\ \varphi(t) = \varphi_0
-      + \omega t\end{cases}
+    <Formula nr="3.54">
+      \displaystyle \kappa = \frac{|\dot \tau \times \ddot \tau|}{|\dot \tau|^3
+      }
     </Formula>
     <Section>
-      Przechodząc na współrzędne kartezjańskie, przekształcamy nasze
-      współrzędne, aż otrzymamy wzory na współrzędną x oraz y.
+      Analogicznie do wykrzywienia w kierunku stycznym możemy zdefiniować
+      podobną wielkość, ale dotyczącą wykrzywienia prostej w kierunku
+      binormalnym. Nazywamy tę wielkość skręceniem. W przypadku krzywej
+      dwuwymiarowej skręcenie jest równe 0.
     </Section>
-    <Formula nr="3.43">
-      \displaystyle \begin{cases} x(t) = r \ cos(\omega t + \varphi_0 ) \\ y(t)
-      = r \ sin(\omega t + \varphi_0 ) \end{cases}
+    <Formula nr="3.55">
+      \displaystyle T = \bigg| \frac{d\psi}{ds} \bigg| = \frac{|(\dot \tau
+      \times \ddot \tau) \cdot \htmlClass{dddot}{\tau} |}{|\dot \tau \times
+      \ddot \tau|^2 }
     </Formula>
+    <Section />
+    <h3>Wzory Freneta</h3>
     <Section>
-      Równania na składowe prędkości i przyspieszenia w kierunku x i y
-      otrzymujemy różniczkując podane równania ruchu.
+      Znając już pojęcie krzywizny i skręcenia możemy wyprowadzić tzw. wzory
+      Freneta. Oznaczmy nasze wektory styczny, normalny i binormalny jako
+      tradycyjne <M s="\vec \tau" />, <M s="\vec \eta" /> oraz
+      <M s="\vec b" /> oraz wektor wodzący krzywej jako r. W ten sposób możemy
+      otrzymać 4 wzory opisujące relacje między wektorami, a krzywizną i
+      skręceniem krzywej.
     </Section>
-    <h3>Okres drgań</h3>
-    <Section>
-      Wyliczmy czas, jaki cząstka potrzebuje, aby dokonać pełnego obrotu wokół
-      własnej osi. Możemy posłużyć się faktem, że stanie się to kiedy wartość φ
-      wyniesie 2π, czyli kąt pełny. Skoro zatem czas jest równy s/v, co za tym
-      idzie przechodząc na jednostki kątowe φ/ω, a nas interesuje czas obrotu o
-      2π ostateczny wzór wygląda w ten sposób.
-    </Section>
-    <Formula nr="3.44">
-      \displaystyle T = \frac{2\pi}{\omega} = \frac{2\pi r}{v}
+    <Formula nr="3.56">
+      \displaystyle \htmlClass{tr} {\begin{cases} \dot r = \tau \\ \dot \tau =
+      \kappa \eta \end{cases} \qquad \begin{cases} \dot \eta = Tb - \kappa \tau
+      \\ \dot b = -T \eta \end{cases}}
     </Formula>
-    <Section>
-      Bardzo często wyróżnia się dodatkową zmienną zwaną częstotliwością
-      (oznaczaną literą f). Jest ona równa odwrtotności okresu i informuje nas
-      ile razy coś się dzieje w ciągu jednej sekundy. Wyraża się ona w hercach
-      [Hz]. Na przykład podając nam częstotliwość obrotu na poziomie 500 Hz
-      wiemy, że dany element obraca się 500 razy na sekundę. Z pewnością ta
-      jednostka jest wygodniejsza niż mówienie, że okres obrotu elementu to
-      0,002 s.
-    </Section>
-    <Formula nr="3.45">
-      \displaystyle f = \frac{1}{T} = \frac{\omega}{2\pi}
-    </Formula>
-    <Section>
-      Sama ω zatem zyskuje całkiem nowy charakter i będzie jeszcze
-      niejednokrotnie używana chociażby w elektronice. Zauważ jak pięknie ona
-      skraca π i wyrównuje miejsca zerowe sinusa tak, że przyjmuje maksima i
-      minima co jedną sekundę, natomiast zeruje się co 0,5s.
-    </Section>
-    <Formula nr="3.46"> \displaystyle \omega = \htmlClass{nr}{2}\pi f </Formula>
   </Article>
 </template>

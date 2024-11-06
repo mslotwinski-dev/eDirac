@@ -26,18 +26,33 @@
       <M c="\vec{r}" /> myśleć bardziej matematycznie i rozłożyć go na 3 wektory
       jednostkowe <M c="\htmlClass{hat}{\hat x}" />,
       <M c="\htmlClass{hat}{\hat y}" /> oraz <M c="\htmlClass{hat}{\hat z}" /> w
-      każdym z kierunków. Jeśli nie wiesz czym jest wersor, baza, ani przestrzeń
-      wektorowa nic nie szkodzi, po prostu przejdź do następnego punktu. Pojęcie
-      wektora jednak, jest niezbędne, aby rozumieć fizykę. Te 3 wektory
-      jednostkowe stanowią bazę trójwymiarowej przestrzeni wektorowej. Inaczej
-      mówiąc, za pomocą odpowiedniej kombinacji tych 3 wektorów jednostkowych
-      możemy otrzymać każdy punkt w przestrzeni.
+      każdym z kierunków. Te 3 wektory jednostkowe stanowią bazę trójwymiarowej
+      przestrzeni wektorowej. Inaczej mówiąc, za pomocą odpowiedniej kombinacji
+      tych 3 wektorów jednostkowych możemy otrzymać każdy punkt w przestrzeni.
     </Section>
     <Formula nr="3.1">
       {\displaystyle r(x, y, z) = x \htmlClass{hat}{\hat x} + y
       \htmlClass{hat}{\hat y} + z \htmlClass{hat}{\hat z}}
     </Formula>
-    <Section />
+    <Section>
+      Skonstruowany przez nas układ współrzędnych jest nazywany kartezjańskim.
+      Zdarzenia fizyczne mogą istnieć tylko w relacji do pewnego określonego
+      układu współrzędnych. Jak inaczej mielibyśmy określić ich miejsce?
+      Potrzene są pewne elementarne zasady według których nasze zjawiska będą
+      wyrażane.
+    </Section>
+    <FunFact>
+      W 1999 roku NASA straciła sondę Mars Climate Orbiter, ponieważ dwa zespoły
+      projektujących ją naukowców używały różnych systemów miar. Ten głupi błąd
+      kosztował ich 125 mln $.
+    </FunFact>
+    <Section>
+      Jak się domyśliłeś układy wspólrzędnych mogą być wyrażane w różny sposób.
+      Możemy umieścić jego środek w dowolnym punkcie, aby zmienić układ
+      odniesienia. Inaczej będzie on wygladał dla samolotu, a inaczej dla brzozy
+      obok której lata. Układy odsienienia mogą nawet się poruszać, przyspieszać
+      czy obracać. Jednak układ kartezjański to nie jedyny sposób ruchu.
+    </Section>
     <h3>Czas</h3>
     <Section>
       Czas pozwala nam na dopełnienie opisu zjawiska. Wbrew pozorom ma więcej
@@ -111,7 +126,7 @@
       względności Einsteina, że istnieje maksymalna prędkość rozchodzenia się
       informacji, którą znamy jako prędkość światała i wiele innych.
     </Section>
-    <h3>Współrzędne krzywoliniowe *</h3>
+    <h3>Współrzędne krzywoliniowe</h3>
     <Section>
       Bardzo często badanie ruchu ułatwia nam zmiana współrzędnych układu
       współrzędnych. Wybrażmy sobie wahadło, na którym drga kulka. Rozpatrując

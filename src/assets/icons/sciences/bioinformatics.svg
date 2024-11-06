@@ -14,7 +14,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs14" />
   <sodipodi:namedview
@@ -26,9 +29,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="1.3733333"
-     inkscape:cx="-156.18932"
-     inkscape:cy="222.45146"
+     inkscape:zoom="0.68666665"
+     inkscape:cx="-179.12622"
+     inkscape:cy="259.95146"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -63,14 +66,34 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:22.9472px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.57368"
-     x="8.3812113"
-     y="55.201321"
+     style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:10.5042px;line-height:1.25;font-family:Rubik;-inkscape-font-specification:'Rubik Ultra-Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.31415"
+     x="9.1595373"
+     y="49.310394"
      id="text2337"
-     transform="scale(0.96988977,1.031045)"><tspan
-       style="stroke-width:0.57368"
-       x="8.3812113"
-       y="55.201321"
+     transform="scale(1.0272574,0.97346586)"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:10.5042px;font-family:Rubik;-inkscape-font-specification:'Rubik Ultra-Bold';stroke-width:0.31415"
+       x="9.1595373"
+       y="49.310394"
        sodipodi:role="line"
-       id="tspan13031">AB</tspan></text>
+       id="tspan28108">AT</tspan></text>
+  <metadata
+     id="metadata830">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>tv-pc-screen-matlab-math-numericalcomputing</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:11.0609px;line-height:1.25;font-family:Rubik;-inkscape-font-specification:'Rubik Ultra-Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.207392"
+     x="8.1930504"
+     y="56.627216"
+     id="text44252"><tspan
+       sodipodi:role="line"
+       id="tspan44250"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:11.0609px;font-family:Rubik;-inkscape-font-specification:'Rubik Ultra-Bold';stroke-width:0.207392"
+       x="8.1930504"
+       y="56.627216">GC</tspan></text>
 </svg>

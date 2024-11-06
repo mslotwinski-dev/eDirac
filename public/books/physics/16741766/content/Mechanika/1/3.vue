@@ -17,6 +17,17 @@
       określonym czasie.
     </Section>
     <Section>
+      Zanim zaczniemy budować prawdziwy aparat fizyki przyjrzymy się temu jak
+      opisać ciało w najbardziej podstaowy sposób w najbardziej podstawowym
+      rodzaju ruchu - ruchu jednostajnie prostoliniowym i przyspieszonym. Nie
+      dlatego, że rozwinie nas to intelektualnie w jakimś znacznym stopniu tylko
+      dlatego, że będzie to bardzo krótkie oswojenie ze ścisłym i
+      zmatematyzowanym językiem fizyki. Ruch ze stałą prędkością lub stałym
+      przyspiezeniem w zupełności wystarcza nam, aby rozważyć kilka
+      interesujących przypadków bez używania rachunku różniczkowego. Dopiero
+      wtedy zajmiemy się kinematyką na poważnie.
+    </Section>
+    <Section>
       Wyobraźmy sobie ślimaka pędzącego po stole i postawioną obok niego
       linijkę. Oznaczmy jego początkowe położenie jako <M s="x_1" />, natomiast
       końcowe jako <M s="x_2" />. Jego przemieszczenie to zmiana położenia.
@@ -34,8 +45,8 @@
     </Section>
     <Section>
       A co jeśli ślimak przesunie się z 7cm na 2cm, czyli przesunie się w tył?
-      Będzie to dla ciebie zaskoczeniem, ale wzór ten funkcjonuje dalej: 2cm –
-      7cm = -5cm. Przemieszczenie w tył będziemy oznaczać jako przemieszczenie
+      Nie będzie to dla ciebie zaskoczeniem, bo wzór ten funkcjonuje dalej: 2cm
+      – 7cm = -5cm. Przemieszczenie w tył będziemy oznaczać jako przemieszczenie
       ujemne. Zawsze może się zdarzyć, że samochód będzie jechał w przód, a
       potem zawróci. Musimy uwzględniać również ten przypadek, dlatego
       przyzwyczajamy się, że przemieszczenie może być ujemne. Ujemna może być

@@ -64,7 +64,6 @@ createApp(App)
   .component('FunFact', FunFact)
   .component('Bio', Bio)
   .component('Video', Video)
-
   .component('Exercise', Exercise)
   .component('Answer', Answer)
   .component('Solution', Solution)

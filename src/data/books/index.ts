@@ -2,11 +2,11 @@
 
 // import { Category } from '../types/book'
 
-import * as P from './categories'
-export default P
+// import * as P from './categories'
+// export default P
 
-// import * as D from './dev/'
-// export default D
+import * as D from './dev/'
+export default D
 
 // import * as P from './categories'
 // import * as D from './dev/'

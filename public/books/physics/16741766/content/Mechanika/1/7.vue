@@ -1,149 +1,189 @@
 <template>
   <Article>
-    <Begin nr="3.7" advanced="0"> Rzut poziomy i ukośny </Begin>
-    <h3>Rzut poziomy</h3>
+    <Begin nr="3.7" advanced="0"> Prędkość i przyspieszenie</Begin>
+    <h3>Wartość zmienna i chwilowa</h3>
     <Section>
-      Zacznijmy od szczególnego przypadku rzutu ukośnego, czyli rzutu poziomego.
-      Rzut ten jest złożeniem ruchu jednostajnego poziomego oraz pionowego
-      przyspieszonego (swobodny spadek). Zaniedbujemy opór powietrza dla
-      uproszczenia opisu (a przynajmniej tymczasowo, wrócimy do rzutów, ale z
-      oporem powietrza w następnym rozdziale). W ten sposób możemy zapisać
-      równania dwóch współrzędnych jako:
+      Przyjrzyjmy się ogólnemu przypadkowi, kiedy prędkość nie jest stała.
+      Sprawa będzie wyglądać tak samo przy każdym wzorze, więc wyprowadzę ją
+      tylko raz, natomiast wyprowadzanie chwilowej wartości będzie odbywać się
+      tak samo. W tym ogólniejszym przypadku podany wyżej wzór prędkość opisuje
+      nam prędkość średnią. Kiedy prędkość jest stała, prędkość średnia to po
+      prostu prędkość. Wzór ten ma postać:
     </Section>
-    <Math>
-      \displaystyle x = v_0 t \qquad \displaystyle y = \frac{1}{2}gt^2
-    </Math>
-    <Section>
-      Czas ruchu się skończy, kiedy otrzymamy y wyniesie 0. Podstawiając za y 0
-      oraz wyliczając czas z powyższego równania ruchu czas spadania wyniesie:
-    </Section>
-    <Math>\displaystyle t = \sqrt\frac{2h}{g}</Math>
-    <Section>
-      Natomiast zasięg definiuje to, jak zdąży urosnąć współrzędna x podczas
-      rzutu, czyli:
-    </Section>
-    <Math>\displaystyle x_{max} = v_0t = v_0\sqrt\frac{2h}{g}</Math>
-    <Section>
-      To jest jednak tak proste, że aż nudne, zajmijmy się czymś ciekawszym i
-      bardziej ambitnym.
-    </Section>
-    <h3>Rzut ukośny</h3>
-    <Section>
-      Dobrze, nareszcie przechodzimy do tego, co nazywamy rzutami ukośnymi. Tego
-      typu ruchem jest na przykład kopnięta piłka lub kula wystrzelona z armaty.
-      W tym przypadku sama prędkość początkowa jest wektorem.
-    </Section>
-    <Math>
-      \displaystyle \vec v_0 = v_{0x} \htmlClass{hat}{\hat x} + v_{0y}
-      \htmlClass{hat}{\hat y}
-    </Math>
-    <Section>
-      To jest ten moment, kiedy wygodniej nam przejść na współrzędne
-      krzywoliniowe. Jeśli jednak nie znasz tego pojęcia to nie przejmuj się
-      (chociaż jednak warto znać to pojęcie). Wyobraź sobie to w ten sposób, że
-      składowe <M s="v_{0x}" /> i <M s="v_{0y}" /> możemy wyznaczyć poprzez kąt
-      <M s="\theta" />, jaki tworzą z osią X układu współrzędnych. W ten sposób
-      otrzymujemy:
-    </Section>
-    <Math>
-      \displaystyle v_{0x} = v_{0} cos \theta \qquad v_{0y} = v_{0} sin \theta
-    </Math>
-    <Section>
-      Podczas tego ruchu wektor położenia, prędkości i kąta się ciągle
-      zmieniają, jednak wektor przyspieszenia jest stały i zawsze skierowany
-      pionowo w dół. Cząstka nie doznaje żadnego przyspieszenia w kierunku
-      poziomym. Możemy jednak ponownie rozbić go na ruch w pionie i ruch w
-      poziomie.
-    </Section>
-    <Section>
-      Ruch w kierunku poziomym odbywa się bez przyspieszenia, dlatego też
-      składowa pozioma prędkości pocisku nie ulega zmianie w czasie ruchu i
-      pozostaje równa swej wartości początkowej. Jako, że x - <M s="x_0" /> jest
-      równe <M s="v_{0x}" />t otrzymujemy wzór na poziomą składową rzutu.
-    </Section>
-    <Math>\displaystyle x = v_0 cos \theta \ t</Math>
-    <Section>
-      Ruch ciała w pionie jest taki sam, jak ruch ciała w rzucie pionowym ,
-      który omówiliśmy w poprzednim temacie.
-    </Section>
-    <Math>
-      y = v_{0y}t - \frac{1}{2}gt^2 = v_0 sin \theta \ t - \frac{1}{2}gt^2
-    </Math>
-    <h3>Równanie toru</h3>
-    <Section>
-      Równanie ruchu cząstki możemy wyznaczyć eliminując z równań czas. Po kilku
-      przekształceniach otrzymujemy równanie ruchu w rzucie ukośnym.
-    </Section>
-    <Formula nr="2.30">
-      \displaystyle y = h + tg\theta x - \frac{gx^2}{2(v_0 cos\theta)^2}
+    <Formula nr="3.13">
+      {\displaystyle v_{śr} = \frac{\Delta x}{\Delta t}}
     </Formula>
     <Section>
-      Dla prostoty przyjmujemy, że <M s="x_0" />, natomiast <M s="y_0" /> to
-      wysokość rzutu h. Możesz zauważyć, że jest to parabola (tg
-      <M s="\theta" />
-      jest wielkością stałą, tak żebyś się nie przestraszył). Chcąc wyznaczyć
-      zasięg rzutu możesz korzystać ze zwykłego równania kwadratowego, jednak
-      póki co załóżmy, że h = 0, wtedy sprawa się uprości.
+      A co jeśli chcemy przy zmiennym ruchu poznać nie prędkość średnią, a
+      chwilową? Sprawdźmy więc co się dzieje gdy Δt zbliża się do 0. W chwili
+      granicznej otrzymamy prędkość chwilową. Intuicja matematyczna, z pewnością
+      podpowiada nam zastosowanie granicy gdy Δt dąży do 0, a podany iloraz to
+      jest definicja pochodnej. Z tego wynika, że
+    </Section>
+    <Formula nr="3.14">
+      {\displaystyle v(t_0) =\lim_{\Delta t \to 0}⁡\frac{\Delta x}{\Delta t} =
+      \frac{d}{dt}x(t_0) = \dot {x}(t_0)}
+    </Formula>
+    <Section>
+      Zapisy x'<M c="(t_0), \dot x(t_0)" />, oraz
+      <M c="\frac{d}{dt}x(t_0)" /> są oczywiście tożsame i symbolizują pochodną
+      w danym punkcie <M s="t_0" />. My będziemy stosować najczęściej te dwa
+      ostatnie zapisy. Zapis z kropką jest najszybszy i symbolizuje pochodną po
+      czasie, natomiast zapis w formie różniczek dx i dt jest bardziej elegancki
+      i znacznie potężniejszy pod względem tego, co oferuje - pozwala na
+      znacznie więcej, szczególnie w kontekście równań różniczkowych.
     </Section>
     <Section>
-      Zasięg rzutu możemy wyznaczyć tak jak w przypadku rzutu poziomego. Rzut
-      kończy się w momencie zakończenia ruchu pionowego, zatem podstawiając y =
-      0 do wzoru na rzut pionowy. Daje nam to
+      Geometrycznie można więc powiedzieć, że prędkość chwilowa to nachylenie
+      wykresu x(t) w danym punkcie, co jest oczywiste, bo skoro położenie
+      wzrasta bardzo szybko to i nachylenie jego wykresu będzie ogromne.
+      Właściwa zależność to v = tg α, gdzie α to nachylenie stycznej do wykresu
+      funkcji x(t) w punkcie <M s="t_0" />.
     </Section>
-    <Math>\displaystyle t = \frac{2 v_0}{g} \ sin\theta</Math>
     <Section>
-      Następnie podstawiając czas rzutu do równania współrzędnej x daje nam to
+      Pamiętając, że pochodną w punkcie możemy uogólnić na funkcję pochodna
+      określoną w każdym punkcie t, w którym ona istnieje, uzyskamy zależność,
+      że
+    </Section>
+    <Formula nr="3.15"> {\displaystyle v = \frac{d}{dt}x = \dot x } </Formula>
+    <Section>
+      Znając ten wzór możesz zapomnieć wszystkie poprzednie. W nim zawierają się
+      wszystkie wzory użyte dotąd w tym dziale i znacznie znacznie więcej. Ten
+      jeden wzór pozwala ci od teraz policzyć każde zadanie z kinematyki bez
+      względu jaki to rodzaj ruchu. Fajne, prawda? Jedyny warunek to znać
+      rachunek różniczkowy i całkowy, co zakładam, że biorąc się za tę ksiązkę
+      opanowałeś do perfekcji tak jak walenie piwa przed wykładem.
+    </Section>
+    <Section>
+      Chcąc wyznaczyć przyspieszenie chwilowe postępujesz tak samo, i jest to
+      pochodna, ale z funkcji v(t). Warto zaznaczyć, że mając funkcję x(t)
+      jesteś w stanie znaleźć a(t) za pomocą drugiej pochodnej.
+    </Section>
+    <Formula nr="3.16">
+      {\displaystyle a = \frac{d}{dt}v = \frac{d^2}{dt^2}x = \ddot x}
+    </Formula>
+    <Section />
+    <h3>Droga jako pole pod wykresem</h3>
+    <Section>
+      Na lekcji fizyki już w podstawówce najprawdopodobniej dowiedziałeś się, że
+      droga jest równa polu pod wykresem v(t). To w zasadzie tyle, w zależności
+      od tego jaki kształt tego wykresu tak musieliśmy kombinować. Jednak na
+      studiach lub pod koniec szkoły średniej dowiedziałeś się o tym, że pole
+      pod wykresem funkcji jest równe całce oznaczonej od a do b. Możemy użyć
+      tej wiedzy w praktyce wyprowadzając wzór na drogę jako pole pod wykresem.
+      Znając metody całkowania będziesz od teraz mógł policzyć drogę w podanym
+      czasie wyrażoną poprzez dowolną funkcję.
+    </Section>
+    <Formula nr="3.17"> {\displaystyle s=\int_{t_1}^{t_2}v(t)dt} </Formula>
+    <Section>
+      Całka nieoznaczona również jest użyteczna, gdyż całka nieoznaczona to
+      pochodna „wstecz”, dlatego mając v(t) możemy wyznaczyć x(t) w ten sposób:
+    </Section>
+    <Formula nr="3.18">{\displaystyle x(t)=\int v(t)dt}</Formula>
+    <h3>Ruch na płaszczyźnie</h3>
+    <Section>
+      Wcześniej rozpatrywaliśmy ruch jednowymiarowy. Jak zatem opisać ruch w
+      więcej niż jednym wymiarze? Wykorzystać możemy pierwszy wzór użyty w tym
+      rozdziale. Różniczkując równanie obustronnie dostajemy wzór na prędkość w
+      przestrzeni twójwymiarowej.
+    </Section>
+    <Formula nr="3.19">
+      {\displaystyle \vec v = \frac{d \vec r}{dt} = \frac{dx}{dt}
+      \htmlClass{hat}{\hat x} + \frac{dy}{dt} \htmlClass{hat}{\hat y} +
+      \frac{dz}{dt} \htmlClass{hat}{\hat z}}
+    </Formula>
+    <Section>
+      Analogicznie możemy postąpić, żeby otrzymać przyspieszenie. Proste,
+      prawda? Przechodzimy dalej. Co jeśli nas nie interesuje równanie prędkości
+      czy przemieszczeniam a sama jej wartość? Wystarczy obliczyć długość tego
+      wektora z twierdzenia Pitagorasa.
+    </Section>
+    <Formula nr="3.20"> {\displaystyle ds^2 = dx^2 + dy^2 + dz^2} </Formula>
+    <Section>
+      Oczywiste, prawda? Prawie. Po pewnej małej modyfikacji (w przyszłości
+      dodamy do tej równości czwarty wymiar czasowy), będzie oczywiste przez
+      praktycznie całe 8 tomów tej książki, jednak w ostatnim tomie poświęconym
+      grawitacji i astrofizyce okaże się, że nie zawsze tak jest. Musimy
+      poczynić jedno ważne założenie aby to zadziałało - czasoprzestrzeń musi
+      być płaska.
+    </Section>
+    <FunFact>
+      <Flex>
+        Jako ciekawostkę mogę pokazać ci to równanie, ale w przestrzeni wygiętej
+        w kształt fistaszka. Myślę, że często spotykamy się z czasoprzestrzenią
+        wygiętą w kształt fistaszka, więc na pewno ci się to przyda. Tak w
+        ramach przypomnienia używamy tu układu współrzędnych sferycznych.
+        <!-- <img class="bob" src="/books/shared/img/duck.png" /> -->
+      </Flex>
+      <Math>
+        ds^2 = r^2(d\theta^2 + \ \big[ sin \ \theta(1 - \frac{3}{4}sin^2 \
+        \theta) \big] ^2 d\phi^2)
+      </Math>
+    </FunFact>
+
+    <Section>
+      Wracamy na ziemię. Tak samo jak drogę, z twierdzenia pitagorasa możemy
+      wyliczyć prędkość. Scałkowanie obustronne daje nam dodatkowy wzór na
+      prędkość. Szczerze mówiąc, jest średnio użyteczny, ale zawsze warto o nim
+      powiedzieć.
+    </Section>
+    <Formula nr="3.21">
+      {\displaystyle s = \int \sqrt{\dot x^2 + \dot y^2 + \dot z^2}dt}
+    </Formula>
+    <h3>Przyspieszenie</h3>
+    <Section>
+      Wektor przyspieszenia jest w ogólnym przypadku nachylony pod pewnym kątem
+      do toru. Rozważmy przypadek dwuwymiarowy, gdzie ciało porusza się po
+      płaskiej powierzchni. Wektory jednostkowe osi tego układu oznaczymy
+      kolejno:
+      <M s=" \tau" /> (styczny), <M s=" \eta" /> (prostopadły), oraz b (drugi
+      prostopadły tyle, że w górę, nie przyda się nam). Naturalny układ
+      współrzędnych jest układem ruchomym, związanym z poruszającym się punktem.
+    </Section>
+    <Section>
+      Możemy więc rozłożyć przyspieszenie tak jak roskładaliśmmy prędkość i
+      przemieszczenie
+    </Section>
+    <Formula nr="3.22">
+      {\displaystyle \vec a = a_\tau \tau + a_\eta \eta + a_b b}
+    </Formula>
+    <Section>
+      Jako, że ruch jest zakrzywiony ma on pewien promień krzywizny R. Więcej o
+      krzywiźnie będzie w temacie 11. Kilka prostych przekształceń pozwala nam
+      wykazać, że
     </Section>
     <Math>
-      \displaystyle x_{max} = \frac{2 v_0^2}{g} \ sin\theta \ cos \theta
+      {\displaystyle a_\tau = \frac{dv}{dt} = \dot v \quad a_\eta =
+      \frac{v^2}{R} \quad a_b = 0}
     </Math>
-    <Section>
-      Co korzystając z tożsamości trygonometrycznych daje nam ostateczny wzór na
-      zasięg rzutu:
-    </Section>
-    <Formula nr="2.31">
-      \displaystyle x_{max} = \frac{v_0^2}{g} \ sin \ \htmlClass{nr}{2} \theta
+    <Section> Zatem ruch punktu w dwóch wymiarach możemy opisać jako: </Section>
+    <Formula nr="3.23">
+      \displaystyle \vec a = \frac{dv}{dt} \tau + \frac{v^2}{R} \eta
     </Formula>
+    <Section />
+
+    <h3>Podział ruchów</h3>
     <Section>
-      Możesz zauważyć, że odległość jest największa kiedy sinus z 2θ przyjmuje
-      maksimum, czyli rzucając pod kątem 45<M s="^\circ" />. W przypadku, kiedy
-      mamy wysokość początkową nie wygląda to niestety tak kolorowo. W tym
-      przypadku musimy założyć, że czas wznoszenia i opadania jest różny i
-      rozpatrzyć każdy osobno. Po kilku przekształceniach zasięg rzutu wyraża
-      się poprzez wzór
+      Ze względu na przyspieszenie prostopadłe rozróżnia się dwa rodzaje ruchów:
+      <div style="margin: 3px 10px">
+        a) Ruch prostoliniowy, jeżeli <M s="a_\eta" /> = 0,
+      </div>
+      <div style="margin: 3px 10px">
+        b) Ruch krzywoliniowy, jeżeli <M s="a_\eta" /> ≠ 0,
+      </div>
     </Section>
-    <Formula nr="2.32">
-      \displaystyle x_{max} = \frac{v_0cos \theta}{g} \Bigg( v_0sin\theta +
-      \sqrt{\htmlClass{nr}{2}gh + v_0^2sin^2\theta} \Bigg)
-    </Formula>
     <Section>
-      Zauważ, że wzór zadziała nawet, jeśli będziemy rzucać z niższej wysokości
-      niż nasz <i>cel</i>. Przykładem są rzuty do kosza. Rzut się kończy wyżej
-      niż h. Można to porównać do rzucania z dołka.
+      Natomiast ze wzlędu na przyspieszenie styczne mówimy o trzech rodzajach
+      ruchu:
+      <div style="margin: 3px 10px">
+        a) Ruch jednostajnym, jeżeli <M s="a_\tau" /> = 0,
+      </div>
+      <div style="margin: 3px 10px">
+        b) Ruch jednostajnie zmienny, jeżeli <M s="a_\tau" /> = const,
+      </div>
+      <div style="margin: 3px 10px">
+        b) Ruch niejednostajnie zmienny, jeżeli <M s="a_\tau" /> ≠ const,
+      </div>
     </Section>
-    <Image src="kinematyka/5.png">
-      Nic nie stoi na przeszkodzie, aby wysokość, z której rzucamy była ujemna
-    </Image>
-    <h3>Długość łuku *</h3>
-    <Section>
-      Wzór na zasięg to jednak nie jest wzór na drogę przebytą przez ciało. Ten
-      jest znacznie trudniejszy, ale również go wprowadzę (jako ciekawostkę dla
-      słabszych i przypomnienie z matmy dla mocniejszych). Długość łuku liczymy
-      jako pewną konkretną całkę.
-    </Section>
-    <Formula nr="2.33">
-      \displaystyle L = \int \limits _{0} ^{x_{max}} \sqrt{1 - \Big(tg \theta -
-      \frac{g}{(v_0cos\theta)^2}x \Big)^2 dx}
-    </Formula>
-    <Section>
-      Jeśli wysokość rzutu jest równa 0, możemy go nieco uprościć. W tym
-      przypadku funkcja będąca wynikiem całkowania nie jest tak straszna i mogę
-      przedstawić ją jako gotowy wzór.
-    </Section>
-    <Formula nr="2.34">
-      {\displaystyle L={\frac {v_{0}^{2}}{2g}}\Bigg(\htmlClass{nr}{2} sin \theta
-      + cos ^{2}\theta \cdot ln \ {\frac {1+ sin \theta }{1- sin \theta
-      }}\Bigg)}
-    </Formula>
   </Article>
 </template>

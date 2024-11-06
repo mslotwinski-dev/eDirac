@@ -1,140 +1,120 @@
 <template>
   <Article>
-    <Begin nr="3.6" advanced="0"> Spadek swobodny </Begin>
-    <h3>Grawitacja w ujęciu klasycznym</h3>
+    <Begin nr="3.6" advanced="0"> Ruch po okręgu </Begin>
+    <h3>Ruch jednostajny po okręgu</h3>
     <Section>
-      W mechanice klasycznej, czyli tej najbardziej zbliżonej do naszego
-      codziennego doświadczenia grawitacja to siła, która powstaje w wyniku
-      przyciągania dwóch mas. Dokładnie jej wartość i właściwości poznamy w
-      przyszłości. Powiem więcej, poznasz przynajmniej 3 teorie grawitacji,
-      każda tłumacząca zjawiska grawitacyjne zupełnie inaczej.
+      Kolejnym szczególnym przypadkiem ruchu jest ruch jednostajny po okręgu.
+      Jest bardzo ciekawy z tego względu, że o ile wartość prędkości jest stała,
+      ruch jest ruchem przyspieszonym. Zaraz, co?
     </Section>
     <Section>
-      Niezależnie od tego jak wytłumaczymy z czego wynika, jej właściwości na
-      ziemii są doskonale znane od setek lat. Przyspieszenie grawitacyjne jest
-      nierozróżnialne od każdego innego przyspieszenia i działa na ciało
-      niezależnie od jego masy. Bardzo prosto uzasadnić to korzystając z prawa
-      powszechnego ciążenia i drugiej zasady dynamiki newtona, które wkrótce
-      wprowadzimy w części dynamicznej. Mimo wszystko wyprzedźmy trochę te kilka
-      działów i pokażmy się skąd się ono bierze. Masę ziemi oznaczymy jako M,
-      masę ciała poddawanego sile grawitacji jako m, natomiast promień ziemii
-      jako r. Wtedy
+      Przypomnij sobie czym jest przyspieszenie. Jest to zmiana wektora
+      prędkości, jednak wcale nie jest powiedziane, że musi zmieniać się jego
+      wartość. W tym przypadku zmienia się kierunek prędkości. Co ważne, jest on
+      zawsze styczny do toru. Przyspieszenie natomiast jest prostopadłe do toru
+      i zwrócone do środka okręgu. Dlatego właśnie przyspieszenie to nazywa się
+      przyspieszeniem dośrodkowym.
     </Section>
-    <Formula nr="3.24">
-      {\displaystyle g = \frac{F_g}{m} = G \frac{Mm}{mr^2} = G \frac{M}{r^2}
-      \approx \htmlClass{nr}{9,81} \ \frac{m}{s^2}}
-    </Formula>
-    <Section />
-    <h3>Swobodny spadek</h3>
     <Section>
-      Rozważmy sytuację, kiedy puszczamy z jakieś wysokości (oznaczmy ją h)
-      piłkę. Zapominamy oczywiście o wszelkich oporach ruchu, jedyną rozważaną
-      siłą jest grawitacja. W tym przypadku to, co rozważamy to zwykły ruch
-      przyspieszony. Droga sprowadza się do wysokości <M s="h_0" />, natomiast
-      rolę przyspieszenia pełni przyspieszenie grawitacyjne g, które w polu
-      ziemskim zawsze wynosi około 9,81<M s="\frac{m}{s^2}" />. Pamiętaj tylko,
-      że zgodnie z układem współrzędnych przyspieszenie działa w dół, dlatego
-      jego znak jest na minusie. Podstawowe równanie ruchu sprowadza się tutaj
-      do
+      Przyspieszenie jak pamiętasz z rozdziału 3.5 dzieli się na przyspieszenie
+      styczne i prostopadłe. Przyspieszenie styczne odpowiada tutaj za zmianę
+      wartości prędkości, natomiast prostopadłe, działające do środka okręgu, za
+      zmianę kierunku. Wykorzystując wzór (3.23) na przyspieszenie prostopadłe
+      jawnie otrzymujemy, że przyspieszenie dośrodkowe wynosi:
     </Section>
-    <Formula nr="3.25"> {\displaystyle h(t) = h_0 - \frac{1}{2}gt^2} </Formula>
+    <Formula nr="3.37">\displaystyle a_{\eta} = \frac{v^2}{r}</Formula>
     <Section>
-      Jeśli się zastanowimy powyższe równanie rzeczywiście ma sens, bo wraz z
-      czasem wysokość zmniejsza się od wysokości początkowej do zera.
+      Takie przyspieszenie działające do środka jest potrzebne, aby
+      <i>utrzymać</i> ruch po okręgu. <i>Nadmiarowe</i> przyspieszenie jest
+      <i>przetwarzane</i> w przyspieszanie ruchu po okręgu.
     </Section>
-    <h3>Rzut pionowy</h3>
+    <Image src="kinematyka/6.png" />
+    <h3>Ruch kątowy</h3>
     <Section>
-      Powyższe równanie to oczywiście równanie uproszczone. Kolejny przypadek
-      zakłada, że rzucamy przedmiot w ziemię lub do góry. To, czym się różni ta
-      sytuacja, to fakt, że nadajemy obiektowi prędkość początkową zależną od
-      siły rzutu. W tym przypadku równanie przybiera pełną postac, która wygląda
-      prawie tak jak równanie (3.9).
+      Z każdą sekundą ruchu po okręgu nasze ciało zakreśla pewien kąt φ. Nie
+      jest on bezpośrednio związany z odległością, jaką przebywa ciało, a jednak
+      im większy tym większe przemieszczenie ciałą. Możemy więc przypuszczać, że
+      jest on proporcjonalny do drogi, jaką przebuwa ciało. Okazuje się, że
+      dokładnie tak jest, a współczynnikiem proporcjonalności jest tu promień.
     </Section>
-    <Formula nr="3.26">
-      {\displaystyle h = h_0 - \frac{1}{2}gt^2 + v_0t}
+    <Formula nr="3.38">\displaystyle \varphi = \frac{s}{r}</Formula>
+    <Section>
+      Określmy zatem miarę zmiany kąta, jaki zakreśla ciało w danym czasie.
+      Zmienna ta nazywa się prędkością kątową.
+    </Section>
+    <Formula nr="3.39">
+      \displaystyle \omega = \frac{d\varphi}{dt} = \dot \varphi
     </Formula>
     <Section>
-      Oczywiście pamiętaj o tym, że gdy początkowa prędkość działa w górę, jest
-      ona dodatnia, natomiast kiedy rzucasz w dół jest ona ujemna. Tylko wtedy
-      otrzymasz prawidłowe wyniki.
+      Relacja między prędkością, a prędkością kątową wyraża się tak jak w
+      przypadku zamiany przemieszczenia na kąt.
     </Section>
+    <Formula nr="3.40"> \displaystyle \omega = {\vec v}{r} </Formula>
     <Section>
-      Różniczkując powyższe równanie stronami otrzymujemy wzór na prędkość,
-      który również dawno temu wyprowadziliśmy. Mam nadzieję, że potradisz to
-      robić, jeśli nie - musisz to nadrobić. Różniczkowanie jest naprawdę
-      proste, a pozwala ci zrozumieć fizykę i generalnie zmiany funkcji na
-      znacznie lepszym poziomie.
+      Ostatnim parametrem jest jak pewnie się domyślasz przyspieszenie kątowe,
+      które wyraża się wzorem
     </Section>
-    <Formula nr="3.27"> {\displaystyle v = v_0 - gt} </Formula>
+    <Formula nr="3.41">
+      \displaystyle \varepsilon = \frac{d\omega}{dt} = {\vec a}{r}
+    </Formula>
     <Section>
-      To również ma sens, w przypadku gdy rzucamy w górę prędkość będzie maleć i
-      zbliżać się do zera aż zmieni znak i będzie poruszać się w dół. Gdy
-      rzucamy piłkę w górę z prędkością 10<M s="\frac{m}{s}" /> po jednej
-      sekundzie jej wartość wyniesie 0, natomiast po dwóch sekundach wyniesie
-      -10<M s="\frac{m}{s}" />.Gdy mamy rzut w dół prędkość przez cały czas
-      będzie ujemna, ale jej wartość bezwzględna będzie rosła. Gdy rzucimy w dół
-      piłkę z prędkością -10<M s="\frac{m}{s}" /> jej prędkość po sekundzie
-      wyniesie -20<M s="\frac{m}{s}" />, natomiast po dwóch -30
-      <M s="\frac{m}{s}" />
-      Nie odkryliśmy niczego nowego, ale przynajmniej pokazaliśmy na
-      przykładach, że ten wzór działa.
+      Zauważ, że dla zmiennych kątowych obowiązują wszystkie relacje kinematyki
+      tak samo jak obowiązywały dla zmiennych liniowych.
     </Section>
-    <h3>Wysokość</h3>
+    <h3>Położenie cząstki</h3>
     <Section>
-      Kiedy rzucamy przedmiot w dół sprawa jest prosta, wspinamy się na drzewo o
-      wysokości 10m, więc <M s="h_0" /> wynosi 10m. Co jednak jeśli rzucamy
-      przedmiot w górę i chcemy obliczyć maksymalną wysokość? Sprawa jest bardzo
-      prosta, najpierw musimy policzyć kiedy h(t) osiąga maksimum, czyli moment
-      w którym prędkość jest równa 0<M s="\frac{m}{s}" />. Podstawienie w
-      równaniu (3.27) za prędkość 0 pozwala nam stwierdzić, że dzieje się to
-      kiedy czas ma wartość <M s="\frac{v_0}{g}" />. Teraz kiedy znamy moment,
-      kiedy wysokość osiąga maksimum została nam tylko formalność. Podstawiamy
-      we wzorze (3.26) za czas <M s="\frac{v_0}{g}" />, co pozwala nam dojść do
-      wzoru, że maksymalna wysokość w rzucie pionowym wynosi
+      Chcąc określić położenie cząstki w dowolnym miejscu najłatwiej posłużyć
+      się współrzędnymi biegunowymi. Jako, że promień jest stały, ten parametr
+      jest wręcz wykluczony z rozważań. Pozostaje nam tylko kąt φ, który ma
+      jakąś wartość początkową, a jego zmiana odbywa się poprzez pomnożenie
+      prędkości kątowej przez czas. W ten sposób współrzędne położenia obiektu
+      definiujemy jako
     </Section>
-    <Formula nr="3.28"> {\displaystyle h = h_0 + \frac{v_0^2}{2g}} </Formula>
+    <Formula nr="3.42">
+      \displaystyle \begin{cases} r(t) = r \ \ (const) \\ \varphi(t) = \varphi_0
+      + \omega t\end{cases}
+    </Formula>
     <Section>
-      Nikt ci oczywiśce broni ci stać na drzewie na jakieś wysokości
-      <M s="h_0" /> i rzucać w górę, jednak stojąc na ziemii wysokość początkowa
-      wynosi 0m i wtedy człon <M s="h_0" /> się zeruje, dlatego czasem jest
-      pomijany. Ten sam wzór można wyprowadzić zasady zachowania energii, o
-      której również będziemy potem mówić. Dla formalności obliczmy na sam
-      koniec czas całego rzutu. Jeśli czas wznoszenia, po którym h wynosi
-      maksimum jest równy<M s="\frac{v_0}{g}" />, czas spadania wyniesie tyle
-      samo. Cały rzut będzie więc trwał
+      Przechodząc na współrzędne kartezjańskie, przekształcamy nasze
+      współrzędne, aż otrzymamy wzory na współrzędną x oraz y.
     </Section>
-    <Formula nr="3.29"> {\displaystyle t = \frac{2v_0}{g} }</Formula>
-    <Section />
-    <h3>Grawitacja w ujęciu relatywistycznym *</h3>
+    <Formula nr="3.43">
+      \displaystyle \begin{cases} x(t) = r \ cos(\omega t + \varphi_0 ) \\ y(t)
+      = r \ sin(\omega t + \varphi_0 ) \end{cases}
+    </Formula>
     <Section>
-      Zaraz zaraz, coś tu nie gra. Wróćmy na sam początek tematu do definicji
-      grawitacji, możesz ją przeczytać uważnie jeszcze raz. Co jeśli ciało nie
-      ma masy? Druga zasada Newtona mówi nam, że nie powinno ono wtedy być
-      przyciągane przez grawitację. Światło z pewnością nie ma masy, jednak
-      chwilę wcześniej pisałem o tym, że w grawitacja jest nieodróżnialna od
-      przyspieszenia, co oznaczałoby, że skoro w przyspieszającej windzie
-      względem nas światło się porusza w dół (lub my względem jego w górę, bez
-      różnicy), w polu grawitacyjnym też powinno poruszać się w dół. Z resztą,
-      sami słyszymy, że czarna dziura ma tak silne pole grawitacyjne, że wciąga
-      nawet światło, więc coś musi być na rzeczy. Mamy więc dwie opcje, albo
-      zasada dynamiki jest fałszywa albo światło ma masę.
+      Równania na składowe prędkości i przyspieszenia w kierunku x i y
+      otrzymujemy różniczkując podane równania ruchu.
     </Section>
+    <h3>Okres drgań</h3>
     <Section>
-      Odpowiedź jest jednak jeszcze inna. Grawitacja to nie jest siła, a prawo
-      powszechnego ciążenia to tylko uproszczenie. Jako siłę traktujemy ją w
-      dobrym przybliżeniu i nam to w zupełności w tej książce wystarczy, ale
-      żeby jednak wyjaśnić to zjawisko nie wystarczy nam fizyka klasyczna.
-      Okazuje się bowiem, że w szerszym ujęciu, tak zwanej teorii względności
-      (fizyce relatywistycznej) grawitacja to zakrzywienie czasoprzestrzeni, w
-      której ciało się porusza. Możemy zilustrować ziemię jako ciężką kulę,
-      która robi wgniecenie na siatce (czasoprzestrzeni). Kładąc inną, mniejszą
-      kulkę na tej siatce "wpadnie" ona do dołka, który zrobiła nasza duża
-      kulka. Dokładnie tak współcześnie rozumie się grawitację, jako takie
-      zagięcie przestrzeni, w które wpadamy.
+      Wyliczmy czas, jaki cząstka potrzebuje, aby dokonać pełnego obrotu wokół
+      własnej osi. Możemy posłużyć się faktem, że stanie się to kiedy wartość φ
+      wyniesie 2π, czyli kąt pełny. Skoro zatem czas jest równy s/v, co za tym
+      idzie przechodząc na jednostki kątowe φ/ω, a nas interesuje czas obrotu o
+      2π ostateczny wzór wygląda w ten sposób.
     </Section>
+    <Formula nr="3.44">
+      \displaystyle T = \frac{2\pi}{\omega} = \frac{2\pi r}{v}
+    </Formula>
     <Section>
-      Grawitację w ujęciu relatywistycznym będziemy rozpatrywać w ostatnim tomie
-      książek poświęconych podstawom fizyki.
+      Bardzo często wyróżnia się dodatkową zmienną zwaną częstotliwością
+      (oznaczaną literą f). Jest ona równa odwrtotności okresu i informuje nas
+      ile razy coś się dzieje w ciągu jednej sekundy. Wyraża się ona w hercach
+      [Hz]. Na przykład podając nam częstotliwość obrotu na poziomie 500 Hz
+      wiemy, że dany element obraca się 500 razy na sekundę. Z pewnością ta
+      jednostka jest wygodniejsza niż mówienie, że okres obrotu elementu to
+      0,002 s.
     </Section>
+    <Formula nr="3.45">
+      \displaystyle f = \frac{1}{T} = \frac{\omega}{2\pi}
+    </Formula>
+    <Section>
+      Sama ω zatem zyskuje całkiem nowy charakter i będzie jeszcze
+      niejednokrotnie używana chociażby w elektronice. Zauważ jak pięknie ona
+      skraca π i wyrównuje miejsca zerowe sinusa tak, że przyjmuje maksima i
+      minima co jedną sekundę, natomiast zeruje się co 0,5s.
+    </Section>
+    <Formula nr="3.46"> \displaystyle \omega = \htmlClass{nr}{2}\pi f </Formula>
   </Article>
 </template>
