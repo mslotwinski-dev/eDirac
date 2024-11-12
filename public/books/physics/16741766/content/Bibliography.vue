@@ -46,5 +46,9 @@
       <li>Z. Osiński - Mechanika ogólna tom 1-3</li>
       <li>Z. Towarek - Mechanika ogólna</li>
     </Section>
+    <h3>Dodatkowe</h3>
+    <Section>
+      <li>Encyklopedia Biologia - Agnieszka Nawrot</li>
+    </Section>
   </Article>
 </template>
