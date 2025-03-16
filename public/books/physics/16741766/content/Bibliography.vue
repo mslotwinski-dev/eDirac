@@ -50,5 +50,24 @@
     <Section>
       <li>Encyklopedia Biologia - Agnieszka Nawrot</li>
     </Section>
+    <h3>Sztuczna inteligencja</h3>
+    <Section>
+      <li>https://chatgpt.com/</li>
+      <li>https://firefly.adobe.com/inspire/images</li>
+    </Section>
+    <h3>Artykuły</h3>
+    <Section>
+      <li>
+        https://spidersweb.pl/plus/2021/12/polprzewodniki-kryzys-lancuchy-dostaw
+      </li>
+      <li>
+        https://www.obserwatorfinansowy.pl/tematyka/makroekonomia/trendy-gospodarcze/tytul-globalna-rywalizacja-o-rynek-metali-ziem-rzadkich-nabiera-rumiencow/
+      </li>
+      <li></li>
+    </Section>
+    <h3>Publikacje</h3>
+    <Section></Section>
+    <h3>Inne</h3>
+    <Section></Section>
   </Article>
 </template>

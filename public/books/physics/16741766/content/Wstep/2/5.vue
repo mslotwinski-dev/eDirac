@@ -174,10 +174,97 @@
     <h3>Nowoczesna elektronika</h3>
     <Section>
       Skoro już wiemy już jak wygląda struktura materiałów może warto je do
-      czegoś wykorzystać?
+      czegoś wykorzystać? O właściwościach mechanicznych już trochę
+      powiedzieliśmy, to może teraz coś o elektrycznych? Niemal wszystkie
+      materiały można, zaliczyć do jednej z trzech wielkich grup. Najczęstszy
+      podział mówi o przewodnikach, półprzewodnikach i izolatorach. O
+      właściwościach elektrycznych wszystkich tych grup można pisać osobne
+      książki (z czego o półprzewodnikach pewnie całe biblioteki), ale skupimy
+      się na samych podstawach.
     </Section>
-    <Formula nr="2.44"> \sigma = n\frac{e^2\langle \tau \rangle}{2m} </Formula>
-    <Section> [...] </Section>
+    <Section>
+      Izolatory, zwane także dielektrykami, to grupa substancji, w których nie
+      ma swobodnych elektronów, gdyż wszystkie elektrony są związane z
+      macierzystymi czasteczkami. Jednak ich zastosowanie nie sprowadza się
+      jedynie do ochrony przed prądem. Ich właściwości elektryczne są związane z
+      obecnością dipoli elektrycznych w ich strukturze. Dipoli, czyli układów
+      dwóch przeciwnych ładunków. Wśród dielektryków można wyodrębniać kolejne
+      grupy. Ferroelektryki charakteryzują się obecnością domen, czyli obszarów,
+      gdzie wszystkie dipole są jednakowo ustawione. Piezoelektryki natomiast
+      wytwarzają prąd pod wpływem odkształceń (np. po uderzeniu młotkiem).
+      Elektrety z kolei działają jak magnesy tylko wytwarzając stałe pole
+      elektryczne, a nie magnetyczne.
+    </Section>
+    <Section>
+      Co natomaist z przewodnikami? W rozdziale 2.3 napisałem o prawie Ohma, ale
+      z oczywistych względów nie jest ono wygodne, ani w ogóle możliwe do
+      zastosowania. Opór elektryczny w oczywisty (mam nadzieję) sposób zależy od
+      rozmiaru przewodnika. Im szerszy tym płynie więcej prądu. Im dłuższy tym
+      więcej energii zdąży się wytracić. Dlatego w fizyce materiałów znacznie
+      wygodniej używać oporu właściwego oznaczanego literą <M s="\varrho" />,
+      który jest już niezależny od rozmiarów. Otrzymujemy go ze wzoru
+    </Section>
+    <Formula nr="2.44"> R = \varrho \frac{l}{S}, </Formula>
+    <Section>
+      gdzie l to długość przewodnika, a S jest jego przekrojem. Często wygodnie
+      się posługiwać inną jednostką, którą jest przewodność (zwana również
+      konduktancją) G mierzoną w Simensach (S) oraz przewodność właściwa
+      <M s="\sigma" />. Obie wielkości są odwrotnościami oporu oraz oporu
+      właściwego. Dla niektórych może być bezużyteczna, inni zwracają uwagę, że
+      wygodniej mówić jak dobrze dany materiał przewodzi prąd, a nie jak dobrze
+      sobie radzi z utrudnianiem przewodzenia.
+    </Section>
+    <Grid>
+      <Column grow="1">
+        <GridH>Materiał</GridH>
+        <div>Izolator</div>
+        <div>Półprzewodnik</div>
+        <div>Przewodnik</div>
+      </Column>
+
+      <Column dark="1" width="calc(60px + 7vw)">
+        <GridH><M s="\sigma \ " /> [S/m]</GridH>
+        <div class="d"><M s="" /></div>
+        <div class="d"><M s="10^{-8} - 10^3 " /></div>
+        <div class="d"><M s="\sigma \ " /></div>
+      </Column>
+    </Grid>
+    <Section>
+      Na mikroskopowym poziomie ruch ładunków jest powiązany z lokalnym polem
+      elektrycznym E zależnością
+    </Section>
+    <Formula nr="2.44"> \vec J = \sigma \vec E, </Formula>
+    <Section>
+      gdzie J to gęstość prądu wspominana już przy rozważaniach o prądzie.
+      Zależność ta zwana jest... Prawem Ohma. Tylko w nieco innej, bo
+      mikroskopowej, postaci. Pamiętaj, że J to wektor, który koduje również
+      kierunek, w którym lokalnie prąd płynie. A ile wynosi dokładnie
+      przewodność? Bo mam nadzieję, że stwierdzenie, że jest to magiczna stała,
+      której pochodzenia nie da się wyjaśnić, cię nie zadowala. Otóż jest ona
+      związana z dwoma rzeczami. Koncentracją elektronów w metalu n oraz średnim
+      czasem <M s="\langle \tau \rangle" />, jaki elektron jest w stanie w
+      metalu płynąć, aż się nie zderzy z siecią krystaliczną. Ta teoria ma kilka
+      innych założeń, ale nie musimy się teraz nimi przejmować. Ostateczny wzór
+      wygląda następująco:
+    </Section>
+    <Formula nr="2.44"> \sigma = n\frac{e^2\langle \tau \rangle}{2m}. </Formula>
+    <Section>
+      A czym są półprzewodniki? Gdybym chciał pisać tylko o nowoczesnej
+      elektronice to musiałbym w całości zająć się nimi, gdyż to one są jej
+      sercem. Jest to obecnie najważniejszy typ materiałów na świecie.
+      Nieprzypadkowo ChRL interesuje się Tajwanem, który jest sercem produkcji
+      półprzewodników (ponad 70% globalnej produkcji), a USA wprowadziły w 2022
+      roku ograniczenia eksportowe do Chin. Cały globalny przemysł
+      półprzewodnikowy odbywa się w trójkącie USA - Tajwan - Korea Południowa.
+      Do globalnej rywalizacji próbują dołączyć również Holandia, Japonia oraz
+      Chiny. A w Polsce? Dobrze wiemy jak jest w Polsce...Na osobną uwagę
+      zasługuje również temat metali ziem rzadkich takich jak lit (Li), które są
+      również potrzebne do produkcji nowoczesnej elektroniki, a w szczególności
+      - baterii. Wobec nich również toczy się globalna rywalizacja, ale tym
+      razem świat jest zdominowany przez Chiny, które mają 80% udziału w
+      globalnej produkcji. Dlaczego więc są one aż tak pożądane?
+    </Section>
+    <Section> Półprzewodniki to materiały </Section>
     <h3>Biomateriały i nanotechnologia</h3>
     <Section>
       Żyjemy w społeczeństwie przemysłowym, które jako cel postawiło sobie
