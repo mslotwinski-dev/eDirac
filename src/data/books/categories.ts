@@ -21,6 +21,13 @@ export const Electronics: Category = {
   Books: Object.values({ ..._Electronics }),
 }
 
+// import * as _Space_Technologies from './list/space'
+// export const Space_Technologies: Category = {
+//   Title: 'space_technologies',
+//   Group: 0,
+//   Books: Object.values({ ..._Space_Technologies }),
+// }
+
 // import * as _Informatics from './list/informatics'
 // export const Informatics: Category = {
 //   Title: 'informatics',
