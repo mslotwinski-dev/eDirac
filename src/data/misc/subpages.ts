@@ -5,12 +5,12 @@ export const subpages = [
     corename: 'books',
     image: 'books',
   },
-  {
-    text: 'Artykuły',
-    link: 'articles',
-    corename: 'articles',
-    image: 'articles',
-  },
+  // {
+  //   text: 'Artykuły',
+  //   link: 'articles',
+  //   corename: 'articles',
+  //   image: 'articles',
+  // },
   {
     text: 'Tablice',
     link: 'tables',
@@ -23,10 +23,10 @@ export const subpages = [
   //   corename: 'statistics',
   //   image: 'statistics',
   // },
-  {
-    text: 'Informacje',
-    link: 'info',
-    corename: 'info',
-    image: 'info',
-  },
+  // {
+  //   text: 'Informacje',
+  //   link: 'info',
+  //   corename: 'info',
+  //   image: 'info',
+  // },
 ]

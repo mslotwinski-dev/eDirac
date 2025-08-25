@@ -3,9 +3,9 @@
     <div class="text">
       <header>{{ $t('home.main.header') }}</header>
       {{ $t('home.main.desc') }}
-      <div>
+      <!-- <div>
         <router-link to="/info">{{ $t('home.main.button') }}</router-link>
-      </div>
+      </div> -->
     </div>
   </article>
 </template>
