@@ -97,8 +97,8 @@ export default {
         },
       },
       physics: {
-        full_title: 'Fizyka',
-        def: 'nauka przyrodnicza, zajmująca się badaniem najbardziej fundamentalnych i uniwersalnych właściwości oraz przemian materii i energii, a także oddziaływań między nimi. Stanowi zbiór wszystkich praw i reguł opisujących zasady działania wszechświata.',
+        full_title: 'Fizyka Techniczna',
+        def: 'nauka techniczna, zajmująca się badaniem najbardziej fundamentalnych i uniwersalnych właściwości oraz przemian materii i energii, a także oddziaływań między nimi w kontekście aplikacji do nowoczesnych technologii. Stanowi zbiór wszystkich praw i reguł opisujących zasady działania wszechświata oraz instrukcję jak zrodzić z nich technologię współczesnego świata.',
         category: {
           physics: 'Podstawy Fizyki',
           physics_quantum: 'Fizyka i Inżynieria Kwantowa',

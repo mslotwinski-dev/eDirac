@@ -2,16 +2,25 @@
   <Article>
     <Chapter nr="1" book="physics"> Filozofia fizyki </Chapter>
     <Begin nr="1.1" advanced="0"> Dziedziny i zakres fizyki </Begin>
+    <Section>
+      Nie wiem jak ty, ale ja jako dziecko, dostając nową książkę, pierwsze co
+      robiłem to otwierałem spis treści. Zanim w ogóle wiedziałem cokolwiek o
+      temacie, chciałem zobaczyć, co mnie czeka w środku. Idąc właśnie tym
+      przyzwyczajeniem cały cykl zacznę właśnie od przedstawienia tego jak
+      ogromna jest fizyka i jak ciekawe rzeczy potrafi badać - na razie jeszcze
+      bez żadnego odniesienia do techniki. To, co zacznie wykraczać poza naukę,
+      a stanie się opisem technologii pojawi się samo i naturalnie, gdy
+      zaczniemy się tym tematom przyglądać z bliska.
+    </Section>
     <h3>Mechanika</h3>
     <Section>
-      Przyszedł czas, aby opisać wszystkie dziedziny, które wchodzą w skład
-      fizyki. Zacznijmy więc od początku. Taką najbardziej podstawową częścią,
-      jaką poznajesz w szkole już na samym początku edukacji jest mechanika. Nie
-      jest to ta <b>mechanika</b>, którą kojarzysz z warsztatem samochodowym w
-      twoim mieście czy innymi maszynami, jednak ma z nimi niewątpliwie mnóstwo
-      wspólnego. W zasadzie idąc na kierunek „mechanika i budowa maszyn” będzie
-      to jeden z podstawowych przedmiotów, tak samo jak na inżynierii materiałów
-      czy budownictwie. Ale czym ona właściwie jest? Mechanika, a właściwie
+      Taką najbardziej podstawową częścią, jaką poznajesz w szkole już na samym
+      początku edukacji jest <b>mechanika</b>. Nie jest to ta mechanika, którą
+      kojarzysz z warsztatem samochodowym w twoim mieście czy innymi maszynami,
+      jednak ma z nimi niewątpliwie mnóstwo wspólnego. Idąc na jakikolwiek
+      kierunek techniczny typu inżynieria mechaniczna, inżynieria materiałowa
+      czy budownictwo możesz już teraz się spodziewać, że będzie to jeden z
+      twoich podstawowych przedmiotów. Mechanika, a właściwie
       <b>mechanika klasyczna</b> opisuje ruch ciał i jego przyczyny. Mechanika
       klasyczna dzieli się na trzy główne dziedziny:
     </Section>
@@ -29,43 +38,27 @@
       -dynamika mówi nam, że będziemy badać układy podlegające zmianom. Mimo, że
       te trzy dziedziny nam wystarczają, aby przypisać do któreś każde
       zagadnienie mechaniki, bardzo często oddziela się zagadnienia dotyczące
-      drgań, fal i dźwięku oraz mechanikę ośrodków ciągłych (tak, wiem, straszna
-      nazwa).
-    </Section>
-    <Section>
-      <b>Mechanika drgań i fal</b> (to moja własna nazwa, nie ma ona jakieś
-      ładnej nazwy, ale zwykle się ją wyodrębnia) porusza zagadnienia dotyczące…
-      Właściwie już sama nazwa nam o tym powiedziała. Obok nich zestawiana jest
-      jeszcze <b>akustyka</b> badająca dźwięk. Ma ona specyficzny charakter,
-      dlatego, że bada zjawiska okresowe, więc jak się pewnie domyślasz, gdy do
-      niej przejdziemy to od sinusów może rozboleć cię głowa.
-    </Section>
-    <Section>
-      Kolejna na liście jest <b>mechanika ośrodków ciągłych</b>. Co kryje się
-      pod tą nazwą? Właściwie dwie rzeczy – mechanika ciał stałych oraz
-      mechanika płynów (chociaż tak naprawdę to i gazów).
-      <b>Mechanika ciał stałych</b>
-      (której główną część stanowi teoria sprężystości) to taka specyficzna
-      dziedzina badająca odkształcenia materiałów, stąd ma na ogromne znaczenie
-      w inżynierii materiałów i budownictwie. Brzmi niepozornie, ale powstają
-      długie na setki stron książki poświęcone tylko i wyłącznie niej, więc jest
-      o czym pisać. Oprócz odkształceń sprężystych możemy badać reakcje
-      materiałów na zginanie, naprężanie, zmianę kształtu oraz wiele innych
-      czynników. Łącząc to wszystko powstaje nam właśnie mechanika ciał stałych,
-      chociaż bardzo często nazywa się to wytrzymałością materiałów albo dalej
-      mówi się teoria sprężystości. Nie nazywaj jej tylko fizyką ciała stałego!
+      drgań, fal i dźwięku oraz mechanikę ośrodków ciągłych. Co kryje się pod tą
+      okropną nazwą? Właściwie dwie rzeczy – mechanika ciał stałych oraz
+      mechanika płynów (płyny to ciecze i gazy).
+      <b>Mechanika ciała stałego</b> częściej nazywana wytrzymałością materiałów
+      to taka specyficzna dziedzina badająca odkształcenia materiałów, stąd ma
+      na ogromne znaczenie w inżynierii materiałów i budownictwie. Brzmi
+      niepozornie, ale powstają długie na setki stron książki poświęcone tylko i
+      wyłącznie niej, więc jest o czym pisać. Oprócz odkształceń sprężystych
+      możemy badać reakcje materiałów na zginanie, naprężanie, zmianę kształtu
+      oraz wiele innych czynników. Nie nazywaj jej tylko fizyką ciała stałego!
       To zupełnie inny dział wchodzący w skład fizyki współczesnej o którym
       opowiem później.
     </Section>
     <Section>
-      Zbliżając się do końca zostaje nam <b>mechanika płynów</b>. Czym ona
-      właściwie jest? Jest to dziedzina pozwalająca nam opisywać ciała, będące
-      „zanurzone” w płynach lub gazach. Bada ona zarówno pływającą w wodzie
-      łódkę jak i opór powietrza działający na krowę, która jakimś cudem
-      znalazła się na dachu samolotu. W teorii dzieli się ona na 4 poddziedziny,
-      jednak tak naprawdę, wszystkie działają dokładnie tak samo, używają tych
-      samych równań i opisują te same przypadki, różni się jedynie gęstość
-      takiego ośrodka
+      Zbliżając się do końca zostaje nam <b>mechanika płynów</b>. Jest to
+      dziedzina pozwalająca nam opisywać ciała, będące „zanurzone” w cieczach
+      lub gazach. Bada ona zarówno pływającą w wodzie łódkę jak i opór powietrza
+      działający na krowę, która jakimś cudem znalazła się na dachu samolotu. W
+      teorii dzieli się ona na 4 poddziedziny, jednak tak naprawdę, wszystkie
+      działają dokładnie tak samo. Pomimo tego często używają tych innych
+      równań, bo korzystają z innych modeli ośrodków.
     </Section>
     <ul>
       <li><b>Hydrostatyka</b> – ciecze i ciała w spoczynku</li>
@@ -74,26 +67,22 @@
       <li><b>Aerodynamika</b> – gazy i ciała w ruchu</li>
     </ul>
     <Section>
-      Została nam ostatnia dziedzina, mechaniki, jednak już nie klasycznej. Jest
-      to <b>relatywistyka</b>, zwana również szczególną teorią względności.
-      Została formalnie stworzona przez Alberta Einsteina i przedmiotem jej
-      badań są ciała w ruchu, ale poruszające się ekstremalnie szybko, blisko
-      prędkości światła. Ktoś może powiedzieć „zaraz, ale przecież tym się
-      zajmuje kinematyka, ruch szybki czy wolny to dalej ruch”. Fizycy
-      chcieliby, żeby tak było, jednak gdy ciało porusza się bardzo szybko,
-      prawa mechaniki klasycznej przestają dla niego obowiązywać i dzieją się
-      rzeczy tak dla mechaniki klasycznej niezrozumiałe jak zatrzymanie (lub
-      spowolnienie czasu), rozciągnięcie czasoprzestrzeni czy wiele, wiele
-      innych zjawisk, o których się dowiesz. Musisz jednak wiedzieć, że fizyka
-      relatywistyczna nie należy do mechaniki klasycznej, a jest jej
-      rozszerzeniem na ogromne prędkości (tak jak liczby całkowite są
-      rozszerzeniem liczb naturalnych na liczby ujemne). Wiele tych dziedzin,
-      prawda? A to tylko początek, nawet połowy zagadnień nie poruszyliśmy. To
-      co, idziemy dalej?
+      Została nam ostatnia dziedzina typowej, w moim rozumieniu, mechaniki -
+      jednak już nie klasycznej. Jest to <b>relatywistyka</b>, zwana również
+      szczególną teorią względności. Została formalnie stworzona przez Alberta
+      Einsteina i przedmiotem jej badań są ciała w ruchu poruszające się
+      ekstremalnie szybko, blisko prędkości światła. Ktoś może powiedzieć
+      „zaraz, ale przecież tym się zajmuje kinematyka - ruch szybki czy wolny to
+      dalej ruch”. Chciałbym, żeby tak było. Gdy ciało porusza się bardzo
+      szybko, prawa mechaniki klasycznej przestają dla niego obowiązywać i
+      dzieją się rzeczy tak dla mechaniki klasycznej niezrozumiałe jak
+      spowolnienie czasu czy rozciągnięcie czasoprzestrzeni. O wszystkim tym się
+      dowiesz. Na razie po prostu pamiętaj, że jeśli ciało jest mniej więcej w
+      połowie prędkości światła to nie wolno go opisywać mechaniką klasyczną.
     </Section>
     <h3>Elektrodynamika</h3>
-    <Section
-      >Odkrywając kolejną właściwość ciał, czyli ładunek elektryczny, dochodzimy
+    <Section>
+      Odkrywając kolejną właściwość ciał, czyli ładunek elektryczny, dochodzimy
       do kolejnej dziedziny fizyki, czyli <b>elektrostatyki</b>. Badamy tutaj
       naładowane cząstki elektryczne, ale co kluczowe, o stałym polu
       elektrycznym. Tradycyjnie zanim się przejdzie dalej porusza się dwie nauki
@@ -106,34 +95,24 @@
       <b>elektronika</b>, która jednak skupia się bardziej na analizie i
       wykorzystywaniu sygnałów elektrycznych oraz obwodami elektrycznymi, w
       których znajdują się elementy czynne jak tranzystory czy diody. Jest ona
-      fundamentem <b>informatyki</b>, jednak na przestrzeni lat, coraz częściej
-      odcina się ona od swoich elektronicznych korzeni na rzecz bardziej
-      matematycznych metod. Za dziecka moim pierwszym wymarzonym zawodem było
-      zostanie elektrykiem, a zagadnienia związane z prądem do dziś należą do
-      moich ulubionych, dlatego do elektroniki postaram się stworzyć osobną
-      serię książek (być może w momencie kiedy to czytasz już ją napisałem).
+      fundamentem <b>informatyki</b>, która jednak na przestrzeni lat, coraz
+      częściej odcina się ona od swoich elektronicznych korzeni na rzecz
+      bardziej matematycznych metod. Za dziecka moim pierwszym wymarzonym
+      zawodem było zostanie elektrykiem, a zagadnienia związane z prądem do dziś
+      należą do moich ulubionych.
     </Section>
     <Section>
       Wracając do nauk bardziej fizycznych, kiedy przejdziemy przez zagadnienia
       związane z prądem elektrycznym czeka na nas <b>magnetostatyka</b>.
       Zajmujemy się jak sama nazwa wskazuje zjawiskami magnetycznymi, których
-      przyczyną między innymi jest właśnie przepływ prądu elektrycznego. Kiedy
-      wszystko to za nami wreszcie przechodzimy do właściwej i najważniejszej
-      części nazwanej <b>elektrodynamiką</b>. Jej fundamentem są równania
-      Maxwella, które za pomocą 4 wzorów pozwalają wyjaśnić całą naturę
-      oddziaływań całkowicie unifikując zjawiska elektryczne i magnetyczne
-      uznając je za jedno i to samo oddziaływanie.
-    </Section>
-    <Section
-      >Wszystkie wymienione wcześniej dziedziny razem z elektrostatyka,
-      magnetostatyką i elektrodynamiką możemy wspólnie nazwać
-      <b>elektrodynamiką klasyczną</b>, będącą teorią zawierającą w sobie
-      zachowanie wszystkich ciał zawierających w sobie ładunek poprzez pojęcie
-      pól. Istnieje jednak zupełnie inna teoria wyjaśniającą te zjawiska na
-      gruncie fizyki kwantowej zwana (jak się łatwo domyślić)
-      <b>elektrodynamiką kwantową</b>, która zamiast pojęciem pola
-      elektromagnetycznego opisuje oddziaływania poprzez wymianę nośników
-      oddziaływań elektromagnetycznych – fotonów.
+      przyczyną między innymi jest właśnie przepływ prądu elektrycznego.
+      Wszystkie wymienione wcześniej dziedziny wraz z całym wzajemnym
+      oddziaływaniem między nimi nazywamy <b>elektrodynamiką klasyczną</b>,
+      będącą teorią zawierającą w sobie zachowanie wszystkich ciał posiadających
+      w ładunek poprzez pojęcie pól. Istnieje jednak zupełnie inna teoria
+      wyjaśniającą te zjawiska na gruncie fizyki kwantowej zwana (jak się łatwo
+      domyślić) <b>elektrodynamiką kwantową</b>, która opisuje oddziaływania
+      poprzez wymianę nośników oddziaływań elektromagnetycznych – fotonów.
     </Section>
     <h3>Optyka i Termodynamika</h3>
     <Section>
@@ -141,24 +120,25 @@
       <b>optyka</b>, badająca właściwości i zachowanie światła. Właściwie, znano
       wtedy jedynie to, co dziś byśmy nazwali <b>optyką geometryczną</b>,
       traktując światło jak zwykłe cienkie promienie (matematycznie byśmy
-      nazwali je prostymi, stąd nazwa geometryczna). Okazało się jednak, że ten
-      opis nie był wystarczający, czegoś tu brakowało. Dopiero rozwój
+      nazwali je prostymi, stąd nazwa geometryczna). Oczywiście ten opis nie był
+      wystarczający i czegoś tu ewidentnie brakowało. Dopiero rozwój
       elektrodynamiki pozwolił na opis światła jako fali elektromagnetycznej,
       dzięki czemu jesteśmy w stanie wyjaśnić wiele zjawisk jak np. polaryzację
       czy nakładanie się fal świetlnych. Dało to podstawę do sformułowania
       optyki falowej, która już doskonale opisywała zjawiska jakim podlegało
-      światło. Dopiero w XX wieku zauważono, że coś tu jest nie tak. Najpierw
-      Max Planck sformułował swoje prawo dotyczące promieniowania, które nijak
-      miało się do klasycznych praw, następnie Einstein ogłosił, że światło
-      emitowane jest w postaci cząstek (kwantów promieniowania) – fotonów (o
-      których była mowa w poprzednim paragrafie). Był to powód do ponownego
-      sformułowania praw optyki, tym razem w oparciu, że światło to nie fale, a
-      cząstki. Tę gałąź optyki nazywamy <b>optyką kwantową</b>. Nie doprowadziło
-      to jednak do odsunięcia w kąt <b>optyki falowej</b>. W praktyce światło
-      zachowuje się czasami jak cząstka, czasami jak fala, dlatego niektóre
-      zjawiska tłumaczymy jego falową naturą (np. rozszczepienie światła), a
-      drugą część cząstkową (np. efekt fotoelektryczny). Fizycy nazywają to
-      (uwaga, dziwna nazwa) dualizmem korpuskularno-falowym.
+      światło. Dopiero w XX wieku zauważono, że dalej coś tu jest nie tak.
+      Najpierw Max Planck sformułował swoje prawo dotyczące promieniowania,
+      które nijak miało się do klasycznych praw, a następnie Einstein ogłosił,
+      że światło emitowane jest w postaci cząstek (kwantów promieniowania) –
+      fotonów (o których była mowa w poprzednim paragrafie). Był to powód do
+      ponownego sformułowania praw optyki, tym razem w oparciu, że światło to
+      nie fale, a cząstki. Tę gałąź optyki nazywamy <b>optyką kwantową</b>. Nie
+      doprowadziło to jednak do odsunięcia w kąt <b>optyki falowej</b>. W
+      praktyce światło zachowuje się czasami jak cząstka, czasami jak fala,
+      dlatego niektóre zjawiska tłumaczymy jego falową naturą (np.
+      rozszczepienie światła), a drugą część - cząstkową (np. efekt
+      fotoelektryczny). Fizycy nazywają to (uwaga, dziwna nazwa) dualizmem
+      korpuskularno-falowym.
     </Section>
     <Section>
       Przejdźmy teraz na zupełnie inny grunt. Kolejnym z czym mamy na fizyce do
@@ -179,7 +159,7 @@
       nadprzewodnictwo, czyli zjawisko, podczas którego w pewnej (zazwyczaj
       bardzo niskiej) temperaturze opór elektryczny ciała całkiem zanika (nie
       próbuj podstawiać wartości 0 do wzoru na opór elektryczny, bo to nie
-      zadziała, też się zawiodłem).
+      zadziała - też się zawiodłem).
     </Section>
     <h3>Fizyka Współczesna</h3>
     <Section>
@@ -192,7 +172,7 @@
       przeczyły temu, co fizycy uznawali przez tysiąclecia za coś pewnego.
       Mechanika klasyczna nie potrafiła wyjaśnić tego, co dzieje się z
       niewyobrażalnie małymi cząstkami. To właśnie wtedy sformułowano
-      <b>fizykę kwantową</b>, zwaną również <b>mechaniką kwantową</b>. Jest to
+      <b>fizykę kwantową</b>, czy raczej <b>mechanikę kwantową</b>. Jest to
       kolejne rozszerzenie mechaniki klasycznej, ale tym razem nie na prędkości
       bliskie prędkości światła, a rozmiary bliskie rozmiarom elektronu. Fizyka
       kwantowa bada właśnie te sytuacje, do których nie wystarcza opis mechaniki
@@ -300,14 +280,10 @@
       (kwintylion) niż oddziaływanie elektromagnetyczne przenoszone przez
       fotony).
     </Section>
-    <h3>Fizyka Techniczna</h3>
-    <Section> *Work in progress* </Section>
     <Section>
-      To wszystko, mam nadzieję, że wiesz już wszystko o różnych dziedzinach
-      fizyki, wiesz które cię interesują najbardziej. Tak czy inaczej znając już
-      ogólny zarys całej fizyki możemy po kolei poznawać każdą z dziedzin, aż na
-      końcu staniesz się ekspertem w rozumieniu otaczającego nas świata i praw,
-      które nim rządzą. Chyba pora zaczynać.
+      Znając już ogólny zarys całej fizyki możemy po kolei poznawać każdą z
+      dziedzin, aż na końcu staniesz się ekspertem w rozumieniu otaczającego nas
+      świata i praw, które nim rządzą. Chyba pora zaczynać.
     </Section>
   </Article>
 </template>

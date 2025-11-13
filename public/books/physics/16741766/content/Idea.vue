@@ -58,22 +58,6 @@
       pozwala ocenić, jak dany temat będzie dla ciebie przydatny.
     </Section>
     <Section>
-      Jeśli dany temat jest dla ciebie zbyt trudny po prostu go pomiń i przejdź
-      do następnego, książka jest napisana dla wszystkich, nie tylko tych,
-      którzy chcą być fizykami.
-    </Section>
-    <Section>
-      Obecnie dostępne lub planowane są 3 tomy. Ich priorytet jest taki, jak
-      kolejność, w której je podałem, dlatego, jeśli np. coś nie jest
-      wytłumaczone w serii o elektronice to na pewno było wytłumaczone w serii o
-      fizyce lub matematyce. Są one następujące:
-      <ul>
-        <li>Matematyka</li>
-        <li>Fizyka</li>
-        <li>Elektronika</li>
-      </ul>
-    </Section>
-    <Section>
       Jeśli chcesz, również możesz dołożyć swoją cegiełkę do projektu — zgłosić
       uwagi, pomóc w tworzeniu albo samemu zostać autorem serii książek
       dotyczących twoich zainteresowań naukowych. Skontaktować się możesz ze mną

@@ -5,7 +5,6 @@ export {
   // Electronics_4,
   // Electronics_5,
   // Electronics_6,
-  // Electronics_7,
 } from './book_data/electronics/'
 
 // export {

@@ -26,7 +26,7 @@ export default {
       'dziedzina nauki z pogranicza fizyki i biologii, zajmującą się badaniem procesów fizycznych i struktur cząsteczkowych związanych z funkcjonowaniem określonych obiektów żywych: organizmów, organów, tkanek, komórek. Opisuje uniwersalne prawa biologicznych niezależne od konkretnej formy życia.',
   },
 
-  physics: 'Fizyka',
+  physics: 'Fizyka Techniczna',
   physics_quantum: 'Fizyka i Inżynieria Kwantowa',
   physics_nuclear: 'Fizyka i Technika Jądrowa',
   physics_material: 'Fizyka Materiałów i Nanostruktur',

@@ -1,5 +1,5 @@
 <template>
   <Article>
-    <Begin nr="1.3" advanced="0"> Filozofia przyrody </Begin>
+    <Begin nr="1.5" advanced="0"> Zacznijmy od początku </Begin>
   </Article>
 </template>

@@ -2,10 +2,10 @@ export default {
   'Wstęp do fizyki': {
     'Filozofia fizyki': {
       'Dziedziny i zakres fizyki': 'Wstep/1/1.vue',
-      'Historia fizyki': 'Wstep/1/2.vue',
-      // 'Fizyka wśród innych nauk': 'Wstep/1/3.vue',
-      // 'Filozofia nauki': 'Wstep/1/4.vue',
-      // 'Zagadnienia filozofii fizyki': 'Wstep/1/5.vue',
+      'Początki fizyki': 'Wstep/1/2.vue',
+      'Trochę o filozofii nauki': 'Wstep/1/3.vue',
+      'Metody badawcze w fizyce': 'Wstep/1/4.vue',
+      'Zacznijmy od początku': 'Wstep/1/5.vue',
     },
     'Wprowadzenie do fizyki': {
       'Ruch i jego przyczyny': 'Wstep/2/1.vue',
@@ -16,6 +16,11 @@ export default {
       'O energii jądrowej': 'Wstep/2/6.vue',
       'Budowa materii': 'Wstep/2/7.vue',
       'W kosmos i dalej': 'Wstep/2/9.vue',
+    },
+    'Podstawy analizy danych doświadczalnych': {
+      'Wprowadzenie do metrologii': 'Wstep/3/1.vue',
+      'Niepewności pomiarowe': 'Wstep/3/2.vue',
+      'Analiza danych w technice': 'Wstep/3/3.vue',
     },
   },
   Mechanika: {

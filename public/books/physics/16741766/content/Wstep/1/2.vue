@@ -1,6 +1,19 @@
 <template>
   <Article>
-    <Begin nr="1.2" advanced="0"> Historia fizyki </Begin>
+    <Begin nr="1.2" advanced="0"> Początki fizyki </Begin>
+    <Section>
+      Cała fizyka, jakiej dziś używamy jest dzieckiem rewolucji naukowej i
+      przemysłowej XIX, a następnie XX wieku. Właściwie w szkole nie
+      dowiedziałeś się najprawdopodobniej niczego, czego nie wiedziano już w XIX
+      wieku. To wtedy sformułowano podstawowe prawa fizyki klasycznej,
+      elektrodynamiki oraz termodynamiki. Wiek XX to rozwój fizyki kwantowej,
+      jądrowej czy materiałowej czyli podstaw współczesnego high-techu. Jednak
+      nauka istniałą już wcześniej. Często błądziła i często przez stulecia
+      stała w miejscu, ale nie można powiedzieć, że zaczęła się w XIX wieku.
+      Właśnie dlatego warto przyjrzeć się początkom fizyki i ogólnie nauki na
+      świecie, a dopiero potem przejść do czasów nam współczesnych.
+    </Section>
+
     <h3>Starożytność</h3>
     <Section>
       Historię fizyki należy rozpocząć w momencie, kiedy jeszcze nikt o takiej
@@ -209,11 +222,7 @@
       czasie angielski uczony Henry Cavendish dokonał ważnych odkryć w
       dziedzinie elektryczności, takich jak wyznaczenie stałej elektrycznej i
       magnetostatycznej. Prawdziwego tempa fizyka nabrała jednak dopiero w wieku
-      XIX.
+      XIX...
     </Section>
-
-    <h3>Wiek XIX</h3>
-    <Section> </Section>
-    <h3>Rewolucja w fizyce i czasy współczesne</h3>
   </Article>
 </template>

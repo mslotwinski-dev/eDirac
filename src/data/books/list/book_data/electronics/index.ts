@@ -85,7 +85,7 @@ export const Electronics_4: Book = {
 export const Electronics_5: Book = {
   ID: '18851006',
 
-  Title: 'Podstawy Mikroelektroniki',
+  Title: 'Mikroelektronika',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#aa2222',
@@ -102,7 +102,7 @@ export const Electronics_5: Book = {
 export const Electronics_6: Book = {
   ID: '18851007',
 
-  Title: 'Inżynieria Komputerowa',
+  Title: 'Telekomunikacja',
   Author: ['Mateusz Słotwiński'],
 
   Color: '#aa2222',
@@ -117,21 +117,4 @@ export const Electronics_6: Book = {
     'Podstawy mikrokontrolerów i mikrosystemów ',
     'oraz systemów wbudowanych, nowoczesna elektronika',
   ],
-}
-
-export const Electronics_7: Book = {
-  ID: '18851008',
-
-  Title: 'Metrologia',
-  Author: ['Mateusz Słotwiński'],
-
-  Color: '#aa2222',
-
-  Pages: 500,
-
-  About: aboutplaceholder,
-  Tag: { main: 'electronics', official: true, lang: ['pl'] },
-
-  Part: 7,
-  Subtitles: ['Podstawy metrologii i automatyzacji pomiarów'],
 }

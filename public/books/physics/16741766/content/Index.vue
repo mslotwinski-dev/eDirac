@@ -1,43 +1,6 @@
 <template>
   <Article>
     <Cover />
-    <h3>Doświadczalna czy teoretyczna?</h3>
-    <Section>
-      W każdej nauce istnieje podział podział na specjalność teoretyczną,
-      doświadczalną i techniczną. W zasadzie jest on odrębny wobec ich dziedzin,
-      bo każdym działem fizyki zajmują się zarówno naukowcy teoretyczni jak i
-      doświadczalni. Często się słyszy, że co do zasady jeśli więcej
-      przyjemności sprawia ci matematyczny opis zjawisk lepszym wyborem będzie
-      uniwersytet, natomiast na politechnikach studenci uczą się dorobku nauki w
-      praktyce. Ma to ziarno prawdy, jednak nie jest to reguła. Bardzo wiele
-      uniwersytetów oferuje również ścieżkę doświadczalną, a na politechnikach
-      obecne są specjalizacje wymagające ogromnej wiedzy teoretycznej jak np.
-      inżynieria kwantowa.
-    </Section>
-    Pozostaje więc pytanie, czy będziemy się uczyć teorii, praktyki, zastosowań,
-    a może jeszcze czegoś innego?
-    <Section>
-      Postaram się znaleźć złoty środek, a jednocześnie obrać nieco inną
-      ścieżkę. Nie będę próbował udowadniać wszystkich twierdzeń, gdyż
-      najczęściej nie ma to większego sensu. Nie będę także opisywał wszystkich
-      bardzo rozbudowanych doświadczeń pozwalających na udowodnienie tego, co
-      zostało już udowodnione. Zamiast tego dowiesz się dużo więcej o tym, jak
-      to, czego się uczysz, użyć w praktyce i wykorzystać w innych dziedzinach
-      nauki - zarówno w zadaniach jak i przykładach z innych dziedzin nauki.
-    </Section>
-    <Section>
-      W tym sensie po skończeniu tego kursu będziesz pod względem zdolności
-      czymś pomiędzy inżynierem, a osobą z licencjatem. Zbyt teoretyczny na
-      inżyniera i zbyt techniczny na studenta uniwersytetu. Jaki jest więc tego
-      cel? Podstawowe założenie ma być takie, że nie chcę wpasować cię w system.
-      Masz być skuteczny. Kosztem opuszczenia czysto technicznych tematów
-      (konstrukcje, pompy czy zawory) i czysto matematycznych tematów dodałem
-      ogrom materiału, którego nie nauczyłbyś się wybierając tylko jedną z dróg.
-      Nauczysz się zarówno mechaniki płynów i wytrzymałości materiałów (tom II)
-      obecnych praktycznie tylko na politechnikach, jak i opisu grawitacji,
-      zagiętych czasoprzestrzeni oraz astrofizyki (tom IX) obecnej tylko na
-      uniwersytetach.
-    </Section>
     <h3>Poziomy zaawansowania</h3>
     <Section>
       Cały materiał jest podzielony na poziomy zaawansowania, aby całość była
@@ -74,7 +37,9 @@
     <h3>Przed spożyciem</h3>
     <Section>
       Fizyka opiera się na matematyce, dlatego zaczynając zabawę z fizyką musisz
-      najpierw opanować podstawy matematyki.
+      najpierw opanować podstawy matematyki. Zakładam, że znasz matematykę ,
+      chemię i biologię na poziomie szkoły średniej, bo do nich często będę
+      wracał.
     </Section>
     <Section>
       Przedmiotem absolutnie najważniejszym koniecznym do dalszej nauki jest
@@ -90,7 +55,7 @@
       łączy to, że przydają się w fizyce. Są to elementy: analizy zespolonej,
       rachunku wariacyjnego, geometrii różniczkowej, analizy funkcjonalnej,
       teorii grup, dystrybucji i operatorów. Ten dział przyda Ci się w
-      zagadnieniach oznaczonych przynajmniej jako poziom zaawansowany.
+      zagadnieniach bardziej zaawansowanych.
     </Section>
     <Section>
       Ostatnimi działami matematyki, jakie warto znać są propablistyka i
@@ -104,39 +69,55 @@
 
     <h3>Po spożyciu</h3>
     <Section>
-      Znając już zasady fizyki, aby rozumieć piękno otaczającego Cię świata
-      musisz jeszcze wiedzieć do czego wykorzystać je w praktyce, dlatego
-      równolegle na kierunkach fizycznych uczysz się również innych przedmiotów
-      niefizycznych, ale pośrednio związanych. W tym paragrafie spróbuję wskazać
-      ci zarys wszystkiego, czego powinieneś się dowiedzieć, aby być dobrym
-      inżynierem.
+      Znajomość zasad fizyki, pozwala ci nie tylko dostrzec piękno otaczającego
+      Cię świata, ale stanowi też punkt wyjścia do wszystkich innych dziedzin
+      ścisłych, technicznych, a nawet społecznych i ekonomicznych. Dlatego
+      równolegle na kierunkach technicznych uczysz się również innych
+      przedmiotów które nawet różniąc się dziedziną zainteresowań, są z nią
+      bezpośrednio związane. W tym paragrafie spróbuję wskazać ci zarys
+      wszystkiego, czego powinieneś się dowiedzieć, aby być dobrym inżynierem.
     </Section>
     <Section>
-      Znając podstawowe zagadnienia mechaniki świetnym pomysłem jest
-      przerobienie dwóch przedmiotów technicznych, które się na niej opierają.
-      Są to budowa maszyn oraz teoria maszyn i mechanizmów. Następnie warto
-      dowiedzieć się czegoś więcej o chemii i inżynierii materiałowej, a także
-      wymianie ciepła.
+      Znajomość podstawowych zagadnień mechaniki jest furtką do inżynierii
+      mechanicznej i wszystkiego, co się z nią wiąże. W szczególności jest to
+      obróbka materiałów, projektowanie maszyn maszyn oraz teoria mechanizmów.
+      Do tego dochodzi materiałoznawstwo oraz aerodynamika, a także inżynieria
+      akustyczna, czyli wszystko, co wynika z drugiej części mechaniki.
+      Rozbudowa tej wiedzy o wiadomości z termodynamiki pozwala ci zgłębić całą
+      przeogromą gałąź maszyn cieplnych, termomechanikę, ale w szczególności
+      dział inżynierii środowiska, który popularnie nazywa się HVAC (Heating,
+      Ventilation and Air Conditioning), a w którego skład wchodzi cała wiedza
+      związana z techniką cieplną.
     </Section>
     <Section>
-      Bardzo ważnym, jeśli nie najważniejszym okołofizycznym przedmiotem jest
-      elektronika. Znając właściwości światła możesz zająć się również
-      optoelektroniką, natomiast przy podstaowej znajomości informatyki
-      przydatna jest podstawowa wiedza z mikroelektroniki i mechatroniki.
+      Kiedy w grę wchodzi elektryczność nie tylko zostaje rozbudowana poprzednia
+      wiedza maszynowa, ale otwiera się cały nowy świat elektroniki. Jest ona
+      najważniejszym okołofizycznym przedmiotem, gdyż to ona oddziałuje
+      najbardziej na nasze współczesne życie. Gdyby nie ona nawet byś tego nie
+      czytał, bo cały kod został napisany na procesorze Intel w Vue. Jej zasięg
+      jest nie do objęcia, bo zaczynając od maszyn elektrycznych możemy skończyć
+      na optoelektronice czy technologii mikroprocesorowej. To z niej wywodzi
+      się informatyka będąca obecnie naszym najpotężniejszym narzędziem
+      obliczeniowym i to jej zawdzięczamy plastik w naszych mózgach, co już nie
+      do końca jest pozytywnym zjawiskiem
     </Section>
     <Section>
-      Zanim poznasz bardziej złożone aspekty mechaniki kwantowej, jej
-      relatywistyczne uogólnienie, kwantową teorię pola czy nawet teorię pól
-      kwantowych w zakrzywionych czasoprzestrzeniach, warto poświęcić trochę
-      czasu na teorię zwaną informacją kwantową, która opisuje zachowanie się
-      (jak sama nazwa wskazuje) informacjami czy sygnałami, których logika nie
-      jest klasyczna (zero-jedynkowa), a kwantową, która całkiem innej natury.
-    </Section>
-    <Section>
-      Ostatnimi dziedzinami, jakie warto poznać jest energetyka (w szczególności
-      jądrowa i podstawy fizyki reaktorów, ale i również energetyka wodorowa i
-      odnawialne źródła energii), a także biofizyka, która pozwoli ci zrozumieć
-      jak procesy fizyczne są kluczem do tajemnic życia.
+      Po krótkim przerywniku na cały potężny fundament fizyki kwantowej i
+      statystycznej możemy zająć się naszym światem w skali mikro. Pomijam już
+      fakt, że znając fizykę kwantową wreszcie na poważnie powinieneś zrozumieć
+      chemię (ja nie zrozumiałem). Gdy nauczysz się o fizyce materiałów i
+      wszystkich zjawiskach, jakie się w nich kryją, praktycznie nic nie stoi ci
+      już na przeszkodzie, aby zająć się badaniem najróżniejszych substancji
+      naszego świata - od metali, przez ceramikę, szkła metaliczne, kryształy
+      jonowe czy polimery (nie zapomnij tylko wrócić do elektroniki, gdy
+      zaczniesz rozumieć półprzewodniki). Ten sam aparat pojęciowy pozwala nam
+      zdefiniować i zrozumieć co się dzieje w atomach, jądrach atomowych oraz
+      cząstkach elementarnych w najbardziej fundamentalnym ujęciu. Otwiera nam
+      to drzwi nie tylko do energetyki czy inżynierii jądrowej, ale i badania
+      akceleratorów czy całej ogromnej grupy nauk związanych z radiologią,
+      radiochemią, promieniowaniem i medycyną nuklearną. No i oczywiście możesz
+      zająć się biofizyką, która pozwoli ci zrozumieć jak procesy fizyczne są
+      kluczem do tajemnic życia.
     </Section>
   </Article>
 </template>
